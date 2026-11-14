@@ -404,7 +404,7 @@
      "id": "gpt-image",
      "name": "GPT Image",
      "developer": "OpenAI",
-     "url": "https://openai.com/index/gpt-image-1/",
+     "url": "https://platform.openai.com/docs/models/gpt-image-1",
      "flagship": "GPT Image 2.5 Sunburst/Flare; 2.6 — те же ставки ($5 текст / $8 картинка-вход / $30 выход за 1M токенов; ~$0,006–0,211 за картинку 1024² по качеству)",
      "strength": "Текст в картинке, точные правки, интеграция с ChatGPT",
      "free": true,
