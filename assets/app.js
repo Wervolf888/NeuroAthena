@@ -1294,6 +1294,7 @@ function route() {
   if (id === 'ratings') id = 'rankings';
   if (id === 'choice') id = 'community';
   if (!pageIds.includes(id)) id = 'home';
+  document.body.dataset.route = id;
   if (id === 'home') {
     main.innerHTML = home(); rates(); initSearch();
     if (hash === '#categories') document.getElementById('categories').scrollIntoView();
