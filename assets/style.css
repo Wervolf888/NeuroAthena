@@ -3,3 +3,273 @@
 @media(max-width:650px){.searchbar input{flex:none;min-height:52px}}
 
 .globe{width:54px;height:54px;flex:none;border:1px solid #65c9dc;background:#061626 url("earth-poster.webp") center/cover;box-shadow:0 0 18px #53d1e44a}.globe:before,.globe:after,.globe span{display:none}.globe video{width:100%;height:100%;object-fit:cover;display:block}@media(max-width:650px){.globe{width:46px;height:46px}}
+
+/* Этап 2: категории и развёрнутые карточки. */
+.illustrated-cat{background-size:cover;background-position:center;min-height:180px}.illustrated-cat:hover{border-color:#9de9ec}.filter-controls{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:18px}.filter-controls label{display:flex;flex-direction:column;gap:6px;color:#d5e4ec;font-size:14px}.filter-controls select{width:100%;min-height:48px;background:#0b1926;color:#eef8fb;border:1px solid #577086;border-radius:8px;padding:9px 12px}.search-results-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.search-results-list a{display:flex;flex-direction:column;gap:4px;padding:14px 16px;border:1px solid #34566a;border-radius:8px;background:#0c1e2c}.search-results-list a:hover{border-color:#90e4e7}.search-results-list span{color:#b7cbd8;font-size:14px}.result-count,.search-empty{color:#c0d2dc;margin:16px 0}.category-route{padding-top:38px}.category-hero{margin-top:20px;border:1px solid var(--border);border-radius:12px;min-height:240px;display:flex;align-items:center;background-position:center 44%;background-size:cover;overflow:hidden;padding:36px}.category-hero h1{margin:10px 0;font-size:clamp(38px,5vw,60px)}.category-hero p{color:#d5e4ec;font-size:19px;margin:0}.catalog-notice{color:#b7cbd8;margin:24px 0;max-width:850px}.model-list{display:grid;gap:20px}.model-card{border:1px solid #365164;border-radius:12px;background:linear-gradient(140deg,#162a3a,#101c2a 76%);padding:28px;min-width:0;overflow-wrap:anywhere}.model-card[data-official]{cursor:pointer}.model-card[data-official]:hover{border-color:#6ba9b6}.model-top{display:flex;gap:16px;align-items:center}.model-logo{width:72px;height:72px;border-radius:12px;background:#f2f6f7;display:flex;align-items:center;justify-content:center;flex:none;padding:8px;overflow:hidden}.model-logo img{width:100%;height:100%;object-fit:contain}.model-name{flex:1;min-width:0}.model-name h2{margin:2px 0;font-size:26px;line-height:1.2;letter-spacing:-.02em}.model-developer{color:#b6cbd6;font-size:14px}.official{flex:none;color:#071922;background:#90e4e7;border-color:#90e4e7}.link-unavailable{color:#ffcb9a;font-size:14px}.badge-row{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0 0}.badge-row span{color:#aef4d3;border:1px solid #477e6a;background:#183a35;border-radius:99px;padding:5px 12px;font-size:14px}.model-intro{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:22px}.model-card h3{font-size:16px;color:#e0eff5;margin:0 0 8px}.model-card p{margin:0;color:#c5d6df}.model-card span{overflow-wrap:anywhere}.card-section{margin-top:24px;padding-top:22px;border-top:1px solid #344f5e}.price-grid{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:12px}.price-grid>div{background:#0d2030;border:1px solid #2d4b5b;border-radius:8px;padding:16px;min-width:0}.price-grid span,.facts span{display:block;color:#9bbac8;font-size:14px;margin-bottom:5px}.price-grid p{font-size:15px}.price-grid .price-ua{background:#163347;border-color:#5da6b4}.price-ua strong{display:block;font-size:18px;color:#a8f1ef;line-height:1.45}.price-ua p{margin-top:10px}.price-ua small{font-size:14px;color:#bdd0da}.cheapest{margin-top:12px!important;color:#ccecdf!important}.price-extra{margin-top:14px;color:#c6dbe2}.price-extra summary{color:#a7e9ec;cursor:pointer;min-height:40px;padding-top:8px}.price-extra ul{padding-left:20px;margin:10px 0 0}.price-extra li{margin:8px 0}.price-extra .price-note{font-size:14px;color:#afc5d0}.facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px 24px}.facts p{font-size:15px}.small-note{font-size:14px!important;color:#a6bfca!important;margin-top:4px!important}.checked{font-size:14px;color:#aac3cd!important;margin-top:24px!important}.footer a[href^=http]{color:#9de9ec;text-decoration:underline}
+@media(max-width:700px){.filter-controls{grid-template-columns:1fr}.search-results-list{grid-template-columns:1fr}.category-hero{min-height:210px;padding:24px;background-position:60% center}.category-route{padding-top:28px}.model-card{padding:18px}.model-top{flex-wrap:wrap;gap:12px}.model-logo{width:62px;height:62px}.model-name h2{font-size:23px}.official{width:100%;order:3}.link-unavailable{width:100%}.model-intro{grid-template-columns:1fr;gap:18px}.price-grid{grid-template-columns:1fr}.facts{grid-template-columns:1fr 1fr;gap:16px}.price-grid p,.facts p{font-size:16px}}
+@media(max-width:380px){.facts{grid-template-columns:1fr}}
+
+/* ============================================================
+   Переработка подачи (между этапом 2 и 3):
+   ширина и сетка, компактные карточки, шапки, индекс, языки.
+   Правила ниже переопределяют базовые выше.
+   ============================================================ */
+
+/* Работа 1. Ширина: на экранах от 1600 px контейнер не уже 1500 px. */
+@media(min-width:1400px){.container{max-width:1360px}}
+@media(min-width:1600px){.container{max-width:1500px}.hero{max-width:1500px}}
+
+/* Работа 3. Липкая компактная шапка сайта; меню — фиксированное под ней. */
+.header{position:sticky;top:0;z-index:30;height:64px;gap:24px}
+.menu{position:fixed;top:70px}
+.lang-switch{display:flex;border:1px solid var(--border);border-radius:8px;overflow:hidden;flex:none}
+.lang-switch button{border:0;background:transparent;color:#c4d3df;padding:8px 10px;min-height:36px;cursor:pointer;font-size:14px;font-weight:650}
+.lang-switch button[aria-pressed="true"]{background:#90e4e7;color:#071922}
+
+/* Работа 4. Главная: герой ниже, блоки компактнее. */
+.hero{margin-top:16px}
+.hero-panel{min-height:340px}
+.hero-copy{padding:36px 7%}
+.section{padding:28px 0 0}
+.feature,.empty{padding:16px;min-height:120px}
+.footer{margin-top:48px;padding:28px 5%}
+#categories{scroll-margin-top:80px}
+
+/* Работа 3. Шапка раздела: не выше 240 px на десктопе. */
+.category-hero{min-height:150px;padding:20px 28px}
+.category-hero h1{font-size:clamp(30px,4vw,42px)}
+.category-hero p{font-size:16px}
+
+/* Работа 3. Полоса-индекс моделей раздела (липкая, под шапкой сайта). */
+.model-index{position:sticky;top:64px;z-index:15;display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:16px 0 0;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:rgba(13,26,40,.96)}
+.model-index-label{color:#9bbac8;font-size:14px;margin-right:2px}
+.model-index button{border:1px solid #3c5669;background:#12293a;color:#d5e4ec;border-radius:99px;padding:6px 12px;font-size:14px;cursor:pointer;min-height:34px}
+.model-index button:hover{border-color:#90e4e7;color:#fff}
+
+/* Работа 3. Кнопка «Наверх». */
+.to-top{position:fixed;right:20px;bottom:20px;z-index:40;width:48px;height:48px;border-radius:50%;border:1px solid #497384;background:#12293a;color:#fff;font-size:20px;cursor:pointer;opacity:0;pointer-events:none;transition:opacity .2s}
+.to-top.visible{opacity:1;pointer-events:auto}
+.to-top:hover{filter:brightness(1.2)}
+
+/* Работа 1. Сетка карточек: 3 в ряд от 1400 px, 2 в ряд 900–1400 px, 1 в ряд на телефоне. */
+.model-list{display:grid;gap:16px;grid-template-columns:minmax(0,1fr)}
+@media(min-width:900px){.model-list{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(min-width:1400px){.model-list{grid-template-columns:repeat(3,minmax(0,1fr))}}
+
+/* Работа 2. Компактные карточки: свёрнуты по умолчанию. */
+.model-card{padding:16px;scroll-margin-top:140px}
+.model-card h2{font-size:23px}
+.model-card p{font-size:15px}
+.model-logo{width:56px;height:56px;padding:6px}
+.model-essence{margin:10px 0 0;color:#c5d6df;font-size:15px;line-height:1.45}
+.badge-row{margin:10px 0 0}
+.model-prices{margin-top:12px}
+.model-prices .price-main{display:flex;gap:8px;align-items:baseline}
+.model-prices .price-main span{color:#9bbac8;font-size:14px}
+.model-prices .price-main strong{font-size:17px;color:#a8f1ef}
+.model-prices .price-sub{margin-top:2px;color:#b7cbd8;font-size:14px}
+.model-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+.model-actions .button{min-height:40px;padding:8px 14px}
+.model-details{margin-top:14px}
+.model-card .model-details{display:none}
+.model-card.expanded .model-details{display:block}
+.model-intro{margin-top:0}
+.model-intro.single{grid-template-columns:1fr}
+.card-section{margin-top:14px;padding-top:12px}
+.facts{gap:12px 20px}
+.missing-line{margin-top:14px!important;font-size:14px;color:#ffcb9a!important}
+.checked{margin-top:14px!important}
+
+/* Мобильная ширина: одна колонка, липкие элементы под высокой шапкой. */
+@media(max-width:650px){
+  .header{height:auto;min-height:110px;flex-wrap:wrap;padding:12px 16px;row-gap:10px}
+  .menu{top:118px}
+  .model-index{top:118px}
+  .model-card{scroll-margin-top:180px}
+  .category-hero{min-height:140px;padding:16px 20px}
+  .model-actions .button{flex:1 1 100%}
+}
+
+/* Правки после первой живой проверки: суть и цены — строго в одну строку,
+   шапка раздела и примечание компактнее, мобильная шапка ниже. */
+.model-essence{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.model-prices .price-main span{flex:none;white-space:nowrap}
+.model-prices .price-main strong{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
+.model-prices .price-sub{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.catalog-notice{max-width:none;font-size:14px;margin:16px 0}
+.category-route{padding-top:20px}
+.category-hero{min-height:140px;padding:16px 28px}
+@media(max-width:650px){
+  .clock span{display:none}
+  .menu-btn{white-space:nowrap;padding:9px 10px}
+  .globe{width:40px;height:40px}
+  .header{min-height:104px}
+  .model-index{top:110px;flex-wrap:nowrap;overflow-x:auto}
+  .model-index button{flex:none}
+  .model-card{scroll-margin-top:170px}
+}
+
+/* Карточки в сетке не растягиваются на высоту ряда; сетка цен — по числу стран. */
+.model-list{align-items:start}
+.price-grid.cols-1{grid-template-columns:1fr}
+.price-grid.cols-2{grid-template-columns:1fr 1fr}
+
+/* Мобильная шапка: строка с часами, глобусом, языками и меню обязана влезать в 390 px. */
+@media(max-width:650px){
+  .head-right{gap:8px}
+  .lang-switch button{padding:8px 7px}
+  .menu-btn{font-size:13px}
+}
+
+/* В строке действий порядок кнопок — как в разметке (сайт, потом Подробнее). */
+.model-actions .official{order:0}
+
+/* Этап 3: страницы цен, предложений, бесплатного. */
+.page-route{padding-top:24px}
+.page-head{margin:18px 0 20px}
+.page-head h1{font-size:clamp(30px,4vw,42px);letter-spacing:-.04em;margin:10px 0}
+.page-head p{color:var(--muted);margin:0;max-width:900px}
+.filter-bar{display:flex;flex-direction:column;gap:14px;margin:0 0 18px}
+.filter-chips{display:flex;flex-wrap:wrap;gap:8px}
+.filter-chips button{padding:8px 14px;border-radius:20px;border:1px solid #3a5a70;background:#16293b;color:#d6e6ee;cursor:pointer;font-size:14px}
+.filter-chips button.on{background:#90e4e7;border-color:#90e4e7;color:#071922;font-weight:700}
+.price-head{display:grid;grid-template-columns:2fr .8fr 1.4fr 1fr 1fr 1.2fr;gap:12px;padding:0 16px 8px;color:#9bbac8;font-size:13px}
+.price-list{display:grid;gap:10px}
+.price-row{display:grid;grid-template-columns:2fr .8fr 1.4fr 1fr 1fr 1.2fr;gap:12px;align-items:center;border:1px solid #365164;border-radius:10px;background:linear-gradient(140deg,#162a3a,#101c2a 76%);padding:14px 16px}
+.price-model{display:flex;gap:12px;align-items:center;min-width:0}
+.price-logo{width:44px;height:44px;border-radius:10px;background:#f3f6f8;display:flex;align-items:center;justify-content:center;overflow:hidden;flex:none}
+.price-logo img{width:40px;height:40px;object-fit:contain}
+.price-model strong{display:block;font-size:17px}
+.price-model span{color:#b6cbd6;font-size:13px}
+.price-cell{min-width:0;font-size:15px;overflow-wrap:anywhere}
+.price-cell strong{font-weight:600}
+.price-cell-label{display:none;color:#9bbac8;font-size:13px}
+.price-ua{border-left:3px solid #90e4e7;padding-left:10px}
+.no-price{color:#ffcb9a;font-size:14px}
+.offer-list{display:grid;gap:14px}
+.offer-card{border:1px solid #365164;border-radius:10px;background:linear-gradient(140deg,#162a3a,#101c2a 76%);padding:18px 20px}
+.offer-card h3{margin:0 0 8px;font-size:20px}
+.offer-card p{margin:0 0 10px;color:#c5d6df}
+.offer-until{color:#9bbac8 !important;font-size:14px}
+.offers-empty{margin-top:8px}
+.free-lines{margin-top:10px}
+.free-line{margin:4px 0 0;font-size:15px;color:#c5d6df}
+.free-line>span:first-child{color:#9bbac8;font-size:14px}
+@media(max-width:1000px){
+  .price-head{display:none}
+  .price-row{grid-template-columns:1fr;gap:6px;padding:14px}
+  .price-cell-label{display:block}
+  .price-ua{border-left:none;padding-left:0}
+}
+
+/* Этап 4: конструктор сравнений. */
+.compare-picker{display:grid;gap:12px;margin-bottom:20px}
+.compare-selected{display:flex;flex-wrap:wrap;gap:8px}
+.compare-selected:empty{display:none}
+.compare-chip{display:flex;align-items:center;gap:8px;padding:6px 8px 6px 10px;border-radius:20px;border:1px solid #3a5a70;background:#16293b;color:#d6e6ee;font-size:14px}
+.compare-chip img{width:22px;height:22px;object-fit:contain}
+.compare-chip button{border:none;background:none;color:#90e4e7;cursor:pointer;font-size:18px;line-height:1;padding:0 2px}
+.compare-list{display:grid;gap:8px;max-height:360px;overflow-y:auto;padding-right:4px}
+.compare-item{display:flex;align-items:center;gap:12px;border:1px solid #365164;border-radius:10px;background:linear-gradient(140deg,#162a3a,#101c2a 76%);padding:10px 12px}
+.compare-item-logo{width:36px;height:36px;border-radius:8px;background:#f3f6f8;display:flex;align-items:center;justify-content:center;overflow:hidden;flex:none}
+.compare-item-logo img{width:32px;height:32px;object-fit:contain}
+.compare-item .grow{flex:1;min-width:0}
+.compare-item .grow strong{display:block;font-size:16px}
+.compare-item .grow span{color:#b6cbd6;font-size:13px}
+.compare-item button{padding:8px 14px;border-radius:20px;border:1px solid #90e4e7;background:#90e4e7;color:#071922;font-weight:700;cursor:pointer;font-size:14px;flex:none}
+.compare-item button:disabled{background:transparent;border-color:#3a5a70;color:#9bbac8;cursor:default;font-weight:400}
+.compare-note{color:#ffcb9a;font-size:14px;margin:0}
+.compare-scroll{overflow-x:auto;border:1px solid #365164;border-radius:10px}
+.compare-table{border-collapse:separate;border-spacing:0;width:100%;min-width:560px}
+.compare-table th,.compare-table td{padding:12px 14px;text-align:left;vertical-align:top;border-bottom:1px solid #22384a;min-width:170px;font-size:15px;overflow-wrap:anywhere}
+.compare-table tr:last-child th,.compare-table tr:last-child td{border-bottom:none}
+.compare-table thead th{background:#162a3a}
+.compare-table tbody th{position:sticky;left:0;background:#101c2a;color:#9bbac8;font-size:14px;min-width:140px;z-index:1}
+.compare-table thead th:first-child{position:sticky;left:0;background:#162a3a;min-width:140px;z-index:2}
+.compare-model-head{display:grid;gap:8px;justify-items:start}
+.compare-model-head img{width:40px;height:40px;object-fit:contain;border-radius:8px;background:#f3f6f8;padding:2px}
+.compare-model-head strong{font-size:17px}
+.compare-model-head a{color:#90e4e7;font-size:14px}
+.compare-remove{padding:6px 12px;border-radius:20px;border:1px solid #3a5a70;background:transparent;color:#d6e6ee;cursor:pointer;font-size:13px}
+.compare-empty{margin-top:8px}
+@media(max-width:650px){
+  .compare-table th,.compare-table td{min-width:150px}
+  .compare-table tbody th{min-width:120px}
+  .compare-table thead th:first-child{min-width:120px}
+}
+
+/* Этап 5: новости, календарь, рейтинги, выбор пользователей. */
+.news-list{display:grid;gap:14px}
+.news-card{border:1px solid #365164;border-radius:10px;background:linear-gradient(140deg,#162a3a,#101c2a 76%);padding:18px 20px}
+.news-card h3{margin:0 0 8px;font-size:20px}
+.news-card p{margin:0 0 10px;color:#c5d6df}
+.news-date{color:#90e4e7 !important;font-size:14px}
+.news-product{color:#9bbac8 !important;font-size:14px}
+.calendar-month{margin-bottom:28px}
+.calendar-month h2{font-size:24px;margin:0 0 12px}
+.calendar-event{display:flex;align-items:center;gap:14px;border:1px solid #365164;border-radius:10px;background:linear-gradient(140deg,#162a3a,#101c2a 76%);padding:12px 16px;margin-bottom:8px}
+.calendar-day{font-size:26px;font-weight:700;color:#90e4e7;min-width:36px;text-align:center;flex:none}
+.calendar-event div{flex:1;min-width:0}
+.calendar-event strong{display:block;font-size:16px}
+.calendar-event span{color:#b6cbd6;font-size:13px}
+.calendar-event a{color:#90e4e7;font-size:14px;flex:none}
+.rating-cat{margin-bottom:28px}
+.rating-cat h2{font-size:24px;margin:0 0 12px}
+.rating-list{display:grid;gap:8px}
+.rating-row{display:grid;grid-template-columns:44px 44px 1fr auto;gap:12px;align-items:center;border:1px solid #365164;border-radius:10px;background:linear-gradient(140deg,#162a3a,#101c2a 76%);padding:10px 14px}
+.rating-place{font-size:18px;font-weight:700;color:#90e4e7;text-align:center}
+.rating-logo{width:40px;height:40px;border-radius:8px;background:#f3f6f8;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.rating-logo img{width:36px;height:36px;object-fit:contain}
+.rating-row strong{font-size:16px}
+.rating-value{color:#c5d6df;font-size:15px;white-space:nowrap}
+.ratings-empty{margin-top:8px}
+@media(max-width:650px){
+  .rating-row{grid-template-columns:32px 36px 1fr auto;gap:8px;padding:10px}
+  .rating-logo{width:36px;height:36px}
+  .calendar-event{flex-wrap:wrap}
+}
+
+/* Этап 6: вход Google, избранное, пресеты, админ-режим. */
+.auth-area{display:flex;align-items:center;flex:none}
+.auth-btn{border:1px solid var(--border);background:#172434;color:#fff;border-radius:8px;padding:10px 14px;min-height:44px;cursor:pointer;font-size:14px;font-weight:650;white-space:nowrap}
+.auth-btn:hover{filter:brightness(1.15)}
+.auth-short{display:none}
+.auth-user{display:flex;align-items:center;gap:8px}
+.auth-user img{width:32px;height:32px;border-radius:50%;object-fit:cover}
+.auth-user strong{font-size:14px;max-width:140px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.auth-signout{border:1px solid var(--border);background:#172434;color:#c4d3df;border-radius:8px;padding:8px 10px;min-height:36px;cursor:pointer;font-size:13px}
+.auth-toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:#162a3a;border:1px solid #365164;color:#e8f2f6;padding:12px 18px;border-radius:10px;z-index:200;box-shadow:0 8px 24px rgba(0,0,0,.4);max-width:90vw;text-align:center}
+.admin-bar{display:flex;gap:12px;align-items:center;flex-wrap:wrap;background:#3a2a10;border-bottom:1px solid #6b5316;color:#ffe9b0;padding:10px 5%;font-size:15px}
+.admin-bar .button{min-height:40px;padding:8px 14px;font-size:14px}
+.fav-btn{margin-left:auto;background:none;border:none;color:#90e4e7;font-size:22px;cursor:pointer;padding:4px 8px;line-height:1;flex:none}
+.fav-btn[aria-pressed="true"]{color:#ffd166}
+.fav-filter{margin:16px 0 0;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.fav-filter button{border:1px solid #497384;background:#12293a;color:#fff;border-radius:8px;padding:9px 14px;min-height:40px;cursor:pointer;font-size:14px;font-weight:650}
+.fav-filter button[aria-pressed="true"]{background:#90e4e7;color:#071922;border-color:#90e4e7}
+.preset-block{margin-top:20px;border:1px solid #365164;border-radius:10px;background:linear-gradient(140deg,#162a3a,#101c2a 76%);padding:16px 18px}
+.preset-block h3{margin:0 0 12px;font-size:18px}
+.preset-form{display:flex;gap:8px;flex-wrap:wrap}
+.preset-form input{flex:1;min-width:180px;height:48px;border:1px solid #577086;border-radius:8px;background:#0b1926;color:#fff;padding:0 14px}
+.preset-list{margin-top:12px;display:grid;gap:8px}
+.preset-item{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.preset-item strong{font-size:15px}
+.preset-item span{flex:1;min-width:120px;color:#b6cbd6;font-size:14px}
+.preset-item button{border:1px solid #497384;background:#12293a;color:#fff;border-radius:8px;padding:7px 12px;cursor:pointer;font-size:14px}
+.admin-edit label.admin-field{display:grid;gap:4px;margin-bottom:10px}
+.admin-field span{font-size:14px;color:#b6cbd6}
+.admin-field input,.admin-field textarea,.admin-field select{width:100%;border:1px solid #577086;border-radius:8px;background:#0b1926;color:#fff;padding:9px 12px;font-size:15px}
+.admin-edit .admin-save{margin-top:4px}
+.price-edit{width:100%;border:1px solid #577086;border-radius:6px;background:#0b1926;color:#fff;padding:7px 9px;font-size:14px}
+@media(max-width:650px){
+  .auth-full{display:none}
+  .auth-short{display:inline}
+  .auth-btn{padding:9px 10px;font-size:13px}
+  .auth-user strong{display:none}
+  .admin-bar{padding:10px 16px}
+}
+
+/* Этап 6: шапка на телефоне — кнопка входа не должна расширять страницу. */
+@media(max-width:650px){
+  .globe{display:none}
+  .menu-btn span:first-child{display:none}
+}
