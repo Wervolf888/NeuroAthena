@@ -294,3 +294,26 @@
 
 /* Меню «Все разделы» — поверх липкой шапки и липкой полосы моделей */
 .menu{z-index:100}
+
+/* Шапки-герои страниц и живые эмблемы */
+.page-head{display:flex;align-items:center;gap:26px;border:1px solid var(--border);border-radius:12px;padding:28px 32px;margin-top:16px;background:linear-gradient(135deg,rgba(24,43,59,.92),rgba(15,26,40,.95))}
+.page-head-text{flex:1;min-width:0}
+.page-head h1{margin:10px 0 8px}
+.page-head p{margin:0;color:#d5e4ec}
+.category-hero{gap:26px}
+.category-hero-text{flex:1;min-width:0}
+.hero-mark{width:96px;height:96px;flex:none;border-radius:50%;border:1px solid #2c5265;background:radial-gradient(circle at 32% 28%,#14334a,#0a1826 72%);display:flex;align-items:center;justify-content:center;box-shadow:0 0 24px rgba(83,209,228,.16)}
+.hero-mark svg{width:58px;height:58px}
+.hm-pulse{transform-origin:center;transform-box:fill-box;animation:hmPulse 2.6s ease-in-out infinite}
+.hm-spin{transform-origin:center;transform-box:fill-box;animation:hmSpin 12s linear infinite}
+.hm-blink{animation:hmBlink 1.8s ease-in-out infinite}
+.hm-sway{transform-origin:50% 20%;transform-box:fill-box;animation:hmSway 3.4s ease-in-out infinite}
+.hm-dash{stroke-dasharray:60;stroke-dashoffset:60;animation:hmDash 3s ease-out infinite}
+.hm-eq line{transform-origin:center;transform-box:fill-box;animation:hmEq 1.6s ease-in-out infinite}
+@keyframes hmPulse{0%,100%{opacity:.55}50%{opacity:1}}
+@keyframes hmSpin{to{transform:rotate(360deg)}}
+@keyframes hmBlink{0%,100%{opacity:.25}50%{opacity:1}}
+@keyframes hmSway{0%,100%{transform:rotate(-2.4deg)}50%{transform:rotate(2.4deg)}}
+@keyframes hmDash{0%{stroke-dashoffset:60}55%,100%{stroke-dashoffset:0}}
+@keyframes hmEq{0%,100%{transform:scaleY(.72)}50%{transform:scaleY(1.12)}}
+@media(max-width:650px){.hero-mark{width:72px;height:72px}.hero-mark svg{width:44px;height:44px}.page-head{padding:22px}}
