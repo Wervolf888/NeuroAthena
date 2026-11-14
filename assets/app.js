@@ -845,7 +845,7 @@ function categoryPage(cat) {
   const models = Array.isArray(c.models) ? c.models : [];
   const countLine = tr('catalogOf', { n: models.length, w: plural(models.length) });
   return `<div class="container route category-route"><a class="back" href="#/home">${t('backHome')}</a>`
-    + `<section class="category-hero" style="background-image:linear-gradient(90deg,rgba(5,16,28,.98),rgba(5,16,28,.70)),url('assets/categories/${esc(cat)}.webp')"><div class="category-hero-text"><div class="eyebrow">${countLine}</div><h1>${esc(pageName(cat))}</h1><p>${esc(t('desc.' + cat))}</p></div>${heroMark(cat)}</section>`
+    + `<section class="category-hero"><div class="category-hero-text"><div class="eyebrow">${countLine}</div><h1>${esc(pageName(cat))}</h1><p>${esc(t('desc.' + cat))}</p></div>${heroMark(cat)}</section>`
     + `<nav class="model-index" aria-label="${t('indexLabel')}"><span class="model-index-label">${t('indexLabel')}</span>${models.map(m => `<button type="button" data-cat="${esc(cat)}" data-model="${esc(m.id)}">${esc(m.name)}</button>`).join('')}</nav>`
     + `<div class="fav-filter"><button type="button" id="favFilterBtn" data-cat="${esc(cat)}" aria-pressed="false">${t('favOnly')}</button><span class="result-count" id="favFilterCount"></span></div>`
     + `<p class="catalog-notice">${t('catalogNotice')}</p><div class="model-list" id="catModelList">${models.map(m => modelCard(cat, m)).join('')}</div></div>`;
