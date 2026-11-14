@@ -845,7 +845,7 @@ function categoryPage(cat) {
   const models = Array.isArray(c.models) ? c.models : [];
   const countLine = tr('catalogOf', { n: models.length, w: plural(models.length) });
   return `<div class="container route category-route"><a class="back" href="#/home">${t('backHome')}</a>`
-    + `<section class="category-hero" style="background-image:linear-gradient(90deg,rgba(5,16,28,.98),rgba(5,16,28,.70)),url('assets/categories/${esc(cat)}.webp')"><div><div class="eyebrow">${countLine}</div><h1>${esc(pageName(cat))}</h1><p>${esc(t('desc.' + cat))}</p></div></section>`
+    + `<section class="category-hero" style="background-image:linear-gradient(90deg,rgba(5,16,28,.98),rgba(5,16,28,.70)),url('assets/categories/${esc(cat)}.webp')"><div class="category-hero-text"><div class="eyebrow">${countLine}</div><h1>${esc(pageName(cat))}</h1><p>${esc(t('desc.' + cat))}</p></div>${heroMark(cat)}</section>`
     + `<nav class="model-index" aria-label="${t('indexLabel')}"><span class="model-index-label">${t('indexLabel')}</span>${models.map(m => `<button type="button" data-cat="${esc(cat)}" data-model="${esc(m.id)}">${esc(m.name)}</button>`).join('')}</nav>`
     + `<div class="fav-filter"><button type="button" id="favFilterBtn" data-cat="${esc(cat)}" aria-pressed="false">${t('favOnly')}</button><span class="result-count" id="favFilterCount"></span></div>`
     + `<p class="catalog-notice">${t('catalogNotice')}</p><div class="model-list" id="catModelList">${models.map(m => modelCard(cat, m)).join('')}</div></div>`;
@@ -875,8 +875,30 @@ function initSearch() {
 /* ---------- Этап 3: цены, предложения, бесплатное ---------- */
 let pricesFilter = { cat: '', q: '' };
 
+
+/* Живые эмблемы-шапки страниц (в духе hero-marks Персонального портала). */
+const HERO_MARKS = {
+  chats: '<svg viewBox="0 0 64 64" fill="none" stroke="#80e8ed" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14h30v20H22l-8 7v-7h-4z"/><path d="M44 26h10v16h-4v6l-7-6h-5" opacity=".65"/><circle class="hm-pulse" cx="19" cy="24" r="2.4" fill="#80e8ed"/><circle class="hm-pulse" cx="27" cy="24" r="2.4" fill="#80e8ed" style="animation-delay:.3s"/><circle class="hm-pulse" cx="35" cy="24" r="2.4" fill="#80e8ed" style="animation-delay:.6s"/></svg>',
+  images: '<svg viewBox="0 0 64 64" fill="none" stroke="#80e8ed" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="12" width="48" height="40" rx="6"/><circle class="hm-pulse" cx="24" cy="26" r="4"/><path d="M10 46l14-12 10 8 8-6 12 10"/></svg>',
+  video: '<svg viewBox="0 0 64 64" fill="none" stroke="#80e8ed" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="14" width="48" height="36" rx="8"/><path class="hm-pulse" d="M28 24l14 8-14 8z" fill="#80e8ed"/></svg>',
+  audio: '<svg viewBox="0 0 64 64" fill="none" stroke="#80e8ed" stroke-width="4" stroke-linecap="round"><g class="hm-eq"><line x1="14" y1="26" x2="14" y2="38"/><line x1="24" y1="18" x2="24" y2="46" style="animation-delay:.15s"/><line x1="34" y1="24" x2="34" y2="40" style="animation-delay:.3s"/><line x1="44" y1="14" x2="44" y2="50" style="animation-delay:.45s"/><line x1="54" y1="27" x2="54" y2="37" style="animation-delay:.6s"/></g></svg>',
+  code: '<svg viewBox="0 0 64 64" fill="none" stroke="#80e8ed" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M22 20L10 32l12 12M42 20l12 12-12 12"/><line class="hm-blink" x1="36" y1="46" x2="50" y2="46" stroke="#ffd98a"/></svg>',
+  agents: '<svg viewBox="0 0 64 64" fill="none" stroke="#80e8ed" stroke-width="3" stroke-linecap="round"><circle cx="32" cy="32" r="6" fill="#80e8ed" class="hm-pulse"/><circle cx="14" cy="14" r="4"/><circle cx="50" cy="14" r="4"/><circle cx="14" cy="50" r="4"/><circle cx="50" cy="50" r="4"/><path d="M27 27L17 17M37 27l10-10M27 37L17 47M37 37l10 10" opacity=".6"/></svg>',
+  local: '<svg viewBox="0 0 64 64" fill="none" stroke="#80e8ed" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M10 30L32 12l22 18M16 28v22h32V28"/><rect class="hm-pulse" x="26" y="34" width="12" height="12" rx="2"/></svg>',
+  prices: '<svg viewBox="0 0 64 64" fill="none" stroke="#80e8ed" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 54h44"/><path class="hm-dash" d="M12 46l12-10 9 6 15-16"/><path d="M42 26h8v8" stroke="#ffd98a"/></svg>',
+  offers: '<svg viewBox="0 0 64 64" fill="none" stroke="#80e8ed" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><g class="hm-sway"><rect x="12" y="26" width="40" height="8"/><path d="M16 34v20h32V34M32 26v28"/><path d="M32 26c-8 0-12-4-12-8 0-3 2-5 5-5 5 0 7 6 7 13zm0 0c8 0 12-4 12-8 0-3-2-5-5-5-5 0-7 6-7 13z"/></g></svg>',
+  discounts: '<svg viewBox="0 0 64 64" fill="none" stroke="#80e8ed" stroke-width="3.2" stroke-linecap="round"><circle cx="20" cy="20" r="6"/><circle cx="44" cy="44" r="6"/><line class="hm-pulse" x1="46" y1="14" x2="18" y2="50"/></svg>',
+  coupons: '<svg viewBox="0 0 64 64" fill="none" stroke="#80e8ed" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M8 22a6 6 0 016-6h36a6 6 0 016 6v6a5 5 0 000 10v6a6 6 0 01-6 6H14a6 6 0 01-6-6v-6a5 5 0 000-10z"/><line x1="38" y1="20" x2="38" y2="48" stroke-dasharray="3 5" opacity=".7"/><path class="hm-pulse" d="M20 28l2.2 4.4 4.8.7-3.5 3.4.8 4.8L20 39l-4.3 2.3.8-4.8-3.5-3.4 4.8-.7z" fill="#ffd98a" stroke="none"/></svg>',
+  news: '<svg viewBox="0 0 64 64" fill="none" stroke="#80e8ed" stroke-width="3" stroke-linecap="round"><circle cx="32" cy="32" r="17"/><ellipse cx="32" cy="32" rx="8" ry="17"/><path d="M15 32h34M18 22h28M18 42h28"/><g class="hm-spin"><circle cx="32" cy="6" r="3" fill="#ffd98a" stroke="none"/></g></svg>',
+  compare: '<svg viewBox="0 0 64 64" fill="none" stroke="#80e8ed" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><g class="hm-sway"><path d="M32 12v6M14 18h36M32 18v26M22 50h20"/><path d="M14 18l-6 12a8 6 0 0012 0zM50 18l-6 12a8 6 0 0012 0z"/></g><circle cx="32" cy="12" r="3" fill="#80e8ed"/></svg>',
+  free: '<svg viewBox="0 0 64 64" fill="none" stroke="#80e8ed" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M18 54V12h28v42M18 54h28"/><path class="hm-pulse" d="M24 50V18l16-4v32z" fill="rgba(128,232,237,.18)"/><circle cx="36" cy="32" r="1.8" fill="#80e8ed"/></svg>',
+  rankings: '<svg viewBox="0 0 64 64" fill="none" stroke="#80e8ed" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M10 54h12V38H10zM26 54h12V28H26zM42 54h12V44H42z"/><path class="hm-pulse" d="M32 8l2.4 4.9 5.4.8-3.9 3.8.9 5.4L32 20.4l-4.8 2.5.9-5.4-3.9-3.8 5.4-.8z" fill="#ffd98a" stroke="none"/></svg>',
+  calendar: '<svg viewBox="0 0 64 64" fill="none" stroke="#80e8ed" stroke-width="3" stroke-linecap="round"><rect x="10" y="14" width="44" height="40" rx="5"/><path d="M10 26h44M22 14v40M36 14v40M10 40h44"/><rect class="hm-blink" x="39" y="29" width="12" height="8" fill="#ffd98a" stroke="none"/></svg>',
+  community: '<svg viewBox="0 0 64 64" fill="none" stroke="#80e8ed" stroke-width="3" stroke-linecap="round"><circle class="hm-pulse" cx="32" cy="22" r="6"/><circle cx="15" cy="38" r="5"/><circle cx="49" cy="38" r="5"/><path d="M27 26l-8 8M37 26l8 8M20 38h24" opacity=".6"/><path d="M22 52c1-5 5-8 10-8s9 3 10 8" /></svg>'
+};
+function heroMark(id) { const m = HERO_MARKS[id]; return m ? `<div class="hero-mark" aria-hidden="true">${m}</div>` : ''; }
 function pageHead(id, introKey) {
-  return `<a class="back" href="#/home">${t('backHome')}</a><div class="page-head"><div class="eyebrow">НейроАтлас / ${esc(pageName(id))}</div><h1>${esc(pageName(id))}</h1><p>${t(introKey)}</p></div>`;
+  return `<a class="back" href="#/home">${t('backHome')}</a><div class="page-head"><div class="page-head-text"><div class="eyebrow">НейроАтлас / ${esc(pageName(id))}</div><h1>${esc(pageName(id))}</h1><p>${t(introKey)}</p></div>${heroMark(id)}</div>`;
 }
 function priceCell(v) {
   return v ? `<strong>${esc(v)}</strong>` : `<span class="no-price">${t('noPrice')}</span>`;
