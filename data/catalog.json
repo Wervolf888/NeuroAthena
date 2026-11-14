@@ -1,1330 +1,1820 @@
 {
- "generated": "2026-11-14 (обновление куратора: официальные ссылки по всем моделям, Muse — muse.ai)",
- "source": "исследование 14.11.2026, официальные страницы вендоров",
- "categories": {
-  "chats": {
-   "title_ru": "Общие чаты",
-   "models": [
-    {
-     "id": "muse",
-     "name": "Muse",
-     "developer": "Meta",
-     "url": "https://muse.ai",
-     "flagship": "Muse Wonder (12.10.2026, API $4/$20, 1M контекст); Wonder Full — только в Muse Code $50/$200; Spark 1.3 $1,25/$4,25",
-     "strength": "Фронтирный агентный/кодовый модельный ряд Meta; Wonder Full — лидер слепых арен",
-     "free": null,
-     "trial": null,
-     "prices": {
-      "UA": null,
-      "EU": null,
-      "US": "Muse (приложение): Free; Power $20; Max $100 (по Help Center, проверка 03.11); Muse Code $5/$15/$50/$200",
-      "cheapest": null
-     },
-     "languages": {
-      "ru": null,
-      "uk": null
-     },
-     "platforms": [],
-     "user_rating": null,
-     "pros": [],
-     "cons": [],
-     "bugs": [],
-     "checked": "2026-11-14"
+  "generated": "2026-11-14 (обновление куратора: официальные ссылки по всем моделям, Muse — muse.ai)",
+  "source": "исследование 14.11.2026, официальные страницы вендоров",
+  "categories": {
+    "chats": {
+      "title_ru": "Общие чаты",
+      "models": [
+        {
+          "id": "muse",
+          "name": "Muse",
+          "developer": "Meta",
+          "url": "https://muse.ai",
+          "flagship": "Muse Wonder (12.10.2026, API $4/$20, 1M контекст); Wonder Full — только в Muse Code $50/$200; Spark 1.3 $1,25/$4,25",
+          "strength": "Фронтирный агентный/кодовый модельный ряд Meta; Wonder Full — лидер слепых арен",
+          "essence_uk": null,
+          "essence_en": null,
+          "free": null,
+          "trial": null,
+          "prices": {
+            "UA": null,
+            "UA_uk": null,
+            "UA_en": null,
+            "US": "Muse (приложение): Free; Power $20; Max $100 (по Help Center, проверка 03.11); Muse Code $5/$15/$50/$200",
+            "US_uk": null,
+            "US_en": null,
+            "EU": null,
+            "EU_uk": null,
+            "EU_en": null,
+            "cheapest": null,
+            "cheapest_uk": null,
+            "cheapest_en": null
+          },
+          "languages": {
+            "ru": null,
+            "uk": null
+          },
+          "platforms": [],
+          "user_rating": null,
+          "pros": [],
+          "cons": [],
+          "bugs": [],
+          "checked": "2026-11-14"
+        },
+        {
+          "id": "chatgpt",
+          "name": "ChatGPT",
+          "developer": "OpenAI",
+          "url": "https://chatgpt.com",
+          "flagship": "GPT-6 Sol в чате (Plus+), GPT-6 Astra в Work/Codex, Free/Go — GPT-6 Luna",
+          "strength": "Самый широкий универсальный ассистент и экосистема (GPTs, Codex, изображения, голос)",
+          "essence_uk": null,
+          "essence_en": null,
+          "free": true,
+          "trial": null,
+          "prices": {
+            "UA": "Web $20 до налога; App Store $22,99; Pro в App Store UA $119/$250/$599",
+            "UA_uk": null,
+            "UA_en": null,
+            "US": "Go $8; Plus $20; Pro $100/$200/$500; Business $20–25/место",
+            "US_uk": null,
+            "US_en": null,
+            "EU": "Plus в Германии €23 (чекаут DE)",
+            "EU_uk": null,
+            "EU_en": null,
+            "cheapest": "Plus $15,38 (Филиппины, web)",
+            "cheapest_uk": null,
+            "cheapest_en": null
+          },
+          "languages": {
+            "ru": null,
+            "uk": null
+          },
+          "platforms": [],
+          "user_rating": null,
+          "pros": [],
+          "cons": [],
+          "bugs": [],
+          "checked": "2026-11-14"
+        },
+        {
+          "id": "claude",
+          "name": "Claude",
+          "developer": "Anthropic",
+          "url": "https://claude.ai",
+          "flagship": "Opus 5.5 ($4/$20 за 1M API), Fable 5.2 ($8/$40) — топ по агентным задачам",
+          "strength": "Длинные документы, аккуратная проза, код (Claude Code включён с Pro)",
+          "essence_uk": null,
+          "essence_en": null,
+          "free": true,
+          "trial": null,
+          "prices": {
+            "UA": "App Store: Pro $25/мес; Pro $249,99/год; Max $149,99/мес; Ultra $299,99/мес",
+            "UA_uk": null,
+            "UA_en": null,
+            "US": "Pro $17/мес при годовой оплате ($200 вперёд), $20 при помесячной; Max $100/мес; Ultra $200/мес",
+            "US_uk": null,
+            "US_en": null,
+            "EU": "Max €90, Ultra €180 (Испания)",
+            "EU_uk": null,
+            "EU_en": null,
+            "cheapest": "Pro $17,72 (Пакистан, App Store)",
+            "cheapest_uk": null,
+            "cheapest_en": null
+          },
+          "languages": {
+            "ru": null,
+            "uk": null
+          },
+          "platforms": [],
+          "user_rating": null,
+          "pros": [],
+          "cons": [],
+          "bugs": [],
+          "checked": "2026-11-14"
+        },
+        {
+          "id": "gemini",
+          "name": "Gemini",
+          "developer": "Google",
+          "url": "https://gemini.google.com",
+          "flagship": "Gemini 4 Carbon (API $2/$10 intro до 30.11, далее $4/$20), Argon, Hydrogen $1,50/$7,50",
+          "strength": "Экосистема Google (Gmail/Docs/Drive), длинный контекст, хранилище в комплекте",
+          "essence_uk": null,
+          "essence_en": null,
+          "free": true,
+          "trial": null,
+          "prices": {
+            "UA": "AI Plus ₴224,99/мес; AI Pro ₴909,99/мес (витрина Google UA)",
+            "UA_uk": null,
+            "UA_en": null,
+            "US": "AI Plus $4,99/мес; AI Pro $19,99/мес; AI Ultra $99,99/мес (5x) и $199,99/мес (20x)",
+            "US_uk": null,
+            "US_en": null,
+            "EU": "AI Pro в Германии €21,99",
+            "EU_uk": null,
+            "EU_en": null,
+            "cheapest": "AI Pro $11,87 (Боливия, web)",
+            "cheapest_uk": null,
+            "cheapest_en": null
+          },
+          "languages": {
+            "ru": null,
+            "uk": null
+          },
+          "platforms": [],
+          "user_rating": null,
+          "pros": [],
+          "cons": [],
+          "bugs": [],
+          "checked": "2026-11-14"
+        },
+        {
+          "id": "grok",
+          "name": "Grok",
+          "developer": "xAI/SpaceXAI",
+          "url": "https://grok.com",
+          "flagship": "Grok 4.7 API ($2/$6 за 1M, 500K контекст)",
+          "strength": "Живые данные X, Grok Imagine, с окт. 2026 в одной подписке Cursor + X Premium+",
+          "essence_uk": null,
+          "essence_en": null,
+          "free": true,
+          "trial": null,
+          "prices": {
+            "UA": "App Store UA $40 за SuperGrok",
+            "UA_uk": null,
+            "UA_en": null,
+            "US": "The X Subscription: Plus $8; Premium $30; Super $100; Ultra $200",
+            "US_uk": null,
+            "US_en": null,
+            "EU": null,
+            "EU_uk": null,
+            "EU_en": null,
+            "cheapest": null,
+            "cheapest_uk": null,
+            "cheapest_en": null
+          },
+          "languages": {
+            "ru": null,
+            "uk": null
+          },
+          "platforms": [],
+          "user_rating": null,
+          "pros": [],
+          "cons": [],
+          "bugs": [],
+          "checked": "2026-11-14"
+        },
+        {
+          "id": "copilot",
+          "name": "Copilot",
+          "developer": "Microsoft",
+          "url": "https://copilot.com",
+          "flagship": "Copilot на моделях OpenAI/Anthropic внутри M365",
+          "strength": "Работа внутри Word/Excel/Outlook/Windows — офисные сценарии",
+          "essence_uk": null,
+          "essence_en": null,
+          "free": true,
+          "trial": null,
+          "prices": {
+            "UA": null,
+            "UA_uk": null,
+            "UA_en": null,
+            "US": "M365 Personal $9,99; Family $12,99; Premium $19,99; для бизнеса Copilot add-on ~$21/место (промо $18 до 31.12.2026), Enterprise $30/место",
+            "US_uk": null,
+            "US_en": null,
+            "EU": null,
+            "EU_uk": null,
+            "EU_en": null,
+            "cheapest": null,
+            "cheapest_uk": null,
+            "cheapest_en": null
+          },
+          "languages": {
+            "ru": null,
+            "uk": null
+          },
+          "platforms": [],
+          "user_rating": null,
+          "pros": [],
+          "cons": [],
+          "bugs": [],
+          "checked": "2026-11-14"
+        },
+        {
+          "id": "mistral-vibe",
+          "name": "Mistral / Vibe",
+          "developer": "Mistral AI",
+          "url": "https://mistral.ai",
+          "flagship": "Mistral Vibe (Le Chat) + Vibe for code",
+          "strength": "Самый дешёвый «стандартный» западный план; европейская юрисдикция и приватность",
+          "essence_uk": null,
+          "essence_en": null,
+          "free": true,
+          "trial": null,
+          "prices": {
+            "UA": "App Store: Vibe Pro — $14,99 и $149,99",
+            "UA_uk": null,
+            "UA_en": null,
+            "US": "Pro $14,99/мес (студентам $5,99); Team $24,99/польз./мес",
+            "US_uk": null,
+            "US_en": null,
+            "EU": "Team €29,99/польз. с НДС (EU-хостинг по умолчанию)",
+            "EU_uk": null,
+            "EU_en": null,
+            "cheapest": null,
+            "cheapest_uk": null,
+            "cheapest_en": null
+          },
+          "languages": {
+            "ru": null,
+            "uk": null
+          },
+          "platforms": [],
+          "user_rating": null,
+          "pros": [],
+          "cons": [],
+          "bugs": [],
+          "checked": "2026-11-14"
+        },
+        {
+          "id": "deepseek",
+          "name": "DeepSeek",
+          "developer": "DeepSeek",
+          "url": "https://chat.deepseek.com",
+          "flagship": "V4.1-Flash-1017 в чате; API deepseek-flash $0,15/$0,60 off-peak (пик ×2), v4-pro $0,66/$1,98",
+          "strength": "Бесплатный сильный чат + самый дешёвый фронтирный API; веса MIT",
+          "essence_uk": null,
+          "essence_en": null,
+          "free": true,
+          "trial": null,
+          "prices": {
+            "UA": null,
+            "UA_uk": null,
+            "UA_en": null,
+            "US": "Только API по токенам, предоплаченный баланс; Search/Fetch $0,75/1 000 запросов",
+            "US_uk": null,
+            "US_en": null,
+            "EU": null,
+            "EU_uk": null,
+            "EU_en": null,
+            "cheapest": null,
+            "cheapest_uk": null,
+            "cheapest_en": null
+          },
+          "languages": {
+            "ru": null,
+            "uk": null
+          },
+          "platforms": [],
+          "user_rating": null,
+          "pros": [],
+          "cons": [],
+          "bugs": [],
+          "checked": "2026-11-14"
+        },
+        {
+          "id": "qwen",
+          "name": "Qwen",
+          "developer": "Alibaba",
+          "url": "https://chat.qwen.ai",
+          "flagship": "Qwen3.8-Max (API $2/$6; в регионе Frankfurt/global $1,65/$4,95)",
+          "strength": "Сильные открытые и закрытые модели, мультимодальность, языки",
+          "essence_uk": null,
+          "essence_en": null,
+          "free": true,
+          "trial": null,
+          "prices": {
+            "UA": null,
+            "UA_uk": null,
+            "UA_en": null,
+            "US": "API по токенам; Singapore/US $2/$6",
+            "US_uk": null,
+            "US_en": null,
+            "EU": "Frankfurt/global $1,65/$4,95",
+            "EU_uk": null,
+            "EU_en": null,
+            "cheapest": "Frankfurt/global $1,65/$4,95",
+            "cheapest_uk": null,
+            "cheapest_en": null
+          },
+          "languages": {
+            "ru": null,
+            "uk": null
+          },
+          "platforms": [],
+          "user_rating": null,
+          "pros": [],
+          "cons": [],
+          "bugs": [],
+          "checked": "2026-11-14"
+        },
+        {
+          "id": "kimi",
+          "name": "Kimi",
+          "developer": "Moonshot AI",
+          "url": "https://www.kimi.com",
+          "flagship": "Kimi K3.1 Pro (API $2/$10, 1M контекст; K3 $3/$15 — предыдущий флагман, open weights)",
+          "strength": "Очень длинный контекст, агентные и кодовые задачи, открытые веса K3",
+          "essence_uk": null,
+          "essence_en": null,
+          "free": true,
+          "trial": null,
+          "prices": {
+            "UA": null,
+            "UA_uk": null,
+            "UA_en": null,
+            "US": "API по токенам; Kimi K3.1 Pro API $2/$10; Batch −40% у K3",
+            "US_uk": null,
+            "US_en": null,
+            "EU": null,
+            "EU_uk": null,
+            "EU_en": null,
+            "cheapest": null,
+            "cheapest_uk": null,
+            "cheapest_en": null
+          },
+          "languages": {
+            "ru": null,
+            "uk": null
+          },
+          "platforms": [],
+          "user_rating": null,
+          "pros": [],
+          "cons": [],
+          "bugs": [],
+          "checked": "2026-11-14"
+        },
+        {
+          "id": "perplexity",
+          "name": "Perplexity",
+          "developer": "Perplexity AI",
+          "url": "https://www.perplexity.ai",
+          "flagship": "Поисковая машина ответов; в Pro — выбор моделей (GPT-6.1 Sol, Sonnet 5.5, Gemini 3.8 Flash и др.)",
+          "strength": "Исследования с цитатами и источниками; Computer-агент за кредиты",
+          "essence_uk": null,
+          "essence_en": null,
+          "free": true,
+          "trial": null,
+          "prices": {
+            "UA": "Pro $17/мес при годовой оплате ($20 при помесячной); Max $167/мес при годовой оплате ($200 при помесячной)",
+            "UA_uk": null,
+            "UA_en": null,
+            "US": "Pro $17/мес при годовой оплате ($20 при помесячной); Max $167/мес при годовой оплате ($200 при помесячной)",
+            "US_uk": null,
+            "US_en": null,
+            "EU": null,
+            "EU_uk": null,
+            "EU_en": null,
+            "cheapest": "Pro $17,53 (Канада, App Store)",
+            "cheapest_uk": null,
+            "cheapest_en": null
+          },
+          "languages": {
+            "ru": null,
+            "uk": null
+          },
+          "platforms": [],
+          "user_rating": null,
+          "pros": [],
+          "cons": [],
+          "bugs": [],
+          "checked": "2026-11-14"
+        },
+        {
+          "id": "meta-ai",
+          "name": "Meta AI",
+          "developer": "Meta",
+          "url": "https://www.meta.ai",
+          "flagship": "Ассистент на моделях Meta (Muse-линейка «скоро» для подписчиков Muse)",
+          "strength": "Бесплатный ассистент внутри WhatsApp/Instagram/Facebook",
+          "essence_uk": null,
+          "essence_en": null,
+          "free": true,
+          "trial": null,
+          "prices": {
+            "UA": null,
+            "UA_uk": null,
+            "UA_en": null,
+            "US": null,
+            "US_uk": null,
+            "US_en": null,
+            "EU": null,
+            "EU_uk": null,
+            "EU_en": null,
+            "cheapest": null,
+            "cheapest_uk": null,
+            "cheapest_en": null
+          },
+          "languages": {
+            "ru": null,
+            "uk": null
+          },
+          "platforms": [],
+          "user_rating": null,
+          "pros": [],
+          "cons": [],
+          "bugs": [],
+          "checked": "2026-11-14"
+        },
+        {
+          "id": "poe",
+          "name": "Poe",
+          "developer": "Quora",
+          "url": "https://poe.com",
+          "flagship": "Агрегатор: 200+ официальных моделей + 1 млн+ community-ботов в одном окне",
+          "strength": "Одна подписка вместо пяти: сравнение моделей бок о бок, свои боты",
+          "essence_uk": null,
+          "essence_en": null,
+          "free": true,
+          "trial": null,
+          "prices": {
+            "UA": null,
+            "UA_uk": null,
+            "UA_en": null,
+            "US": "$4,99 (10K points/день); $19,99 (660K/мес); $49,99; $99,99; $249,99; годовая −17%; доп. points $30/1M",
+            "US_uk": null,
+            "US_en": null,
+            "EU": "FR App Store: €5,99 / €22,99",
+            "EU_uk": null,
+            "EU_en": null,
+            "cheapest": null,
+            "cheapest_uk": null,
+            "cheapest_en": null
+          },
+          "languages": {
+            "ru": null,
+            "uk": null
+          },
+          "platforms": [],
+          "user_rating": null,
+          "pros": [],
+          "cons": [],
+          "bugs": [],
+          "checked": "2026-11-14"
+        }
+      ]
     },
-    {
-     "id": "chatgpt",
-     "name": "ChatGPT",
-     "developer": "OpenAI",
-     "url": "https://chatgpt.com",
-     "flagship": "GPT-6 Sol в чате (Plus+), GPT-6 Astra в Work/Codex, Free/Go — GPT-6 Luna",
-     "strength": "Самый широкий универсальный ассистент и экосистема (GPTs, Codex, изображения, голос)",
-     "free": true,
-     "trial": null,
-     "prices": {
-      "UA": "Web $20 до налога; App Store $22,99; Pro в App Store UA $119/$250/$599",
-      "EU": "Plus в Германии €23 (чекаут DE)",
-      "US": "Go $8; Plus $20; Pro $100/$200/$500; Business $20–25/место",
-      "cheapest": "Plus $15,38 (Филиппины, web)"
-     },
-     "languages": {
-      "ru": null,
-      "uk": null
-     },
-     "platforms": [],
-     "user_rating": null,
-     "pros": [],
-     "cons": [],
-     "bugs": [],
-     "checked": "2026-11-14"
+    "images": {
+      "title_ru": "Картинки",
+      "models": [
+        {
+          "id": "midjourney",
+          "name": "Midjourney",
+          "developer": "Midjourney, Inc.",
+          "url": "https://www.midjourney.com",
+          "flagship": "V8.2 (default с 24.07.2026)",
+          "strength": "Художественное качество и стилистика; Stealth — с Pro",
+          "essence_uk": null,
+          "essence_en": null,
+          "free": false,
+          "trial": "триал закрыт в 2023",
+          "prices": {
+            "UA": "Basic $10; Standard $30; Pro $60; Mega $120 /мес; годовая −20% ($96/$288/$576/$1 152); extra Fast $4/час",
+            "UA_uk": null,
+            "UA_en": null,
+            "US": "Basic $10; Standard $30; Pro $60; Mega $120 /мес; годовая −20% ($96/$288/$576/$1 152); extra Fast $4/час",
+            "US_uk": null,
+            "US_en": null,
+            "EU": null,
+            "EU_uk": null,
+            "EU_en": null,
+            "cheapest": null,
+            "cheapest_uk": null,
+            "cheapest_en": null
+          },
+          "languages": {
+            "ru": null,
+            "uk": null
+          },
+          "platforms": [],
+          "user_rating": null,
+          "pros": [],
+          "cons": [],
+          "bugs": [],
+          "checked": "2026-11-14"
+        },
+        {
+          "id": "nano-banana-imagen",
+          "name": "Nano Banana / Imagen",
+          "developer": "Google",
+          "url": "https://deepmind.google/models/gemini-image/",
+          "flagship": "Nano Banana 2.1 и Pro (Gemini 3 Pro Image); на fal: $0,08 и $0,15/картинка; в Gemini-планах — Flow credits",
+          "strength": "Редактирование картинок текстом, консистентность персонажей, скорость",
+          "essence_uk": null,
+          "essence_en": null,
+          "free": true,
+          "trial": null,
+          "prices": {
+            "UA": "Через план Google AI Plus ₴224,99/мес (витрина Google UA)",
+            "UA_uk": null,
+            "UA_en": null,
+            "US": "Через Google AI планы $4,99–199,99/мес (AI Plus $4,99; AI Pro $19,99 — 1 000 Flow credits; AI Ultra $99,99/$199,99)",
+            "US_uk": null,
+            "US_en": null,
+            "EU": null,
+            "EU_uk": null,
+            "EU_en": null,
+            "cheapest": null,
+            "cheapest_uk": null,
+            "cheapest_en": null
+          },
+          "languages": {
+            "ru": null,
+            "uk": null
+          },
+          "platforms": [],
+          "user_rating": null,
+          "pros": [],
+          "cons": [],
+          "bugs": [],
+          "checked": "2026-11-14"
+        },
+        {
+          "id": "gpt-image",
+          "name": "GPT Image",
+          "developer": "OpenAI",
+          "url": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+          "flagship": "GPT-Image-2.5 Sunburst (статус Default — самая способная модель генерации и редактирования)",
+          "strength": "Текст в картинке, точные правки, интеграция с ChatGPT",
+          "essence_uk": null,
+          "essence_en": null,
+          "free": true,
+          "trial": null,
+          "prices": {
+            "UA": "GPT-Image-2.5 Sunburst, API по токенам: текст-вход $5/1M, картинка-вход $8/1M, картинка-выход $30/1M (Batch — выход $15/1M); также доступ в подписках ChatGPT",
+            "UA_uk": null,
+            "UA_en": null,
+            "US": "GPT-Image-2.5 Sunburst, API по токенам: текст-вход $5/1M, картинка-вход $8/1M, картинка-выход $30/1M (Batch — выход $15/1M); также доступ в подписках ChatGPT",
+            "US_uk": null,
+            "US_en": null,
+            "EU": "GPT-Image-2.5 Sunburst, API по токенам: текст-вход $5/1M, картинка-вход $8/1M, картинка-выход $30/1M (Batch — выход $15/1M); также доступ в подписках ChatGPT",
+            "EU_uk": null,
+            "EU_en": null,
+            "cheapest": null,
+            "cheapest_uk": null,
+            "cheapest_en": null
+          },
+          "languages": {
+            "ru": null,
+            "uk": null
+          },
+          "platforms": [],
+          "user_rating": null,
+          "pros": [],
+          "cons": [],
+          "bugs": [],
+          "checked": "2026-11-14"
+        },
+        {
+          "id": "flux",
+          "name": "FLUX",
+          "developer": "Black Forest Labs",
+          "url": "https://bfl.ai",
+          "flagship": "FLUX 3 Image (от $0,0205/картинка на launch-скидке, list $0,041–0,048 за 1K)",
+          "strength": "Фотореализм, API-first, европейский вендор",
+          "essence_uk": null,
+          "essence_en": null,
+          "free": true,
+          "trial": null,
+          "prices": {
+            "UA": null,
+            "UA_uk": null,
+            "UA_en": null,
+            "US": "Подписок нет: pay-per-image, кредиты $0,01",
+            "US_uk": null,
+            "US_en": null,
+            "EU": null,
+            "EU_uk": null,
+            "EU_en": null,
+            "cheapest": null,
+            "cheapest_uk": null,
+            "cheapest_en": null
+          },
+          "languages": {
+            "ru": null,
+            "uk": null
+          },
+          "platforms": [],
+          "user_rating": null,
+          "pros": [],
+          "cons": [],
+          "bugs": [],
+          "checked": "2026-11-14"
+        },
+        {
+          "id": "ideogram",
+          "name": "Ideogram",
+          "developer": "Ideogram",
+          "url": "https://ideogram.ai",
+          "flagship": "Ideogram 4.0 (~$0,06/картинка)",
+          "strength": "Типографика: читаемый текст на постерах и логотипах",
+          "essence_uk": null,
+          "essence_en": null,
+          "free": true,
+          "trial": null,
+          "prices": {
+            "UA": null,
+            "UA_uk": null,
+            "UA_en": null,
+            "US": "Plus $20 (1 000 credits); Pro $60",
+            "US_uk": null,
+            "US_en": null,
+            "EU": null,
+            "EU_uk": null,
+            "EU_en": null,
+            "cheapest": null,
+            "cheapest_uk": null,
+            "cheapest_en": null
+          },
+          "languages": {
+            "ru": null,
+            "uk": null
+          },
+          "platforms": [],
+          "user_rating": null,
+          "pros": [],
+          "cons": [],
+          "bugs": [],
+          "checked": "2026-11-14"
+        },
+        {
+          "id": "recraft",
+          "name": "Recraft",
+          "developer": "Recraft",
+          "url": "https://www.recraft.ai",
+          "flagship": "Recraft V4.1 Pro ($0,21/картинка в тестах — самая резкая детализация)",
+          "strength": "Векторы (SVG), бренд-стили, иконки",
+          "essence_uk": null,
+          "essence_en": null,
+          "free": true,
+          "trial": null,
+          "prices": {
+            "UA": "App Store: Basic 1k $11,99/мес; Pro 2k $20/мес",
+            "UA_uk": null,
+            "UA_en": null,
+            "US": "Basic $10 при годовой ($12 помесячно), 1 000 credits",
+            "US_uk": null,
+            "US_en": null,
+            "EU": null,
+            "EU_uk": null,
+            "EU_en": null,
+            "cheapest": null,
+            "cheapest_uk": null,
+            "cheapest_en": null
+          },
+          "languages": {
+            "ru": null,
+            "uk": null
+          },
+          "platforms": [],
+          "user_rating": null,
+          "pros": [],
+          "cons": [],
+          "bugs": [],
+          "checked": "2026-11-14"
+        },
+        {
+          "id": "leonardo",
+          "name": "Leonardo",
+          "developer": "Leonardo.Ai / Canva",
+          "url": "https://leonardo.ai",
+          "flagship": "Leonardo 2/3",
+          "strength": "Игровые ассеты, кастомные модели, редактор-канва",
+          "essence_uk": null,
+          "essence_en": null,
+          "free": true,
+          "trial": null,
+          "prices": {
+            "UA": "App Store: Essential $15,99; Premium $39,99",
+            "UA_uk": null,
+            "UA_en": null,
+            "US": "Essential от $12",
+            "US_uk": null,
+            "US_en": null,
+            "EU": null,
+            "EU_uk": null,
+            "EU_en": null,
+            "cheapest": null,
+            "cheapest_uk": null,
+            "cheapest_en": null
+          },
+          "languages": {
+            "ru": null,
+            "uk": null
+          },
+          "platforms": [],
+          "user_rating": null,
+          "pros": [],
+          "cons": [],
+          "bugs": [],
+          "checked": "2026-11-14"
+        },
+        {
+          "id": "stable-diffusion",
+          "name": "Stable Diffusion",
+          "developer": "Stability AI",
+          "url": "https://stability.ai",
+          "flagship": "SD 3.5 (Large/Turbo/Medium)",
+          "strength": "Локальный запуск, файнтюнинг, экосистема ComfyUI/LoRA",
+          "essence_uk": null,
+          "essence_en": null,
+          "free": true,
+          "trial": null,
+          "prices": {
+            "UA": null,
+            "UA_uk": null,
+            "UA_en": null,
+            "US": "API: Flash $0,025, Large $0,065/картинка (1 credit = $0,01); старт — 25 free credits",
+            "US_uk": null,
+            "US_en": null,
+            "EU": null,
+            "EU_uk": null,
+            "EU_en": null,
+            "cheapest": null,
+            "cheapest_uk": null,
+            "cheapest_en": null
+          },
+          "languages": {
+            "ru": null,
+            "uk": null
+          },
+          "platforms": [],
+          "user_rating": null,
+          "pros": [],
+          "cons": [],
+          "bugs": [],
+          "checked": "2026-11-14"
+        }
+      ]
     },
-    {
-     "id": "claude",
-     "name": "Claude",
-     "developer": "Anthropic",
-     "url": "https://claude.ai",
-     "flagship": "Opus 5.5 ($4/$20 за 1M API), Fable 5.2 ($8/$40) — топ по агентным задачам",
-     "strength": "Длинные документы, аккуратная проза, код (Claude Code включён с Pro)",
-     "free": true,
-     "trial": null,
-     "prices": {
-      "UA": null,
-      "EU": "Max €90, Ultra €180 (Испания)",
-      "US": "Pro $20 ($17 при годовой $200); Max $100; Ultra $200 (ex-Max 20x)",
-      "cheapest": "Pro $17,72 (Пакистан, App Store)"
-     },
-     "languages": {
-      "ru": null,
-      "uk": null
-     },
-     "platforms": [],
-     "user_rating": null,
-     "pros": [],
-     "cons": [],
-     "bugs": [],
-     "checked": "2026-11-14"
+    "video": {
+      "title_ru": "Видео",
+      "models": [
+        {
+          "id": "kling",
+          "name": "Kling",
+          "developer": "Kuaishou",
+          "url": "https://kling.ai",
+          "flagship": "Kling 4.0 (15.10.2026, 3–30 сек, стереозвук)",
+          "strength": "Реалистичное движение людей, длина клипа, цена/сек",
+          "essence_uk": null,
+          "essence_en": null,
+          "free": true,
+          "trial": null,
+          "prices": {
+            "UA": null,
+            "UA_uk": null,
+            "UA_en": null,
+            "US": "Standard $6,99 первый мес., далее $8,80 (660 credits); Pro $25,99→$32,56; API ~$0,157/сек 720p",
+            "US_uk": null,
+            "US_en": null,
+            "EU": null,
+            "EU_uk": null,
+            "EU_en": null,
+            "cheapest": null,
+            "cheapest_uk": null,
+            "cheapest_en": null
+          },
+          "languages": {
+            "ru": null,
+            "uk": null
+          },
+          "platforms": [],
+          "user_rating": null,
+          "pros": [],
+          "cons": [],
+          "bugs": [],
+          "checked": "2026-11-14"
+        },
+        {
+          "id": "seedance",
+          "name": "Seedance",
+          "developer": "ByteDance",
+          "url": "https://seed.bytedance.com/en/seedance",
+          "flagship": "Seedance 2.5 (4–30 сек; ~$0,21/сек 720p на сторонних API; 2.0 — $0,15/сек 720p)",
+          "strength": "Мультишот, референсы, широкий набор форматов до 21:9",
+          "essence_uk": null,
+          "essence_en": null,
+          "free": null,
+          "trial": null,
+          "prices": {
+            "UA": null,
+            "UA_uk": null,
+            "UA_en": null,
+            "US": "По секунде/кредитам платформ (PixVerse, fal и др.)",
+            "US_uk": null,
+            "US_en": null,
+            "EU": null,
+            "EU_uk": null,
+            "EU_en": null,
+            "cheapest": null,
+            "cheapest_uk": null,
+            "cheapest_en": null
+          },
+          "languages": {
+            "ru": null,
+            "uk": null
+          },
+          "platforms": [],
+          "user_rating": null,
+          "pros": [],
+          "cons": [],
+          "bugs": [],
+          "checked": "2026-11-14"
+        },
+        {
+          "id": "veo",
+          "name": "Veo",
+          "developer": "Google",
+          "url": "https://deepmind.google/models/veo/",
+          "flagship": "Veo 3.1 (Vertex: $0,40/сек со звуком, $0,20 без, 720p/1080p; 4K $0,60/$0,40); в Gemini API заменён Gemini Omni Flash 22.10.2026",
+          "strength": "Диалоги и звук в одном проходе, реализм",
+          "essence_uk": null,
+          "essence_en": null,
+          "free": true,
+          "trial": "ограниченный триал Veo 3.1 Lite на плане AI Pro",
+          "prices": {
+            "UA": "Через план Google AI Pro ₴909,99/мес (витрина Google UA)",
+            "UA_uk": null,
+            "UA_en": null,
+            "US": "Через Google AI Pro $19,99 (1 000 Flow credits) / Ultra $99,99–199,99",
+            "US_uk": null,
+            "US_en": null,
+            "EU": null,
+            "EU_uk": null,
+            "EU_en": null,
+            "cheapest": null,
+            "cheapest_uk": null,
+            "cheapest_en": null
+          },
+          "languages": {
+            "ru": null,
+            "uk": null
+          },
+          "platforms": [],
+          "user_rating": null,
+          "pros": [],
+          "cons": [],
+          "bugs": [],
+          "checked": "2026-11-14"
+        },
+        {
+          "id": "runway",
+          "name": "Runway",
+          "developer": "Runway",
+          "url": "https://runway.com",
+          "flagship": "Gen-4.5 (API $0,12/сек)",
+          "strength": "Профессиональный контроль камеры, монтаж, один ключ на много моделей",
+          "essence_uk": null,
+          "essence_en": null,
+          "free": true,
+          "trial": null,
+          "prices": {
+            "UA": "App Store: Standard $14,99/мес; Pro $35/мес; Max $95/мес",
+            "UA_uk": null,
+            "UA_en": null,
+            "US": "Standard $15/мес ($12 при годовой), 625 credits; Pro $35 ($28), 2 250 credits; Max $95 ($76), 9 500 credits",
+            "US_uk": null,
+            "US_en": null,
+            "EU": null,
+            "EU_uk": null,
+            "EU_en": null,
+            "cheapest": null,
+            "cheapest_uk": null,
+            "cheapest_en": null
+          },
+          "languages": {
+            "ru": null,
+            "uk": null
+          },
+          "platforms": [],
+          "user_rating": null,
+          "pros": [],
+          "cons": [],
+          "bugs": [],
+          "checked": "2026-11-14"
+        },
+        {
+          "id": "dream-machine",
+          "name": "Dream Machine",
+          "developer": "Luma",
+          "url": "https://lumalabs.ai/app",
+          "flagship": "Ray3.2 (API ~$0,03/сек 540p)",
+          "strength": "Кинематографичное движение камеры, кейфреймы",
+          "essence_uk": null,
+          "essence_en": null,
+          "free": null,
+          "trial": null,
+          "prices": {
+            "UA": "App Store: Lite $9,99; Plus $29,99; Unlimited $94,99; Unlimited $919,99",
+            "UA_uk": null,
+            "UA_en": null,
+            "US": "Plus $30 (10 000 credits); Pro $90; Ultra $300",
+            "US_uk": null,
+            "US_en": null,
+            "EU": null,
+            "EU_uk": null,
+            "EU_en": null,
+            "cheapest": null,
+            "cheapest_uk": null,
+            "cheapest_en": null
+          },
+          "languages": {
+            "ru": null,
+            "uk": null
+          },
+          "platforms": [],
+          "user_rating": null,
+          "pros": [],
+          "cons": [],
+          "bugs": [],
+          "checked": "2026-11-14"
+        },
+        {
+          "id": "pika",
+          "name": "Pika",
+          "developer": "Pika",
+          "url": "https://pika.art",
+          "flagship": "Pika 2.5 (API $0,04/сек 720p)",
+          "strength": "Короткие соц-клипы, эффекты, скорость итераций",
+          "essence_uk": null,
+          "essence_en": null,
+          "free": true,
+          "trial": null,
+          "prices": {
+            "UA": null,
+            "UA_uk": null,
+            "UA_en": null,
+            "US": "Standard $10 ($8 годовая); Pro $35",
+            "US_uk": null,
+            "US_en": null,
+            "EU": null,
+            "EU_uk": null,
+            "EU_en": null,
+            "cheapest": null,
+            "cheapest_uk": null,
+            "cheapest_en": null
+          },
+          "languages": {
+            "ru": null,
+            "uk": null
+          },
+          "platforms": [],
+          "user_rating": null,
+          "pros": [],
+          "cons": [],
+          "bugs": [],
+          "checked": "2026-11-14"
+        },
+        {
+          "id": "hailuo",
+          "name": "Hailuo",
+          "developer": "MiniMax",
+          "url": "https://hailuoai.video",
+          "flagship": "H3 / Hailuo 2.3 (API от ~$0,015/сек на legacy 512p)",
+          "strength": "Физика (вода, ткань), точность промпта за малые деньги",
+          "essence_uk": null,
+          "essence_en": null,
+          "free": true,
+          "trial": null,
+          "prices": {
+            "UA": null,
+            "UA_uk": null,
+            "UA_en": null,
+            "US": "Standard ~$10,50 (1 000 credits); Pro $38",
+            "US_uk": null,
+            "US_en": null,
+            "EU": null,
+            "EU_uk": null,
+            "EU_en": null,
+            "cheapest": null,
+            "cheapest_uk": null,
+            "cheapest_en": null
+          },
+          "languages": {
+            "ru": null,
+            "uk": null
+          },
+          "platforms": [],
+          "user_rating": null,
+          "pros": [],
+          "cons": [],
+          "bugs": [],
+          "checked": "2026-11-14"
+        }
+      ]
     },
-    {
-     "id": "gemini",
-     "name": "Gemini",
-     "developer": "Google",
-     "url": "https://gemini.google.com",
-     "flagship": "Gemini 4 Carbon (API $2/$10 intro до 30.11, далее $4/$20), Argon, Hydrogen $1,50/$7,50",
-     "strength": "Экосистема Google (Gmail/Docs/Drive), длинный контекст, хранилище в комплекте",
-     "free": true,
-     "trial": null,
-     "prices": {
-      "UA": "AI Plus ₴224,99/мес (сайт Google)",
-      "EU": "AI Pro в Германии €21,99",
-      "US": "AI Plus $4,99; AI Pro $19,99; AI Ultra $99,99/$199,99",
-      "cheapest": "AI Pro $11,87 (Боливия, web)"
-     },
-     "languages": {
-      "ru": null,
-      "uk": null
-     },
-     "platforms": [],
-     "user_rating": null,
-     "pros": [],
-     "cons": [],
-     "bugs": [],
-     "checked": "2026-11-14"
+    "audio": {
+      "title_ru": "Звук",
+      "models": [
+        {
+          "id": "suno",
+          "name": "Suno",
+          "developer": "Suno, Inc.",
+          "url": "https://suno.com",
+          "flagship": "v6 / v6-wild / v6-mini (09.09.2026)",
+          "strength": "Полные песни с вокалом из одного промпта",
+          "essence_uk": null,
+          "essence_en": null,
+          "free": true,
+          "trial": null,
+          "prices": {
+            "UA": null,
+            "UA_uk": null,
+            "UA_en": null,
+            "US": "Pro $10 ($8 годовая), 2 500 credits, лимит 20 скачиваний/мес; Premier $30 ($24), 60 скачиваний",
+            "US_uk": null,
+            "US_en": null,
+            "EU": null,
+            "EU_uk": null,
+            "EU_en": null,
+            "cheapest": null,
+            "cheapest_uk": null,
+            "cheapest_en": null
+          },
+          "languages": {
+            "ru": null,
+            "uk": null
+          },
+          "platforms": [],
+          "user_rating": null,
+          "pros": [],
+          "cons": [],
+          "bugs": [],
+          "checked": "2026-11-14"
+        },
+        {
+          "id": "udio",
+          "name": "Udio",
+          "developer": "Udio",
+          "url": "https://www.udio.com",
+          "flagship": "v1.5 / v1.5 Allegro",
+          "strength": "Экспериментальный звук — с критической оговоркой выше",
+          "essence_uk": null,
+          "essence_en": null,
+          "free": true,
+          "trial": null,
+          "prices": {
+            "UA": "App Store: Standard $10/мес; Pro $30/мес",
+            "UA_uk": null,
+            "UA_en": null,
+            "US": "Standard $10; Pro $30",
+            "US_uk": null,
+            "US_en": null,
+            "EU": null,
+            "EU_uk": null,
+            "EU_en": null,
+            "cheapest": null,
+            "cheapest_uk": null,
+            "cheapest_en": null
+          },
+          "languages": {
+            "ru": null,
+            "uk": null
+          },
+          "platforms": [],
+          "user_rating": null,
+          "pros": [],
+          "cons": [],
+          "bugs": [],
+          "checked": "2026-11-14"
+        },
+        {
+          "id": "elevenlabs",
+          "name": "ElevenLabs",
+          "developer": "ElevenLabs",
+          "url": "https://elevenlabs.io",
+          "flagship": "TTS/клонирование + Music v2",
+          "strength": "Самый естественный TTS, дубляж, клон голоса; музыка включена в те же планы",
+          "essence_uk": null,
+          "essence_en": null,
+          "free": true,
+          "trial": null,
+          "prices": {
+            "UA": "App Store: Creator $22/мес",
+            "UA_uk": null,
+            "UA_en": null,
+            "US": "Starter $6 (первый мес. $1); Creator $22 (первый мес. $11); Pro $99; Scale $299; годовая = 10 помесячных платежей",
+            "US_uk": null,
+            "US_en": null,
+            "EU": null,
+            "EU_uk": null,
+            "EU_en": null,
+            "cheapest": null,
+            "cheapest_uk": null,
+            "cheapest_en": null
+          },
+          "languages": {
+            "ru": null,
+            "uk": null
+          },
+          "platforms": [],
+          "user_rating": null,
+          "pros": [],
+          "cons": [],
+          "bugs": [],
+          "checked": "2026-11-14"
+        }
+      ]
     },
-    {
-     "id": "grok",
-     "name": "Grok",
-     "developer": "xAI/SpaceXAI",
-     "url": "https://grok.com",
-     "flagship": "Grok 4.7 API ($2/$6 за 1M, 500K контекст)",
-     "strength": "Живые данные X, Grok Imagine, с окт. 2026 в одной подписке Cursor + X Premium+",
-     "free": true,
-     "trial": null,
-     "prices": {
-      "UA": "App Store UA $40 за SuperGrok",
-      "EU": null,
-      "US": "The X Subscription: Plus $8; Premium $30; Super $100; Ultra $200 (SuperGrok — legacy)",
-      "cheapest": null
-     },
-     "languages": {
-      "ru": null,
-      "uk": null
-     },
-     "platforms": [],
-     "user_rating": null,
-     "pros": [],
-     "cons": [],
-     "bugs": [],
-     "checked": "2026-11-14"
+    "code": {
+      "title_ru": "Код",
+      "models": [
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "developer": "Cursor → SpaceX",
+          "url": "https://cursor.com",
+          "flagship": null,
+          "strength": "Агентный редактор",
+          "essence_uk": null,
+          "essence_en": null,
+          "free": true,
+          "trial": null,
+          "prices": {
+            "UA": "Только The X Subscription: Plus $8; Premium $30; Super $100; Ultra $200 /мес; чужие модели в Cursor — по API-прайсу сверху; legacy Pro $20 / Pro+ $60 — только у старых подписчиков",
+            "UA_uk": null,
+            "UA_en": null,
+            "US": "Только The X Subscription: Plus $8; Premium $30; Super $100; Ultra $200 /мес; чужие модели в Cursor — по API-прайсу сверху; legacy Pro $20 / Pro+ $60 — только у старых подписчиков",
+            "US_uk": null,
+            "US_en": null,
+            "EU": null,
+            "EU_uk": null,
+            "EU_en": null,
+            "cheapest": null,
+            "cheapest_uk": null,
+            "cheapest_en": null
+          },
+          "languages": {
+            "ru": null,
+            "uk": null
+          },
+          "platforms": [],
+          "user_rating": null,
+          "pros": [],
+          "cons": [],
+          "bugs": [],
+          "checked": "2026-11-14"
+        },
+        {
+          "id": "github-copilot",
+          "name": "GitHub Copilot",
+          "developer": "Microsoft/GitHub",
+          "url": "https://github.com/features/copilot",
+          "flagship": null,
+          "strength": "Ассистент в IDE/GitHub",
+          "essence_uk": null,
+          "essence_en": null,
+          "free": true,
+          "trial": "триалы Pro приостановлены с апр. 2026",
+          "prices": {
+            "UA": null,
+            "UA_uk": null,
+            "UA_en": null,
+            "US": "Pro $10 (1 500 AI credits); Pro+ $39 (7 000); Max $100; Business $19/место; Enterprise $39/место; 1 credit = $0,01",
+            "US_uk": null,
+            "US_en": null,
+            "EU": null,
+            "EU_uk": null,
+            "EU_en": null,
+            "cheapest": null,
+            "cheapest_uk": null,
+            "cheapest_en": null
+          },
+          "languages": {
+            "ru": null,
+            "uk": null
+          },
+          "platforms": [
+            "IDE",
+            "GitHub"
+          ],
+          "user_rating": null,
+          "pros": [],
+          "cons": [],
+          "bugs": [],
+          "checked": "2026-11-14"
+        },
+        {
+          "id": "codex",
+          "name": "Codex",
+          "developer": "OpenAI",
+          "url": "https://openai.com/codex",
+          "flagship": null,
+          "strength": "Кодовый агент (CLI Apache-2.0, IDE, cloud)",
+          "essence_uk": null,
+          "essence_en": null,
+          "free": true,
+          "trial": null,
+          "prices": {
+            "UA": null,
+            "UA_uk": null,
+            "UA_en": null,
+            "US": "CLI/IDE — с Plus $20; Pro $100+",
+            "US_uk": null,
+            "US_en": null,
+            "EU": null,
+            "EU_uk": null,
+            "EU_en": null,
+            "cheapest": null,
+            "cheapest_uk": null,
+            "cheapest_en": null
+          },
+          "languages": {
+            "ru": null,
+            "uk": null
+          },
+          "platforms": [
+            "CLI",
+            "IDE",
+            "cloud"
+          ],
+          "user_rating": null,
+          "pros": [],
+          "cons": [],
+          "bugs": [],
+          "checked": "2026-11-14"
+        }
+      ]
     },
-    {
-     "id": "copilot",
-     "name": "Copilot",
-     "developer": "Microsoft",
-     "url": "https://copilot.com",
-     "flagship": "Copilot на моделях OpenAI/Anthropic внутри M365",
-     "strength": "Работа внутри Word/Excel/Outlook/Windows — офисные сценарии",
-     "free": true,
-     "trial": null,
-     "prices": {
-      "UA": null,
-      "EU": null,
-      "US": "M365 Personal $9,99; Family $12,99; Premium $19,99; для бизнеса Copilot add-on ~$21/место (промо $18 до 31.12.2026), Enterprise $30/место",
-      "cheapest": null
-     },
-     "languages": {
-      "ru": null,
-      "uk": null
-     },
-     "platforms": [],
-     "user_rating": null,
-     "pros": [],
-     "cons": [],
-     "bugs": [],
-     "checked": "2026-11-14"
+    "agents": {
+      "title_ru": "Агенты",
+      "models": [
+        {
+          "id": "antigravity",
+          "name": "Antigravity",
+          "developer": "Google",
+          "url": "https://antigravity.google",
+          "flagship": null,
+          "strength": null,
+          "essence_uk": null,
+          "essence_en": null,
+          "free": true,
+          "trial": null,
+          "prices": {
+            "UA": "Через план Google AI Pro ₴909,99/мес (витрина Google UA)",
+            "UA_uk": null,
+            "UA_en": null,
+            "US": "Через Google AI Pro $19,99 (начальные лимиты агента) / Ultra $99,99–199,99 (повышенные лимиты)",
+            "US_uk": null,
+            "US_en": null,
+            "EU": null,
+            "EU_uk": null,
+            "EU_en": null,
+            "cheapest": null,
+            "cheapest_uk": null,
+            "cheapest_en": null
+          },
+          "languages": {
+            "ru": null,
+            "uk": null
+          },
+          "platforms": [],
+          "user_rating": null,
+          "pros": [],
+          "cons": [],
+          "bugs": [],
+          "checked": "2026-11-14"
+        },
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "developer": "Anthropic",
+          "url": "https://claude.com/product/claude-code",
+          "flagship": null,
+          "strength": null,
+          "essence_uk": null,
+          "essence_en": null,
+          "free": false,
+          "trial": null,
+          "prices": {
+            "UA": "Отдельной цены нет: включён в Claude Pro $17/$20, Max $100, Ultra $200, общий пул с чатом",
+            "UA_uk": null,
+            "UA_en": null,
+            "US": "Отдельной цены нет: включён в Claude Pro $17/$20, Max $100, Ultra $200, общий пул с чатом",
+            "US_uk": null,
+            "US_en": null,
+            "EU": null,
+            "EU_uk": null,
+            "EU_en": null,
+            "cheapest": null,
+            "cheapest_uk": null,
+            "cheapest_en": null
+          },
+          "languages": {
+            "ru": null,
+            "uk": null
+          },
+          "platforms": [],
+          "user_rating": null,
+          "pros": [],
+          "cons": [],
+          "bugs": [],
+          "checked": "2026-11-14"
+        },
+        {
+          "id": "codex",
+          "name": "Codex",
+          "developer": "OpenAI",
+          "url": "https://openai.com/codex",
+          "flagship": null,
+          "strength": "Кодовый агент (CLI Apache-2.0, IDE, cloud)",
+          "essence_uk": null,
+          "essence_en": null,
+          "free": true,
+          "trial": null,
+          "prices": {
+            "UA": null,
+            "UA_uk": null,
+            "UA_en": null,
+            "US": "CLI/IDE — с Plus $20; Pro $100+",
+            "US_uk": null,
+            "US_en": null,
+            "EU": null,
+            "EU_uk": null,
+            "EU_en": null,
+            "cheapest": null,
+            "cheapest_uk": null,
+            "cheapest_en": null
+          },
+          "languages": {
+            "ru": null,
+            "uk": null
+          },
+          "platforms": [
+            "CLI",
+            "IDE",
+            "cloud"
+          ],
+          "user_rating": null,
+          "pros": [],
+          "cons": [],
+          "bugs": [],
+          "checked": "2026-11-14"
+        },
+        {
+          "id": "opencode",
+          "name": "OpenCode",
+          "developer": "Anomaly",
+          "url": "https://opencode.ai",
+          "flagship": null,
+          "strength": null,
+          "essence_uk": null,
+          "essence_en": null,
+          "free": true,
+          "trial": null,
+          "prices": {
+            "UA": null,
+            "UA_uk": null,
+            "UA_en": null,
+            "US": "OpenCode Go $10/мес (первый мес. $5) за open-weight модели; Zen — pay-as-you-go; или свой провайдер",
+            "US_uk": null,
+            "US_en": null,
+            "EU": null,
+            "EU_uk": null,
+            "EU_en": null,
+            "cheapest": null,
+            "cheapest_uk": null,
+            "cheapest_en": null
+          },
+          "languages": {
+            "ru": null,
+            "uk": null
+          },
+          "platforms": [],
+          "user_rating": null,
+          "pros": [],
+          "cons": [],
+          "bugs": [],
+          "checked": "2026-11-14"
+        },
+        {
+          "id": "manus",
+          "name": "Manus",
+          "developer": "Manus AI",
+          "url": "https://manus.im",
+          "flagship": null,
+          "strength": null,
+          "essence_uk": null,
+          "essence_en": null,
+          "free": true,
+          "trial": "7-дневный триал на тарифе Plus",
+          "prices": {
+            "UA": null,
+            "UA_uk": null,
+            "UA_en": null,
+            "US": "Standard $20 (4 000 credits); Plus $40 (8 000); Pro/Extended $200 (40 000); годовая −17%",
+            "US_uk": null,
+            "US_en": null,
+            "EU": null,
+            "EU_uk": null,
+            "EU_en": null,
+            "cheapest": null,
+            "cheapest_uk": null,
+            "cheapest_en": null
+          },
+          "languages": {
+            "ru": null,
+            "uk": null
+          },
+          "platforms": [],
+          "user_rating": null,
+          "pros": [],
+          "cons": [],
+          "bugs": [],
+          "checked": "2026-11-14"
+        },
+        {
+          "id": "devin",
+          "name": "Devin",
+          "developer": "Cognition",
+          "url": "https://devin.ai",
+          "flagship": null,
+          "strength": null,
+          "essence_uk": null,
+          "essence_en": null,
+          "free": true,
+          "trial": null,
+          "prices": {
+            "UA": null,
+            "UA_uk": null,
+            "UA_en": null,
+            "US": "Pro $20; Max $200; Teams $80 + $40/место разработчика",
+            "US_uk": null,
+            "US_en": null,
+            "EU": null,
+            "EU_uk": null,
+            "EU_en": null,
+            "cheapest": null,
+            "cheapest_uk": null,
+            "cheapest_en": null
+          },
+          "languages": {
+            "ru": null,
+            "uk": null
+          },
+          "platforms": [
+            "Desktop"
+          ],
+          "user_rating": null,
+          "pros": [],
+          "cons": [],
+          "bugs": [],
+          "checked": "2026-11-14"
+        },
+        {
+          "id": "goose",
+          "name": "Goose",
+          "developer": "Block → Agentic AI Foundation",
+          "url": "https://goose-docs.ai",
+          "flagship": null,
+          "strength": null,
+          "essence_uk": null,
+          "essence_en": null,
+          "free": true,
+          "trial": null,
+          "prices": {
+            "UA": null,
+            "UA_uk": null,
+            "UA_en": null,
+            "US": null,
+            "US_uk": null,
+            "US_en": null,
+            "EU": null,
+            "EU_uk": null,
+            "EU_en": null,
+            "cheapest": null,
+            "cheapest_uk": null,
+            "cheapest_en": null
+          },
+          "languages": {
+            "ru": null,
+            "uk": null
+          },
+          "platforms": [],
+          "user_rating": null,
+          "pros": [],
+          "cons": [],
+          "bugs": [],
+          "checked": "2026-11-14"
+        },
+        {
+          "id": "dots",
+          "name": "Dots",
+          "developer": "OpenAI",
+          "url": "https://openai.com/dots",
+          "flagship": null,
+          "strength": "always-on агент на GPT-6 Astra + GPT-6.1 Terra",
+          "essence_uk": null,
+          "essence_en": null,
+          "free": false,
+          "trial": null,
+          "prices": {
+            "UA": "Только ChatGPT Pro от $100 или Business Premium $125/место",
+            "UA_uk": null,
+            "UA_en": null,
+            "US": "Только ChatGPT Pro от $100 или Business Premium $125/место",
+            "US_uk": null,
+            "US_en": null,
+            "EU": null,
+            "EU_uk": null,
+            "EU_en": null,
+            "cheapest": null,
+            "cheapest_uk": null,
+            "cheapest_en": null
+          },
+          "languages": {
+            "ru": null,
+            "uk": null
+          },
+          "platforms": [],
+          "user_rating": null,
+          "pros": [],
+          "cons": [],
+          "bugs": [],
+          "checked": "2026-11-14"
+        },
+        {
+          "id": "grok-bot",
+          "name": "Grok Bot",
+          "developer": "xAI/SpaceXAI",
+          "url": "https://grok.com",
+          "flagship": null,
+          "strength": "команда именованных ботов на одном облачном Linux",
+          "essence_uk": null,
+          "essence_en": null,
+          "free": false,
+          "trial": "7-дневный usage-credit триал",
+          "prices": {
+            "UA": "The X Subscription Premium $30+; общий недельный пул с Grok и Cursor",
+            "UA_uk": null,
+            "UA_en": null,
+            "US": "The X Subscription Premium $30+; общий недельный пул с Grok и Cursor",
+            "US_uk": null,
+            "US_en": null,
+            "EU": null,
+            "EU_uk": null,
+            "EU_en": null,
+            "cheapest": null,
+            "cheapest_uk": null,
+            "cheapest_en": null
+          },
+          "languages": {
+            "ru": null,
+            "uk": null
+          },
+          "platforms": [
+            "облачный Linux"
+          ],
+          "user_rating": null,
+          "pros": [],
+          "cons": [],
+          "bugs": [],
+          "checked": "2026-11-14"
+        }
+      ]
     },
-    {
-     "id": "mistral-vibe",
-     "name": "Mistral / Vibe",
-     "developer": "Mistral AI",
-     "url": "https://mistral.ai",
-     "flagship": "Mistral Vibe (Le Chat) + Vibe for code",
-     "strength": "Самый дешёвый «стандартный» западный план; европейская юрисдикция и приватность",
-     "free": true,
-     "trial": null,
-     "prices": {
-      "UA": null,
-      "EU": "Team €29,99/польз. с НДС (EU-хостинг по умолчанию)",
-      "US": "Pro $14,99 (студентам $5,99); Team $24,99/польз.",
-      "cheapest": null
-     },
-     "languages": {
-      "ru": null,
-      "uk": null
-     },
-     "platforms": [],
-     "user_rating": null,
-     "pros": [],
-     "cons": [],
-     "bugs": [],
-     "checked": "2026-11-14"
-    },
-    {
-     "id": "deepseek",
-     "name": "DeepSeek",
-     "developer": "DeepSeek",
-     "url": "https://chat.deepseek.com",
-     "flagship": "V4.1-Flash-1017 в чате; API deepseek-flash $0,15/$0,60 off-peak (пик ×2), v4-pro $0,66/$1,98",
-     "strength": "Бесплатный сильный чат + самый дешёвый фронтирный API; веса MIT",
-     "free": true,
-     "trial": null,
-     "prices": {
-      "UA": null,
-      "EU": null,
-      "US": "Только API по токенам, предоплаченный баланс; Search/Fetch $0,75/1 000 запросов",
-      "cheapest": null
-     },
-     "languages": {
-      "ru": null,
-      "uk": null
-     },
-     "platforms": [],
-     "user_rating": null,
-     "pros": [],
-     "cons": [],
-     "bugs": [],
-     "checked": "2026-11-14"
-    },
-    {
-     "id": "qwen",
-     "name": "Qwen",
-     "developer": "Alibaba",
-     "url": "https://chat.qwen.ai",
-     "flagship": "Qwen3.8-Max (API $2/$6; в регионе Frankfurt/global $1,65/$4,95)",
-     "strength": "Сильные открытые и закрытые модели, мультимодальность, языки",
-     "free": true,
-     "trial": null,
-     "prices": {
-      "UA": null,
-      "EU": "Frankfurt/global $1,65/$4,95",
-      "US": "API по токенам; Singapore/US $2/$6",
-      "cheapest": "Frankfurt/global $1,65/$4,95"
-     },
-     "languages": {
-      "ru": null,
-      "uk": null
-     },
-     "platforms": [],
-     "user_rating": null,
-     "pros": [],
-     "cons": [],
-     "bugs": [],
-     "checked": "2026-11-14"
-    },
-    {
-     "id": "kimi",
-     "name": "Kimi",
-     "developer": "Moonshot AI",
-     "url": "https://www.kimi.com",
-     "flagship": "Kimi K3.1 Pro (API $2/$10, 1M контекст; K3 $3/$15 — предыдущий флагман, open weights)",
-     "strength": "Очень длинный контекст, агентные и кодовые задачи, открытые веса K3",
-     "free": true,
-     "trial": null,
-     "prices": {
-      "UA": null,
-      "EU": null,
-      "US": "API по токенам; Kimi K3.1 Pro API $2/$10; Batch −40% у K3",
-      "cheapest": null
-     },
-     "languages": {
-      "ru": null,
-      "uk": null
-     },
-     "platforms": [],
-     "user_rating": null,
-     "pros": [],
-     "cons": [],
-     "bugs": [],
-     "checked": "2026-11-14"
-    },
-    {
-     "id": "perplexity",
-     "name": "Perplexity",
-     "developer": "Perplexity AI",
-     "url": "https://www.perplexity.ai",
-     "flagship": "Поисковая машина ответов; в Pro — выбор моделей (GPT-6.1 Sol, Sonnet 5.5, Gemini 3.8 Flash и др.)",
-     "strength": "Исследования с цитатами и источниками; Computer-агент за кредиты",
-     "free": true,
-     "trial": null,
-     "prices": {
-      "UA": null,
-      "EU": null,
-      "US": "Pro $20 ($17 при годовой); Max $200; Education Pro $10",
-      "cheapest": "Pro $17,53 (Канада, App Store)"
-     },
-     "languages": {
-      "ru": null,
-      "uk": null
-     },
-     "platforms": [],
-     "user_rating": null,
-     "pros": [],
-     "cons": [],
-     "bugs": [],
-     "checked": "2026-11-14"
-    },
-    {
-     "id": "meta-ai",
-     "name": "Meta AI",
-     "developer": "Meta",
-     "url": "https://www.meta.ai",
-     "flagship": "Ассистент на моделях Meta (Muse-линейка «скоро» для подписчиков Muse)",
-     "strength": "Бесплатный ассистент внутри WhatsApp/Instagram/Facebook",
-     "free": true,
-     "trial": null,
-     "prices": {
-      "UA": null,
-      "EU": null,
-      "US": null,
-      "cheapest": null
-     },
-     "languages": {
-      "ru": null,
-      "uk": null
-     },
-     "platforms": [],
-     "user_rating": null,
-     "pros": [],
-     "cons": [],
-     "bugs": [],
-     "checked": "2026-11-14"
-    },
-    {
-     "id": "poe",
-     "name": "Poe",
-     "developer": "Quora",
-     "url": "https://poe.com",
-     "flagship": "Агрегатор: 200+ официальных моделей + 1 млн+ community-ботов в одном окне",
-     "strength": "Одна подписка вместо пяти: сравнение моделей бок о бок, свои боты",
-     "free": true,
-     "trial": null,
-     "prices": {
-      "UA": null,
-      "EU": "FR App Store: €5,99 / €22,99",
-      "US": "$4,99 (10K points/день); $19,99 (660K/мес); $49,99; $99,99; $249,99; годовая −17%; доп. points $30/1M",
-      "cheapest": null
-     },
-     "languages": {
-      "ru": null,
-      "uk": null
-     },
-     "platforms": [],
-     "user_rating": null,
-     "pros": [],
-     "cons": [],
-     "bugs": [],
-     "checked": "2026-11-14"
+    "local": {
+      "title_ru": "Локальные модели",
+      "models": [
+        {
+          "id": "lm-studio",
+          "name": "LM Studio",
+          "developer": "LM Studio",
+          "url": "https://lmstudio.ai",
+          "flagship": null,
+          "strength": "Самый простой способ скачать и запустить открытую модель на десктопе",
+          "essence_uk": null,
+          "essence_en": null,
+          "free": true,
+          "trial": null,
+          "prices": {
+            "UA": null,
+            "UA_uk": null,
+            "UA_en": null,
+            "US": "$0 локально",
+            "US_uk": null,
+            "US_en": null,
+            "EU": null,
+            "EU_uk": null,
+            "EU_en": null,
+            "cheapest": null,
+            "cheapest_uk": null,
+            "cheapest_en": null
+          },
+          "languages": {
+            "ru": null,
+            "uk": null
+          },
+          "platforms": [],
+          "user_rating": null,
+          "pros": [],
+          "cons": [],
+          "bugs": [],
+          "checked": "2026-11-14"
+        },
+        {
+          "id": "ollama",
+          "name": "Ollama",
+          "developer": "Ollama",
+          "url": "https://ollama.com",
+          "flagship": null,
+          "strength": "Стандарт локального запуска для разработчиков: CLI + локальный API",
+          "essence_uk": null,
+          "essence_en": null,
+          "free": true,
+          "trial": null,
+          "prices": {
+            "UA": null,
+            "UA_uk": null,
+            "UA_en": null,
+            "US": "$0 локально без лимитов; Ollama Cloud: Free со стартовыми кредитами, Pro $20/мес",
+            "US_uk": null,
+            "US_en": null,
+            "EU": null,
+            "EU_uk": null,
+            "EU_en": null,
+            "cheapest": null,
+            "cheapest_uk": null,
+            "cheapest_en": null
+          },
+          "languages": {
+            "ru": null,
+            "uk": null
+          },
+          "platforms": [],
+          "user_rating": null,
+          "pros": [],
+          "cons": [],
+          "bugs": [],
+          "checked": "2026-11-14"
+        },
+        {
+          "id": "gpt4all",
+          "name": "GPT4All",
+          "developer": "Nomic AI",
+          "url": "https://www.nomic.ai/gpt4all",
+          "flagship": null,
+          "strength": "Оффлайн-чат и поиск по своим документам без подписки; развитие замедлилось (репозиторий обновлялся в 2025)",
+          "essence_uk": null,
+          "essence_en": null,
+          "free": true,
+          "trial": null,
+          "prices": {
+            "UA": null,
+            "UA_uk": null,
+            "UA_en": null,
+            "US": "$0",
+            "US_uk": null,
+            "US_en": null,
+            "EU": null,
+            "EU_uk": null,
+            "EU_en": null,
+            "cheapest": null,
+            "cheapest_uk": null,
+            "cheapest_en": null
+          },
+          "languages": {
+            "ru": null,
+            "uk": null
+          },
+          "platforms": [],
+          "user_rating": null,
+          "pros": [],
+          "cons": [],
+          "bugs": [],
+          "checked": "2026-11-14"
+        },
+        {
+          "id": "jan",
+          "name": "Jan",
+          "developer": "Menlo Research",
+          "url": "https://www.jan.ai",
+          "flagship": null,
+          "strength": "Полностью открытый десктопный ChatGPT-аналог, OpenAI-совместимый локальный сервер",
+          "essence_uk": null,
+          "essence_en": null,
+          "free": true,
+          "trial": null,
+          "prices": {
+            "UA": null,
+            "UA_uk": null,
+            "UA_en": null,
+            "US": "$0",
+            "US_uk": null,
+            "US_en": null,
+            "EU": null,
+            "EU_uk": null,
+            "EU_en": null,
+            "cheapest": null,
+            "cheapest_uk": null,
+            "cheapest_en": null
+          },
+          "languages": {
+            "ru": null,
+            "uk": null
+          },
+          "platforms": [],
+          "user_rating": null,
+          "pros": [],
+          "cons": [],
+          "bugs": [],
+          "checked": "2026-11-14"
+        },
+        {
+          "id": "open-webui",
+          "name": "Open WebUI",
+          "developer": "Open WebUI",
+          "url": "https://openwebui.com",
+          "flagship": null,
+          "strength": "Командный веб-интерфейс поверх Ollama/OpenAI-совместимых API",
+          "essence_uk": null,
+          "essence_en": null,
+          "free": true,
+          "trial": null,
+          "prices": {
+            "UA": null,
+            "UA_uk": null,
+            "UA_en": null,
+            "US": "$0 self-hosted",
+            "US_uk": null,
+            "US_en": null,
+            "EU": null,
+            "EU_uk": null,
+            "EU_en": null,
+            "cheapest": null,
+            "cheapest_uk": null,
+            "cheapest_en": null
+          },
+          "languages": {
+            "ru": null,
+            "uk": null
+          },
+          "platforms": [],
+          "user_rating": null,
+          "pros": [],
+          "cons": [],
+          "bugs": [],
+          "checked": "2026-11-14"
+        },
+        {
+          "id": "bionic",
+          "name": "Bionic",
+          "developer": null,
+          "url": "https://github.com/bionic-gpt/bionic-gpt",
+          "flagship": null,
+          "strength": "«Нет GPU»-сценарий внутри экосистемы LM Studio; отдельной публичной страницы цен вне LM Studio в исследовании не найдено — частично не подтверждено",
+          "essence_uk": null,
+          "essence_en": null,
+          "free": true,
+          "trial": null,
+          "prices": {
+            "UA": null,
+            "UA_uk": null,
+            "UA_en": null,
+            "US": "Free / Bionic+ $20 / Pro $100",
+            "US_uk": null,
+            "US_en": null,
+            "EU": null,
+            "EU_uk": null,
+            "EU_en": null,
+            "cheapest": null,
+            "cheapest_uk": null,
+            "cheapest_en": null
+          },
+          "languages": {
+            "ru": null,
+            "uk": null
+          },
+          "platforms": [],
+          "user_rating": null,
+          "pros": [],
+          "cons": [],
+          "bugs": [],
+          "checked": "2026-11-14"
+        }
+      ]
     }
-   ]
-  },
-  "images": {
-   "title_ru": "Картинки",
-   "models": [
-    {
-     "id": "midjourney",
-     "name": "Midjourney",
-     "developer": "Midjourney, Inc.",
-     "url": "https://www.midjourney.com",
-     "flagship": "V8.2 (default с 24.07.2026)",
-     "strength": "Художественное качество и стилистика; Stealth — с Pro",
-     "free": false,
-     "trial": "триал закрыт в 2023",
-     "prices": {
-      "UA": null,
-      "EU": null,
-      "US": "Basic $10; Standard $30; Pro $60; Mega $120; годовая −20%; extra Fast $4/час",
-      "cheapest": null
-     },
-     "languages": {
-      "ru": null,
-      "uk": null
-     },
-     "platforms": [],
-     "user_rating": null,
-     "pros": [],
-     "cons": [],
-     "bugs": [],
-     "checked": "2026-11-14"
-    },
-    {
-     "id": "nano-banana-imagen",
-     "name": "Nano Banana / Imagen",
-     "developer": "Google",
-     "url": "https://deepmind.google/models/gemini-image/",
-     "flagship": "Nano Banana 2.1 и Pro (Gemini 3 Pro Image); на fal: $0,08 и $0,15/картинка; в Gemini-планах — Flow credits",
-     "strength": "Редактирование картинок текстом, консистентность персонажей, скорость",
-     "free": true,
-     "trial": null,
-     "prices": {
-      "UA": null,
-      "EU": null,
-      "US": "Через Google AI планы $4,99–199,99 или API по картинке",
-      "cheapest": null
-     },
-     "languages": {
-      "ru": null,
-      "uk": null
-     },
-     "platforms": [],
-     "user_rating": null,
-     "pros": [],
-     "cons": [],
-     "bugs": [],
-     "checked": "2026-11-14"
-    },
-    {
-     "id": "gpt-image",
-     "name": "GPT Image",
-     "developer": "OpenAI",
-     "url": "https://platform.openai.com/docs/models/gpt-image-1",
-     "flagship": "GPT Image 2.5 Sunburst/Flare; 2.6 — те же ставки ($5 текст / $8 картинка-вход / $30 выход за 1M токенов; ~$0,006–0,211 за картинку 1024² по качеству)",
-     "strength": "Текст в картинке, точные правки, интеграция с ChatGPT",
-     "free": true,
-     "trial": null,
-     "prices": {
-      "UA": null,
-      "EU": null,
-      "US": "API по токенам; в подписках ChatGPT",
-      "cheapest": null
-     },
-     "languages": {
-      "ru": null,
-      "uk": null
-     },
-     "platforms": [],
-     "user_rating": null,
-     "pros": [],
-     "cons": [],
-     "bugs": [],
-     "checked": "2026-11-14"
-    },
-    {
-     "id": "flux",
-     "name": "FLUX",
-     "developer": "Black Forest Labs",
-     "url": "https://bfl.ai",
-     "flagship": "FLUX 3 Image (от $0,0205/картинка на launch-скидке, list $0,041–0,048 за 1K)",
-     "strength": "Фотореализм, API-first, европейский вендор",
-     "free": true,
-     "trial": null,
-     "prices": {
-      "UA": null,
-      "EU": null,
-      "US": "Подписок нет: pay-per-image, кредиты $0,01",
-      "cheapest": null
-     },
-     "languages": {
-      "ru": null,
-      "uk": null
-     },
-     "platforms": [],
-     "user_rating": null,
-     "pros": [],
-     "cons": [],
-     "bugs": [],
-     "checked": "2026-11-14"
-    },
-    {
-     "id": "ideogram",
-     "name": "Ideogram",
-     "developer": "Ideogram",
-     "url": "https://ideogram.ai",
-     "flagship": "Ideogram 4.0 (~$0,06/картинка)",
-     "strength": "Типографика: читаемый текст на постерах и логотипах",
-     "free": true,
-     "trial": null,
-     "prices": {
-      "UA": null,
-      "EU": null,
-      "US": "Plus $20 (1 000 credits); Pro $60",
-      "cheapest": null
-     },
-     "languages": {
-      "ru": null,
-      "uk": null
-     },
-     "platforms": [],
-     "user_rating": null,
-     "pros": [],
-     "cons": [],
-     "bugs": [],
-     "checked": "2026-11-14"
-    },
-    {
-     "id": "recraft",
-     "name": "Recraft",
-     "developer": "Recraft",
-     "url": "https://www.recraft.ai",
-     "flagship": "Recraft V4.1 Pro ($0,21/картинка в тестах — самая резкая детализация)",
-     "strength": "Векторы (SVG), бренд-стили, иконки",
-     "free": true,
-     "trial": null,
-     "prices": {
-      "UA": null,
-      "EU": null,
-      "US": "Basic $10 при годовой ($12 помесячно), 1 000 credits",
-      "cheapest": null
-     },
-     "languages": {
-      "ru": null,
-      "uk": null
-     },
-     "platforms": [],
-     "user_rating": null,
-     "pros": [],
-     "cons": [],
-     "bugs": [],
-     "checked": "2026-11-14"
-    },
-    {
-     "id": "leonardo",
-     "name": "Leonardo",
-     "developer": "Leonardo.Ai / Canva",
-     "url": "https://leonardo.ai",
-     "flagship": "Leonardo 2/3",
-     "strength": "Игровые ассеты, кастомные модели, редактор-канва",
-     "free": true,
-     "trial": null,
-     "prices": {
-      "UA": null,
-      "EU": null,
-      "US": "Essential от $12",
-      "cheapest": null
-     },
-     "languages": {
-      "ru": null,
-      "uk": null
-     },
-     "platforms": [],
-     "user_rating": null,
-     "pros": [],
-     "cons": [],
-     "bugs": [],
-     "checked": "2026-11-14"
-    },
-    {
-     "id": "stable-diffusion",
-     "name": "Stable Diffusion",
-     "developer": "Stability AI",
-     "url": "https://stability.ai",
-     "flagship": "SD 3.5 (Large/Turbo/Medium)",
-     "strength": "Локальный запуск, файнтюнинг, экосистема ComfyUI/LoRA",
-     "free": true,
-     "trial": null,
-     "prices": {
-      "UA": null,
-      "EU": null,
-      "US": "API: Flash $0,025, Large $0,065/картинка (1 credit = $0,01); старт — 25 free credits",
-      "cheapest": null
-     },
-     "languages": {
-      "ru": null,
-      "uk": null
-     },
-     "platforms": [],
-     "user_rating": null,
-     "pros": [],
-     "cons": [],
-     "bugs": [],
-     "checked": "2026-11-14"
-    }
-   ]
-  },
-  "video": {
-   "title_ru": "Видео",
-   "models": [
-    {
-     "id": "kling",
-     "name": "Kling",
-     "developer": "Kuaishou",
-     "url": "https://kling.ai",
-     "flagship": "Kling 4.0 (15.10.2026, 3–30 сек, стереозвук)",
-     "strength": "Реалистичное движение людей, длина клипа, цена/сек",
-     "free": true,
-     "trial": null,
-     "prices": {
-      "UA": null,
-      "EU": null,
-      "US": "Standard $6,99 первый мес., далее $8,80 (660 credits); Pro $25,99→$32,56; API ~$0,157/сек 720p",
-      "cheapest": null
-     },
-     "languages": {
-      "ru": null,
-      "uk": null
-     },
-     "platforms": [],
-     "user_rating": null,
-     "pros": [],
-     "cons": [],
-     "bugs": [],
-     "checked": "2026-11-14"
-    },
-    {
-     "id": "seedance",
-     "name": "Seedance",
-     "developer": "ByteDance",
-     "url": "https://seed.bytedance.com/en/seedance",
-     "flagship": "Seedance 2.5 (4–30 сек; ~$0,21/сек 720p на сторонних API; 2.0 — $0,15/сек 720p)",
-     "strength": "Мультишот, референсы, широкий набор форматов до 21:9",
-     "free": null,
-     "trial": null,
-     "prices": {
-      "UA": null,
-      "EU": null,
-      "US": "По секунде/кредитам платформ (PixVerse, fal и др.)",
-      "cheapest": null
-     },
-     "languages": {
-      "ru": null,
-      "uk": null
-     },
-     "platforms": [],
-     "user_rating": null,
-     "pros": [],
-     "cons": [],
-     "bugs": [],
-     "checked": "2026-11-14"
-    },
-    {
-     "id": "veo",
-     "name": "Veo",
-     "developer": "Google",
-     "url": "https://deepmind.google/models/veo/",
-     "flagship": "Veo 3.1 (Vertex: $0,40/сек со звуком, $0,20 без, 720p/1080p; 4K $0,60/$0,40); в Gemini API заменён Gemini Omni Flash 22.10.2026",
-     "strength": "Диалоги и звук в одном проходе, реализм",
-     "free": true,
-     "trial": null,
-     "prices": {
-      "UA": null,
-      "EU": null,
-      "US": "Через Google AI Pro $19,99 (1 000 Flow credits) / Ultra; API по секунде",
-      "cheapest": null
-     },
-     "languages": {
-      "ru": null,
-      "uk": null
-     },
-     "platforms": [],
-     "user_rating": null,
-     "pros": [],
-     "cons": [],
-     "bugs": [],
-     "checked": "2026-11-14"
-    },
-    {
-     "id": "runway",
-     "name": "Runway",
-     "developer": "Runway",
-     "url": "https://runway.com",
-     "flagship": "Gen-4.5 (API $0,12/сек)",
-     "strength": "Профессиональный контроль камеры, монтаж, один ключ на много моделей",
-     "free": true,
-     "trial": null,
-     "prices": {
-      "UA": null,
-      "EU": null,
-      "US": "Standard $15 (625 credits); Pro $35; Max $95; API $0,01/credit",
-      "cheapest": null
-     },
-     "languages": {
-      "ru": null,
-      "uk": null
-     },
-     "platforms": [],
-     "user_rating": null,
-     "pros": [],
-     "cons": [],
-     "bugs": [],
-     "checked": "2026-11-14"
-    },
-    {
-     "id": "dream-machine",
-     "name": "Dream Machine",
-     "developer": "Luma",
-     "url": "https://lumalabs.ai/dream-machine",
-     "flagship": "Ray3.2 (API ~$0,03/сек 540p)",
-     "strength": "Кинематографичное движение камеры, кейфреймы",
-     "free": null,
-     "trial": null,
-     "prices": {
-      "UA": null,
-      "EU": null,
-      "US": "Plus $30 (10 000 credits); Pro $90; Ultra $300",
-      "cheapest": null
-     },
-     "languages": {
-      "ru": null,
-      "uk": null
-     },
-     "platforms": [],
-     "user_rating": null,
-     "pros": [],
-     "cons": [],
-     "bugs": [],
-     "checked": "2026-11-14"
-    },
-    {
-     "id": "pika",
-     "name": "Pika",
-     "developer": "Pika",
-     "url": "https://pika.art",
-     "flagship": "Pika 2.5 (API $0,04/сек 720p)",
-     "strength": "Короткие соц-клипы, эффекты, скорость итераций",
-     "free": true,
-     "trial": null,
-     "prices": {
-      "UA": null,
-      "EU": null,
-      "US": "Standard $10 ($8 годовая); Pro $35",
-      "cheapest": null
-     },
-     "languages": {
-      "ru": null,
-      "uk": null
-     },
-     "platforms": [],
-     "user_rating": null,
-     "pros": [],
-     "cons": [],
-     "bugs": [],
-     "checked": "2026-11-14"
-    },
-    {
-     "id": "hailuo",
-     "name": "Hailuo",
-     "developer": "MiniMax",
-     "url": "https://hailuoai.video",
-     "flagship": "H3 / Hailuo 2.3 (API от ~$0,015/сек на legacy 512p)",
-     "strength": "Физика (вода, ткань), точность промпта за малые деньги",
-     "free": true,
-     "trial": null,
-     "prices": {
-      "UA": null,
-      "EU": null,
-      "US": "Standard ~$10,50 (1 000 credits); Pro $38",
-      "cheapest": null
-     },
-     "languages": {
-      "ru": null,
-      "uk": null
-     },
-     "platforms": [],
-     "user_rating": null,
-     "pros": [],
-     "cons": [],
-     "bugs": [],
-     "checked": "2026-11-14"
-    }
-   ]
-  },
-  "audio": {
-   "title_ru": "Звук",
-   "models": [
-    {
-     "id": "suno",
-     "name": "Suno",
-     "developer": "Suno, Inc.",
-     "url": "https://suno.com",
-     "flagship": "v6 / v6-wild / v6-mini (09.09.2026)",
-     "strength": "Полные песни с вокалом из одного промпта",
-     "free": true,
-     "trial": null,
-     "prices": {
-      "UA": null,
-      "EU": null,
-      "US": "Pro $10 ($8 годовая), 2 500 credits, лимит 20 скачиваний/мес; Premier $30 ($24), 60 скачиваний",
-      "cheapest": null
-     },
-     "languages": {
-      "ru": null,
-      "uk": null
-     },
-     "platforms": [],
-     "user_rating": null,
-     "pros": [],
-     "cons": [],
-     "bugs": [],
-     "checked": "2026-11-14"
-    },
-    {
-     "id": "udio",
-     "name": "Udio",
-     "developer": "Udio",
-     "url": "https://www.udio.com",
-     "flagship": "v1.5 / v1.5 Allegro",
-     "strength": "Экспериментальный звук — с критической оговоркой выше",
-     "free": true,
-     "trial": null,
-     "prices": {
-      "UA": null,
-      "EU": null,
-      "US": "Standard $10; Pro $30",
-      "cheapest": null
-     },
-     "languages": {
-      "ru": null,
-      "uk": null
-     },
-     "platforms": [],
-     "user_rating": null,
-     "pros": [],
-     "cons": [],
-     "bugs": [],
-     "checked": "2026-11-14"
-    },
-    {
-     "id": "elevenlabs",
-     "name": "ElevenLabs",
-     "developer": "ElevenLabs",
-     "url": "https://elevenlabs.io",
-     "flagship": "TTS/клонирование + Music v2",
-     "strength": "Самый естественный TTS, дубляж, клон голоса; музыка включена в те же планы",
-     "free": true,
-     "trial": null,
-     "prices": {
-      "UA": null,
-      "EU": null,
-      "US": "Starter $6 (первый мес. $1); Creator $22 (первый мес. $11); Pro $99; Scale $299; годовая = 10 помесячных платежей",
-      "cheapest": null
-     },
-     "languages": {
-      "ru": null,
-      "uk": null
-     },
-     "platforms": [],
-     "user_rating": null,
-     "pros": [],
-     "cons": [],
-     "bugs": [],
-     "checked": "2026-11-14"
-    }
-   ]
-  },
-  "code": {
-   "title_ru": "Код",
-   "models": [
-    {
-     "id": "cursor",
-     "name": "Cursor",
-     "developer": "Cursor → SpaceX",
-     "url": "https://cursor.com",
-     "flagship": null,
-     "strength": "Агентный редактор",
-     "free": true,
-     "trial": null,
-     "prices": {
-      "UA": null,
-      "EU": null,
-      "US": "С 12.10.2026 только The X Subscription: Plus $8 / Premium $30 / Super $100 / Ultra $200; чужие модели — по API-прайсу сверху. Legacy Pro $20 / Pro+ $60 — только у старых подписчиков",
-      "cheapest": null
-     },
-     "languages": {
-      "ru": null,
-      "uk": null
-     },
-     "platforms": [],
-     "user_rating": null,
-     "pros": [],
-     "cons": [],
-     "bugs": [],
-     "checked": "2026-11-14"
-    },
-    {
-     "id": "github-copilot",
-     "name": "GitHub Copilot",
-     "developer": "Microsoft/GitHub",
-     "url": "https://github.com/features/copilot",
-     "flagship": null,
-     "strength": "Ассистент в IDE/GitHub",
-     "free": true,
-     "trial": "триалы Pro приостановлены с апр. 2026",
-     "prices": {
-      "UA": null,
-      "EU": null,
-      "US": "Pro $10 (1 500 AI credits); Pro+ $39 (7 000); Max $100; Business $19/место; Enterprise $39/место; 1 credit = $0,01",
-      "cheapest": null
-     },
-     "languages": {
-      "ru": null,
-      "uk": null
-     },
-     "platforms": [
-      "IDE",
-      "GitHub"
-     ],
-     "user_rating": null,
-     "pros": [],
-     "cons": [],
-     "bugs": [],
-     "checked": "2026-11-14"
-    },
-    {
-     "id": "codex",
-     "name": "Codex",
-     "developer": "OpenAI",
-     "url": "https://openai.com/codex",
-     "flagship": null,
-     "strength": "Кодовый агент (CLI Apache-2.0, IDE, cloud)",
-     "free": true,
-     "trial": null,
-     "prices": {
-      "UA": null,
-      "EU": null,
-      "US": "CLI/IDE — с Plus $20; Pro $100+",
-      "cheapest": null
-     },
-     "languages": {
-      "ru": null,
-      "uk": null
-     },
-     "platforms": [
-      "CLI",
-      "IDE",
-      "cloud"
-     ],
-     "user_rating": null,
-     "pros": [],
-     "cons": [],
-     "bugs": [],
-     "checked": "2026-11-14"
-    }
-   ]
-  },
-  "agents": {
-   "title_ru": "Агенты",
-   "models": [
-    {
-     "id": "antigravity",
-     "name": "Antigravity",
-     "developer": "Google",
-     "url": "https://antigravity.google",
-     "flagship": null,
-     "strength": null,
-     "free": true,
-     "trial": null,
-     "prices": {
-      "UA": null,
-      "EU": null,
-      "US": "Через Google AI Pro $19,99 (обновление квоты каждые 5 ч, Argon + Claude Sonnet/Opus 5.5) / Ultra от $99,99 (Gemini 4 Carbon); Business — Gemini Enterprise от $30/место",
-      "cheapest": null
-     },
-     "languages": {
-      "ru": null,
-      "uk": null
-     },
-     "platforms": [],
-     "user_rating": null,
-     "pros": [],
-     "cons": [],
-     "bugs": [],
-     "checked": "2026-11-14"
-    },
-    {
-     "id": "claude-code",
-     "name": "Claude Code",
-     "developer": "Anthropic",
-     "url": "https://claude.com/product/claude-code",
-     "flagship": null,
-     "strength": null,
-     "free": false,
-     "trial": null,
-     "prices": {
-      "UA": null,
-      "EU": null,
-      "US": "Включён в Pro $20 / Max $100 / Ultra $200, общий пул с чатом",
-      "cheapest": null
-     },
-     "languages": {
-      "ru": null,
-      "uk": null
-     },
-     "platforms": [],
-     "user_rating": null,
-     "pros": [],
-     "cons": [],
-     "bugs": [],
-     "checked": "2026-11-14"
-    },
-    {
-     "id": "codex",
-     "name": "Codex",
-     "developer": "OpenAI",
-     "url": "https://openai.com/codex",
-     "flagship": null,
-     "strength": "Кодовый агент (CLI Apache-2.0, IDE, cloud)",
-     "free": true,
-     "trial": null,
-     "prices": {
-      "UA": null,
-      "EU": null,
-      "US": "CLI/IDE — с Plus $20; Pro $100+",
-      "cheapest": null
-     },
-     "languages": {
-      "ru": null,
-      "uk": null
-     },
-     "platforms": [
-      "CLI",
-      "IDE",
-      "cloud"
-     ],
-     "user_rating": null,
-     "pros": [],
-     "cons": [],
-     "bugs": [],
-     "checked": "2026-11-14"
-    },
-    {
-     "id": "opencode",
-     "name": "OpenCode",
-     "developer": "Anomaly",
-     "url": "https://opencode.ai",
-     "flagship": null,
-     "strength": null,
-     "free": true,
-     "trial": null,
-     "prices": {
-      "UA": null,
-      "EU": null,
-      "US": "OpenCode Go $10/мес (первый мес. $5) за open-weight модели; Zen — pay-as-you-go; или свой провайдер",
-      "cheapest": null
-     },
-     "languages": {
-      "ru": null,
-      "uk": null
-     },
-     "platforms": [],
-     "user_rating": null,
-     "pros": [],
-     "cons": [],
-     "bugs": [],
-     "checked": "2026-11-14"
-    },
-    {
-     "id": "manus",
-     "name": "Manus",
-     "developer": "Manus AI",
-     "url": "https://manus.im",
-     "flagship": null,
-     "strength": null,
-     "free": true,
-     "trial": "7-дневный триал на тарифе Plus",
-     "prices": {
-      "UA": null,
-      "EU": null,
-      "US": "Standard $20 (4 000 credits); Plus $40 (8 000); Pro/Extended $200 (40 000); годовая −17%",
-      "cheapest": null
-     },
-     "languages": {
-      "ru": null,
-      "uk": null
-     },
-     "platforms": [],
-     "user_rating": null,
-     "pros": [],
-     "cons": [],
-     "bugs": [],
-     "checked": "2026-11-14"
-    },
-    {
-     "id": "devin",
-     "name": "Devin",
-     "developer": "Cognition",
-     "url": "https://devin.ai",
-     "flagship": null,
-     "strength": null,
-     "free": true,
-     "trial": null,
-     "prices": {
-      "UA": null,
-      "EU": null,
-      "US": "Pro $20; Max $200; Teams $80 + $40/место разработчика",
-      "cheapest": null
-     },
-     "languages": {
-      "ru": null,
-      "uk": null
-     },
-     "platforms": [
-      "Desktop"
-     ],
-     "user_rating": null,
-     "pros": [],
-     "cons": [],
-     "bugs": [],
-     "checked": "2026-11-14"
-    },
-    {
-     "id": "goose",
-     "name": "Goose",
-     "developer": "Block → Agentic AI Foundation",
-     "url": "https://block.github.io/goose/",
-     "flagship": null,
-     "strength": null,
-     "free": true,
-     "trial": null,
-     "prices": {
-      "UA": null,
-      "EU": null,
-      "US": null,
-      "cheapest": null
-     },
-     "languages": {
-      "ru": null,
-      "uk": null
-     },
-     "platforms": [],
-     "user_rating": null,
-     "pros": [],
-     "cons": [],
-     "bugs": [],
-     "checked": "2026-11-14"
-    },
-    {
-     "id": "dots",
-     "name": "Dots",
-     "developer": "OpenAI",
-     "url": "https://openai.com/dots",
-     "flagship": null,
-     "strength": "always-on агент на GPT-6 Astra + GPT-6.1 Terra",
-     "free": false,
-     "trial": null,
-     "prices": {
-      "UA": null,
-      "EU": null,
-      "US": "Только ChatGPT Pro $100+ или Business Premium $125/место",
-      "cheapest": null
-     },
-     "languages": {
-      "ru": null,
-      "uk": null
-     },
-     "platforms": [],
-     "user_rating": null,
-     "pros": [],
-     "cons": [],
-     "bugs": [],
-     "checked": "2026-11-14"
-    },
-    {
-     "id": "grok-bot",
-     "name": "Grok Bot",
-     "developer": "xAI/SpaceXAI",
-     "url": "https://grok.com",
-     "flagship": null,
-     "strength": "команда именованных ботов на одном облачном Linux",
-     "free": false,
-     "trial": "7-дневный usage-credit триал",
-     "prices": {
-      "UA": null,
-      "EU": null,
-      "US": "The X Subscription Premium $30+; общий недельный пул с Grok и Cursor",
-      "cheapest": null
-     },
-     "languages": {
-      "ru": null,
-      "uk": null
-     },
-     "platforms": [
-      "облачный Linux"
-     ],
-     "user_rating": null,
-     "pros": [],
-     "cons": [],
-     "bugs": [],
-     "checked": "2026-11-14"
-    }
-   ]
-  },
-  "local": {
-   "title_ru": "Локальные модели",
-   "models": [
-    {
-     "id": "lm-studio",
-     "name": "LM Studio",
-     "developer": "LM Studio",
-     "url": "https://lmstudio.ai",
-     "flagship": null,
-     "strength": "Самый простой способ скачать и запустить открытую модель на десктопе",
-     "free": true,
-     "trial": null,
-     "prices": {
-      "UA": null,
-      "EU": null,
-      "US": "$0 локально",
-      "cheapest": null
-     },
-     "languages": {
-      "ru": null,
-      "uk": null
-     },
-     "platforms": [],
-     "user_rating": null,
-     "pros": [],
-     "cons": [],
-     "bugs": [],
-     "checked": "2026-11-14"
-    },
-    {
-     "id": "ollama",
-     "name": "Ollama",
-     "developer": "Ollama",
-     "url": "https://ollama.com",
-     "flagship": null,
-     "strength": "Стандарт локального запуска для разработчиков: CLI + локальный API",
-     "free": true,
-     "trial": null,
-     "prices": {
-      "UA": null,
-      "EU": null,
-      "US": "$0 локально без лимитов; Ollama Cloud: Free со стартовыми кредитами, Pro $20/мес",
-      "cheapest": null
-     },
-     "languages": {
-      "ru": null,
-      "uk": null
-     },
-     "platforms": [],
-     "user_rating": null,
-     "pros": [],
-     "cons": [],
-     "bugs": [],
-     "checked": "2026-11-14"
-    },
-    {
-     "id": "gpt4all",
-     "name": "GPT4All",
-     "developer": "Nomic AI",
-     "url": "https://www.nomic.ai/gpt4all",
-     "flagship": null,
-     "strength": "Оффлайн-чат и поиск по своим документам без подписки; развитие замедлилось (репозиторий обновлялся в 2025)",
-     "free": true,
-     "trial": null,
-     "prices": {
-      "UA": null,
-      "EU": null,
-      "US": "$0",
-      "cheapest": null
-     },
-     "languages": {
-      "ru": null,
-      "uk": null
-     },
-     "platforms": [],
-     "user_rating": null,
-     "pros": [],
-     "cons": [],
-     "bugs": [],
-     "checked": "2026-11-14"
-    },
-    {
-     "id": "jan",
-     "name": "Jan",
-     "developer": "Menlo Research",
-     "url": "https://www.jan.ai",
-     "flagship": null,
-     "strength": "Полностью открытый десктопный ChatGPT-аналог, OpenAI-совместимый локальный сервер",
-     "free": true,
-     "trial": null,
-     "prices": {
-      "UA": null,
-      "EU": null,
-      "US": "$0",
-      "cheapest": null
-     },
-     "languages": {
-      "ru": null,
-      "uk": null
-     },
-     "platforms": [],
-     "user_rating": null,
-     "pros": [],
-     "cons": [],
-     "bugs": [],
-     "checked": "2026-11-14"
-    },
-    {
-     "id": "open-webui",
-     "name": "Open WebUI",
-     "developer": "Open WebUI",
-     "url": "https://openwebui.com",
-     "flagship": null,
-     "strength": "Командный веб-интерфейс поверх Ollama/OpenAI-совместимых API",
-     "free": true,
-     "trial": null,
-     "prices": {
-      "UA": null,
-      "EU": null,
-      "US": "$0 self-hosted",
-      "cheapest": null
-     },
-     "languages": {
-      "ru": null,
-      "uk": null
-     },
-     "platforms": [],
-     "user_rating": null,
-     "pros": [],
-     "cons": [],
-     "bugs": [],
-     "checked": "2026-11-14"
-    },
-    {
-     "id": "bionic",
-     "name": "Bionic",
-     "developer": null,
-     "url": "https://github.com/bionic-gpt/bionic-gpt",
-     "flagship": null,
-     "strength": "«Нет GPU»-сценарий внутри экосистемы LM Studio; отдельной публичной страницы цен вне LM Studio в исследовании не найдено — частично не подтверждено",
-     "free": true,
-     "trial": null,
-     "prices": {
-      "UA": null,
-      "EU": null,
-      "US": "Free / Bionic+ $20 / Pro $100",
-      "cheapest": null
-     },
-     "languages": {
-      "ru": null,
-      "uk": null
-     },
-     "platforms": [],
-     "user_rating": null,
-     "pros": [],
-     "cons": [],
-     "bugs": [],
-     "checked": "2026-11-14"
-    }
-   ]
   }
- }
 }
