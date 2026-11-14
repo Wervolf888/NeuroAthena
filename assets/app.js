@@ -12,3 +12,11 @@ function home(){return `<div class="hero"><section class="hero-panel"><div class
 function route(){let id=location.hash.replace(/^#\//,'');if(!id||location.hash==='#categories')id='home';const page=pages.find(x=>x[0]===id);if(!page)id='home';if(id==='home'){main.innerHTML=home();rates();if(location.hash==='#categories')document.getElementById('categories').scrollIntoView();}else{const p=pages.find(x=>x[0]===id);main.innerHTML=`<div class="container route"><a class="back" href="#/home">← На главную</a><div class="eyebrow" style="margin-top:35px">НейроАтлас / раздел в разработке</div><h1>${p[1]}</h1><div class="empty"><h3>Раздел ещё готовится</h3><p>Это каркас первого этапа. Содержимое и функции появятся на следующих этапах после проверки данных.</p></div></div>`}document.title=(id==='home'?'НейроАтлас':pages.find(x=>x[0]===id)[1]+' — НейроАтлас');}
 async function rates(){const info=document.getElementById('ratesInfo');const r=document.getElementById('refreshRates');if(!r)return;r.onclick=rates;r.disabled=true;info.textContent='Загружаем данные НБУ…';try{const response=await fetch('https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?json',{cache:'no-store'});if(!response.ok)throw Error('HTTP');const list=await response.json();const usd=list.find(x=>x.cc==='USD'),eur=list.find(x=>x.cc==='EUR');if(!usd||!eur||!Number.isFinite(usd.rate)||!Number.isFinite(eur.rate))throw Error('data');document.getElementById('usd').textContent=usd.rate.toFixed(2)+' ₴';document.getElementById('eur').textContent=eur.rate.toFixed(2)+' ₴';info.textContent='Курс на '+usd.exchangedate+' · источник НБУ';}catch(e){info.textContent='Не удалось получить курс НБУ. Попробуйте позже.'}finally{r.disabled=false}}
 window.addEventListener('hashchange',route);route();
+
+// The globe is decorative. Honour the device's reduced-motion setting.
+const earthVideo=document.querySelector('#earthVideo');
+const motionPreference=window.matchMedia('(prefers-reduced-motion: reduce)');
+function syncGlobeMotion(){if(motionPreference.matches){earthVideo.pause();try{earthVideo.currentTime=0}catch(e){}}else{earthVideo.play().catch(()=>{})}}
+if(motionPreference.addEventListener)motionPreference.addEventListener('change',syncGlobeMotion);
+else if(motionPreference.addListener)motionPreference.addListener(syncGlobeMotion);
+syncGlobeMotion();
