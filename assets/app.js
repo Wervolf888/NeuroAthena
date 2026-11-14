@@ -105,7 +105,7 @@ const I18N = {
     'foundCount': 'Найдено моделей: {n}',
     'noModelsFound': 'По этим фильтрам ничего не найдено.',
     'offersIntro': 'Предложения из файла куратора — продукт, суть, срок и ссылка на официальный источник.',
-    'offersEmpty': 'Сейчас здесь пусто. Куратор обновляет предложения по понедельникам и четвергам.',
+    'offersEmpty': 'Сейчас здесь пусто. Предложения обновляются каждый день.',
     'offersLoading': 'Загружаем предложения…',
     'offersLoadFail': 'Не удалось загрузить предложения. Попробуйте позже.',
     'offerUntil': 'Срок: {v}',
@@ -126,7 +126,7 @@ const I18N = {
     'langNo': 'Нет',
     'compareTableLabel': 'Таблица сравнения',
     'newsIntro': 'Новости из файла куратора — новые сверху.',
-    'newsEmpty': 'Новостей пока нет. Куратор обновляет по понедельникам и четвергам.',
+    'newsEmpty': 'Новостей пока нет. Новости обновляются автоматически каждый день.',
     'newsLoading': 'Загружаем новости…',
     'newsLoadFail': 'Не удалось загрузить новости. Попробуйте позже.',
     'newsSource': 'Источник ↗',
@@ -259,7 +259,7 @@ const I18N = {
     'foundCount': 'Знайдено моделей: {n}',
     'noModelsFound': 'За цими фільтрами нічого не знайдено.',
     'offersIntro': 'Пропозиції з файлу куратора — продукт, суть, термін і посилання на офіційне джерело.',
-    'offersEmpty': 'Зараз тут порожньо. Куратор оновлює пропозиції щопонеділка та щочетверга.',
+    'offersEmpty': 'Зараз тут порожньо. Пропозиції оновлюються щодня.',
     'offersLoading': 'Завантажуємо пропозиції…',
     'offersLoadFail': 'Не вдалося завантажити пропозиції. Спробуйте пізніше.',
     'offerUntil': 'Термін: {v}',
@@ -280,7 +280,7 @@ const I18N = {
     'langNo': 'Немає',
     'compareTableLabel': 'Таблиця порівняння',
     'newsIntro': 'Новини з файлу куратора — нові зверху.',
-    'newsEmpty': 'Новин поки немає. Куратор оновлює щопонеділка та щочетверга.',
+    'newsEmpty': 'Новин поки немає. Новини оновлюються автоматично щодня.',
     'newsLoading': 'Завантажуємо новини…',
     'newsLoadFail': 'Не вдалося завантажити новини. Спробуйте пізніше.',
     'newsSource': 'Джерело ↗',
@@ -413,7 +413,7 @@ const I18N = {
     'foundCount': 'Models found: {n}',
     'noModelsFound': 'Nothing matches these filters.',
     'offersIntro': 'Offers from the curator file — product, terms, validity and a link to the official source.',
-    'offersEmpty': 'Nothing here right now. The curator updates offers on Mondays and Thursdays.',
+    'offersEmpty': 'Nothing here right now. Offers are updated every day.',
     'offersLoading': 'Loading offers…',
     'offersLoadFail': 'Could not load the offers. Try again later.',
     'offerUntil': 'Valid until: {v}',
@@ -434,7 +434,7 @@ const I18N = {
     'langNo': 'No',
     'compareTableLabel': 'Comparison table',
     'newsIntro': 'News from the curator file — newest first.',
-    'newsEmpty': 'No news yet. The curator updates on Mondays and Thursdays.',
+    'newsEmpty': 'No news yet. News is updated automatically every day.',
     'newsLoading': 'Loading news…',
     'newsLoadFail': 'Could not load the news. Try again later.',
     'newsSource': 'Source ↗',
@@ -534,6 +534,7 @@ function displayModel(cat, m) {
   const e = rawEditedModel(cat, m);
   const out = { ...e, prices: { ...(e.prices || {}) } };
   out.strength = locText(e, 'strength', 'essence_uk', 'essence_en');
+  out.flagship = locText(e, 'flagship', 'flagship_uk', 'flagship_en');
   for (const k of ['UA', 'US', 'EU', 'cheapest']) out.prices[k] = locPrice(e.prices, k);
   return out;
 }
