@@ -291,3 +291,6 @@
 .news-media.logo img{width:auto;height:auto;max-width:55%;max-height:88px;object-fit:contain}
 .news-list:not(.grid) .news-media{height:190px}
 .news-card .button{margin-top:auto;align-self:flex-start}
+
+/* Меню «Все разделы» — поверх липкой шапки и липкой полосы моделей */
+.menu{z-index:100}
