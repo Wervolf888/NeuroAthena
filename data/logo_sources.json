@@ -1,0 +1,482 @@
+[
+  {
+    "id": "chats--muse",
+    "source": "https://muse.ai/favicon.ico",
+    "final": "https://muse.ai/favicon.ico",
+    "size": [
+      128,
+      128
+    ],
+    "status": "candidate"
+  },
+  {
+    "id": "chats--chatgpt",
+    "source": "https://chatgpt.com/cdn/assets/favicon-180x180.9e0103ce69.png",
+    "final": "https://chatgpt.com/cdn/assets/favicon-180x180.9e0103ce69.png",
+    "size": [
+      160,
+      160
+    ],
+    "status": "candidate"
+  },
+  {
+    "id": "chats--claude",
+    "source": "https://claude.com/icon.png",
+    "final": "https://claude.com/icon.png",
+    "size": [
+      160,
+      160
+    ],
+    "status": "candidate"
+  },
+  {
+    "id": "chats--gemini",
+    "source": "https://www.gstatic.com/lamda/images/gemini_sparkle_4g_512_lt_f94943af3be039176192d.png",
+    "final": "https://www.gstatic.com/lamda/images/gemini_sparkle_4g_512_lt_f94943af3be039176192d.png",
+    "size": [
+      160,
+      160
+    ],
+    "status": "candidate"
+  },
+  {
+    "id": "chats--grok",
+    "source": "https://grok.com/images/apple-touch-icon.png",
+    "final": "https://grok.com/images/apple-touch-icon.png",
+    "size": [
+      160,
+      160
+    ],
+    "status": "candidate"
+  },
+  {
+    "id": "chats--copilot",
+    "source": "https://res.cdn.office.net/officehub/images/content/images/unauth-copilotcom/favicon-copilot-brand-refresh-23392c1f66.ico",
+    "final": "https://res.cdn.office.net/officehub/images/content/images/unauth-copilotcom/favicon-copilot-brand-refresh-23392c1f66.ico",
+    "size": [
+      48,
+      48
+    ],
+    "status": "candidate"
+  },
+  {
+    "id": "chats--mistral-vibe",
+    "source": "https://mistral.ai/favicon.ico",
+    "final": "https://mistral.ai/favicon.ico",
+    "size": [
+      160,
+      160
+    ],
+    "status": "candidate"
+  },
+  {
+    "id": "chats--deepseek",
+    "source": "https://deepseek.com/favicon.ico",
+    "final": "https://deepseek.com/favicon.ico",
+    "size": [
+      160,
+      160
+    ],
+    "status": "candidate"
+  },
+  {
+    "id": "chats--qwen",
+    "source": "https://assets.alicdn.com/g/qwenweb/qwen-chat-fe/0.3.42/favicon.png",
+    "final": "https://assets.alicdn.com/g/qwenweb/qwen-chat-fe/0.3.42/favicon.png",
+    "size": [
+      80,
+      80
+    ],
+    "status": "candidate"
+  },
+  {
+    "id": "chats--kimi",
+    "source": "https://www.kimi.com/favicon.ico",
+    "final": "https://www.kimi.com/favicon.ico",
+    "size": [
+      48,
+      48
+    ],
+    "status": "candidate"
+  },
+  {
+    "id": "chats--meta-ai",
+    "source": "https://www.meta.ai/images/pwa_icons/apple/180.png?v=1",
+    "final": "https://www.meta.ai/images/pwa_icons/apple/180.png?v=1",
+    "size": [
+      160,
+      160
+    ],
+    "status": "candidate"
+  },
+  {
+    "id": "images--flux",
+    "source": "https://bfl.ai/apple-icon.png?f3e2842f59013de0",
+    "final": "https://bfl.ai/apple-icon.png?f3e2842f59013de0",
+    "size": [
+      160,
+      160
+    ],
+    "status": "candidate"
+  },
+  {
+    "id": "images--ideogram",
+    "source": "https://ideogram.ai/favicon.png?v=new-brand-20261020",
+    "final": "https://ideogram.ai/favicon.png?v=new-brand-20261020",
+    "size": [
+      48,
+      48
+    ],
+    "status": "candidate"
+  },
+  {
+    "id": "images--recraft",
+    "source": "https://www.recraft.ai/apps/apple-icon.png",
+    "final": "https://www.recraft.ai/apps/apple-icon.png",
+    "size": [
+      160,
+      160
+    ],
+    "status": "candidate"
+  },
+  {
+    "id": "video--kling",
+    "source": "https://s16-kling.klingai.com/kos/s101/nlav112918/kling-homepage-aio/logo-180x180.png",
+    "final": "https://s16-kling.klingai.com/kos/s101/nlav112918/kling-homepage-aio/logo-180x180.png",
+    "size": [
+      160,
+      160
+    ],
+    "status": "candidate"
+  },
+  {
+    "id": "video--runway",
+    "source": "https://runway.com/icon.png?icon.35ps9bmugbe1e.png",
+    "final": "https://runway.com/icon.png?icon.35ps9bmugbe1e.png",
+    "size": [
+      160,
+      160
+    ],
+    "status": "candidate"
+  },
+  {
+    "id": "video--dream-machine",
+    "source": "https://lumalabs.ai/favicons/favicon-black.ico",
+    "final": "https://lumalabs.ai/favicons/favicon-black.ico",
+    "size": [
+      48,
+      48
+    ],
+    "status": "candidate"
+  },
+  {
+    "id": "video--pika",
+    "source": "https://pika.art/apple-icon.png?apple-icon.1pc-f1mhs57mu.png",
+    "final": "https://pika.art/apple-icon.png?apple-icon.1pc-f1mhs57mu.png",
+    "size": [
+      160,
+      160
+    ],
+    "status": "candidate"
+  },
+  {
+    "id": "video--hailuo",
+    "source": "https://cdn.hailuoai.video/open-hailuo-video-web/public_assets/favicon.png",
+    "final": "https://cdn.hailuoai.video/open-hailuo-video-web/public_assets/favicon.png",
+    "size": [
+      64,
+      64
+    ],
+    "status": "candidate"
+  },
+  {
+    "id": "audio--suno",
+    "source": "https://cdn-o.suno.com/apple-touch-icon.png",
+    "final": "https://cdn-o.suno.com/apple-touch-icon.png",
+    "size": [
+      160,
+      160
+    ],
+    "status": "candidate"
+  },
+  {
+    "id": "audio--udio",
+    "source": "https://www.udio.com/favicon.ico?favicon.0wbc3vz33genq.ico",
+    "final": "https://www.udio.com/favicon.ico?favicon.0wbc3vz33genq.ico",
+    "size": [
+      160,
+      160
+    ],
+    "status": "candidate"
+  },
+  {
+    "id": "audio--elevenlabs",
+    "source": "https://elevenlabs.io/apple-icon.png?6592732ab34b1d42",
+    "final": "https://elevenlabs.io/apple-icon.png?6592732ab34b1d42",
+    "size": [
+      160,
+      160
+    ],
+    "status": "candidate"
+  },
+  {
+    "id": "code--cursor",
+    "source": "https://cursor.com/marketing-static/apple-touch-icon-light.png",
+    "final": "https://cursor.com/marketing-static/apple-touch-icon-light.png",
+    "size": [
+      160,
+      160
+    ],
+    "status": "candidate"
+  },
+  {
+    "id": "agents--antigravity",
+    "source": "https://antigravity.google/apple-touch-icon.png",
+    "final": "https://antigravity.google/apple-touch-icon.png",
+    "size": [
+      160,
+      160
+    ],
+    "status": "candidate"
+  },
+  {
+    "id": "agents--opencode",
+    "source": "https://opencode.ai/apple-touch-icon-v3.png",
+    "final": "https://opencode.ai/apple-touch-icon-v3.png",
+    "size": [
+      160,
+      160
+    ],
+    "status": "candidate"
+  },
+  {
+    "id": "agents--manus",
+    "source": "https://manus.im/apple-icon.png?apple-icon.153es_5lvwth1.png",
+    "final": "https://manus.im/apple-icon.png?apple-icon.153es_5lvwth1.png",
+    "size": [
+      160,
+      160
+    ],
+    "status": "candidate"
+  },
+  {
+    "id": "agents--devin",
+    "source": "https://devin.ai/apple-icon.png",
+    "final": "https://devin.ai/apple-icon.png",
+    "size": [
+      160,
+      160
+    ],
+    "status": "candidate"
+  },
+  {
+    "id": "agents--goose",
+    "source": "https://raw.githubusercontent.com/aaif-goose/goose/main/ui/desktop/src/images/icon-512.png",
+    "final": "https://raw.githubusercontent.com/aaif-goose/goose/main/ui/desktop/src/images/icon-512.png",
+    "size": [
+      160,
+      160
+    ],
+    "status": "candidate"
+  },
+  {
+    "id": "local--lm-studio",
+    "source": "https://lmstudio.ai/assets/marketing/logo-192x192.png",
+    "final": "https://lmstudio.ai/assets/marketing/logo-192x192.png",
+    "size": [
+      160,
+      160
+    ],
+    "status": "candidate"
+  },
+  {
+    "id": "local--ollama",
+    "source": "https://ollama.com/public/apple-touch-icon.png",
+    "final": "https://ollama.com/public/apple-touch-icon.png",
+    "size": [
+      160,
+      160
+    ],
+    "status": "candidate"
+  },
+  {
+    "id": "local--gpt4all",
+    "source": "https://raw.githubusercontent.com/nomic-ai/gpt4all/main/gpt4all-chat/icons/gpt4all-48.png",
+    "final": "https://raw.githubusercontent.com/nomic-ai/gpt4all/main/gpt4all-chat/icons/gpt4all-48.png",
+    "size": [
+      48,
+      48
+    ],
+    "status": "candidate"
+  },
+  {
+    "id": "local--open-webui",
+    "source": "https://openwebui.com/favicon.png",
+    "final": "https://openwebui.com/favicon.png",
+    "size": [
+      160,
+      160
+    ],
+    "status": "candidate"
+  },
+  {
+    "id": "chats--perplexity",
+    "source": "https://www.perplexity.ai/apple-touch-icon.png",
+    "final": "https://www.perplexity.ai/apple-touch-icon.png",
+    "size": [
+      160,
+      160
+    ],
+    "status": "candidate"
+  },
+  {
+    "id": "chats--poe",
+    "source": "https://poe.com/favicon.ico",
+    "final": "https://poe.com/favicon.ico",
+    "size": [
+      48,
+      48
+    ],
+    "status": "candidate"
+  },
+  {
+    "id": "images--nano-banana-imagen",
+    "source": "https://storage.googleapis.com/gdm-deepmind-com-prod-public/icons/google_deepmind_2x_96dp.png",
+    "final": "https://storage.googleapis.com/gdm-deepmind-com-prod-public/icons/google_deepmind_2x_96dp.png",
+    "size": [
+      160,
+      160
+    ],
+    "status": "candidate"
+  },
+  {
+    "id": "images--gpt-image",
+    "source": "https://chatgpt.com/cdn/assets/favicon-180x180.9e0103ce69.png",
+    "final": "https://chatgpt.com/cdn/assets/favicon-180x180.9e0103ce69.png",
+    "size": [
+      160,
+      160
+    ],
+    "status": "candidate"
+  },
+  {
+    "id": "images--leonardo",
+    "source": "https://docs.leonardo.ai/apple-touch-icon.png",
+    "final": "https://docs.leonardo.ai/apple-touch-icon.png",
+    "size": [
+      160,
+      160
+    ],
+    "status": "candidate"
+  },
+  {
+    "id": "images--stable-diffusion",
+    "source": "https://stability.ai/favicon.ico",
+    "final": "https://images.squarespace-cdn.com/content/6213c340453c3f502425776e/804f0e8b-0028-4262-a8b0-b9f1c5de72c0/Favicon_small.png?format=100w&content-type=image%2Fpng",
+    "size": [
+      100,
+      100
+    ],
+    "status": "candidate"
+  },
+  {
+    "id": "video--seedance",
+    "source": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/favicon_1/favicon.ico",
+    "final": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/favicon_1/favicon.ico",
+    "size": [
+      48,
+      48
+    ],
+    "status": "candidate"
+  },
+  {
+    "id": "video--veo",
+    "source": "https://storage.googleapis.com/gdm-deepmind-com-prod-public/icons/google_deepmind_2x_96dp.png",
+    "final": "https://storage.googleapis.com/gdm-deepmind-com-prod-public/icons/google_deepmind_2x_96dp.png",
+    "size": [
+      160,
+      160
+    ],
+    "status": "candidate"
+  },
+  {
+    "id": "code--github-copilot",
+    "source": "https://raw.githubusercontent.com/primer/octicons/main/icons/copilot-16.svg",
+    "final": "https://raw.githubusercontent.com/primer/octicons/main/icons/copilot-16.svg",
+    "size": [
+      160,
+      160
+    ],
+    "status": "candidate"
+  },
+  {
+    "id": "code--codex",
+    "source": "https://chatgpt.com/cdn/assets/favicon-180x180.9e0103ce69.png",
+    "final": "https://chatgpt.com/cdn/assets/favicon-180x180.9e0103ce69.png",
+    "size": [
+      160,
+      160
+    ],
+    "status": "candidate"
+  },
+  {
+    "id": "agents--claude-code",
+    "source": "https://claude.com/icon.png",
+    "final": "https://claude.com/icon.png",
+    "size": [
+      160,
+      160
+    ],
+    "status": "candidate"
+  },
+  {
+    "id": "agents--codex",
+    "source": "https://chatgpt.com/cdn/assets/favicon-180x180.9e0103ce69.png",
+    "final": "https://chatgpt.com/cdn/assets/favicon-180x180.9e0103ce69.png",
+    "size": [
+      160,
+      160
+    ],
+    "status": "candidate"
+  },
+  {
+    "id": "agents--dots",
+    "source": "https://chatgpt.com/cdn/assets/favicon-180x180.9e0103ce69.png",
+    "final": "https://chatgpt.com/cdn/assets/favicon-180x180.9e0103ce69.png",
+    "size": [
+      160,
+      160
+    ],
+    "status": "candidate"
+  },
+  {
+    "id": "agents--grok-bot",
+    "source": "https://grok.com/images/apple-touch-icon.png",
+    "final": "https://grok.com/images/apple-touch-icon.png",
+    "size": [
+      160,
+      160
+    ],
+    "status": "candidate"
+  },
+  {
+    "id": "local--jan",
+    "source": "https://raw.githubusercontent.com/janhq/jan/main/web-app/public/images/jan-logo.png",
+    "final": "https://raw.githubusercontent.com/janhq/jan/main/web-app/public/images/jan-logo.png",
+    "size": [
+      160,
+      160
+    ],
+    "status": "candidate"
+  },
+  {
+    "id": "local--bionic",
+    "source": "https://bionic-gpt.com/favicon.svg",
+    "final": "https://bionic-gpt.com/favicon.svg",
+    "size": [
+      160,
+      160
+    ],
+    "status": "candidate"
+  }
+]
