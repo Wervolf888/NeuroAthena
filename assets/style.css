@@ -239,7 +239,7 @@
 .auth-user strong{font-size:14px;max-width:140px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .auth-signout{border:1px solid var(--border);background:#172434;color:#c4d3df;border-radius:8px;padding:8px 10px;min-height:36px;cursor:pointer;font-size:13px}
 .auth-toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:#162a3a;border:1px solid #365164;color:#e8f2f6;padding:12px 18px;border-radius:10px;z-index:200;box-shadow:0 8px 24px rgba(0,0,0,.4);max-width:90vw;text-align:center}
-.admin-bar{display:flex;gap:12px;align-items:center;flex-wrap:wrap;background:#3a2a10;border-bottom:1px solid #6b5316;color:#ffe9b0;padding:10px 5%;font-size:15px}
+.admin-bar[hidden]{display:none}.admin-bar{display:flex;gap:12px;align-items:center;flex-wrap:wrap;background:#3a2a10;border-bottom:1px solid #6b5316;color:#ffe9b0;padding:10px 5%;font-size:15px}
 .admin-bar .button{min-height:40px;padding:8px 14px;font-size:14px}
 .fav-btn{margin-left:auto;background:none;border:none;color:#90e4e7;font-size:22px;cursor:pointer;padding:4px 8px;line-height:1;flex:none}
 .fav-btn[aria-pressed="true"]{color:#ffd166}
