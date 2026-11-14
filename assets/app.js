@@ -130,6 +130,7 @@ const I18N = {
     'newsLoading': 'Загружаем новости…',
     'newsLoadFail': 'Не удалось загрузить новости. Попробуйте позже.',
     'newsSource': 'Источник ↗',
+    'newsViewGrid': 'Сетка', 'newsViewList': 'Список',
     'calendarIntro': 'Запланированные релизы из файла новостей — по месяцам.',
     'calendarEmpty': 'Запланированных релизов в данных пока нет.',
     'ratingsIntro': 'Модели каждой категории — по оценке пользователей, от высокой к низкой.',
@@ -284,6 +285,7 @@ const I18N = {
     'newsLoading': 'Завантажуємо новини…',
     'newsLoadFail': 'Не вдалося завантажити новини. Спробуйте пізніше.',
     'newsSource': 'Джерело ↗',
+    'newsViewGrid': 'Сітка', 'newsViewList': 'Список',
     'calendarIntro': 'Заплановані релізи з файлу новин — за місяцями.',
     'calendarEmpty': 'Запланованих релізів у даних поки немає.',
     'ratingsIntro': 'Моделі кожної категорії — за оцінкою користувачів, від високої до низької.',
@@ -438,6 +440,7 @@ const I18N = {
     'newsLoading': 'Loading news…',
     'newsLoadFail': 'Could not load the news. Try again later.',
     'newsSource': 'Source ↗',
+    'newsViewGrid': 'Grid', 'newsViewList': 'List',
     'calendarIntro': 'Planned releases from the news file — by month.',
     'calendarEmpty': 'No planned releases in the data yet.',
     'ratingsIntro': 'Models in each category — by user rating, from high to low.',
@@ -1150,14 +1153,20 @@ function fmtMonth(d) {
   const s = d.toLocaleDateString(newsLocale(), { month: 'long', year: 'numeric' });
   return s.charAt(0).toUpperCase() + s.slice(1);
 }
+const NEWS_LOGOS = { 'OpenAI': 'chats--chatgpt', 'GitHub Copilot': 'code--github-copilot', 'GitHub': 'code--github-copilot', 'Gemini': 'chats--gemini', 'Google DeepMind': 'chats--gemini', 'Google AI': 'chats--gemini', 'Meta AI': 'chats--meta-ai', 'Microsoft': 'chats--copilot', 'Microsoft Copilot': 'chats--copilot', 'ElevenLabs': 'audio--elevenlabs', 'Suno': 'audio--suno', 'Goose': 'agents--goose', 'OpenCode': 'agents--opencode', 'Ollama': 'local--ollama', 'LM Studio': 'local--lm-studio', 'Cursor': 'code--cursor', 'Mistral / Vibe': 'chats--mistral-vibe' };
+function newsLoc(it, base, uk, ru) { if (lang === 'uk') return it[uk] || it[base] || ''; if (lang === 'ru') return it[ru] || it[base] || ''; return it[base] || ''; }
 function newsItem(it) {
   const rawDate = it.date || it.published || it.publishedAt || '';
   const d = parseNewsDate(rawDate);
-  const title = it.title || it.headline || '';
-  const text = it.text || it.summary || it.description || '';
+  const title = newsLoc(it, 'title', 'title_uk', 'title_ru');
+  const text = newsLoc(it, 'text', 'text_uk', 'text_ru');
   const product = it.product || it.model || '';
   const url = it.url || it.link || it.source || '';
-  return `<article class="news-card"><p class="news-date">${d ? fmtDate(d) : esc(rawDate)}</p><h3>${esc(title)}</h3>${text ? `<p>${esc(text)}</p>` : ''}${product ? `<p class="news-product">${esc(product)}</p>` : ''}${url && /^https?:\/\//i.test(url) ? `<a class="button official" href="${esc(url)}" target="_blank" rel="noopener">${t('newsSource')}</a>` : ''}</article>`;
+  const logoKey = NEWS_LOGOS[product];
+  const logo = logoKey ? logos[logoKey] : '';
+  const media = it.image ? `<div class="news-media"><img src="${esc(it.image)}" alt="" loading="lazy"></div>`
+    : logo ? `<div class="news-media logo"><img src="${esc(logo)}" alt="" loading="lazy"></div>` : '';
+  return `<article class="news-card">${media}<p class="news-date">${d ? fmtDate(d) : esc(rawDate)}</p><h3>${esc(title)}</h3>${text ? `<p class="news-text">${esc(text)}</p>` : ''}${product ? `<p class="news-product">${esc(product)}</p>` : ''}${url && /^https?:\/\//i.test(url) ? `<a class="button official" href="${esc(url)}" target="_blank" rel="noopener">${t('newsSource')}</a>` : ''}</article>`;
 }
 function newsItemsSorted(data) {
   const items = Array.isArray(data.items) ? data.items.slice() : [];
@@ -1171,7 +1180,7 @@ function newsItemsSorted(data) {
   return dated.map(x => x.it);
 }
 function newsPage() {
-  return `<div class="container route page-route">${pageHead('news', 'newsIntro')}<div class="news-list" id="newsList"><p class="muted">${t('newsLoading')}</p></div></div>`;
+  return `<div class="container route page-route">${pageHead('news', 'newsIntro')}<div class="news-view-toggle" role="group"><button type="button" id="nvGrid" aria-pressed="true">${t('newsViewGrid')}</button><button type="button" id="nvList" aria-pressed="false">${t('newsViewList')}</button></div><div class="news-list" id="newsList"><p class="muted">${t('newsLoading')}</p></div></div>`;
 }
 async function initNews() {
   const box = document.getElementById('newsList');
@@ -1180,7 +1189,18 @@ async function initNews() {
   if (data.error) { box.innerHTML = `<p class="search-empty">${t('newsLoadFail')}</p>`; return; }
   const items = newsItemsSorted(data);
   if (!items.length) { box.innerHTML = `<div class="empty offers-empty"><p>${t('newsEmpty')}</p></div>`; return; }
-  box.innerHTML = items.map(newsItem).join('');
+  let view = storeGet('neuroatlas-news-view', 'grid');
+  if (view !== 'list') view = 'grid';
+  const gridBtn = document.getElementById('nvGrid'), listBtn = document.getElementById('nvList');
+  const apply = () => {
+    box.classList.toggle('grid', view === 'grid');
+    box.innerHTML = items.map(newsItem).join('');
+    if (gridBtn) gridBtn.setAttribute('aria-pressed', view === 'grid' ? 'true' : 'false');
+    if (listBtn) listBtn.setAttribute('aria-pressed', view === 'list' ? 'true' : 'false');
+  };
+  if (gridBtn) gridBtn.addEventListener('click', () => { view = 'grid'; storeSet('neuroatlas-news-view', view); apply(); });
+  if (listBtn) listBtn.addEventListener('click', () => { view = 'list'; storeSet('neuroatlas-news-view', view); apply(); });
+  apply();
 }
 function calendarPage() {
   return `<div class="container route page-route">${pageHead('calendar', 'calendarIntro')}<div id="calendarList"><p class="muted">${t('newsLoading')}</p></div></div>`;
@@ -1203,7 +1223,7 @@ async function initCalendar() {
   box.innerHTML = Object.keys(groups).sort().map(key => {
     const list = groups[key];
     return `<section class="calendar-month"><h2>${fmtMonth(list[0].d)}</h2>${list.map(({ it, d }) => {
-      const title = it.title || it.headline || '';
+      const title = newsLoc(it, 'title', 'title_uk', 'title_ru');
       const product = it.product || it.model || '';
       const url = it.url || it.link || it.source || '';
       return `<div class="calendar-event"><span class="calendar-day">${d.getDate()}</span><div><strong>${esc(title)}</strong>${product ? `<span>${esc(product)}</span>` : ''}</div>${url && /^https?:\/\//i.test(url) ? `<a href="${esc(url)}" target="_blank" rel="noopener">${t('newsSource')}</a>` : ''}</div>`;
