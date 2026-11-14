@@ -50,6 +50,16 @@ function atomLink(block) {
   const m = block.match(/<link[^>]*rel="alternate"[^>]*href="([^"]+)"/i) || block.match(/<link[^>]*href="([^"]+)"/i);
   return m ? m[1] : '';
 }
+function feedImage(block) {
+  const ok = u => u && !u.includes('avatars.githubusercontent.com');
+  let m = block.match(/<media:thumbnail[^>]*url="([^"]+)"/i) || block.match(/<media:content[^>]*url="([^"]+\.(?:png|jpe?g|webp))"/i);
+  if (m && ok(m[1])) return decodeEntities(m[1]);
+  m = block.match(/<enclosure[^>]*url="([^"]+)"[^>]*type="image\//i) || block.match(/<enclosure[^>]*type="image\/[^"]*"[^>]*url="([^"]+)"/i);
+  if (m && ok(m[1])) return decodeEntities(m[1]);
+  m = block.match(/<img[^>]+src="(https?:\/\/[^"]+)"/i);
+  if (m && ok(m[1])) return decodeEntities(m[1]);
+  return '';
+}
 function parseFeed(xml, product) {
   const items = [];
   const blocks = xml.match(/<item[\s\S]*?<\/item>/gi) || xml.match(/<entry[\s\S]*?<\/entry>/gi) || [];
@@ -60,7 +70,7 @@ function parseFeed(xml, product) {
     const rawDate = tag(b, 'pubDate') || tag(b, 'dc:date') || tag(b, 'published') || tag(b, 'updated');
     const d = rawDate ? new Date(rawDate) : null;
     const text = cleanText(tag(b, 'description') || tag(b, 'summary') || tag(b, 'content'));
-    if (title && url && d && !isNaN(d)) items.push({ date: d.toISOString(), title, text, product, url, auto: true });
+    if (title && url && d && !isNaN(d)) { const it = { date: d.toISOString(), title, text, product, url, auto: true }; const img = feedImage(b); if (img) it.image = img; items.push(it); }
   }
   return items;
 }
@@ -93,8 +103,16 @@ const manual = (existing.items || []).filter(it => !it.auto);
 const all = [];
 for (const f of FEEDS) all.push(...await fetchFeed(f));
 const fresh = all.filter(it => new Date(it.date).getTime() >= cutoff);
+const prevByUrl = new Map();
+for (const it of (existing.items || [])) if (it.url) prevByUrl.set(it.url, it);
 const byUrl = new Map();
 for (const it of fresh) if (!byUrl.has(it.url)) byUrl.set(it.url, it);
+for (const it of byUrl.values()) {
+  const prev = prevByUrl.get(it.url);
+  if (!prev) continue;
+  for (const k of ['title_ru', 'text_ru', 'title_uk', 'text_uk']) if (prev[k] && !it[k]) it[k] = prev[k];
+  if (!it.image && prev.image) it.image = prev.image;
+}
 const auto = [...byUrl.values()].sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0, MAX_ITEMS);
 
 if (!auto.length && FEEDS.length) {
