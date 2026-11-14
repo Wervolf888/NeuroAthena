@@ -1,1 +1,484 @@
-{"items": []}
+{
+  "items": [
+    {
+      "date": "2026-11-14T06:50:12.000Z",
+      "title": "v1.59.1",
+      "text": "macOS desktop builds and full release notes coming soon.",
+      "product": "Goose",
+      "url": "https://github.com/aaif-goose/goose/releases/tag/v1.59.1",
+      "auto": true
+    },
+    {
+      "date": "2026-11-13T20:40:05.000Z",
+      "title": "Upcoming deprecation of selected GitHub Copilot models in December",
+      "text": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on December 14, 2026: Model Deprecation date… The post Upcoming deprecation of selected GitHub Copilot models in Decembe…",
+      "product": "GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december",
+      "auto": true
+    },
+    {
+      "date": "2026-11-13T18:27:13.000Z",
+      "title": "GitHub Enterprise Server support in the GitHub Copilot app",
+      "text": "You can now bring your work on GitHub Enterprise Server (GHES) into the GitHub Copilot app. Add your GHES account to work with remote repositories, issues, and pull requests. This… The post GitHub Enterprise Server support in the GitHub Copilot app appeared first on The GitHub B…",
+      "product": "GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app",
+      "auto": true
+    },
+    {
+      "date": "2026-11-13T18:23:48.000Z",
+      "title": "Gemini 4 Hydrogen in GitHub Copilot",
+      "text": "Gemini 4 Hydrogen, Google’s latest Flash model, is now generally available in GitHub Copilot. It is designed for fast, efficient agentic coding, tool use, and multistep workflows, with improved instruction… The post Gemini 4 Hydrogen in GitHub Copilot appeared first on The GitHu…",
+      "product": "GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot",
+      "auto": true
+    },
+    {
+      "date": "2026-11-13T18:00:39.000Z",
+      "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+      "text": "",
+      "product": "Hugging Face",
+      "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+      "auto": true
+    },
+    {
+      "date": "2026-11-13T17:02:35.000Z",
+      "title": "XYBench: Helping with the problem behind the question",
+      "text": "",
+      "product": "Hugging Face",
+      "url": "https://huggingface.co/blog/allenai/xybench",
+      "auto": true
+    },
+    {
+      "date": "2026-11-13T17:00:00.000Z",
+      "title": "Connect Google Wallet to Gemini for personal finance insights",
+      "text": "All Gemini app users in the U.S. can connect Google Wallet to get responses informed by their spending habits.",
+      "product": "Gemini",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app/",
+      "auto": true
+    },
+    {
+      "date": "2026-11-13T15:00:00.000Z",
+      "title": "Introducing ChatGPT Wallet",
+      "text": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+      "product": "OpenAI",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "auto": true
+    },
+    {
+      "date": "2026-11-13T14:05:22.000Z",
+      "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+      "text": "",
+      "product": "Hugging Face",
+      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "auto": true
+    },
+    {
+      "date": "2026-11-13T14:00:00.000Z",
+      "title": "Suno Bridge: Your DAW, Suno-powered.",
+      "text": "Get Suno in your session with our new standalone Mac app",
+      "product": "Suno",
+      "url": "https://suno.com/blog/introducing-bridge",
+      "auto": true
+    },
+    {
+      "date": "2026-11-13T12:22:41.000Z",
+      "title": "Manage AI Scan for repositories using the REST API",
+      "text": "You can now turn GitHub code scanning’s AI Scan for repositories on or off with the REST API at the organization and repository levels. This public preview adds a repository_scan… The post Manage AI Scan for repositories using the REST API appeared first on The GitHub Blog .",
+      "product": "GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-11-13-manage-ai-scan-for-repositories-using-the-rest-api",
+      "auto": true
+    },
+    {
+      "date": "2026-11-13T12:00:00.000Z",
+      "title": "Open source TTS vs paid APIs: How to choose wisely",
+      "text": "Compare open source TTS vs paid APIs on cost, control, licensing, and data residency, and learn how to evaluate models before you commit.",
+      "product": "ElevenLabs",
+      "url": "https://elevenlabs.io/blog/open-source-tts-vs-paid-apis",
+      "auto": true
+    },
+    {
+      "date": "2026-11-13T12:00:00.000Z",
+      "title": "Introducing Forward Deployed Creatives in ElevenCreative",
+      "text": "Forward Deployed Creatives build workflows in ElevenCreative alongside your team, or produce finished, on-brand creative for your team to approve.",
+      "product": "ElevenLabs",
+      "url": "https://elevenlabs.io/blog/introducing-forward-deployed-creatives",
+      "auto": true
+    },
+    {
+      "date": "2026-11-13T12:00:00.000Z",
+      "title": "Oxford spent years studying how women build companies. Now this research can speak.",
+      "text": "SOFIA for Business, built with Oxford Saïd and ElevenLabs Impact, lets founders talk to and add to research on women founders.",
+      "product": "ElevenLabs",
+      "url": "https://elevenlabs.io/blog/impact-sofia-oxford-said",
+      "auto": true
+    },
+    {
+      "date": "2026-11-13T08:55:07.000Z",
+      "title": "v2.3.0",
+      "text": "Highlights Background Subagents by Default : Subagents now return immediately, continue in the background, and report back whenever they become idle. You can keep working in the parent session while multiple subagents run concurrently. ( #63382 ) Quieter Transcripts by Default :…",
+      "product": "OpenCode",
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v2.3.0",
+      "auto": true
+    },
+    {
+      "date": "2026-11-13T08:00:00.000Z",
+      "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+      "text": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+      "product": "OpenAI",
+      "url": "https://openai.com/business/customer-stories/shield",
+      "auto": true
+    },
+    {
+      "date": "2026-11-13T00:20:16.000Z",
+      "title": "GitHub availability report: October 2026",
+      "text": "In October, we experienced eight incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: October 2026 appeared first on The GitHub Blog .",
+      "product": "GitHub",
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-october-2026/",
+      "auto": true
+    },
+    {
+      "date": "2026-11-12T22:54:52.000Z",
+      "title": "Build once, run on any agent: A practical guide to agent skills",
+      "text": "Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them. The post Build once, run on any agent: A practical guide to agent skills appeared first on The GitHub B…",
+      "product": "GitHub",
+      "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
+      "auto": true
+    },
+    {
+      "date": "2026-11-12T20:59:36.000Z",
+      "title": "Actions for ARM32 Linux & Windows retirement",
+      "text": "GitHub Actions hosted runners will be ending support for ARM32 job execution on Windows and Linux by 8th Dec 2026. This follows our end of support for node20 where Node… The post Actions for ARM32 Linux & Windows retirement appeared first on The GitHub Blog .",
+      "product": "GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement",
+      "auto": true
+    },
+    {
+      "date": "2026-11-12T20:00:00.000Z",
+      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "text": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+      "product": "OpenAI",
+      "url": "https://openai.com/business/customer-stories/amplitude",
+      "auto": true
+    },
+    {
+      "date": "2026-11-12T19:07:35.000Z",
+      "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+      "text": "",
+      "product": "Hugging Face",
+      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "auto": true
+    },
+    {
+      "date": "2026-11-12T18:00:50.000Z",
+      "title": "Introducing Gemini 4 Hydrogen",
+      "text": "",
+      "product": "Google DeepMind",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+      "auto": true
+    },
+    {
+      "date": "2026-11-12T18:00:00.000Z",
+      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+      "text": "We are bringing Gemini 4 Hydrogen to Google Search globally to provide you with more helpful, visual, and intuitive responses.",
+      "product": "Gemini",
+      "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+      "auto": true
+    },
+    {
+      "date": "2026-11-12T18:00:00.000Z",
+      "title": "Gemini 4 Hydrogen: everyday coding and agentic workflows for developers",
+      "text": "Build faster with Gemini 4 Hydrogen, Google’s new model for cost-efficient agentic coding and debugging. Start building in Google AI Studio today.",
+      "product": "Gemini",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen/",
+      "auto": true
+    },
+    {
+      "date": "2026-11-12T18:00:00.000Z",
+      "title": "Introducing Gemini 4 Hydrogen",
+      "text": "Today, we’re introducing Gemini 4 Hydrogen, our daily driver for agentic workflows",
+      "product": "Gemini",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+      "auto": true
+    },
+    {
+      "date": "2026-11-12T17:00:03.000Z",
+      "title": "From AI ambition to business impact",
+      "text": "Most business leaders I meet no longer need to be convinced that AI works. They’ve seen the pilots, the demos and the copilots. The question I hear in boardrooms now is different: How do we move from AI that impresses to AI that changes how the business actually runs? That is th…",
+      "product": "Microsoft",
+      "url": "https://blogs.microsoft.com/blog/2026/11/12/from-ai-ambition-to-business-impact/",
+      "auto": true
+    },
+    {
+      "date": "2026-11-12T17:00:00.000Z",
+      "title": "Get quick answers from Gemini on any website.",
+      "text": "Get quick answers with Gemini in Chrome. Summarize articles, compare products, and explain complex topics directly in your side panel. Try it now.",
+      "product": "Gemini",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/research-with-gemini-in-chrome/",
+      "auto": true
+    },
+    {
+      "date": "2026-11-12T16:00:02.000Z",
+      "title": "Scaling AI value without losing control: Lessons from Frontier Firms",
+      "text": "Results are widespread. Value at scale is not, and that gap is what this year’s research from IDC, commissioned by Microsoft, set out to explain. In our fourth year commissioning IDC, more than 5,200 senior IT and business leaders across 28 industries shared what it takes to max…",
+      "product": "Microsoft",
+      "url": "https://blogs.microsoft.com/blog/2026/11/12/scaling-ai-value-without-losing-control-lessons-from-frontier-firms/",
+      "auto": true
+    },
+    {
+      "date": "2026-11-12T14:38:25.000Z",
+      "title": "Secret scanning detects Cloudflare service tokens",
+      "text": "Secret scanning now detects Cloudflare service tokens. Detectors added Secret scanning now automatically detects the following new secret type in your repositories. Provider Secret type Cloudflare cloudflare_access_service_token Partner secrets are… The post Secret scanning dete…",
+      "product": "GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-11-12-secret-scanning-adds-a-detector-for-cloudflare",
+      "auto": true
+    },
+    {
+      "date": "2026-11-12T12:00:07.000Z",
+      "title": "Meta’s New Agreements Bring Clean Manufacturing to Data Center Supply Chains",
+      "text": "We’re bringing clean manufacturing to our data centers and setting an industry standard by entering long-term purchase agreements with low-carbon producers across our supply chain. The post Meta’s New Agreements Bring Clean Manufacturing to Data Center Supply Chains appeared fir…",
+      "product": "Meta AI",
+      "url": "https://about.fb.com/news/2026/11/meta-new-agreements-clean-manufacturing-data-center-supply-chains/",
+      "auto": true
+    },
+    {
+      "date": "2026-11-12T12:00:00.000Z",
+      "title": "Gondola doubles revenue as its team builds more with Codex",
+      "text": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
+      "product": "OpenAI",
+      "url": "https://openai.com/business/customer-stories/gondola",
+      "auto": true
+    },
+    {
+      "date": "2026-11-12T12:00:00.000Z",
+      "title": "7 customer service skills every human and AI agent needs (with examples)",
+      "text": "Learn the 7 customer service skills every human and AI agent needs, with real examples, a human vs AI comparison, and ways to train and measure them.",
+      "product": "ElevenLabs",
+      "url": "https://elevenlabs.io/blog/customer-service-skills",
+      "auto": true
+    },
+    {
+      "date": "2026-11-12T12:00:00.000Z",
+      "title": "ElevenLabs brings free voice restoration to veterans, songwriters, and more patients",
+      "text": "ElevenLabs launches free ElevenMusic for artists with voice loss, partners with Wounded Warrior Project, and adds NYU Langone to 1 Million Voices.",
+      "product": "ElevenLabs",
+      "url": "https://elevenlabs.io/blog/impact-nyc-summit",
+      "auto": true
+    },
+    {
+      "date": "2026-11-12T09:30:00.000Z",
+      "title": "Holiday Extras is rethinking what it can build with Codex",
+      "text": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
+      "product": "OpenAI",
+      "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
+      "auto": true
+    },
+    {
+      "date": "2026-11-12T00:00:00.000Z",
+      "title": "Supporting research on AI and children’s safety",
+      "text": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
+      "product": "OpenAI",
+      "url": "https://openai.com/index/children-first-declaration",
+      "auto": true
+    },
+    {
+      "date": "2026-11-12T00:00:00.000Z",
+      "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+      "text": "",
+      "product": "Hugging Face",
+      "url": "https://huggingface.co/blog/3d-lora-finetuning",
+      "auto": true
+    },
+    {
+      "date": "2026-11-11T21:34:04.000Z",
+      "title": "process-daemon v0.5.2",
+      "text": "opencode-pty 0.5.2 (protocol 8) from packages/process-daemon, published to npm as @opencode/pty@0.5.2.",
+      "product": "OpenCode",
+      "url": "https://github.com/anomalyco/opencode/releases/tag/process-daemon-v0.5.2",
+      "auto": true
+    },
+    {
+      "date": "2026-11-11T18:27:09.000Z",
+      "title": "process-daemon-v0.5.1",
+      "text": "chore(process-daemon): release 0.5.1 ( #63366 )",
+      "product": "OpenCode",
+      "url": "https://github.com/anomalyco/opencode/releases/tag/process-daemon-v0.5.1",
+      "auto": true
+    },
+    {
+      "date": "2026-11-11T18:00:00.000Z",
+      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+      "text": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+      "product": "Google AI",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "auto": true
+    },
+    {
+      "date": "2026-11-11T17:00:00.000Z",
+      "title": "Talk it through with Gemini, now on Apple CarPlay",
+      "text": "Gemini is now available on Apple CarPlay.",
+      "product": "Gemini",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-on-apple-carplay/",
+      "auto": true
+    },
+    {
+      "date": "2026-11-11T16:00:00.000Z",
+      "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
+      "text": "Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.",
+      "product": "Google AI",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+      "auto": true
+    },
+    {
+      "date": "2026-11-11T15:00:15.000Z",
+      "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+      "text": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
+      "product": "Google DeepMind",
+      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "auto": true
+    },
+    {
+      "date": "2026-11-11T12:00:00.000Z",
+      "title": "Voice cloning for content creators: Scale your content workflows with voice AI",
+      "text": "Learn how voice cloning for content creators helps improve existing workflows across podcasts, YouTube, digital classes, and more with ElevenCreative",
+      "product": "ElevenLabs",
+      "url": "https://elevenlabs.io/blog/voice-cloning-for-content-creators",
+      "auto": true
+    },
+    {
+      "date": "2026-11-11T09:00:00.000Z",
+      "title": "Experience the art and legacy of Dr. Esther Mahlangu",
+      "text": "A new online archive of Esther Mahlangu’s life and art is now on Google Arts & Culture.",
+      "product": "Google AI",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
+      "auto": true
+    },
+    {
+      "date": "2026-11-11T05:01:16.000Z",
+      "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+      "text": "",
+      "product": "Hugging Face",
+      "url": "https://huggingface.co/blog/qvac/botpsy",
+      "auto": true
+    },
+    {
+      "date": "2026-11-10T22:25:00.000Z",
+      "title": "v0.40.17",
+      "text": "What's Changed Improve ChatGPT CLI restore and graceful restart by @hoyyeva in #19583 cmd/launch: use thinking metadata for OpenCode settings by @hoyyeva in #19409 llm: use mmap for Vulkan integrated GPUs by @dhiltgen in #19640 rpreslar4765/Ollama by @rpreslar4765 in #17163 mlx:…",
+      "product": "Ollama",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc0",
+      "auto": true
+    },
+    {
+      "date": "2026-11-10T19:00:00.000Z",
+      "title": "Gemini Intelligence: New features, on more devices",
+      "text": "Gemini Intelligence is rolling out to more devices. See how expanded capabilities across these devices help you do more.",
+      "product": "Google AI",
+      "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+      "auto": true
+    },
+    {
+      "date": "2026-11-10T18:00:00.000Z",
+      "title": "Git security vulnerabilities announced",
+      "text": "Git is releasing updates addressing six security vulnerabilities affecting recursive clones, reference handling, merges, binary patches, and imports. Here is what users need to know. The post Git security vulnerabilities announced appeared first on The GitHub Blog .",
+      "product": "GitHub",
+      "url": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/",
+      "auto": true
+    },
+    {
+      "date": "2026-11-10T17:27:36.000Z",
+      "title": "v1.59.0",
+      "text": "✨ Features Minimal deferred MCP tools in ToolExecutionOperation #13378 Configurable and per-start voice instructions for live-voice #13375 Configurable GPT-Live endpoint, model and key #13360 Filter session/list by client tags (ACP) #13173 Stop, approval, and tool hook operation…",
+      "product": "Goose",
+      "url": "https://github.com/aaif-goose/goose/releases/tag/v1.59.0",
+      "auto": true
+    },
+    {
+      "date": "2026-11-10T16:03:47.000Z",
+      "title": "Gemini 4 Carbon is now available",
+      "text": "",
+      "product": "Google DeepMind",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+      "auto": true
+    },
+    {
+      "date": "2026-11-10T14:00:00.000Z",
+      "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
+      "text": "Google and Adobe are integrating creative and productivity tools. Edit PDFs in Drive and use Adobe AI in Gemini. See what’s new in this partnership.",
+      "product": "Google AI",
+      "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+      "auto": true
+    },
+    {
+      "date": "2026-11-10T12:02:28.000Z",
+      "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+      "text": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
+      "product": "Google DeepMind",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "auto": true
+    },
+    {
+      "date": "2026-11-10T11:13:04.000Z",
+      "title": "Opening the datasets behind our AI weather models",
+      "text": "Foundational precipitation and geostationary satellite datasets to observe the planet clearly.",
+      "product": "Google DeepMind",
+      "url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
+      "auto": true
+    },
+    {
+      "date": "2026-11-10T04:16:29.000Z",
+      "title": "v1.58.1",
+      "text": "🐛 Bug Fixes Reword compaction prompt that Opus 5.5 refuses as distillation #13340 Refresh Databricks OAuth tokens before they expire #13328",
+      "product": "Goose",
+      "url": "https://github.com/aaif-goose/goose/releases/tag/v1.58.1",
+      "auto": true
+    },
+    {
+      "date": "2026-11-09T23:45:36.000Z",
+      "title": "v0.40.16",
+      "text": "Ripple Preview Ripple Preview from Ricursive Intelligence is a 65B dense model built for agentic coding. ollama run ripple-preview What's Changed Qwen3.8 Flash Next uses about 27 GiB less memory on Apple silicon ollama launch claude always routes Claude Code to the selected mode…",
+      "product": "Ollama",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.16",
+      "auto": true
+    },
+    {
+      "date": "2026-11-09T19:51:47.000Z",
+      "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+      "text": "Our most capable vision-language-action model enhances robot dexterity, reliability, and safety",
+      "product": "Google DeepMind",
+      "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+      "auto": true
+    },
+    {
+      "date": "2026-11-09T12:00:45.000Z",
+      "title": "Expanding Teen Account Protections to Teens Around the World",
+      "text": "We’re expanding our AI age-estimation technology globally to place millions more teens in Teen Account protections on Instagram. The post Expanding Teen Account Protections to Teens Around the World appeared first on Meta Newsroom .",
+      "product": "Meta AI",
+      "url": "https://about.fb.com/news/2026/11/expanding-teen-account-protections-to-teens-around-the-world/",
+      "auto": true
+    },
+    {
+      "date": "2026-11-08T00:36:53.000Z",
+      "title": "v0.40.16-rc0: Add ripple preview support to the MLX runner (#19592)",
+      "text": "Add the Ripple model, renderer, parser and import registration. Support per-layer NoPE in DFlash drafts. Fuse MLP activation, value blending and attention gating. Add reference fixtures and model/runner regression tests.",
+      "product": "Ollama",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.16-rc0",
+      "auto": true
+    },
+    {
+      "date": "2026-11-06T22:15:59.000Z",
+      "title": "Beyond code generation: A developer’s guide to agentic engineering",
+      "text": "Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your judgment. The post Beyond code generation: A developer’s guide to agentic engineering appea…",
+      "product": "GitHub",
+      "url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/",
+      "auto": true
+    },
+    {
+      "date": "2026-11-06T18:00:58.000Z",
+      "title": "Design the Muse App, Just for You",
+      "text": "Today, we're introducing spaces, an interactive way to build a more customized experience in the Muse app. The post Design the Muse App, Just for You appeared first on Meta Newsroom .",
+      "product": "Meta AI",
+      "url": "https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/",
+      "auto": true
+    }
+  ]
+}
