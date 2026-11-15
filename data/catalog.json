@@ -680,18 +680,18 @@
      "free": true,
      "trial": null,
      "prices": {
-      "UA": null,
-      "UA_uk": null,
-      "UA_en": null,
-      "US": null,
-      "US_uk": null,
-      "US_en": null,
-      "EU": null,
-      "EU_uk": null,
-      "EU_en": null,
-      "cheapest": null,
-      "cheapest_uk": null,
-      "cheapest_en": null
+      "UA": "Бесплатно — $0; платных тарифов нет",
+      "UA_uk": "Безкоштовно — $0; платних тарифів немає",
+      "UA_en": "Free — $0; no paid plans",
+      "US": "Бесплатно — $0; платных тарифов нет",
+      "US_uk": "Безкоштовно — $0; платних тарифів немає",
+      "US_en": "Free — $0; no paid plans",
+      "EU": "Бесплатно — $0; платных тарифов нет",
+      "EU_uk": "Безкоштовно — $0; платних тарифів немає",
+      "EU_en": "Free — $0; no paid plans",
+      "cheapest": "Бесплатно — $0",
+      "cheapest_uk": "Безкоштовно — $0",
+      "cheapest_en": "Free — $0"
      },
      "languages": {
       "ru": null,
@@ -715,7 +715,7 @@
       "Доступность функций сильно зависит от страны"
      ],
      "bugs": [],
-     "checked": "2026-11-14",
+     "checked": "2026-11-15",
      "flagship_uk": "Асистент на моделях Meta (Muse-лінійка «скоро» для підписників Muse)",
      "flagship_en": "Assistant on Meta models (Muse line 'soon' for Muse subscribers)",
      "capabilities": [
@@ -2094,18 +2094,18 @@
      "free": true,
      "trial": null,
      "prices": {
-      "UA": "Только The X Subscription: Plus $8; Premium $30; Super $100; Ultra $200 /мес; чужие модели в Cursor — по API-прайсу сверху; legacy Pro $20 / Pro+ $60 — только у старых подписчиков",
-      "UA_uk": "Тільки The X Subscription: Plus $8; Premium $30; Super $100; Ultra $200 /міс; чужі моделі в Cursor — за API-прайсом зверху; legacy Pro $20 / Pro+ $60 — тільки у старих підписників",
-      "UA_en": "The X Subscription only: Plus $8; Premium $30; Super $100; Ultra $200 /mo; third-party models in Cursor billed at API prices on top; legacy Pro $20 / Pro+ $60 — existing subscribers only",
-      "US": "Только The X Subscription: Plus $8; Premium $30; Super $100; Ultra $200 /мес; чужие модели в Cursor — по API-прайсу сверху; legacy Pro $20 / Pro+ $60 — только у старых подписчиков",
-      "US_uk": "Тільки The X Subscription: Plus $8; Premium $30; Super $100; Ultra $200 /міс; чужі моделі в Cursor — за API-прайсом зверху; legacy Pro $20 / Pro+ $60 — тільки у старих підписників",
-      "US_en": "The X Subscription only: Plus $8; Premium $30; Super $100; Ultra $200 /mo; third-party models in Cursor billed at API prices on top; legacy Pro $20 / Pro+ $60 — existing subscribers only",
-      "EU": null,
-      "EU_uk": null,
-      "EU_en": null,
-      "cheapest": null,
-      "cheapest_uk": null,
-      "cheapest_en": null
+      "UA": "Cursor теперь продаётся только внутри The X Subscription: Plus $8; Premium $30; Super $100; Ultra $200 /мес; чужие модели в Cursor — по API-прайсу сверху; legacy Pro $20 / Pro+ $60 — только у старых подписчиков",
+      "UA_uk": "Cursor тепер продається тільки всередині The X Subscription: Plus $8; Premium $30; Super $100; Ultra $200 /міс; чужі моделі в Cursor — за API-прайсом зверху; legacy Pro $20 / Pro+ $60 — тільки у старих підписників",
+      "UA_en": "Cursor is now sold only inside The X Subscription: Plus $8; Premium $30; Super $100; Ultra $200 /mo; third-party models in Cursor billed at API prices on top; legacy Pro $20 / Pro+ $60 — existing subscribers only",
+      "US": "Cursor теперь продаётся только внутри The X Subscription: Plus $8; Premium $30; Super $100; Ultra $200 /мес; чужие модели в Cursor — по API-прайсу сверху; legacy Pro $20 / Pro+ $60 — только у старых подписчиков",
+      "US_uk": "Cursor тепер продається тільки всередині The X Subscription: Plus $8; Premium $30; Super $100; Ultra $200 /міс; чужі моделі в Cursor — за API-прайсом зверху; legacy Pro $20 / Pro+ $60 — тільки у старих підписників",
+      "US_en": "Cursor is now sold only inside The X Subscription: Plus $8; Premium $30; Super $100; Ultra $200 /mo; third-party models in Cursor billed at API prices on top; legacy Pro $20 / Pro+ $60 — existing subscribers only",
+      "EU": "Cursor теперь продаётся только внутри The X Subscription: Plus $8; Premium $30; Super $100; Ultra $200 /мес; чужие модели в Cursor — по API-прайсу сверху; legacy Pro $20 / Pro+ $60 — только у старых подписчиков",
+      "EU_uk": "Cursor тепер продається тільки всередині The X Subscription: Plus $8; Premium $30; Super $100; Ultra $200 /міс; чужі моделі в Cursor — за API-прайсом зверху; legacy Pro $20 / Pro+ $60 — тільки у старих підписників",
+      "EU_en": "Cursor is now sold only inside The X Subscription: Plus $8; Premium $30; Super $100; Ultra $200 /mo; third-party models in Cursor billed at API prices on top; legacy Pro $20 / Pro+ $60 — existing subscribers only",
+      "cheapest": "The X Subscription — от $8/мес",
+      "cheapest_uk": "The X Subscription — від $8/міс",
+      "cheapest_en": "The X Subscription — from $8/mo"
      },
      "languages": {
       "ru": false,
@@ -2130,7 +2130,7 @@
      "bugs": [
       "Агент иногда правит файлы за пределами поставленной задачи"
      ],
-     "checked": "2026-11-14",
+     "checked": "2026-11-15",
      "rating_source": "G2 · 2026-11",
      "capabilities": [
       "Код",
