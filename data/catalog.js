@@ -1,6 +1,6 @@
 /* Данные: редактируйте объект после знака =. */
 window.NEURO_CATALOG = {
- "generated": "2026-11-14 (обновление куратора: официальные ссылки по всем моделям, Muse — muse.ai)",
+ "generated": "2026-11-15 (ротация куратора: Локальные модели; Bionic — ссылка на lmstudio.ai/bionic)",
  "source": "исследование 14.11.2026, официальные страницы вендоров",
  "categories": {
   "chats": {
@@ -1882,7 +1882,7 @@ window.NEURO_CATALOG = {
      "pros": [],
      "cons": [],
      "bugs": [],
-     "checked": "2026-11-14"
+     "checked": "2026-11-15"
     },
     {
      "id": "ollama",
@@ -1923,7 +1923,7 @@ window.NEURO_CATALOG = {
      "pros": [],
      "cons": [],
      "bugs": [],
-     "checked": "2026-11-14"
+     "checked": "2026-11-15"
     },
     {
      "id": "gpt4all",
@@ -1963,7 +1963,7 @@ window.NEURO_CATALOG = {
      "pros": [],
      "cons": [],
      "bugs": [],
-     "checked": "2026-11-14"
+     "checked": "2026-11-15"
     },
     {
      "id": "jan",
@@ -2003,7 +2003,7 @@ window.NEURO_CATALOG = {
      "pros": [],
      "cons": [],
      "bugs": [],
-     "checked": "2026-11-14"
+     "checked": "2026-11-15"
     },
     {
      "id": "open-webui",
@@ -2044,17 +2044,17 @@ window.NEURO_CATALOG = {
      "pros": [],
      "cons": [],
      "bugs": [],
-     "checked": "2026-11-14"
+     "checked": "2026-11-15"
     },
     {
      "id": "bionic",
      "name": "Bionic",
-     "developer": null,
-     "url": "https://github.com/bionic-gpt/bionic-gpt",
+     "developer": "LM Studio",
+     "url": "https://lmstudio.ai/bionic",
      "flagship": null,
-     "strength": "«Нет GPU»-сценарий внутри экосистемы LM Studio; отдельной публичной страницы цен вне LM Studio в исследовании не найдено — частично не подтверждено",
-     "essence_uk": "«Немає GPU»-сценарій всередині екосистеми LM Studio; окремої публічної сторінки цін поза LM Studio у дослідженні не знайдено — частково не підтверджено",
-     "essence_en": "'No GPU' scenario inside the LM Studio ecosystem; no separate public pricing page outside LM Studio was found in research — partially unconfirmed",
+     "strength": "«Нет GPU»-сценарий внутри экосистемы LM Studio: агент Bionic для работы и кода на открытых моделях; цены подтверждены по официальной странице",
+     "essence_uk": "«Немає GPU»-сценарій всередині екосистеми LM Studio: агент Bionic для роботи й коду на відкритих моделях; ціни підтверджено за офіційною сторінкою",
+     "essence_en": "'No GPU' scenario inside the LM Studio ecosystem: the Bionic agent for work and code with open models; prices confirmed on the official page",
      "free": true,
      "trial": null,
      "prices": {
@@ -2082,7 +2082,7 @@ window.NEURO_CATALOG = {
      "pros": [],
      "cons": [],
      "bugs": [],
-     "checked": "2026-11-14"
+     "checked": "2026-11-15"
     }
    ]
   }
