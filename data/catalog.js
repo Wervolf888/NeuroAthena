@@ -32,8 +32,8 @@ window.NEURO_CATALOG = {
       "cheapest_en": null
      },
      "languages": {
-      "ru": true,
-      "uk": null
+      "ru": false,
+      "uk": false
      },
      "platforms": [
       "web",
@@ -53,7 +53,7 @@ window.NEURO_CATALOG = {
       "Украинский язык интерфейса не подтверждён"
      ],
      "bugs": [],
-     "checked": "2026-11-14",
+     "checked": "2026-11-15",
      "flagship_uk": "Muse Wonder (12.10.2026, API $4/$20, 1M контекст); Wonder Full — тільки в Muse Code $50/$200; Spark 1.3 $1,25/$4,25",
      "flagship_en": "Muse Wonder (12 Oct 2026, API $4/$20, 1M context); Wonder Full — Muse Code only, $50/$200; Spark 1.3 $1.25/$4.25",
      "capabilities": [
@@ -282,8 +282,8 @@ window.NEURO_CATALOG = {
       "cheapest_en": null
      },
      "languages": {
-      "ru": null,
-      "uk": null
+      "ru": true,
+      "uk": true
      },
      "platforms": [
       "web",
@@ -306,7 +306,7 @@ window.NEURO_CATALOG = {
      "bugs": [
       "Склонен повторять непроверенные слухи из X как факты"
      ],
-     "checked": "2026-11-14",
+     "checked": "2026-11-15",
      "flagship_uk": "Grok 4.7 API ($2/$6 за 1M, 500K контекст)",
      "flagship_en": "Grok 4.7 API ($2/$6 per 1M, 500K context)",
      "capabilities": [
@@ -401,8 +401,8 @@ window.NEURO_CATALOG = {
       "cheapest_en": null
      },
      "languages": {
-      "ru": null,
-      "uk": null
+      "ru": false,
+      "uk": true
      },
      "platforms": [
       "web",
@@ -423,7 +423,7 @@ window.NEURO_CATALOG = {
       "В сложных задачах уступает топовым моделям конкурентов"
      ],
      "bugs": [],
-     "checked": "2026-11-14",
+     "checked": "2026-11-15",
      "flagship_uk": "Mistral Vibe (Le Chat) + Vibe for code",
      "flagship_en": "Mistral Vibe (Le Chat) + Vibe for code",
      "capabilities": [
@@ -695,8 +695,8 @@ window.NEURO_CATALOG = {
       "cheapest_en": "Free — $0"
      },
      "languages": {
-      "ru": null,
-      "uk": null
+      "ru": false,
+      "uk": false
      },
      "platforms": [
       "web",
@@ -751,8 +751,8 @@ window.NEURO_CATALOG = {
       "cheapest_en": null
      },
      "languages": {
-      "ru": null,
-      "uk": null
+      "ru": false,
+      "uk": false
      },
      "platforms": [
       "web",
@@ -775,7 +775,7 @@ window.NEURO_CATALOG = {
       "Доступность моделей зависит от политики Poe"
      ],
      "bugs": [],
-     "checked": "2026-11-14",
+     "checked": "2026-11-15",
      "flagship_uk": "Агрегатор: 200+ офіційних моделей + 1 млн+ community-ботів в одному вікні",
      "flagship_en": "Aggregator: 200+ official models + 1M+ community bots in one window",
      "rating_source": "G2 · 2026-11",
@@ -1549,8 +1549,8 @@ window.NEURO_CATALOG = {
       "cheapest_en": null
      },
      "languages": {
-      "ru": null,
-      "uk": null
+      "ru": false,
+      "uk": false
      },
      "platforms": [
       "web",
@@ -1572,7 +1572,7 @@ window.NEURO_CATALOG = {
      "bugs": [
       "Бесплатные кредиты дают за ежедневный вход и не копятся"
      ],
-     "checked": "2026-11-14",
+     "checked": "2026-11-15",
      "flagship_uk": "Kling 4.0 (15.10.2026, 3–30 сек, стереозвук)",
      "flagship_en": "Kling 4.0 (15 Oct 2026, 3–30 s, stereo sound)",
      "capabilities": [
@@ -1606,8 +1606,8 @@ window.NEURO_CATALOG = {
       "cheapest_en": null
      },
      "languages": {
-      "ru": null,
-      "uk": null
+      "ru": false,
+      "uk": false
      },
      "platforms": [
       "web",
@@ -1624,7 +1624,7 @@ window.NEURO_CATALOG = {
       "Цены и лимиты зависят от площадки, где куплен доступ"
      ],
      "bugs": [],
-     "checked": "2026-11-14",
+     "checked": "2026-11-15",
      "flagship_uk": "Seedance 2.5 (4–30 сек; ~$0,21/сек 720p на сторонніх API; 2.0 — $0,15/сек 720p)",
      "flagship_en": "Seedance 2.5 (4–30 s; ~$0.21/s 720p on third-party APIs; 2.0 — $0.15/s 720p)",
      "capabilities": [
@@ -1936,8 +1936,8 @@ window.NEURO_CATALOG = {
       "cheapest_en": null
      },
      "languages": {
-      "ru": null,
-      "uk": null
+      "ru": true,
+      "uk": false
      },
      "platforms": [
       "web",
@@ -1959,7 +1959,7 @@ window.NEURO_CATALOG = {
      "bugs": [
       "Вокал иногда «съедает» слова и искажает текст песни"
      ],
-     "checked": "2026-11-14",
+     "checked": "2026-11-15",
      "flagship_uk": "v6 / v6-wild / v6-mini (09.09.2026)",
      "flagship_en": "v6 / v6-wild / v6-mini (9 Sep 2026)",
      "capabilities": [
@@ -2046,8 +2046,8 @@ window.NEURO_CATALOG = {
       "cheapest_en": null
      },
      "languages": {
-      "ru": null,
-      "uk": null
+      "ru": false,
+      "uk": false
      },
      "platforms": [
       "web",
@@ -2069,7 +2069,7 @@ window.NEURO_CATALOG = {
      "bugs": [
       "На длинных текстах интонация иногда «плывёт» к концу"
      ],
-     "checked": "2026-11-14",
+     "checked": "2026-11-15",
      "flagship_uk": "TTS/клонування + Music v2",
      "flagship_en": "TTS/cloning + Music v2",
      "rating_source": "G2 · 2026-11",
@@ -2550,8 +2550,8 @@ window.NEURO_CATALOG = {
       "cheapest_en": null
      },
      "languages": {
-      "ru": null,
-      "uk": null
+      "ru": true,
+      "uk": true
      },
      "platforms": [
       "web",
@@ -2572,7 +2572,7 @@ window.NEURO_CATALOG = {
      "bugs": [
       "Длинные задачи иногда зависают или зацикливаются"
      ],
-     "checked": "2026-11-14",
+     "checked": "2026-11-15",
      "capabilities": [
       "Агентные задачи",
       "Поиск в интернете",
@@ -2713,8 +2713,8 @@ window.NEURO_CATALOG = {
       "cheapest_en": null
      },
      "languages": {
-      "ru": null,
-      "uk": null
+      "ru": true,
+      "uk": true
      },
      "platforms": [
       "web"
@@ -2731,7 +2731,7 @@ window.NEURO_CATALOG = {
       "Продукт новый: реальные возможности покажет практика"
      ],
      "bugs": [],
-     "checked": "2026-11-14",
+     "checked": "2026-11-15",
      "capabilities": [
       "Агентные задачи"
      ]
