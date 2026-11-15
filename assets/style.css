@@ -400,4 +400,4 @@ body[data-route="calendar"] .page-head{background-image:linear-gradient(90deg,rg
 body[data-route="community"] .page-head{background-image:linear-gradient(90deg,rgba(5,16,28,.88),rgba(5,16,28,.42)),url('heads/head-community.jpg');background-size:cover;background-position:center}
 
 /* Правка 15.11.2026 (v7): картинки шапок показываются целиком по высоте блока, без обрезки сюжета */
-body[data-route] .page-head,body[data-route] .category-hero{background-size:auto 100%;background-position:right center;background-repeat:no-repeat;background-color:#060f1a}
+body[data-route] .page-head,body[data-route] .category-hero{background-size:auto 100%;background-position:right 150px center;background-repeat:no-repeat;background-color:#060f1a}
