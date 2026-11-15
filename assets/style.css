@@ -379,3 +379,22 @@ body[data-route="calendar"]::before{background-image:url('backgrounds/bg-calenda
 body[data-route="community"]::before{background-image:url('backgrounds/bg-community.jpg')}
 .page-head,.category-hero{background:rgba(8,18,30,.55)}
 .model-card,.offer-card,.calendar-event{background:linear-gradient(140deg,rgba(22,42,58,.88),rgba(16,28,42,.92))}
+
+/* === Правки 15.11.2026 v6: у шапок снова свои картинки (поверх фонов v5) === */
+body[data-route="chats"] .category-hero{background-image:linear-gradient(90deg,rgba(5,16,28,.88),rgba(5,16,28,.42)),url('categories/chats.webp');background-size:cover;background-position:center}
+body[data-route="images"] .category-hero{background-image:linear-gradient(90deg,rgba(5,16,28,.88),rgba(5,16,28,.42)),url('categories/images.webp');background-size:cover;background-position:center}
+body[data-route="video"] .category-hero{background-image:linear-gradient(90deg,rgba(5,16,28,.88),rgba(5,16,28,.42)),url('categories/video.webp');background-size:cover;background-position:center}
+body[data-route="audio"] .category-hero{background-image:linear-gradient(90deg,rgba(5,16,28,.88),rgba(5,16,28,.42)),url('categories/audio.webp');background-size:cover;background-position:center}
+body[data-route="code"] .category-hero{background-image:linear-gradient(90deg,rgba(5,16,28,.88),rgba(5,16,28,.42)),url('categories/code.webp');background-size:cover;background-position:center}
+body[data-route="agents"] .category-hero{background-image:linear-gradient(90deg,rgba(5,16,28,.88),rgba(5,16,28,.42)),url('categories/agents.webp');background-size:cover;background-position:center}
+body[data-route="local"] .category-hero{background-image:linear-gradient(90deg,rgba(5,16,28,.88),rgba(5,16,28,.42)),url('categories/local.webp');background-size:cover;background-position:center}
+body[data-route="prices"] .page-head{background-image:linear-gradient(90deg,rgba(5,16,28,.88),rgba(5,16,28,.42)),url('backgrounds/bg-prices.jpg');background-size:cover;background-position:center}
+body[data-route="offers"] .page-head{background-image:linear-gradient(90deg,rgba(5,16,28,.88),rgba(5,16,28,.42)),url('backgrounds/bg-offers.jpg');background-size:cover;background-position:center}
+body[data-route="discounts"] .page-head{background-image:linear-gradient(90deg,rgba(5,16,28,.88),rgba(5,16,28,.42)),url('backgrounds/bg-discounts.jpg');background-size:cover;background-position:center}
+body[data-route="coupons"] .page-head{background-image:linear-gradient(90deg,rgba(5,16,28,.88),rgba(5,16,28,.42)),url('backgrounds/bg-coupons.jpg');background-size:cover;background-position:center}
+body[data-route="news"] .page-head{background-image:linear-gradient(90deg,rgba(5,16,28,.88),rgba(5,16,28,.42)),url('backgrounds/bg-news.jpg');background-size:cover;background-position:center}
+body[data-route="compare"] .page-head{background-image:linear-gradient(90deg,rgba(5,16,28,.88),rgba(5,16,28,.42)),url('backgrounds/bg-compare.jpg');background-size:cover;background-position:center}
+body[data-route="free"] .page-head{background-image:linear-gradient(90deg,rgba(5,16,28,.88),rgba(5,16,28,.42)),url('backgrounds/bg-free.jpg');background-size:cover;background-position:center}
+body[data-route="rankings"] .page-head{background-image:linear-gradient(90deg,rgba(5,16,28,.88),rgba(5,16,28,.42)),url('backgrounds/bg-rankings.jpg');background-size:cover;background-position:center}
+body[data-route="calendar"] .page-head{background-image:linear-gradient(90deg,rgba(5,16,28,.88),rgba(5,16,28,.42)),url('backgrounds/bg-calendar.jpg');background-size:cover;background-position:center}
+body[data-route="community"] .page-head{background-image:linear-gradient(90deg,rgba(5,16,28,.88),rgba(5,16,28,.42)),url('backgrounds/bg-community.jpg');background-size:cover;background-position:center}
