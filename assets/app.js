@@ -29,7 +29,7 @@ const I18N = {
     'desc.calendar': 'Календарь релизов', 'desc.community': 'Выбор пользователей',
     'skip': 'Перейти к содержанию', 'brandTag': 'НАВИГАТОР ПО МИРУ ИИ',
     'navCatalog': 'Каталог', 'navPrices': 'Цены', 'navCompare': 'Сравнение', 'navNews': 'Новости',
-    'menuAll': 'Все разделы',
+    'menuAll': 'Все разделы', 'menuClose': 'Закрыть',
     'footerTag': 'Все нейросети. Все цены. Все новости.',
     'footerNote': 'Неподтверждённые данные не публикуются.',
     'footerAnim': 'Анимация Земли:',
@@ -584,8 +584,12 @@ function downloadJson(filename, text) {
 
 /* ---------- Статика шапки/подвала и меню ---------- */
 const main = document.querySelector('#main'), nav = document.querySelector('#allNav'),
-  menu = document.querySelector('#menu'), button = document.querySelector('#menuButton');
-function buildNav() { nav.innerHTML = pageIds.map(id => `<a href="#/${id}">${esc(pageName(id))}</a>`).join(''); }
+  menu = document.querySelector('#menu'), button = document.querySelector('#menuButton'),
+  backdrop = document.querySelector('#menuBackdrop'), closeBtn = document.querySelector('#menuClose');
+function buildNav() { nav.innerHTML = pageIds.map((id, i) => `<a href="#/${id}" data-page="${id}"><span class="nav-num">${String(i + 1).padStart(2, '0')}</span>${esc(pageName(id))}</a>`).join(''); markActiveNav(); }
+function markActiveNav() { const cur = document.body.dataset.route || 'home'; nav.querySelectorAll('a').forEach(a => a.classList.toggle('active', a.dataset.page === cur)); }
+function openMenu() { menu.hidden = false; backdrop.hidden = false; button.setAttribute('aria-expanded', 'true'); }
+function closeMenu() { menu.hidden = true; backdrop.hidden = true; button.setAttribute('aria-expanded', 'false'); }
 function applyStaticI18n() {
   document.documentElement.lang = lang;
   document.querySelectorAll('[data-i18n]').forEach(el => { el.textContent = t(el.dataset.i18n); });
@@ -612,9 +616,10 @@ document.querySelector('.lang-switch')?.addEventListener('click', e => {
   const b = e.target.closest('button[data-lang]');
   if (b) setLang(b.dataset.lang);
 });
-button.addEventListener('click', () => { menu.hidden = !menu.hidden; button.setAttribute('aria-expanded', String(!menu.hidden)); });
-nav.addEventListener('click', () => { menu.hidden = true; button.setAttribute('aria-expanded', 'false'); });
-document.addEventListener('keydown', e => { if (e.key === 'Escape' && !menu.hidden) { menu.hidden = true; button.setAttribute('aria-expanded', 'false'); button.focus(); } });
+button.addEventListener('click', () => { menu.hidden ? openMenu() : closeMenu(); });
+closeBtn.addEventListener('click', closeMenu);
+backdrop.addEventListener('click', closeMenu);
+document.addEventListener('keydown', e => { if (e.key === 'Escape' && !menu.hidden) { closeMenu(); button.focus(); } });
 
 /* ---------- Этап 6: вход Google (Google Identity Services) ---------- */
 function showToast(msg) {
@@ -1356,7 +1361,7 @@ function route() {
   if (id === 'ratings') id = 'rankings';
   if (id === 'choice') id = 'community';
   if (!pageIds.includes(id)) id = 'home';
-  document.body.dataset.route = id;
+  document.body.dataset.route = id; markActiveNav();
   if (id === 'home') {
     main.innerHTML = home(); rates(); initSearch(); initHome();
     if (hash === '#categories') document.getElementById('categories').scrollIntoView();
