@@ -331,6 +331,7 @@ body[data-route="prices"] .page-head,body[data-route="prices"] .category-hero{ba
 body[data-route="offers"] .page-head,body[data-route="offers"] .category-hero{background-image:none}
 body[data-route="discounts"] .page-head,body[data-route="discounts"] .category-hero{background-image:none}
 body[data-route="coupons"] .page-head,body[data-route="coupons"] .category-hero{background-image:none}
+body[data-route="sales"] .page-head,body[data-route="sales"] .category-hero{background-image:none}
 body[data-route="news"] .page-head,body[data-route="news"] .category-hero{background-image:none}
 body[data-route="compare"] .page-head,body[data-route="compare"] .category-hero{background-image:none}
 body[data-route="free"] .page-head,body[data-route="free"] .category-hero{background-image:none}
@@ -371,6 +372,7 @@ body[data-route="prices"]::before{background-image:url('backgrounds/bg-prices.jp
 body[data-route="offers"]::before{background-image:url('backgrounds/bg-offers.jpg')}
 body[data-route="discounts"]::before{background-image:url('backgrounds/bg-discounts.jpg')}
 body[data-route="coupons"]::before{background-image:url('backgrounds/bg-coupons.jpg')}
+body[data-route="sales"]::before{background-image:url('backgrounds/bg-sales.jpg')}
 body[data-route="news"]::before{background-image:url('backgrounds/bg-news.jpg')}
 body[data-route="compare"]::before{background-image:url('backgrounds/bg-compare.jpg')}
 body[data-route="free"]::before{background-image:url('backgrounds/bg-free.jpg')}
@@ -585,3 +587,5 @@ body{overflow-x:clip}
 
 /* Аудит 15.11: подборки не уезжают за край на узких окнах */
 .picks-grid>*{min-width:0}.pick-row{min-width:0}.pick-price{overflow-wrap:anywhere}
+
+.sales-h{margin:28px 0 12px;font-size:22px}
