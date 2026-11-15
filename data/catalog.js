@@ -55,7 +55,12 @@ window.NEURO_CATALOG = {
      "bugs": [],
      "checked": "2026-11-14",
      "flagship_uk": "Muse Wonder (12.10.2026, API $4/$20, 1M контекст); Wonder Full — тільки в Muse Code $50/$200; Spark 1.3 $1,25/$4,25",
-     "flagship_en": "Muse Wonder (12 Oct 2026, API $4/$20, 1M context); Wonder Full — Muse Code only, $50/$200; Spark 1.3 $1.25/$4.25"
+     "flagship_en": "Muse Wonder (12 Oct 2026, API $4/$20, 1M context); Wonder Full — Muse Code only, $50/$200; Spark 1.3 $1.25/$4.25",
+     "capabilities": [
+      "Текст",
+      "Код",
+      "Агентные задачи"
+     ]
     },
     {
      "id": "chatgpt",
@@ -112,7 +117,16 @@ window.NEURO_CATALOG = {
      "checked": "2026-11-14",
      "flagship_uk": "GPT-6 Sol у чаті (Plus+), GPT-6 Astra у Work/Codex, Free/Go — GPT-6 Luna",
      "flagship_en": "GPT-6 Sol in chat (Plus+), GPT-6 Astra in Work/Codex, Free/Go — GPT-6 Luna",
-     "rating_source": "G2 · 2026-11"
+     "rating_source": "G2 · 2026-11",
+     "capabilities": [
+      "Текст",
+      "Картинки",
+      "Код",
+      "Голос",
+      "Поиск в интернете",
+      "Работа с файлами",
+      "Агентные задачи"
+     ]
     },
     {
      "id": "claude",
@@ -169,7 +183,14 @@ window.NEURO_CATALOG = {
      "checked": "2026-11-14",
      "flagship_uk": "Opus 5.5 ($4/$20 за 1M API), Fable 5.2 ($8/$40) — топ за агентними задачами",
      "flagship_en": "Opus 5.5 ($4/$20 per 1M API), Fable 5.2 ($8/$40) — top for agentic tasks",
-     "rating_source": "G2 · 2026-11"
+     "rating_source": "G2 · 2026-11",
+     "capabilities": [
+      "Текст",
+      "Код",
+      "Работа с файлами",
+      "Поиск в интернете",
+      "Агентные задачи"
+     ]
     },
     {
      "id": "gemini",
@@ -224,7 +245,16 @@ window.NEURO_CATALOG = {
      "checked": "2026-11-14",
      "flagship_uk": "Gemini 4 Carbon (API $2/$10 intro до 30.11, далі $4/$20), Argon, Hydrogen $1,50/$7,50",
      "flagship_en": "Gemini 4 Carbon (API $2/$10 intro until 30 Nov, then $4/$20), Argon, Hydrogen $1.50/$7.50",
-     "rating_source": "G2 · 2026-11"
+     "rating_source": "G2 · 2026-11",
+     "capabilities": [
+      "Текст",
+      "Картинки",
+      "Видео",
+      "Голос",
+      "Код",
+      "Поиск в интернете",
+      "Работа с файлами"
+     ]
     },
     {
      "id": "grok",
@@ -278,7 +308,14 @@ window.NEURO_CATALOG = {
      ],
      "checked": "2026-11-14",
      "flagship_uk": "Grok 4.7 API ($2/$6 за 1M, 500K контекст)",
-     "flagship_en": "Grok 4.7 API ($2/$6 per 1M, 500K context)"
+     "flagship_en": "Grok 4.7 API ($2/$6 per 1M, 500K context)",
+     "capabilities": [
+      "Текст",
+      "Картинки",
+      "Видео",
+      "Голос",
+      "Поиск в интернете"
+     ]
     },
     {
      "id": "copilot",
@@ -331,7 +368,12 @@ window.NEURO_CATALOG = {
      "bugs": [],
      "checked": "2026-11-14",
      "flagship_uk": "Copilot на моделях OpenAI/Anthropic всередині M365",
-     "flagship_en": "Copilot on OpenAI/Anthropic models inside M365"
+     "flagship_en": "Copilot on OpenAI/Anthropic models inside M365",
+     "capabilities": [
+      "Текст",
+      "Картинки",
+      "Работа с файлами"
+     ]
     },
     {
      "id": "mistral-vibe",
@@ -383,7 +425,11 @@ window.NEURO_CATALOG = {
      "bugs": [],
      "checked": "2026-11-14",
      "flagship_uk": "Mistral Vibe (Le Chat) + Vibe for code",
-     "flagship_en": "Mistral Vibe (Le Chat) + Vibe for code"
+     "flagship_en": "Mistral Vibe (Le Chat) + Vibe for code",
+     "capabilities": [
+      "Текст",
+      "Код"
+     ]
     },
     {
      "id": "deepseek",
@@ -438,7 +484,12 @@ window.NEURO_CATALOG = {
      ],
      "checked": "2026-11-14",
      "flagship_uk": "V4.1-Flash-1017 у чаті; API deepseek-flash $0,15/$0,60 off-peak (пік ×2), v4-pro $0,66/$1,98",
-     "flagship_en": "V4.1-Flash-1017 in chat; API deepseek-flash $0.15/$0.60 off-peak (peak ×2), v4-pro $0.66/$1.98"
+     "flagship_en": "V4.1-Flash-1017 in chat; API deepseek-flash $0.15/$0.60 off-peak (peak ×2), v4-pro $0.66/$1.98",
+     "capabilities": [
+      "Текст",
+      "Код",
+      "Поиск в интернете"
+     ]
     },
     {
      "id": "qwen",
@@ -492,7 +543,12 @@ window.NEURO_CATALOG = {
      ],
      "checked": "2026-11-14",
      "flagship_uk": "Qwen3.8-Max (API $2/$6; у регіоні Frankfurt/global $1,65/$4,95)",
-     "flagship_en": "Qwen3.8-Max (API $2/$6; Frankfurt/global region $1.65/$4.95)"
+     "flagship_en": "Qwen3.8-Max (API $2/$6; Frankfurt/global region $1.65/$4.95)",
+     "capabilities": [
+      "Текст",
+      "Картинки",
+      "Код"
+     ]
     },
     {
      "id": "kimi",
@@ -544,7 +600,12 @@ window.NEURO_CATALOG = {
      "bugs": [],
      "checked": "2026-11-14",
      "flagship_uk": "Kimi K3.1 Pro (API $2/$10, 1M контекст; K3 $3/$15 — попередній флагман, open weights)",
-     "flagship_en": "Kimi K3.1 Pro (API $2/$10, 1M context; K3 $3/$15 — previous flagship, open weights)"
+     "flagship_en": "Kimi K3.1 Pro (API $2/$10, 1M context; K3 $3/$15 — previous flagship, open weights)",
+     "capabilities": [
+      "Текст",
+      "Работа с файлами",
+      "Поиск в интернете"
+     ]
     },
     {
      "id": "perplexity",
@@ -601,7 +662,12 @@ window.NEURO_CATALOG = {
      "checked": "2026-11-14",
      "flagship_uk": "Пошукова машина відповідей; у Pro — вибір моделей (GPT-6.1 Sol, Sonnet 5.5, Gemini 3.8 Flash та ін.)",
      "flagship_en": "Answer search engine; Pro offers model choice (GPT-6.1 Sol, Sonnet 5.5, Gemini 3.8 Flash and more)",
-     "rating_source": "G2 · 2026-11"
+     "rating_source": "G2 · 2026-11",
+     "capabilities": [
+      "Поиск в интернете",
+      "Текст",
+      "Работа с файлами"
+     ]
     },
     {
      "id": "meta-ai",
@@ -652,7 +718,12 @@ window.NEURO_CATALOG = {
      "bugs": [],
      "checked": "2026-11-14",
      "flagship_uk": "Асистент на моделях Meta (Muse-лінійка «скоро» для підписників Muse)",
-     "flagship_en": "Assistant on Meta models (Muse line 'soon' for Muse subscribers)"
+     "flagship_en": "Assistant on Meta models (Muse line 'soon' for Muse subscribers)",
+     "capabilities": [
+      "Текст",
+      "Картинки",
+      "Голос"
+     ]
     },
     {
      "id": "poe",
@@ -707,7 +778,11 @@ window.NEURO_CATALOG = {
      "checked": "2026-11-14",
      "flagship_uk": "Агрегатор: 200+ офіційних моделей + 1 млн+ community-ботів в одному вікні",
      "flagship_en": "Aggregator: 200+ official models + 1M+ community bots in one window",
-     "rating_source": "G2 · 2026-11"
+     "rating_source": "G2 · 2026-11",
+     "capabilities": [
+      "Текст",
+      "Картинки"
+     ]
     }
    ]
   },
@@ -763,7 +838,11 @@ window.NEURO_CATALOG = {
      "checked": "2026-11-14",
      "flagship_uk": "V8.2 (default з 24.07.2026)",
      "flagship_en": "V8.2 (default since 24 Jul 2026)",
-     "rating_source": "G2 · 2026-11"
+     "rating_source": "G2 · 2026-11",
+     "capabilities": [
+      "Картинки",
+      "Видео"
+     ]
     },
     {
      "id": "nano-banana-imagen",
@@ -817,7 +896,10 @@ window.NEURO_CATALOG = {
      ],
      "checked": "2026-11-14",
      "flagship_uk": "Nano Banana 2.1 і Pro (Gemini 3 Pro Image); на fal: $0,08 і $0,15/картинка; у Gemini-планах — Flow credits",
-     "flagship_en": "Nano Banana 2.1 and Pro (Gemini 3 Pro Image); on fal: $0.08 and $0.15/image; in Gemini plans — Flow credits"
+     "flagship_en": "Nano Banana 2.1 and Pro (Gemini 3 Pro Image); on fal: $0.08 and $0.15/image; in Gemini plans — Flow credits",
+     "capabilities": [
+      "Картинки"
+     ]
     },
     {
      "id": "gpt-image",
@@ -869,7 +951,10 @@ window.NEURO_CATALOG = {
      ],
      "checked": "2026-11-14",
      "flagship_uk": "GPT-Image-2.5 Sunburst (статус Default — найздібніша модель генерації та редагування)",
-     "flagship_en": "GPT-Image-2.5 Sunburst (Default status — the most capable generation and editing model)"
+     "flagship_en": "GPT-Image-2.5 Sunburst (Default status — the most capable generation and editing model)",
+     "capabilities": [
+      "Картинки"
+     ]
     },
     {
      "id": "flux",
@@ -919,7 +1004,10 @@ window.NEURO_CATALOG = {
      "bugs": [],
      "checked": "2026-11-14",
      "flagship_uk": "FLUX 3 Image (від $0,0205/картинка на launch-скидці, list $0,041–0,048 за 1K)",
-     "flagship_en": "FLUX 3 Image (from $0.0205/image at launch discount, list $0.041–0.048 per 1K)"
+     "flagship_en": "FLUX 3 Image (from $0.0205/image at launch discount, list $0.041–0.048 per 1K)",
+     "capabilities": [
+      "Картинки"
+     ]
     },
     {
      "id": "ideogram",
@@ -969,7 +1057,10 @@ window.NEURO_CATALOG = {
      "bugs": [],
      "checked": "2026-11-14",
      "flagship_uk": "Ideogram 4.0 (~$0,06/картинка)",
-     "flagship_en": "Ideogram 4.0 (~$0.06/image)"
+     "flagship_en": "Ideogram 4.0 (~$0.06/image)",
+     "capabilities": [
+      "Картинки"
+     ]
     },
     {
      "id": "recraft",
@@ -1018,7 +1109,10 @@ window.NEURO_CATALOG = {
      "bugs": [],
      "checked": "2026-11-14",
      "flagship_uk": "Recraft V4.1 Pro ($0,21/картинка у тестах — найрізкіша деталізація)",
-     "flagship_en": "Recraft V4.1 Pro ($0.21/image in tests — the sharpest detail)"
+     "flagship_en": "Recraft V4.1 Pro ($0.21/image in tests — the sharpest detail)",
+     "capabilities": [
+      "Картинки"
+     ]
     },
     {
      "id": "leonardo",
@@ -1070,7 +1164,11 @@ window.NEURO_CATALOG = {
      "checked": "2026-11-14",
      "flagship_uk": "Leonardo 2/3",
      "flagship_en": "Leonardo 2/3",
-     "rating_source": "G2 · 2026-11"
+     "rating_source": "G2 · 2026-11",
+     "capabilities": [
+      "Картинки",
+      "Видео"
+     ]
     },
     {
      "id": "stable-diffusion",
@@ -1121,7 +1219,11 @@ window.NEURO_CATALOG = {
      ],
      "checked": "2026-11-14",
      "flagship_uk": "SD 3.5 (Large/Turbo/Medium)",
-     "flagship_en": "SD 3.5 (Large/Turbo/Medium)"
+     "flagship_en": "SD 3.5 (Large/Turbo/Medium)",
+     "capabilities": [
+      "Картинки",
+      "Локальный запуск"
+     ]
     }
    ]
   },
@@ -1179,7 +1281,11 @@ window.NEURO_CATALOG = {
      ],
      "checked": "2026-11-14",
      "flagship_uk": "Kling 4.0 (15.10.2026, 3–30 сек, стереозвук)",
-     "flagship_en": "Kling 4.0 (15 Oct 2026, 3–30 s, stereo sound)"
+     "flagship_en": "Kling 4.0 (15 Oct 2026, 3–30 s, stereo sound)",
+     "capabilities": [
+      "Видео",
+      "Картинки"
+     ]
     },
     {
      "id": "seedance",
@@ -1227,7 +1333,10 @@ window.NEURO_CATALOG = {
      "bugs": [],
      "checked": "2026-11-14",
      "flagship_uk": "Seedance 2.5 (4–30 сек; ~$0,21/сек 720p на сторонніх API; 2.0 — $0,15/сек 720p)",
-     "flagship_en": "Seedance 2.5 (4–30 s; ~$0.21/s 720p on third-party APIs; 2.0 — $0.15/s 720p)"
+     "flagship_en": "Seedance 2.5 (4–30 s; ~$0.21/s 720p on third-party APIs; 2.0 — $0.15/s 720p)",
+     "capabilities": [
+      "Видео"
+     ]
     },
     {
      "id": "veo",
@@ -1281,7 +1390,10 @@ window.NEURO_CATALOG = {
      ],
      "checked": "2026-11-14",
      "flagship_uk": "Veo 3.1 (Vertex: $0,40/сек зі звуком, $0,20 без, 720p/1080p; 4K $0,60/$0,40); у Gemini API замінений Gemini Omni Flash 22.10.2026",
-     "flagship_en": "Veo 3.1 (Vertex: $0.40/s with sound, $0.20 without, 720p/1080p; 4K $0.60/$0.40); in Gemini API replaced by Gemini Omni Flash on 22 Oct 2026"
+     "flagship_en": "Veo 3.1 (Vertex: $0.40/s with sound, $0.20 without, 720p/1080p; 4K $0.60/$0.40); in Gemini API replaced by Gemini Omni Flash on 22 Oct 2026",
+     "capabilities": [
+      "Видео"
+     ]
     },
     {
      "id": "runway",
@@ -1332,7 +1444,11 @@ window.NEURO_CATALOG = {
      "checked": "2026-11-14",
      "flagship_uk": "Gen-4.5 (API $0,12/сек)",
      "flagship_en": "Gen-4.5 (API $0.12/s)",
-     "rating_source": "G2 · 2026-11"
+     "rating_source": "G2 · 2026-11",
+     "capabilities": [
+      "Видео",
+      "Картинки"
+     ]
     },
     {
      "id": "dream-machine",
@@ -1384,7 +1500,11 @@ window.NEURO_CATALOG = {
      ],
      "checked": "2026-11-14",
      "flagship_uk": "Ray3.2 (API ~$0,03/сек 540p)",
-     "flagship_en": "Ray3.2 (API ~$0.03/s 540p)"
+     "flagship_en": "Ray3.2 (API ~$0.03/s 540p)",
+     "capabilities": [
+      "Видео",
+      "Картинки"
+     ]
     },
     {
      "id": "pika",
@@ -1433,7 +1553,10 @@ window.NEURO_CATALOG = {
      "bugs": [],
      "checked": "2026-11-14",
      "flagship_uk": "Pika 2.5 (API $0,04/сек 720p)",
-     "flagship_en": "Pika 2.5 (API $0.04/s 720p)"
+     "flagship_en": "Pika 2.5 (API $0.04/s 720p)",
+     "capabilities": [
+      "Видео"
+     ]
     },
     {
      "id": "hailuo",
@@ -1484,7 +1607,10 @@ window.NEURO_CATALOG = {
      "bugs": [],
      "checked": "2026-11-14",
      "flagship_uk": "H3 / Hailuo 2.3 (API від ~$0,015/сек на legacy 512p)",
-     "flagship_en": "H3 / Hailuo 2.3 (API from ~$0.015/s on legacy 512p)"
+     "flagship_en": "H3 / Hailuo 2.3 (API from ~$0.015/s on legacy 512p)",
+     "capabilities": [
+      "Видео"
+     ]
     }
    ]
   },
@@ -1542,7 +1668,10 @@ window.NEURO_CATALOG = {
      ],
      "checked": "2026-11-14",
      "flagship_uk": "v6 / v6-wild / v6-mini (09.09.2026)",
-     "flagship_en": "v6 / v6-wild / v6-mini (9 Sep 2026)"
+     "flagship_en": "v6 / v6-wild / v6-mini (9 Sep 2026)",
+     "capabilities": [
+      "Музыка"
+     ]
     },
     {
      "id": "udio",
@@ -1593,7 +1722,10 @@ window.NEURO_CATALOG = {
      ],
      "checked": "2026-11-14",
      "flagship_uk": "v1.5 / v1.5 Allegro",
-     "flagship_en": "v1.5 / v1.5 Allegro"
+     "flagship_en": "v1.5 / v1.5 Allegro",
+     "capabilities": [
+      "Музыка"
+     ]
     },
     {
      "id": "elevenlabs",
@@ -1647,7 +1779,11 @@ window.NEURO_CATALOG = {
      "checked": "2026-11-14",
      "flagship_uk": "TTS/клонування + Music v2",
      "flagship_en": "TTS/cloning + Music v2",
-     "rating_source": "G2 · 2026-11"
+     "rating_source": "G2 · 2026-11",
+     "capabilities": [
+      "Озвучка",
+      "Музыка"
+     ]
     }
    ]
   },
@@ -1703,7 +1839,11 @@ window.NEURO_CATALOG = {
       "Агент иногда правит файлы за пределами поставленной задачи"
      ],
      "checked": "2026-11-14",
-     "rating_source": "G2 · 2026-11"
+     "rating_source": "G2 · 2026-11",
+     "capabilities": [
+      "Код",
+      "Агентные задачи"
+     ]
     },
     {
      "id": "github-copilot",
@@ -1755,7 +1895,10 @@ window.NEURO_CATALOG = {
       "Иногда предлагает устаревшие API и снятые приёмы"
      ],
      "checked": "2026-11-14",
-     "rating_source": "G2 · 2026-11"
+     "rating_source": "G2 · 2026-11",
+     "capabilities": [
+      "Код"
+     ]
     },
     {
      "id": "codex",
@@ -1806,7 +1949,11 @@ window.NEURO_CATALOG = {
      "bugs": [
       "На младших планах лимиты агента заканчиваются быстро"
      ],
-     "checked": "2026-11-14"
+     "checked": "2026-11-14",
+     "capabilities": [
+      "Код",
+      "Агентные задачи"
+     ]
     }
    ]
   },
@@ -1859,7 +2006,11 @@ window.NEURO_CATALOG = {
       "Молодая платформа: лимиты и функции часто меняются"
      ],
      "bugs": [],
-     "checked": "2026-11-14"
+     "checked": "2026-11-14",
+     "capabilities": [
+      "Агентные задачи",
+      "Код"
+     ]
     },
     {
      "id": "claude-code",
@@ -1910,7 +2061,11 @@ window.NEURO_CATALOG = {
      "bugs": [
       "Лимит считается окнами в несколько часов: упёрся — ждёшь"
      ],
-     "checked": "2026-11-14"
+     "checked": "2026-11-14",
+     "capabilities": [
+      "Агентные задачи",
+      "Код"
+     ]
     },
     {
      "id": "codex",
@@ -1961,7 +2116,11 @@ window.NEURO_CATALOG = {
      "bugs": [
       "На младших планах лимиты агента заканчиваются быстро"
      ],
-     "checked": "2026-11-14"
+     "checked": "2026-11-14",
+     "capabilities": [
+      "Агентные задачи",
+      "Код"
+     ]
     },
     {
      "id": "opencode",
@@ -2009,7 +2168,12 @@ window.NEURO_CATALOG = {
       "Нет облака: всё работает на вашей машине"
      ],
      "bugs": [],
-     "checked": "2026-11-14"
+     "checked": "2026-11-14",
+     "capabilities": [
+      "Агентные задачи",
+      "Код",
+      "Локальный запуск"
+     ]
     },
     {
      "id": "manus",
@@ -2059,7 +2223,12 @@ window.NEURO_CATALOG = {
      "bugs": [
       "Длинные задачи иногда зависают или зацикливаются"
      ],
-     "checked": "2026-11-14"
+     "checked": "2026-11-14",
+     "capabilities": [
+      "Агентные задачи",
+      "Поиск в интернете",
+      "Работа с файлами"
+     ]
     },
     {
      "id": "devin",
@@ -2106,7 +2275,11 @@ window.NEURO_CATALOG = {
       "Интерфейс на английском"
      ],
      "bugs": [],
-     "checked": "2026-11-14"
+     "checked": "2026-11-14",
+     "capabilities": [
+      "Агентные задачи",
+      "Код"
+     ]
     },
     {
      "id": "goose",
@@ -2154,7 +2327,12 @@ window.NEURO_CATALOG = {
       "Нет облачной версии: всё на вашей машине"
      ],
      "bugs": [],
-     "checked": "2026-11-14"
+     "checked": "2026-11-14",
+     "capabilities": [
+      "Агентные задачи",
+      "Код",
+      "Локальный запуск"
+     ]
     },
     {
      "id": "dots",
@@ -2200,7 +2378,10 @@ window.NEURO_CATALOG = {
       "Продукт новый: реальные возможности покажет практика"
      ],
      "bugs": [],
-     "checked": "2026-11-14"
+     "checked": "2026-11-14",
+     "capabilities": [
+      "Агентные задачи"
+     ]
     },
     {
      "id": "grok-bot",
@@ -2246,7 +2427,10 @@ window.NEURO_CATALOG = {
       "Полная привязка к экосистеме X"
      ],
      "bugs": [],
-     "checked": "2026-11-14"
+     "checked": "2026-11-14",
+     "capabilities": [
+      "Агентные задачи"
+     ]
     }
    ]
   },
@@ -2300,7 +2484,12 @@ window.NEURO_CATALOG = {
       "Большие модели требуют много памяти и сильный GPU"
      ],
      "bugs": [],
-     "checked": "2026-11-15"
+     "checked": "2026-11-15",
+     "capabilities": [
+      "Локальный запуск",
+      "Текст",
+      "Код"
+     ]
     },
     {
      "id": "ollama",
@@ -2350,7 +2539,12 @@ window.NEURO_CATALOG = {
       "Скорость и размер моделей упираются в ваше железо"
      ],
      "bugs": [],
-     "checked": "2026-11-15"
+     "checked": "2026-11-15",
+     "capabilities": [
+      "Локальный запуск",
+      "Текст",
+      "Код"
+     ]
     },
     {
      "id": "gpt4all",
@@ -2398,7 +2592,11 @@ window.NEURO_CATALOG = {
       "Интерфейс на английском"
      ],
      "bugs": [],
-     "checked": "2026-11-15"
+     "checked": "2026-11-15",
+     "capabilities": [
+      "Локальный запуск",
+      "Текст"
+     ]
     },
     {
      "id": "jan",
@@ -2446,7 +2644,11 @@ window.NEURO_CATALOG = {
       "Готовых моделей и плагинов меньше, чем у конкурентов"
      ],
      "bugs": [],
-     "checked": "2026-11-15"
+     "checked": "2026-11-15",
+     "capabilities": [
+      "Локальный запуск",
+      "Текст"
+     ]
     },
     {
      "id": "open-webui",
@@ -2495,7 +2697,11 @@ window.NEURO_CATALOG = {
       "Сама моделей не содержит: нужен Ollama или API"
      ],
      "bugs": [],
-     "checked": "2026-11-15"
+     "checked": "2026-11-15",
+     "capabilities": [
+      "Локальный запуск",
+      "Текст"
+     ]
     },
     {
      "id": "bionic",
@@ -2541,7 +2747,11 @@ window.NEURO_CATALOG = {
       "Продукт новый: возможности и лимиты ещё меняются"
      ],
      "bugs": [],
-     "checked": "2026-11-15"
+     "checked": "2026-11-15",
+     "capabilities": [
+      "Агентные задачи",
+      "Код"
+     ]
     }
    ]
   }
