@@ -504,3 +504,6 @@ body[data-route="converter"] .page-head{background-image:none}
 .home-logo img{max-width:46%;max-height:58px;object-fit:contain;display:block}
 #homeNews .news-media{height:132px;margin:12px 0 6px}
 .top-logo{height:18px;width:18px;object-fit:contain;vertical-align:-3px;background:#f2f6f7;border-radius:4px;padding:1px}
+
+/* === Правки 15.11.2026 v20: шапка карточки модели — переключатель === */
+.model-top{cursor:pointer}
