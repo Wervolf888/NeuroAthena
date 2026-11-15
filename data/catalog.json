@@ -782,6 +782,184 @@
       "Текст",
       "Картинки"
      ]
+    },
+    {
+     "id": "notion",
+     "name": "Notion AI",
+     "developer": "Notion Labs",
+     "url": "https://www.notion.com",
+     "flagship": "ИИ внутри рабочего пространства Notion: агент, конспекты встреч, поиск по всем документам и подключённым сервисам",
+     "strength": "Пишет, правит и находит прямо там, где лежат ваши заметки и проекты",
+     "essence_uk": "Пише, редагує та знаходить просто там, де лежать ваші нотатки й проєкти",
+     "essence_en": "Writes, edits and finds things right where your notes and projects live",
+     "free": true,
+     "trial": "Полный Notion AI — только в Business; на Free и Plus — ограниченная проба",
+     "prices": {
+      "UA": "Plus $10/мес за пользователя при годовой оплате ($12 помесячно); полный Notion AI — в Business $20/мес при годовой ($24 помесячно)",
+      "UA_uk": "Plus $10/міс за користувача за річної оплати ($12 помісячно); повний Notion AI — у Business $20/міс за річної ($24 помісячно)",
+      "UA_en": "Plus $10/user/mo billed annually ($12 monthly); full Notion AI is in Business at $20/user/mo billed annually ($24 monthly)",
+      "US": "Plus $10/мес за пользователя при годовой оплате ($12 помесячно); полный Notion AI — в Business $20/мес при годовой ($24 помесячно)",
+      "US_uk": "Plus $10/міс за користувача за річної оплати ($12 помісячно); повний Notion AI — у Business $20/міс за річної ($24 помісячно)",
+      "US_en": "Plus $10/user/mo billed annually ($12 monthly); full Notion AI is in Business at $20/user/mo billed annually ($24 monthly)",
+      "EU": null,
+      "EU_uk": null,
+      "EU_en": null,
+      "cheapest": null,
+      "cheapest_uk": null,
+      "cheapest_en": null
+     },
+     "languages": {
+      "ru": true,
+      "uk": true
+     },
+     "platforms": [
+      "web",
+      "windows",
+      "macos",
+      "android",
+      "ios",
+      "api"
+     ],
+     "user_rating": 9.0,
+     "pros": [
+      "ИИ работает прямо с вашими документами, а не в отдельном чате",
+      "Конспекты встреч и поиск по всему пространству из коробки",
+      "Русский и украинский интерфейс",
+      "Щедрый бесплатный тариф для личных заметок"
+     ],
+     "cons": [
+      "Полный ИИ — только в дорогом Business, отдельно не купить",
+      "Агентные функции тратят кредиты Notion сверх тарифа",
+      "Для простого чата с нейросетью избыточен"
+     ],
+     "bugs": [
+      "На Free и Plus проба ИИ быстро заканчивается и не возобновляется"
+     ],
+     "checked": "2026-11-15",
+     "flagship_uk": "ШІ всередині робочого простору Notion: агент, конспекти зустрічей, пошук по всіх документах і підключених сервісах",
+     "flagship_en": "AI inside the Notion workspace: an agent, meeting notes, and search across all your documents and connected apps",
+     "rating_source": "G2 · 2026-11",
+     "capabilities": [
+      "Текст",
+      "Поиск в интернете",
+      "Работа с файлами",
+      "Агентные задачи"
+     ]
+    },
+    {
+     "id": "notebooklm",
+     "name": "Gemini Notebook (NotebookLM)",
+     "developer": "Google",
+     "url": "https://notebook.google.com",
+     "flagship": "Ответы строго по вашим источникам на Gemini 3; аудиопересказы документов двумя голосами",
+     "strength": "Загружаете документы, ссылки и видео — получаете ответы с точными цитатами и готовые аудиообзоры",
+     "essence_uk": "Завантажуєте документи, посилання й відео — отримуєте відповіді з точними цитатами та готові аудіоогляди",
+     "essence_en": "Upload documents, links and videos — get answers with exact citations and ready-made audio overviews",
+     "free": true,
+     "trial": null,
+     "prices": {
+      "UA": "Бесплатно: 100 блокнотов по 50 источников; расширенные лимиты — в подписке Google AI Pro (в Украине 229,99 ₴/мес первые три месяца, далее 909,99 ₴/мес)",
+      "UA_uk": "Безкоштовно: 100 блокнотів по 50 джерел; розширені ліміти — у підписці Google AI Pro (в Україні 229,99 ₴/міс перші три місяці, далі 909,99 ₴/міс)",
+      "UA_en": "Free: 100 notebooks with 50 sources each; higher limits come with Google AI Pro (in Ukraine ₴229.99/mo for the first three months, then ₴909.99/mo)",
+      "US": "Бесплатно: 100 блокнотов по 50 источников. Выше — через подписки Google AI: Plus $4,99/мес (200 блокнотов, 100 источников), Pro $19,99/мес (500 блокнотов, 300 источников)",
+      "US_uk": "Безкоштовно: 100 блокнотів по 50 джерел. Вище — через підписки Google AI: Plus $4,99/міс (200 блокнотів, 100 джерел), Pro $19,99/міс (500 блокнотів, 300 джерел)",
+      "US_en": "Free: 100 notebooks with 50 sources each. Higher tiers come via Google AI plans: Plus $4.99/mo (200 notebooks, 100 sources), Pro $19.99/mo (500 notebooks, 300 sources)",
+      "EU": null,
+      "EU_uk": null,
+      "EU_en": null,
+      "cheapest": null,
+      "cheapest_uk": null,
+      "cheapest_en": null
+     },
+     "languages": {
+      "ru": true,
+      "uk": true
+     },
+     "platforms": [
+      "web",
+      "android",
+      "ios"
+     ],
+     "user_rating": 9.1,
+     "pros": [
+      "Отвечает только по вашим источникам и показывает цитаты",
+      "Аудиопересказы превращают документы в подкаст на двух голосах",
+      "Щедрый бесплатный тариф без карты",
+      "Русский и украинский языки"
+     ],
+     "cons": [
+      "Отдельной подписки нет — лимиты только через планы Google AI",
+      "По открытому интернету ищет слабо: это инструмент по своим материалам",
+      "В июле 2026 переименован в Gemini Notebook — легко запутаться"
+     ],
+     "bugs": [],
+     "checked": "2026-11-15",
+     "flagship_uk": "Відповіді суворо за вашими джерелами на Gemini 3; аудіоперекази документів двома голосами",
+     "flagship_en": "Answers grounded strictly in your sources, powered by Gemini 3; audio overviews of documents in two voices",
+     "rating_source": "G2 · 2026-11",
+     "capabilities": [
+      "Текст",
+      "Озвучка",
+      "Работа с файлами"
+     ]
+    },
+    {
+     "id": "character-ai",
+     "name": "Character.AI",
+     "developer": "Character Technologies",
+     "url": "https://character.ai",
+     "flagship": "Миллионы пользовательских персонажей для ролевых бесед; голосовые звонки персонажам",
+     "strength": "Живые диалоги с вымышленными героями и своими персонажами — с памятью и голосом",
+     "essence_uk": "Живі діалоги з вигаданими героями та своїми персонажами — з пам’яттю й голосом",
+     "essence_en": "Lively dialogues with fictional heroes and your own characters — with memory and voice",
+     "free": true,
+     "trial": null,
+     "prices": {
+      "UA": "Бесплатно с рекламой; Lite от $4,99/мес; c.ai+ $9,99/мес или $94,99/год",
+      "UA_uk": "Безкоштовно з рекламою; Lite від $4,99/міс; c.ai+ $9,99/міс або $94,99/рік",
+      "UA_en": "Free with ads; Lite from $4.99/mo; c.ai+ $9.99/mo or $94.99/year",
+      "US": "Бесплатно с рекламой; Lite от $4,99/мес; c.ai+ $9,99/мес или $94,99/год",
+      "US_uk": "Безкоштовно з рекламою; Lite від $4,99/міс; c.ai+ $9,99/міс або $94,99/рік",
+      "US_en": "Free with ads; Lite from $4.99/mo; c.ai+ $9.99/mo or $94.99/year",
+      "EU": null,
+      "EU_uk": null,
+      "EU_en": null,
+      "cheapest": "c.ai+ $94,99/год (≈$7,92/мес)",
+      "cheapest_uk": "c.ai+ $94,99/рік (≈$7,92/міс)",
+      "cheapest_en": "c.ai+ $94.99/year (≈$7.92/mo)"
+     },
+     "languages": {
+      "ru": true,
+      "uk": true
+     },
+     "platforms": [
+      "web",
+      "android",
+      "ios"
+     ],
+     "user_rating": 8.2,
+     "pros": [
+      "Огромная библиотека персонажей на любой вкус",
+      "Можно создать своего персонажа за минуты",
+      "Голосовые звонки и групповые комнаты",
+      "Русский и украинский языки"
+     ],
+     "cons": [
+      "Компания с октября 2026 в процедуре банкротства и выставлена на продажу",
+      "Бесплатный тариф в 2026 получил рекламу и медленный режим в часы пик",
+      "Фильтры контента строгие и иногда срабатывают без причины"
+     ],
+     "bugs": [
+      "Годовую подписку сейчас оплачивать рискованно: будущее сервиса решает продажа компании"
+     ],
+     "checked": "2026-11-15",
+     "flagship_uk": "Мільйони користувацьких персонажів для рольових бесід; голосові дзвінки персонажам",
+     "flagship_en": "Millions of user-made characters for roleplay chats; voice calls with characters",
+     "rating_source": "G2 · 2026-11",
+     "capabilities": [
+      "Текст",
+      "Голос"
+     ]
     }
    ]
   },
@@ -1222,6 +1400,121 @@
      "capabilities": [
       "Картинки",
       "Локальный запуск"
+     ]
+    },
+    {
+     "id": "firefly",
+     "name": "Adobe Firefly",
+     "developer": "Adobe",
+     "url": "https://firefly.adobe.com",
+     "flagship": "Генерация картинок и видео, встроенная в Photoshop и Express; обучена на лицензионном контенте",
+     "strength": "Коммерчески безопасные картинки и знаменитая генеративная заливка прямо в редакторе",
+     "essence_uk": "Комерційно безпечні картинки та знаменита генеративна заливка просто в редакторі",
+     "essence_en": "Commercially safe images and the famous generative fill right inside the editor",
+     "free": true,
+     "trial": null,
+     "prices": {
+      "UA": "Standard $9,99/мес (2 000 кредитов); Pro $19,99/мес (4 000 кредитов, Photoshop и Express в комплекте); Pro Plus $49,99/мес (10 000); Premium $199,99/мес (50 000)",
+      "UA_uk": "Standard $9,99/міс (2 000 кредитів); Pro $19,99/міс (4 000 кредитів, Photoshop та Express у комплекті); Pro Plus $49,99/міс (10 000); Premium $199,99/міс (50 000)",
+      "UA_en": "Standard $9.99/mo (2,000 credits); Pro $19.99/mo (4,000 credits, Photoshop and Express included); Pro Plus $49.99/mo (10,000); Premium $199.99/mo (50,000)",
+      "US": "Standard $9,99/мес (2 000 кредитов); Pro $19,99/мес (4 000 кредитов, Photoshop и Express в комплекте); Pro Plus $49,99/мес (10 000); Premium $199,99/мес (50 000)",
+      "US_uk": "Standard $9,99/міс (2 000 кредитів); Pro $19,99/міс (4 000 кредитів, Photoshop та Express у комплекті); Pro Plus $49,99/міс (10 000); Premium $199,99/міс (50 000)",
+      "US_en": "Standard $9.99/mo (2,000 credits); Pro $19.99/mo (4,000 credits, Photoshop and Express included); Pro Plus $49.99/mo (10,000); Premium $199.99/mo (50,000)",
+      "EU": null,
+      "EU_uk": null,
+      "EU_en": null,
+      "cheapest": null,
+      "cheapest_uk": null,
+      "cheapest_en": null
+     },
+     "languages": {
+      "ru": true,
+      "uk": true
+     },
+     "platforms": [
+      "web",
+      "android",
+      "ios"
+     ],
+     "user_rating": 8.6,
+     "pros": [
+      "Можно спокойно использовать в коммерческой работе",
+      "Генеративная заливка и расширение кадра — лучшие в классе",
+      "Стандартные генерации на платных тарифах безлимитны",
+      "Работает внутри Photoshop, Illustrator и Express"
+     ],
+     "cons": [
+      "Видео и партнёрские модели быстро съедают кредиты",
+      "Качество картинок уступает Midjourney",
+      "Полная сила — только внутри экосистемы Adobe"
+     ],
+     "bugs": [],
+     "checked": "2026-11-15",
+     "flagship_uk": "Генерація картинок і відео, вбудована у Photoshop та Express; навчена на ліцензійному контенті",
+     "flagship_en": "Image and video generation built into Photoshop and Express; trained on licensed content",
+     "rating_source": "G2 · 2026-11",
+     "capabilities": [
+      "Картинки",
+      "Видео"
+     ]
+    },
+    {
+     "id": "canva",
+     "name": "Canva",
+     "developer": "Canva",
+     "url": "https://www.canva.com",
+     "flagship": "Magic Studio: генерация картинок и видео, тексты и дизайн в одном редакторе с шаблонами",
+     "strength": "Готовый пост, презентация или обложка за минуты — дизайн без дизайнера",
+     "essence_uk": "Готовий пост, презентація чи обкладинка за хвилини — дизайн без дизайнера",
+     "essence_en": "A finished post, deck or cover in minutes — design without a designer",
+     "free": true,
+     "trial": "Pro — 30 дней бесплатно",
+     "prices": {
+      "UA": "Pro $18/мес ($144/год); Business $25/мес за пользователя ($250/год); бесплатно — с лимитом ИИ-генераций",
+      "UA_uk": "Pro $18/міс ($144/рік); Business $25/міс за користувача ($250/рік); безкоштовно — з лімітом ШІ-генерацій",
+      "UA_en": "Pro $18/mo ($144/year); Business $25/user/mo ($250/year); free tier includes a limited AI allowance",
+      "US": "Pro $18/мес ($144/год); Business $25/мес за пользователя ($250/год); бесплатно — с лимитом ИИ-генераций",
+      "US_uk": "Pro $18/міс ($144/рік); Business $25/міс за користувача ($250/рік); безкоштовно — з лімітом ШІ-генерацій",
+      "US_en": "Pro $18/mo ($144/year); Business $25/user/mo ($250/year); free tier includes a limited AI allowance",
+      "EU": null,
+      "EU_uk": null,
+      "EU_en": null,
+      "cheapest": "Pro $144/год (≈$12/мес)",
+      "cheapest_uk": "Pro $144/рік (≈$12/міс)",
+      "cheapest_en": "Pro $144/year (≈$12/mo)"
+     },
+     "languages": {
+      "ru": true,
+      "uk": true
+     },
+     "platforms": [
+      "web",
+      "windows",
+      "macos",
+      "android",
+      "ios"
+     ],
+     "user_rating": 8.8,
+     "pros": [
+      "Миллионы шаблонов под любую задачу",
+      "ИИ встроен прямо в редактор: картинки, тексты, удаление фона",
+      "Русский и украинский интерфейс",
+      "Щедрый бесплатный тариф"
+     ],
+     "cons": [
+      "ИИ-лимиты общие на все инструменты и на Pro заканчиваются быстро",
+      "Качество генерации картинок ниже, чем у Midjourney",
+      "Для тяжёлого ИИ нужен отдельный AI Pass за $100/мес"
+     ],
+     "bugs": [],
+     "checked": "2026-11-15",
+     "flagship_uk": "Magic Studio: генерація картинок і відео, тексти та дизайн в одному редакторі з шаблонами",
+     "flagship_en": "Magic Studio: image and video generation, copy and design in one template-based editor",
+     "rating_source": "G2 · 2026-11",
+     "capabilities": [
+      "Картинки",
+      "Видео",
+      "Текст"
      ]
     }
    ]
@@ -1953,6 +2246,62 @@
       "Код",
       "Агентные задачи"
      ]
+    },
+    {
+     "id": "replit",
+     "name": "Replit",
+     "developer": "Replit",
+     "url": "https://replit.com",
+     "flagship": "Replit Agent собирает приложения по описанию прямо в браузере; хостинг и база данных встроены",
+     "strength": "От идеи до работающего сайта в одном окне браузера, без установки программ",
+     "essence_uk": "Від ідеї до робочого сайту в одному вікні браузера, без встановлення програм",
+     "essence_en": "From idea to a working site in one browser window, with nothing to install",
+     "free": true,
+     "trial": null,
+     "prices": {
+      "UA": "Core $18/мес при годовой оплате ($20 помесячно); Pro $90/мес при годовой ($100 помесячно); есть бесплатный старт",
+      "UA_uk": "Core $18/міс за річної оплати ($20 помісячно); Pro $90/міс за річної ($100 помісячно); є безкоштовний старт",
+      "UA_en": "Core $18/mo billed annually ($20 monthly); Pro $90/mo billed annually ($100 monthly); free Starter included",
+      "US": "Core $18/мес при годовой оплате ($20 помесячно); Pro $90/мес при годовой ($100 помесячно); есть бесплатный старт",
+      "US_uk": "Core $18/міс за річної оплати ($20 помісячно); Pro $90/міс за річної ($100 помісячно); є безкоштовний старт",
+      "US_en": "Core $18/mo billed annually ($20 monthly); Pro $90/mo billed annually ($100 monthly); free Starter included",
+      "EU": null,
+      "EU_uk": null,
+      "EU_en": null,
+      "cheapest": null,
+      "cheapest_uk": null,
+      "cheapest_en": null
+     },
+     "languages": {
+      "ru": false,
+      "uk": false
+     },
+     "platforms": [
+      "web",
+      "android",
+      "ios",
+      "api"
+     ],
+     "user_rating": 8.5,
+     "pros": [
+      "Ничего устанавливать не нужно — всё в браузере",
+      "Агент сам пишет, проверяет и публикует приложение",
+      "Подходит новичкам без опыта в коде"
+     ],
+     "cons": [
+      "Интерфейс только на английском",
+      "На сложных проектах агент ошибается и тратит лимит впустую",
+      "Большие проекты в браузере работают медленно"
+     ],
+     "bugs": [],
+     "checked": "2026-11-15",
+     "flagship_uk": "Replit Agent збирає застосунки за описом просто в браузері; хостинг і база даних вбудовані",
+     "flagship_en": "Replit Agent builds apps from a description right in the browser; hosting and database included",
+     "rating_source": "G2 · 2026-11",
+     "capabilities": [
+      "Код",
+      "Агентные задачи"
+     ]
     }
    ]
   },
@@ -2234,7 +2583,7 @@
      "name": "Devin",
      "developer": "Cognition",
      "url": "https://devin.ai",
-     "flagship": null,
+     "flagship": "Devin Cloud и Devin Desktop (бывший редактор Windsurf) на модели SWE-2",
      "strength": null,
      "essence_uk": null,
      "essence_en": null,
@@ -2260,6 +2609,8 @@
      },
      "platforms": [
       "web",
+      "windows",
+      "macos",
       "api"
      ],
      "user_rating": 8.0,
@@ -2274,11 +2625,13 @@
       "Интерфейс на английском"
      ],
      "bugs": [],
-     "checked": "2026-11-14",
+     "checked": "2026-11-15",
      "capabilities": [
       "Агентные задачи",
       "Код"
-     ]
+     ],
+     "flagship_uk": "Devin Cloud і Devin Desktop (колишній редактор Windsurf) на моделі SWE-2",
+     "flagship_en": "Devin Cloud and Devin Desktop (the former Windsurf editor), powered by the SWE-2 model"
     },
     {
      "id": "goose",
@@ -2428,6 +2781,112 @@
      "bugs": [],
      "checked": "2026-11-14",
      "capabilities": [
+      "Агентные задачи"
+     ]
+    },
+    {
+     "id": "lovable",
+     "name": "Lovable",
+     "developer": "Lovable",
+     "url": "https://lovable.dev",
+     "flagship": "Собирает веб-приложения из описания в чате: дизайн, база данных, вход пользователей и публикация",
+     "strength": "Красивый готовый сайт за один разговор — вообще без кода",
+     "essence_uk": "Гарний готовий сайт за одну розмову — взагалі без коду",
+     "essence_en": "A beautiful finished site from one conversation — no code at all",
+     "free": true,
+     "trial": null,
+     "prices": {
+      "UA": "Pro от $25/мес (100 кредитов; при годовой оплате ≈$21/мес); Business от $50/мес; бесплатно — 5 кредитов в день",
+      "UA_uk": "Pro від $25/міс (100 кредитів; за річної оплати ≈$21/міс); Business від $50/міс; безкоштовно — 5 кредитів на день",
+      "UA_en": "Pro from $25/mo (100 credits; ≈$21/mo billed annually); Business from $50/mo; free tier gives 5 build credits a day",
+      "US": "Pro от $25/мес (100 кредитов; при годовой оплате ≈$21/мес); Business от $50/мес; бесплатно — 5 кредитов в день",
+      "US_uk": "Pro від $25/міс (100 кредитів; за річної оплати ≈$21/міс); Business від $50/міс; безкоштовно — 5 кредитів на день",
+      "US_en": "Pro from $25/mo (100 credits; ≈$21/mo billed annually); Business from $50/mo; free tier gives 5 build credits a day",
+      "EU": null,
+      "EU_uk": null,
+      "EU_en": null,
+      "cheapest": "Pro $250/год (≈$21/мес)",
+      "cheapest_uk": "Pro $250/рік (≈$21/міс)",
+      "cheapest_en": "Pro $250/year (≈$21/mo)"
+     },
+     "languages": {
+      "ru": false,
+      "uk": false
+     },
+     "platforms": [
+      "web"
+     ],
+     "user_rating": 8.7,
+     "pros": [
+      "Самый дружелюбный старт для тех, кто не программирует",
+      "Сразу даёт аккуратный дизайн, а не голый каркас",
+      "Код можно забрать в GitHub и продолжить вручную"
+     ],
+     "cons": [
+      "Интерфейс только на английском",
+      "Кредиты тратятся и на правки, и на работу опубликованного приложения",
+      "Сложную логику приходится долго выправлять перепиской"
+     ],
+     "bugs": [],
+     "checked": "2026-11-15",
+     "flagship_uk": "Збирає вебзастосунки з опису в чаті: дизайн, база даних, вхід користувачів і публікація",
+     "flagship_en": "Builds web apps from a chat description: design, database, user sign-in and publishing",
+     "rating_source": "G2 · 2026-11",
+     "capabilities": [
+      "Код",
+      "Агентные задачи"
+     ]
+    },
+    {
+     "id": "bolt",
+     "name": "Bolt.new",
+     "developer": "StackBlitz",
+     "url": "https://bolt.new",
+     "flagship": "Собирает и публикует веб-приложения из описания в браузере; оплата токенами",
+     "strength": "Полный цикл в одном окне: код, предпросмотр, хостинг и база данных",
+     "essence_uk": "Повний цикл в одному вікні: код, передперегляд, хостинг і база даних",
+     "essence_en": "The full cycle in one window: code, preview, hosting and database",
+     "free": true,
+     "trial": null,
+     "prices": {
+      "UA": "Pro $25/мес (10 млн токенов; при годовой оплате $18/мес); Teams $30/мес за участника; бесплатно — 1 млн токенов в месяц",
+      "UA_uk": "Pro $25/міс (10 млн токенів; за річної оплати $18/міс); Teams $30/міс за учасника; безкоштовно — 1 млн токенів на місяць",
+      "UA_en": "Pro $25/mo (10M tokens; $18/mo billed annually); Teams $30/member/mo; free tier gives 1M tokens a month",
+      "US": "Pro $25/мес (10 млн токенов; при годовой оплате $18/мес); Teams $30/мес за участника; бесплатно — 1 млн токенов в месяц",
+      "US_uk": "Pro $25/міс (10 млн токенів; за річної оплати $18/міс); Teams $30/міс за учасника; безкоштовно — 1 млн токенів на місяць",
+      "US_en": "Pro $25/mo (10M tokens; $18/mo billed annually); Teams $30/member/mo; free tier gives 1M tokens a month",
+      "EU": null,
+      "EU_uk": null,
+      "EU_en": null,
+      "cheapest": "Pro $216/год ($18/мес)",
+      "cheapest_uk": "Pro $216/рік ($18/міс)",
+      "cheapest_en": "Pro $216/year ($18/mo)"
+     },
+     "languages": {
+      "ru": false,
+      "uk": false
+     },
+     "platforms": [
+      "web"
+     ],
+     "user_rating": 8.4,
+     "pros": [
+      "Очень быстрый старт: приложение видно сразу в браузере",
+      "Неиспользованные токены переносятся на следующий месяц",
+      "Код можно выгрузить и продолжить в другом месте"
+     ],
+     "cons": [
+      "Интерфейс только на английском",
+      "Токены уходят на перечитывание проекта — большие приложения дорожают",
+      "На сложной логике агент зацикливается на одних ошибках"
+     ],
+     "bugs": [],
+     "checked": "2026-11-15",
+     "flagship_uk": "Збирає та публікує вебзастосунки з опису в браузері; оплата токенами",
+     "flagship_en": "Builds and publishes web apps from a description in the browser; billed in tokens",
+     "rating_source": "G2 · 2026-11",
+     "capabilities": [
+      "Код",
       "Агентные задачи"
      ]
     }
@@ -2750,6 +3209,121 @@
      "capabilities": [
       "Агентные задачи",
       "Код"
+     ]
+    },
+    {
+     "id": "comfyui",
+     "name": "ComfyUI",
+     "developer": "Comfy Org",
+     "url": "https://www.comfy.org",
+     "flagship": "Визуальный конструктор цепочек для Stable Diffusion, FLUX и видеомоделей; 60 000+ узлов сообщества",
+     "strength": "Полный контроль над каждой стадией генерации картинок и видео на своём компьютере",
+     "essence_uk": "Повний контроль над кожною стадією генерації картинок і відео на своєму комп’ютері",
+     "essence_en": "Complete control over every stage of image and video generation on your own computer",
+     "free": true,
+     "trial": null,
+     "prices": {
+      "UA": "Бесплатно (открытый код) на своём компьютере; есть облачная версия Comfy Cloud с платными тарифами",
+      "UA_uk": "Безкоштовно (відкритий код) на своєму комп’ютері; є хмарна версія Comfy Cloud із платними тарифами",
+      "UA_en": "Free (open source) on your own computer; a paid Comfy Cloud version is also available",
+      "US": "Бесплатно (открытый код) на своём компьютере; есть облачная версия Comfy Cloud с платными тарифами",
+      "US_uk": "Безкоштовно (відкритий код) на своєму комп’ютері; є хмарна версія Comfy Cloud із платними тарифами",
+      "US_en": "Free (open source) on your own computer; a paid Comfy Cloud version is also available",
+      "EU": null,
+      "EU_uk": null,
+      "EU_en": null,
+      "cheapest": "Бесплатно — $0",
+      "cheapest_uk": "Безкоштовно — $0",
+      "cheapest_en": "Free — $0"
+     },
+     "languages": {
+      "ru": true,
+      "uk": false
+     },
+     "platforms": [
+      "windows",
+      "macos",
+      "linux"
+     ],
+     "user_rating": 8.9,
+     "pros": [
+      "Бесплатно и без лимитов — только мощность вашей видеокарты",
+      "Тысячи готовых цепочек сообщества под любую задачу",
+      "Работает со всеми открытыми моделями картинок и видео"
+     ],
+     "cons": [
+      "Порог входа высокий: узлы и связи нужно осваивать",
+      "Украинского интерфейса нет",
+      "Требует мощной видеокарты Nvidia для комфортной работы"
+     ],
+     "bugs": [
+      "Обновления узлов сообщества иногда ломают старые цепочки"
+     ],
+     "checked": "2026-11-15",
+     "flagship_uk": "Візуальний конструктор ланцюжків для Stable Diffusion, FLUX і відеомоделей; 60 000+ вузлів спільноти",
+     "flagship_en": "A visual workflow builder for Stable Diffusion, FLUX and video models; 60,000+ community nodes",
+     "rating_source": "G2 · 2026-11",
+     "capabilities": [
+      "Картинки",
+      "Видео",
+      "Локальный запуск"
+     ]
+    },
+    {
+     "id": "anythingllm",
+     "name": "AnythingLLM",
+     "developer": "Mintplex Labs",
+     "url": "https://anythingllm.com",
+     "flagship": "Чат со своими документами на своём компьютере; встроенный движок моделей и агенты",
+     "strength": "Приватный ChatGPT по вашим файлам: документы не уходят в чужие облака",
+     "essence_uk": "Приватний ChatGPT за вашими файлами: документи не йдуть у чужі хмари",
+     "essence_en": "A private ChatGPT over your files: documents never leave for someone else’s cloud",
+     "free": true,
+     "trial": null,
+     "prices": {
+      "UA": "Бесплатно (открытый код, MIT) — приложение и сервер; облачная версия Cloud — от $50/мес (нужен свой ключ моделей)",
+      "UA_uk": "Безкоштовно (відкритий код, MIT) — застосунок і сервер; хмарна версія Cloud — від $50/міс (потрібен свій ключ моделей)",
+      "UA_en": "Free (open source, MIT) as an app or server; the hosted Cloud version starts at $50/mo (bring your own model key)",
+      "US": "Бесплатно (открытый код, MIT) — приложение и сервер; облачная версия Cloud — от $50/мес (нужен свой ключ моделей)",
+      "US_uk": "Безкоштовно (відкритий код, MIT) — застосунок і сервер; хмарна версія Cloud — від $50/міс (потрібен свій ключ моделей)",
+      "US_en": "Free (open source, MIT) as an app or server; the hosted Cloud version starts at $50/mo (bring your own model key)",
+      "EU": null,
+      "EU_uk": null,
+      "EU_en": null,
+      "cheapest": "Бесплатно — $0",
+      "cheapest_uk": "Безкоштовно — $0",
+      "cheapest_en": "Free — $0"
+     },
+     "languages": {
+      "ru": true,
+      "uk": false
+     },
+     "platforms": [
+      "windows",
+      "macos",
+      "linux"
+     ],
+     "user_rating": 8.6,
+     "pros": [
+      "Полностью бесплатно для своего компьютера",
+      "Работает с локальными моделями через Ollama и LM Studio",
+      "Документы индексируются и цитируются в ответах"
+     ],
+     "cons": [
+      "Украинского интерфейса нет",
+      "Качество ответов целиком зависит от подключённой модели",
+      "Облачная версия уже по функциям и всё равно требует свой ключ"
+     ],
+     "bugs": [],
+     "checked": "2026-11-15",
+     "flagship_uk": "Чат зі своїми документами на своєму комп’ютері; вбудований рушій моделей і агенти",
+     "flagship_en": "Chat with your own documents on your own computer; built-in model engine and agents",
+     "rating_source": "G2 · 2026-11",
+     "capabilities": [
+      "Текст",
+      "Работа с файлами",
+      "Агентные задачи",
+      "Локальный запуск"
      ]
     }
    ]
