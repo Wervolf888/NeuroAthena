@@ -469,3 +469,22 @@ body[data-route] .page-head,body[data-route] .category-hero{background-size:auto
 .hero-medal{grid-column:3;grid-row:1;align-self:center;justify-self:end;margin:0;transform:translateY(14px)}
 @media(max-width:1250px){.hero h1{font-size:56px}}
 @media(max-width:1000px){.hero-panel{grid-template-columns:1fr;min-height:0;padding:38px 16px 36px}.hero-copy{grid-column:1;grid-row:1;max-width:880px;padding:0;text-align:center}.hero-copy p{margin-left:auto;margin-right:auto}.hero-actions{justify-content:center}.hero-clock{grid-column:1;grid-row:2;margin-top:30px}.hero-medal{grid-column:1;grid-row:3;justify-self:center;margin-top:28px;transform:none}}
+
+/* === Правки 15.11.2026 v17: конвертер валют (форма как на Персональном портале) === */
+body[data-route="converter"]::before{background-image:url('backgrounds/bg-converter.jpg')}
+body[data-route="converter"] .page-head{background-image:none}
+.conv{border:1px solid var(--border);background:linear-gradient(135deg,rgba(24,43,59,.9),rgba(15,26,40,.94));border-radius:12px;padding:22px}
+.conv-field label{display:block;color:var(--muted);font-size:14px;margin-bottom:7px}
+.conv-field input,.conv-field select{width:100%;height:52px;border:1px solid #577086;border-radius:8px;background:#0b1926;color:#fff;padding:0 14px;font-size:17px}
+.conv-pair{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:10px;align-items:end;margin-top:14px}
+.conv-swap{width:48px;height:52px;border-radius:8px;border:1px solid #497384;background:#12293a;color:#9de9ec;font-size:20px;cursor:pointer}
+.conv-swap:hover{filter:brightness(1.2)}
+.conv-quick{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:16px}
+.conv-quick span{color:var(--muted);font-size:14px;margin-right:2px}
+.conv-quick button{padding:8px 14px;border-radius:20px;border:1px solid #3a5a70;background:#16293b;color:#d6e6ee;cursor:pointer;font-size:14px}
+.conv-quick button:hover{filter:brightness(1.2)}
+.conv-out{margin-top:18px;padding:16px 18px;border:1px solid rgba(128,232,237,.4);border-radius:10px;background:rgba(128,232,237,.09);color:#aee9ff;font-size:clamp(22px,3.4vw,30px);font-weight:750;line-height:1.3;overflow-wrap:anywhere;font-variant-numeric:tabular-nums}
+.conv-note{margin:12px 0 0;font-size:14px}
+.conv-banner{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:0 0 18px;padding:15px 18px;border:1px solid #497384;border-radius:10px;background:linear-gradient(135deg,rgba(24,43,59,.9),rgba(15,26,40,.94));color:#9de9ec;font-weight:650;font-size:17px}
+.conv-banner:hover{filter:brightness(1.15)}
+@media(max-width:650px){.conv{padding:16px}.conv-pair{gap:7px}.conv-swap{width:42px}}
