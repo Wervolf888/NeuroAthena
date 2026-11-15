@@ -3,7 +3,7 @@
    Пока строка пуста, кнопка входа показывает честное сообщение о подключении при размещении. */
 const CONFIG = { GOOGLE_CLIENT_ID: '' };
 /* ============================================================
-   НейроАтлас — переработка подачи (между этапом 2 и 3).
+   НейроАфина — переработка подачи (между этапом 2 и 3).
    Данные не трогаются: каталог, цены, логотипы читаются как есть.
    Вся подача — здесь и в assets/style.css.
    ============================================================ */
@@ -33,7 +33,7 @@ const I18N = {
     'footerTag': 'Все нейросети. Все цены. Все новости.',
     'footerNote': 'Неподтверждённые данные не публикуются.',
     'footerAnim': 'Анимация Земли:',
-    'metaDesc': 'НейроАтлас — каталог нейросетей, цен и новостей.',
+    'metaDesc': 'НейроАфина — каталог нейросетей, цен и новостей.',
     'dateUnavailable': 'Дата недоступна',
     'notConfirmed': 'Не подтверждено', 'yes': 'Да', 'no': 'Нет',
     'freeYes': 'Есть; условия не подтверждены', 'freeNo': 'Нет (по данным каталога)',
@@ -94,7 +94,7 @@ const I18N = {
     'newsText': 'Файл новостей пока не предоставлен.', 'toNews': 'К новостям ↗',
     'offersLabel': 'Предложения', 'offersTitle': 'Текущие акции',
     'offersText': 'Файл акций пока не предоставлен.', 'pulseRates': 'Курс НБУ на сегодня:', 'toOffers': 'К акциям ↗',
-    'stubEyebrow': 'НейроАтлас / раздел в разработке',
+    'stubEyebrow': 'НейроАфина / раздел в разработке',
     'stubTitle': 'Раздел ещё готовится',
     'stubText': 'Содержимое и функции появятся на следующих этапах после проверки данных.',
     'toTop': 'Наверх', 'langLabel': 'Язык интерфейса',
@@ -193,7 +193,7 @@ const I18N = {
     'footerTag': 'Всі нейромережі. Всі ціни. Всі новини.',
     'footerNote': 'Непідтверджені дані не публікуються.',
     'footerAnim': 'Анімація Землі:',
-    'metaDesc': 'НейроАтлас — каталог нейромереж, цін і новин.',
+    'metaDesc': 'НейроАфіна — каталог нейромереж, цін і новин.',
     'dateUnavailable': 'Дату недоступно',
     'notConfirmed': 'Не підтверджено', 'yes': 'Так', 'no': 'Ні',
     'freeYes': 'Є; умови не підтверджено', 'freeNo': 'Немає (за даними каталогу)',
@@ -254,7 +254,7 @@ const I18N = {
     'newsText': 'Файл новин поки не надано.', 'toNews': 'До новин ↗',
     'offersLabel': 'Пропозиції', 'offersTitle': 'Поточні акції',
     'offersText': 'Файл акцій поки не надано.', 'pulseRates': 'Курс НБУ на сьогодні:', 'toOffers': 'До акцій ↗',
-    'stubEyebrow': 'НейроАтлас / розділ у розробці',
+    'stubEyebrow': 'НейроАфіна / розділ у розробці',
     'stubTitle': 'Розділ ще готується',
     'stubText': 'Вміст і функції з’являться на наступних етапах після перевірки даних.',
     'toTop': 'Нагору', 'langLabel': 'Мова інтерфейсу',
@@ -353,7 +353,7 @@ const I18N = {
     'footerTag': 'All neural networks. All prices. All news.',
     'footerNote': 'Unconfirmed data is not published.',
     'footerAnim': 'Earth animation:',
-    'metaDesc': 'НейроАтлас — a catalog of neural networks, prices and news.',
+    'metaDesc': 'NeuroAthena — a catalog of neural networks, prices and news.',
     'dateUnavailable': 'Date unavailable',
     'notConfirmed': 'Not confirmed', 'yes': 'Yes', 'no': 'No',
     'freeYes': 'Available; terms not confirmed', 'freeNo': 'No (per catalog data)',
@@ -414,7 +414,7 @@ const I18N = {
     'newsText': 'The news file has not been provided yet.', 'toNews': 'To news ↗',
     'offersLabel': 'Offers', 'offersTitle': 'Current deals',
     'offersText': 'The deals file has not been provided yet.', 'pulseRates': "Today's NBU rate:", 'toOffers': 'To deals ↗',
-    'stubEyebrow': 'NeuroAtlas / section in progress',
+    'stubEyebrow': 'NeuroAthena / section in progress',
     'stubTitle': 'This section is still being prepared',
     'stubText': 'Content and features will appear in later stages after the data is checked.',
     'toTop': 'Back to top', 'langLabel': 'Interface language',
@@ -504,6 +504,7 @@ function plural(n) {
   return forms[2];
 }
 const pageName = id => t('page.' + id);
+const brandName = () => lang === 'uk' ? 'НейроАфіна' : lang === 'en' ? 'NeuroAthena' : 'НейроАфина';
 const pageIds = ['home', 'chats', 'images', 'video', 'audio', 'code', 'agents', 'local', 'prices', 'offers', 'discounts', 'coupons', 'news', 'compare', 'free', 'rankings', 'calendar', 'community'];
 const categories = pageIds.slice(1, 8);
 
@@ -919,7 +920,7 @@ const HERO_MARKS = {
 };
 function heroMark(id) { const m = HERO_MARKS[id]; return m ? `<div class="hero-mark" aria-hidden="true">${m}</div>` : ''; }
 function pageHead(id, introKey) {
-  return `<a class="back" href="#/home">${t('backHome')}</a><div class="page-head"><div class="page-head-text"><div class="eyebrow">НейроАтлас / ${esc(pageName(id))}</div><h1>${esc(pageName(id))}</h1><p>${t(introKey)}</p></div>${heroMark(id)}</div>`;
+  return `<a class="back" href="#/home">${t('backHome')}</a><div class="page-head"><div class="page-head-text"><div class="eyebrow">${brandName()} / ${esc(pageName(id))}</div><h1>${esc(pageName(id))}</h1><p>${t(introKey)}</p></div>${heroMark(id)}</div>`;
 }
 function priceCell(v) {
   return v ? `<strong>${esc(v)}</strong>` : `<span class="no-price">${t('noPrice')}</span>`;
@@ -1296,7 +1297,7 @@ function choicePage() {
 
 /* ---------- Главная ---------- */
 function home() {
-  return `<div class="hero"><section class="hero-panel"><div class="hero-copy"><div class="eyebrow">${t('heroEyebrow')}</div><h1>Нейро<span>Атлас</span></h1><p>${t('heroTag')}</p><div class="hero-actions"><a class="button primary" href="#categories">${t('openCatalog')}</a><a class="button" href="#/compare">${t('compareModels')}</a></div></div></section></div>`
+  return `<div class="hero"><section class="hero-panel"><div class="hero-copy"><div class="eyebrow">${t('heroEyebrow')}</div><h1>Нейро<span>Афина</span></h1><p>${t('heroTag')}</p><div class="hero-actions"><a class="button primary" href="#categories">${t('openCatalog')}</a><a class="button" href="#/compare">${t('compareModels')}</a></div></div></section></div>`
     + `<div class="container"><div class="status-strip"><div class="rates"><strong>${t('ratesTitle')}</strong><span>USD <strong id="usd">—</strong></span><span>EUR <strong id="eur">—</strong></span><button type="button" class="rate-refresh" id="refreshRates">${t('refreshRates')}</button></div><span class="muted" id="ratesInfo" role="status">${t('ratesLoading')}</span></div>`
     + `<section class="section" aria-labelledby="searchTitle"><div class="section-head"><div><h2 id="searchTitle">${t('searchTitle')}</h2><p>${t('searchSub')}</p></div></div><div class="search-panel"><form id="modelSearch"><div class="searchbar"><input name="q" aria-label="${t('searchTitle')}" placeholder="${t('searchPlaceholder')}"><button class="button primary" type="submit">${t('findBtn')}</button></div><div class="filter-controls"><label>${t('filterLang')}<select name="language"><option value="">${t('optAny')}</option><option value="ru">${t('optRu')}</option><option value="uk">${t('optUk')}</option></select></label><label>${t('filterFree')}<select name="free"><option value="">${t('optAny')}</option><option value="yes">${t('optFreeYes')}</option></select></label><label>${t('filterPlatform')}<select name="platform"><option value="">${t('optAnyF')}</option><option value="web">${t('optWeb')}</option><option value="windows">Windows</option><option value="android">Android</option><option value="ios">iOS</option></select></label></div></form><div id="searchResults" role="status" aria-live="polite"></div><p class="search-note">${t('searchNote')}</p></div></section>`
     + `<section class="section" id="categories"><div class="section-head"><div><div class="eyebrow">${t('catEyebrow')}</div><h2>${t('catTitle')}</h2><p>${t('catSub')}</p></div></div><div class="cards">${categoryCards()}${sectionCards()}</div></section>`
@@ -1401,7 +1402,7 @@ function route() {
   } else {
     main.innerHTML = `<div class="container route"><a class="back" href="#/home">${t('backHome')}</a><div class="eyebrow" style="margin-top:35px">${t('stubEyebrow')}</div><h1>${esc(pageName(id))}</h1><div class="empty"><h3>${t('stubTitle')}</h3><p>${t('stubText')}</p></div></div>`;
   }
-  document.title = (id === 'home' ? 'НейроАтлас' : pageName(id) + ' — НейроАтлас');
+  document.title = (id === 'home' ? brandName() : pageName(id) + ' — ' + brandName());
 }
 main.addEventListener('click', e => {
   const favBtn = e.target.closest('button[data-fav]');
