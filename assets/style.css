@@ -427,3 +427,7 @@ body[data-route] .page-head,body[data-route] .category-hero{background-size:auto
 .hero-clock strong{display:block;font-size:clamp(46px,5.2vw,68px);font-weight:750;letter-spacing:.02em;line-height:1.05;font-variant-numeric:tabular-nums}
 .hero-clock span{display:block;margin-top:7px;font-size:19px;color:#cfe3ef;text-transform:capitalize}
 @media(max-width:650px){.header{padding:0 14px}.head-medal{width:44px;height:44px}}
+
+/* Правка 15.11.2026 (v11): часы в герое — крупные, золотые, заметные */
+.hero-clock strong{font-size:clamp(58px,6.4vw,88px);color:#f5c95c;text-shadow:0 0 28px rgba(245,201,92,.35)}
+.hero-clock span{font-size:21px;color:#a9ecf0;font-weight:600}
