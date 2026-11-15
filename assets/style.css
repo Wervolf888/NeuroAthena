@@ -498,3 +498,9 @@ body[data-route="converter"] .page-head{background-image:none}
 /* === Правки 15.11.2026 v18.1: часы чуть правее от названия сайта === */
 .hero-clock{margin-left:34px}
 @media(max-width:1000px){.hero-clock{margin-left:0}}
+
+/* === Правки 15.11.2026 v19: картинки и логотипы в нижних блоках главной === */
+.home-logo{height:84px;border-radius:8px;background:#f2f6f7;display:flex;align-items:center;justify-content:center;margin:12px 0 6px}
+.home-logo img{max-width:46%;max-height:58px;object-fit:contain;display:block}
+#homeNews .news-media{height:132px;margin:12px 0 6px}
+.top-logo{height:18px;width:18px;object-fit:contain;vertical-align:-3px;background:#f2f6f7;border-radius:4px;padding:1px}
