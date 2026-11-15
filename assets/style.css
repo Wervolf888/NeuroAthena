@@ -418,3 +418,12 @@ body[data-route] .page-head,body[data-route] .category-hero{background-size:auto
 .hero-medal{margin-left:auto;margin-right:5%;flex:none;align-self:center}
 .hero-medal img{width:216px;height:216px;object-fit:cover;border-radius:50%;border:3px solid #d9b45b;box-shadow:0 0 0 7px rgba(217,180,91,.16),0 18px 44px rgba(0,0,0,.55);background:#fff;display:block}
 @media(max-width:900px){.hero-medal{display:none}}
+
+/* Правка 15.11.2026 (v10): аккуратная шапка, живые медальоны, большие часы в герое */
+.header{padding:0 22px}
+.head-medal{width:54px;height:54px;border-radius:50%;object-fit:cover;border:2px solid #d9b45b;background:#fff;flex:none;display:block}
+.hero-medal video{width:216px;height:216px;object-fit:cover;border-radius:50%;border:3px solid #d9b45b;box-shadow:0 0 0 7px rgba(217,180,91,.16),0 18px 44px rgba(0,0,0,.55);background:#fff;display:block}
+.hero-clock{margin-top:32px}
+.hero-clock strong{display:block;font-size:clamp(46px,5.2vw,68px);font-weight:750;letter-spacing:.02em;line-height:1.05;font-variant-numeric:tabular-nums}
+.hero-clock span{display:block;margin-top:7px;font-size:19px;color:#cfe3ef;text-transform:capitalize}
+@media(max-width:650px){.header{padding:0 14px}.head-medal{width:44px;height:44px}}
