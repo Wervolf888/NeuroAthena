@@ -746,6 +746,7 @@ const boolValue = v => v === true ? t('yes') : v === false ? t('no') : t('notCon
 const textValue = v => v == null || v === '' ? t('notConfirmed') : esc(v);
 const listValue = v => Array.isArray(v) && v.length ? v.map(esc).join(', ') : t('notConfirmed');
 const dataItems = () => Object.entries(catalog?.categories || {}).flatMap(([cat, group]) => (group.models || []).map(m => ({ cat, m })));
+const dedupeById = list => { const seen = new Set(); return list.filter(({ m }) => !seen.has(m.id) && seen.add(m.id)); };
 const priceIds = { 'muse': ['muse'], 'chatgpt': ['chatgpt-plus'], 'claude': ['claude-pro', 'claude-max'], 'gemini': ['gemini-ai-pro', 'gemini-ai-ultra'], 'grok': ['supergrok'], 'copilot': ['copilot'], 'mistral-vibe': ['mistral'], 'deepseek': ['deepseek'], 'qwen': ['qwen'], 'kimi': ['kimi'], 'perplexity': ['perplexity-pro'], 'poe': ['poe'] };
 function priceRecords(cat, m) { if (cat !== 'chats') return []; const ids = priceIds[m.id] || []; return (priceFile?.items || []).filter(p => ids.includes(p.id)); }
 function uahItems(cat, m) { return priceRecords(cat, m).filter(x => x.currency === 'UAH' && typeof x.price_month === 'number' && x.checked); }
@@ -814,7 +815,7 @@ function modelCard(cat, m, opts = {}) {
   const ess = essence(m.strength);
   const freeLines = [];
   if (opts.showTrial) {
-    if (m.free === true) freeLines.push(`<p class="free-line"><span>${t('fldFree')}</span> ${t('freeYes')}</p>`);
+    if (m.free === true) freeLines.push(`<p class="free-line"><span>${t('fldFree')}:</span> ${t('freeYes')}</p>`);
     if (m.trial) freeLines.push(`<p class="free-line"><span>${t('fldTrial')}</span> ${esc(m.trial)} <span class="small-note">${t('cardNeeded')}</span></p>`);
   }
   const ratingLines = [];
@@ -1055,6 +1056,7 @@ function freePage() {
 /* ---------- Этап 4: конструктор сравнений ---------- */
 let compareSel = [];
 let compareQ = '';
+let cmpCat = '';
 function compareKey(cat, id) { return cat + '--' + id; }
 function findCompareModel(key) {
   const i = key.indexOf('--');
@@ -1093,7 +1095,7 @@ function langCell(v) {
 }
 function comparePage() {
   const cst = collState(); const pClosed = 'comparePicker' in cst ? !!cst.comparePicker : compareSel.length >= 2;
-  return `<div class="container route page-route">${pageHead('compare', 'compareIntro')}<div class="compare-picker"><div class="picker-head"><h3>${t('pickModelsTitle')}</h3><button type="button" class="collapse-btn${pClosed ? ' closed' : ''}" data-collapse="comparePicker" aria-expanded="${!pClosed}" title="${pClosed ? t('expandBlock') : t('collapseBlock')}">▾</button></div><div class="collapsible" data-collapsible="comparePicker"${pClosed ? ' hidden' : ''}><div class="searchbar"><input id="compareSearch" type="search" placeholder="${t('pricesSearchPh')}" aria-label="${t('pricesSearchPh')}"></div><p class="result-count" id="compareCount"></p><div class="compare-selected" id="compareSelected"></div><div class="compare-list" id="compareList"></div><p class="compare-note" id="compareNote" hidden>${t('compareLimit')}</p></div></div><div class="preset-block"><h3>${t('presetTitle')}</h3><div class="preset-form"><input id="presetName" type="text" placeholder="${t('presetNamePh')}" aria-label="${t('presetNamePh')}"><button class="button" id="presetSaveBtn" type="button">${t('presetSave')}</button></div><div class="preset-list" id="presetList"></div></div><div id="compareTable"></div><div id="compareExport"></div></div>`;
+  return `<div class="container route page-route">${pageHead('compare', 'compareIntro')}<div class="compare-picker"><div class="picker-head"><h3>${t('pickModelsTitle')}</h3><button type="button" class="collapse-btn${pClosed ? ' closed' : ''}" data-collapse="comparePicker" aria-expanded="${!pClosed}" title="${pClosed ? t('expandBlock') : t('collapseBlock')}">▾</button></div><div class="collapsible" data-collapsible="comparePicker"${pClosed ? ' hidden' : ''}><div class="searchbar"><input id="compareSearch" type="search" placeholder="${t('pricesSearchPh')}" aria-label="${t('pricesSearchPh')}"></div><div class="filter-chips cmp-cats" role="group" aria-label="${t('filterCatLabel')}"><button type="button" data-cmp-cat="" class="on">${t('filterAll')}</button>${categories.map(id => `<button type="button" data-cmp-cat="${id}">${esc(pageName(id))}</button>`).join('')}</div><p class="result-count" id="compareCount"></p><div class="compare-selected" id="compareSelected"></div><div class="compare-list" id="compareList"></div><p class="compare-note" id="compareNote" hidden>${t('compareLimit')}</p></div></div><div class="preset-block"><h3>${t('presetTitle')}</h3><div class="preset-form"><input id="presetName" type="text" placeholder="${t('presetNamePh')}" aria-label="${t('presetNamePh')}"><button class="button" id="presetSaveBtn" type="button">${t('presetSave')}</button></div><div class="preset-list" id="presetList"></div></div><div id="compareTable"></div><div id="compareExport"></div></div>`;
 }
 function renderPresets() {
   const box = document.getElementById('presetList');
@@ -1123,6 +1125,7 @@ function renderComparePicker() {
   if (!box) return;
   const q = compareQ.trim().toLowerCase();
   const rows = dataItems().filter(({ cat, m }) => {
+    if (cmpCat && cat !== cmpCat) return false;
     if (!q) return true;
     return (m.name + ' ' + (m.vendor || '') + ' ' + pageName(cat)).toLowerCase().includes(q);
   });
@@ -1205,6 +1208,8 @@ function initCompare() {
   if (search) search.addEventListener('input', () => { compareQ = search.value; renderComparePicker(); });
   const page = document.querySelector('.compare-picker');
   if (page) page.addEventListener('click', e => {
+    const cc = e.target.closest('button[data-cmp-cat]');
+    if (cc) { cmpCat = cc.dataset.cmpCat || ''; page.querySelectorAll('button[data-cmp-cat]').forEach(b => b.classList.toggle('on', b === cc)); renderComparePicker(); return; }
     const add = e.target.closest('button[data-add]');
     if (add && !add.disabled) {
       if (compareSel.length >= 4 || compareSel.includes(add.dataset.add)) return;
@@ -1360,7 +1365,7 @@ function ratingsPage() {
   }).join('')}</div>`;
 }
 function choicePage() {
-  const rated = dataItems().filter(({ m }) => typeof m.user_rating === 'number').sort((a, b) => b.m.user_rating - a.m.user_rating).slice(0, 10);
+  const rated = dedupeById(dataItems().filter(({ m }) => typeof m.user_rating === 'number')).sort((a, b) => b.m.user_rating - a.m.user_rating).slice(0, 10);
   if (!rated.length) return `<div class="container route page-route">${pageHead('community', 'choiceIntro')}<div class="empty ratings-empty"><p>${t('ratingsEmpty')}</p></div></div>`;
   return `<div class="container route page-route">${pageHead('community', 'choiceIntro')}<p class="result-count">${tr('foundCount', { n: rated.length })}</p><div class="model-list">${rated.map(({ cat, m }, i) => modelCard(cat, m, { showRating: i + 1 })).join('')}</div></div>`;
 }
@@ -1443,7 +1448,7 @@ function home() {
 
 const SHARE_U = encodeURIComponent('https://neuroathena.pages.dev'), SHARE_T = encodeURIComponent('НейроАфина — все нейросети, цены и новости');
 async function initHome() {
-  const rated = dataItems().filter(({ m }) => typeof m.user_rating === 'number').sort((a, b) => b.m.user_rating - a.m.user_rating);
+  const rated = dedupeById(dataItems().filter(({ m }) => typeof m.user_rating === 'number')).sort((a, b) => b.m.user_rating - a.m.user_rating);
   const wm = document.getElementById('weekModel');
   if (wm && rated.length) {
     const top = rated[0].m;
