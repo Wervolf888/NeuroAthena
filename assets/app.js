@@ -76,7 +76,7 @@ const I18N = {
     'convAmount': 'Сумма', 'convFrom': 'Из валюты', 'convTo': 'В валюту', 'convSwap': 'Поменять валюты местами',
     'convQuick': 'Частые суммы подписок', 'convEnterAmount': 'Введите сумму', 'convNoRate': 'Нет курса выбранной валюты',
     'convNote': 'Официальный курс НБУ, без комиссий. Это не цена покупки или продажи валюты.',
-    'convOther': 'Другие валюты НБУ', 'convBanner': 'Пересчитать подписку в свою валюту', 'collapseBlock': 'Свернуть блок', 'expandBlock': 'Развернуть блок', 'qfAll': 'Все', 'qfFree': 'Бесплатные', 'qfRu': 'С русским', 'qfUk': 'С украинским', 'qfEmpty': 'По этому фильтру пока ничего нет.', 'badgeToday': 'Обновлено сегодня', 'toCompare': 'В сравнение', 'inCompare': 'В сравнении', 'picksTitle': 'Подборки под задачу', 'picksSub': 'Лучшие модели по оценкам пользователей — под вашу задачу.', 'pick.chats': 'Тексты и общение', 'pick.images': 'Картинки и дизайн', 'pick.video': 'Видео', 'pick.audio': 'Звук и озвучка', 'pick.code': 'Код и разработка',
+    'convOther': 'Другие валюты НБУ', 'convBanner': 'Пересчитать подписку в свою валюту', 'collapseBlock': 'Свернуть блок', 'expandBlock': 'Развернуть блок', 'qfAll': 'Все', 'qfFree': 'Бесплатные', 'qfRu': 'С русским', 'qfUk': 'С украинским', 'qfEmpty': 'По этому фильтру пока ничего нет.', 'badgeToday': 'Обновлено сегодня', 'toCompare': 'В сравнение', 'inCompare': 'В сравнении', 'picksTitle': 'Подборки под задачу', 'picksSub': 'Лучшие модели по оценкам пользователей — под вашу задачу.', 'pick.chats': 'Тексты и общение', 'pick.images': 'Картинки и дизайн', 'pick.video': 'Видео', 'pick.audio': 'Звук и озвучка', 'pick.code': 'Код и разработка', 'cmpDev': 'Разработчик', 'cmpCaps': 'Что умеет', 'cmpBugsNone': 'Не отмечено',
     'cur.UAH': 'Гривна', 'cur.USD': 'Доллар США', 'cur.EUR': 'Евро', 'cur.PLN': 'Польский злотый', 'cur.GBP': 'Фунт стерлингов',
     'searchTitle': 'Найдите свой инструмент', 'searchSub': 'Поиск по нейросетям и фильтры',
     'searchPlaceholder': 'Название модели или сервиса', 'findBtn': 'Найти',
@@ -242,7 +242,7 @@ const I18N = {
     'convAmount': 'Сума', 'convFrom': 'З валюти', 'convTo': 'У валюту', 'convSwap': 'Поміняти валюти місцями',
     'convQuick': 'Часті суми підписок', 'convEnterAmount': 'Введіть суму', 'convNoRate': 'Немає курсу обраної валюти',
     'convNote': 'Офіційний курс НБУ, без комісій. Це не ціна купівлі чи продажу валюти.',
-    'convOther': 'Інші валюти НБУ', 'convBanner': 'Перерахувати підписку у свою валюту', 'collapseBlock': 'Згорнути блок', 'expandBlock': 'Розгорнути блок', 'qfAll': 'Усі', 'qfFree': 'Безкоштовні', 'qfRu': 'З російською', 'qfUk': 'З українською', 'qfEmpty': 'За цим фільтром поки нічого немає.', 'badgeToday': 'Оновлено сьогодні', 'toCompare': 'До порівняння', 'inCompare': 'У порівнянні', 'picksTitle': 'Добірки під задачу', 'picksSub': 'Найкращі моделі за оцінками користувачів — під ваше завдання.', 'pick.chats': 'Тексти і спілкування', 'pick.images': 'Картинки і дизайн', 'pick.video': 'Відео', 'pick.audio': 'Звук і озвучка', 'pick.code': 'Код і розробка',
+    'convOther': 'Інші валюти НБУ', 'convBanner': 'Перерахувати підписку у свою валюту', 'collapseBlock': 'Згорнути блок', 'expandBlock': 'Розгорнути блок', 'qfAll': 'Усі', 'qfFree': 'Безкоштовні', 'qfRu': 'З російською', 'qfUk': 'З українською', 'qfEmpty': 'За цим фільтром поки нічого немає.', 'badgeToday': 'Оновлено сьогодні', 'toCompare': 'До порівняння', 'inCompare': 'У порівнянні', 'picksTitle': 'Добірки під задачу', 'picksSub': 'Найкращі моделі за оцінками користувачів — під ваше завдання.', 'pick.chats': 'Тексти і спілкування', 'pick.images': 'Картинки і дизайн', 'pick.video': 'Відео', 'pick.audio': 'Звук і озвучка', 'pick.code': 'Код і розробка', 'cmpDev': 'Розробник', 'cmpCaps': 'Що вміє', 'cmpBugsNone': 'Не відмічено',
     'cur.UAH': 'Гривня', 'cur.USD': 'Долар США', 'cur.EUR': 'Євро', 'cur.PLN': 'Польський злотий', 'cur.GBP': 'Фунт стерлінгів',
     'searchTitle': 'Знайдіть свій інструмент', 'searchSub': 'Пошук нейромереж і фільтри',
     'searchPlaceholder': 'Назва моделі або сервісу', 'findBtn': 'Знайти',
@@ -408,7 +408,7 @@ const I18N = {
     'convAmount': 'Amount', 'convFrom': 'From', 'convTo': 'To', 'convSwap': 'Swap currencies',
     'convQuick': 'Common subscription amounts', 'convEnterAmount': 'Enter an amount', 'convNoRate': 'No rate for the selected currency',
     'convNote': 'Official NBU rate, no fees. This is not a buy or sell price.',
-    'convOther': 'Other NBU currencies', 'convBanner': 'Convert a subscription into your currency', 'collapseBlock': 'Collapse section', 'expandBlock': 'Expand section', 'qfAll': 'All', 'qfFree': 'Free', 'qfRu': 'With Russian', 'qfUk': 'With Ukrainian', 'qfEmpty': 'Nothing matches this filter yet.', 'badgeToday': 'Updated today', 'toCompare': 'Compare', 'inCompare': 'In comparison', 'picksTitle': 'Picks by task', 'picksSub': 'Top-rated models for your task.', 'pick.chats': 'Text & chat', 'pick.images': 'Images & design', 'pick.video': 'Video', 'pick.audio': 'Audio & voice', 'pick.code': 'Code & development',
+    'convOther': 'Other NBU currencies', 'convBanner': 'Convert a subscription into your currency', 'collapseBlock': 'Collapse section', 'expandBlock': 'Expand section', 'qfAll': 'All', 'qfFree': 'Free', 'qfRu': 'With Russian', 'qfUk': 'With Ukrainian', 'qfEmpty': 'Nothing matches this filter yet.', 'badgeToday': 'Updated today', 'toCompare': 'Compare', 'inCompare': 'In comparison', 'picksTitle': 'Picks by task', 'picksSub': 'Top-rated models for your task.', 'pick.chats': 'Text & chat', 'pick.images': 'Images & design', 'pick.video': 'Video', 'pick.audio': 'Audio & voice', 'pick.code': 'Code & development', 'cmpDev': 'Developer', 'cmpCaps': 'Capabilities', 'cmpBugsNone': 'None noted',
     'cur.UAH': 'Ukrainian hryvnia', 'cur.USD': 'US dollar', 'cur.EUR': 'Euro', 'cur.PLN': 'Polish złoty', 'cur.GBP': 'British pound',
     'searchTitle': 'Find your tool', 'searchSub': 'Search neural networks and filters',
     'searchPlaceholder': 'Model or service name', 'findBtn': 'Search',
@@ -1119,9 +1119,16 @@ function renderComparePicker() {
 function compareTableHtml() {
   const sel = compareSel.map(findCompareModel).filter(Boolean).map(hit => ({ cat: hit.cat, m: displayModel(hit.cat, hit.m) }));
   if (sel.length < 2) return `<div class="empty compare-empty"><p>${sel.length === 0 ? t('pickTwo') : t('pickMore')}</p></div>`;
+  const cmpList = arr => Array.isArray(arr) && arr.length ? `<ul class="cmp-list">${arr.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : '';
   const rows = [
     { label: t('colCategory'), val: ({ cat }) => esc(pageName(cat)) },
+    { label: t('cmpDev'), val: ({ m }) => m.developer ? esc(m.developer) : t('noData') },
+    { label: t('fldRating'), val: ({ m }) => typeof m.user_rating === 'number' ? esc(m.user_rating) + ' / 10' : t('noData') },
     { label: t('rowEssence'), val: ({ m }) => m.strength ? `<span title="${esc(m.strength)}">${essence(m.strength)}</span>` : t('noData') },
+    { label: t('cmpCaps'), val: ({ m }) => Array.isArray(m.capabilities) && m.capabilities.length ? m.capabilities.map(c => `<span class="cap-chip">${esc(c)}</span>`).join('') : t('noData') },
+    { label: t('fldPros'), val: ({ m }) => cmpList(m.pros) || t('noData') },
+    { label: t('fldCons'), val: ({ m }) => cmpList(m.cons) || t('noData') },
+    { label: t('fldBugs'), val: ({ m }) => cmpList(m.bugs) || t('cmpBugsNone') },
     { label: t('rowFlagship'), val: ({ m }) => m.flagship ? esc(m.flagship) : t('noData') },
     { label: t('priceUA'), val: ({ m }) => (m.prices || {}).UA ? esc(m.prices.UA) : t('noData') },
     { label: t('priceUS'), val: ({ m }) => (m.prices || {}).US ? esc(m.prices.US) : t('noData') },
@@ -1137,7 +1144,7 @@ function compareTableHtml() {
     const key = compareKey(cat, m.id);
     const logo = logos[key];
     const url = officialLink(m);
-    return `<th scope="col"><div class="compare-model-head">${logo ? `<img src="${esc(logo)}" alt="">` : ''}<strong>${esc(m.name)}</strong>${url ? `<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${t('official')}</a>` : ''}<button type="button" class="compare-remove" data-remove="${esc(key)}">${t('compareRemove')}</button></div></th>`;
+    return `<th scope="col"><div class="compare-model-head">${logo ? `<img src="${esc(logo)}" alt="">` : ''}<strong>${esc(m.name)}</strong>${m.developer ? `<span class="cmp-dev">${esc(m.developer)}</span>` : ''}${typeof m.user_rating === 'number' ? `<span class="cmp-rate">${esc(m.user_rating)} / 10</span>` : ''}${url ? `<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${t('official')}</a>` : ''}<button type="button" class="compare-remove" data-remove="${esc(key)}">${t('compareRemove')}</button></div></th>`;
   }).join('');
   const body = rows.map(r => `<tr><th scope="row">${r.label}</th>${sel.map(s => `<td>${r.val(s)}</td>`).join('')}</tr>`).join('');
   return `<div class="compare-scroll"><table class="compare-table" aria-label="${t('compareTableLabel')}"><thead><tr><th scope="col"></th>${head}</tr></thead><tbody>${body}</tbody></table></div>`;
