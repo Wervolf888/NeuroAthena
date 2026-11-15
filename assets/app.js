@@ -22,6 +22,11 @@ const I18N = {
     'desc.video': 'Создание видео', 'desc.audio': 'Голос и музыка',
     'desc.code': 'Помощники разработчика', 'desc.agents': 'Автономные инструменты',
     'desc.local': 'Работа на своём устройстве',
+    'desc.prices': 'Все цены по странам', 'desc.offers': 'Акции сервисов',
+    'desc.discounts': 'Скидки и распродажи', 'desc.coupons': 'Промокоды и купоны',
+    'desc.news': 'Главное из мира ИИ', 'desc.compare': 'Сравнение моделей',
+    'desc.free': 'Бесплатное и пробы', 'desc.rankings': 'Рейтинги по задачам',
+    'desc.calendar': 'Календарь релизов', 'desc.community': 'Выбор пользователей',
     'skip': 'Перейти к содержанию', 'brandTag': 'НАВИГАТОР ПО МИРУ ИИ',
     'navCatalog': 'Каталог', 'navPrices': 'Цены', 'navCompare': 'Сравнение', 'navNews': 'Новости',
     'menuAll': 'Все разделы',
@@ -75,7 +80,7 @@ const I18N = {
     'searchNote': 'Фильтры показывают только модели с подтверждёнными данными.',
     'catEyebrow': 'Исследуйте по направлениям', 'catTitle': 'Категории',
     'catSub': 'Выберите задачу — найдите подходящий инструмент.',
-    'catNum': 'КАТАЛОГ',
+    'catNum': 'КАТАЛОГ', 'secNum': 'РАЗДЕЛ',
     'weekEyebrow': 'В центре внимания', 'weekTitle': 'На этой неделе',
     'featWeek': 'Модель недели', 'featWeekNone': 'Подборка ещё не готова',
     'featWeekText': 'Здесь появится выбранная модель, когда будут подтверждены данные.',
@@ -177,6 +182,11 @@ const I18N = {
     'desc.video': 'Створення відео', 'desc.audio': 'Голос і музика',
     'desc.code': 'Помічники розробника', 'desc.agents': 'Автономні інструменти',
     'desc.local': 'Робота на власному пристрої',
+    'desc.prices': 'Усі ціни за країнами', 'desc.offers': 'Акції сервісів',
+    'desc.discounts': 'Знижки та розпродажі', 'desc.coupons': 'Промокоди й купони',
+    'desc.news': 'Головне зі світу ШІ', 'desc.compare': 'Порівняння моделей',
+    'desc.free': 'Безкоштовне та проби', 'desc.rankings': 'Рейтинги за задачами',
+    'desc.calendar': 'Календар релізів', 'desc.community': 'Вибір користувачів',
     'skip': 'Перейти до змісту', 'brandTag': 'НАВІГАТОР СВІТОМ ШІ',
     'navCatalog': 'Каталог', 'navPrices': 'Ціни', 'navCompare': 'Порівняння', 'navNews': 'Новини',
     'menuAll': 'Всі розділи',
@@ -230,7 +240,7 @@ const I18N = {
     'searchNote': 'Фільтри показують лише моделі з підтвердженими даними.',
     'catEyebrow': 'Досліджуйте за напрямами', 'catTitle': 'Категорії',
     'catSub': 'Оберіть задачу — знайдіть потрібний інструмент.',
-    'catNum': 'КАТАЛОГ',
+    'catNum': 'КАТАЛОГ', 'secNum': 'РОЗДІЛ',
     'weekEyebrow': 'У центрі уваги', 'weekTitle': 'Цього тижня',
     'featWeek': 'Модель тижня', 'featWeekNone': 'Добірки ще немає',
     'featWeekText': 'Тут з’явиться обрана модель, коли буде підтверджено дані.',
@@ -332,6 +342,11 @@ const I18N = {
     'desc.video': 'Video creation', 'desc.audio': 'Voice & music',
     'desc.code': 'Developer assistants', 'desc.agents': 'Autonomous tools',
     'desc.local': 'Run on your own device',
+    'desc.prices': 'All prices by country', 'desc.offers': 'Service promotions',
+    'desc.discounts': 'Discounts & sales', 'desc.coupons': 'Promo codes & coupons',
+    'desc.news': 'Top AI news', 'desc.compare': 'Model comparison',
+    'desc.free': 'Free tiers & trials', 'desc.rankings': 'Rankings by task',
+    'desc.calendar': 'Release calendar', 'desc.community': 'Users\' choice',
     'skip': 'Skip to content', 'brandTag': 'NAVIGATOR OF THE AI WORLD',
     'navCatalog': 'Catalog', 'navPrices': 'Prices', 'navCompare': 'Compare', 'navNews': 'News',
     'menuAll': 'All sections',
@@ -385,7 +400,7 @@ const I18N = {
     'searchNote': 'Filters show only models with confirmed data.',
     'catEyebrow': 'Explore by task', 'catTitle': 'Categories',
     'catSub': 'Pick a task — find the right tool.',
-    'catNum': 'CATALOG',
+    'catNum': 'CATALOG', 'secNum': 'SECTION',
     'weekEyebrow': 'In the spotlight', 'weekTitle': 'This week',
     'featWeek': 'Model of the week', 'featWeekNone': 'No pick yet',
     'featWeekText': 'The chosen model will appear here once its data is confirmed.',
@@ -683,6 +698,7 @@ time(); setInterval(time, 1000);
 /* ---------- Данные (только чтение) ---------- */
 const catalog = window.NEURO_CATALOG, priceFile = window.NEURO_PRICES, logos = window.NEURO_LOGOS || {};
 const categoryCards = () => categories.map((id, i) => `<a class="cat illustrated-cat" href="#/${id}" style="background-image:linear-gradient(90deg,rgba(5,16,28,.95),rgba(5,16,28,.55)),url('assets/categories/${id}.webp')"><span class="cat-num">0${i + 1} / ${t('catNum')}</span><h3>${esc(pageName(id))}</h3><p>${esc(t('desc.' + id))}</p></a>`).join('');
+const sectionCards = () => pageIds.slice(8).map((id, i) => `<a class="cat illustrated-cat" href="#/${id}" style="background-image:linear-gradient(90deg,rgba(5,16,28,.95),rgba(5,16,28,.55)),url('assets/backgrounds/bg-${id}.jpg')"><span class="cat-num">${String(i + 8).padStart(2, '0')} / ${t('secNum')}</span><h3>${esc(pageName(id))}</h3><p>${esc(t('desc.' + id))}</p></a>`).join('');
 const esc = v => String(v ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const boolValue = v => v === true ? t('yes') : v === false ? t('no') : t('notConfirmed');
 const textValue = v => v == null || v === '' ? t('notConfirmed') : esc(v);
@@ -1278,7 +1294,7 @@ function home() {
   return `<div class="hero"><section class="hero-panel"><div class="hero-copy"><div class="eyebrow">${t('heroEyebrow')}</div><h1>Нейро<span>Атлас</span></h1><p>${t('heroTag')}</p><div class="hero-actions"><a class="button primary" href="#categories">${t('openCatalog')}</a><a class="button" href="#/compare">${t('compareModels')}</a></div></div></section></div>`
     + `<div class="container"><div class="status-strip"><div class="rates"><strong>${t('ratesTitle')}</strong><span>USD <strong id="usd">—</strong></span><span>EUR <strong id="eur">—</strong></span><button type="button" class="rate-refresh" id="refreshRates">${t('refreshRates')}</button></div><span class="muted" id="ratesInfo" role="status">${t('ratesLoading')}</span></div>`
     + `<section class="section" aria-labelledby="searchTitle"><div class="section-head"><div><h2 id="searchTitle">${t('searchTitle')}</h2><p>${t('searchSub')}</p></div></div><div class="search-panel"><form id="modelSearch"><div class="searchbar"><input name="q" aria-label="${t('searchTitle')}" placeholder="${t('searchPlaceholder')}"><button class="button primary" type="submit">${t('findBtn')}</button></div><div class="filter-controls"><label>${t('filterLang')}<select name="language"><option value="">${t('optAny')}</option><option value="ru">${t('optRu')}</option><option value="uk">${t('optUk')}</option></select></label><label>${t('filterFree')}<select name="free"><option value="">${t('optAny')}</option><option value="yes">${t('optFreeYes')}</option></select></label><label>${t('filterPlatform')}<select name="platform"><option value="">${t('optAnyF')}</option><option value="web">${t('optWeb')}</option><option value="windows">Windows</option><option value="android">Android</option><option value="ios">iOS</option></select></label></div></form><div id="searchResults" role="status" aria-live="polite"></div><p class="search-note">${t('searchNote')}</p></div></section>`
-    + `<section class="section" id="categories"><div class="section-head"><div><div class="eyebrow">${t('catEyebrow')}</div><h2>${t('catTitle')}</h2><p>${t('catSub')}</p></div></div><div class="cards">${categoryCards()}</div></section>`
+    + `<section class="section" id="categories"><div class="section-head"><div><div class="eyebrow">${t('catEyebrow')}</div><h2>${t('catTitle')}</h2><p>${t('catSub')}</p></div></div><div class="cards">${categoryCards()}${sectionCards()}</div></section>`
     + `<section class="section" id="favSection">${favSectionHtml()}</section>`
     + `<section class="section"><div class="section-head"><div><div class="eyebrow">${t('weekEyebrow')}</div><h2>${t('weekTitle')}</h2></div></div><div class="editorial"><article class="feature"><span class="label">${t('featWeek')}</span><h3>${t('featWeekNone')}</h3><p>${t('featWeekText')}</p></article><article class="feature"><span class="label">${t('featTop')}</span><h3>${t('featTopNone')}</h3><p>${t('featTopText')}</p></article></div></section>`
     + `<section class="section"><div class="section-head"><div><div class="eyebrow">${t('newEyebrow')}</div><h2>${t('newTitle')}</h2></div></div><div class="three"><article class="empty"><span class="label">${t('pulseLabel')}</span><h3>${t('pulseTitle')}</h3><p>${t('pulseText')}</p><a href="#/prices">${t('toPrices')}</a></article><article class="empty"><span class="label">${t('newsLabel')}</span><h3>${t('newsTitle')}</h3><p>${t('newsText')}</p><a href="#/news">${t('toNews')}</a></article><article class="empty"><span class="label">${t('offersLabel')}</span><h3>${t('offersTitle')}</h3><p>${t('offersText')}</p><a href="#/offers">${t('toOffers')}</a></article></div></section></div>`;
