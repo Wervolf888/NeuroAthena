@@ -571,7 +571,7 @@ body[data-route="converter"] .page-head{background-image:none}
 .tell-btn{background:#90e4e7;border-color:#90e4e7;color:#071922;font-weight:700}
 .tell-btn:hover{filter:brightness(1.07)}
 
-/* === Пакет по ревью 15.11.2026 (CSS v26): прокрутка, панель, шапки, чипсы сравнения === */
+/* === Пакет по ревью 15.11.2026 (CSS v27): прокрутка, панель, шапки, чипсы сравнения === */
 body{overflow-x:clip}
 .model-index{background:#0d1a28}
 .cmp-cats{margin-top:12px}
@@ -582,3 +582,6 @@ body{overflow-x:clip}
 [data-route="news"] .page-head{background-image:linear-gradient(90deg,rgba(5,16,28,.88),rgba(5,16,28,.26)),url('heads/head-news.jpg')}
 [data-route="compare"] .page-head{background-image:linear-gradient(90deg,rgba(5,16,28,.88),rgba(5,16,28,.26)),url('heads/head-compare.jpg')}
 [data-route="calendar"] .page-head{background-image:linear-gradient(90deg,rgba(5,16,28,.88),rgba(5,16,28,.26)),url('heads/head-calendar.jpg')}
+
+/* Аудит 15.11: подборки не уезжают за край на узких окнах */
+.picks-grid>*{min-width:0}.pick-row{min-width:0}.pick-price{overflow-wrap:anywhere}
