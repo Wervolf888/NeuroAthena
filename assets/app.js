@@ -76,7 +76,7 @@ const I18N = {
     'convAmount': 'Сумма', 'convFrom': 'Из валюты', 'convTo': 'В валюту', 'convSwap': 'Поменять валюты местами',
     'convQuick': 'Частые суммы подписок', 'convEnterAmount': 'Введите сумму', 'convNoRate': 'Нет курса выбранной валюты',
     'convNote': 'Официальный курс НБУ, без комиссий. Это не цена покупки или продажи валюты.',
-    'convOther': 'Другие валюты НБУ', 'convBanner': 'Пересчитать подписку в свою валюту', 'collapseBlock': 'Свернуть блок', 'expandBlock': 'Развернуть блок', 'qfAll': 'Все', 'qfFree': 'Бесплатные', 'qfRu': 'С русским', 'qfUk': 'С украинским', 'qfEmpty': 'По этому фильтру пока ничего нет.', 'badgeToday': 'Обновлено сегодня', 'toCompare': 'В сравнение', 'inCompare': 'В сравнении', 'picksTitle': 'Подборки под задачу', 'picksSub': 'Лучшие модели по оценкам пользователей — под вашу задачу.', 'pick.chats': 'Тексты и общение', 'pick.images': 'Картинки и дизайн', 'pick.video': 'Видео', 'pick.audio': 'Звук и озвучка', 'pick.code': 'Код и разработка', 'cmpDev': 'Разработчик', 'cmpCaps': 'Что умеет', 'cmpBugsNone': 'Не отмечено', 'share': 'Поделиться', 'shareTitle': 'Поделиться сайтом', 'copyLink': 'Копировать ссылку', 'copied': 'Ссылка скопирована ✓', 'qrCaption': 'Наведите камеру телефона — сайт откроется сам', 'shareStripTitle': 'Понравилась НейроАфина?', 'shareStripText': 'Покажите её другу: наведите камеру на код или отправьте ссылку в мессенджер.',
+    'convOther': 'Другие валюты НБУ', 'convBanner': 'Пересчитать подписку в свою валюту', 'collapseBlock': 'Свернуть блок', 'expandBlock': 'Развернуть блок', 'qfAll': 'Все', 'qfFree': 'Бесплатные', 'qfRu': 'С русским', 'qfUk': 'С украинским', 'qfEmpty': 'По этому фильтру пока ничего нет.', 'badgeToday': 'Обновлено сегодня', 'toCompare': 'В сравнение', 'inCompare': 'В сравнении', 'picksTitle': 'Подборки под задачу', 'picksSub': 'Лучшие модели по оценкам пользователей — под вашу задачу.', 'pick.chats': 'Тексты и общение', 'pick.images': 'Картинки и дизайн', 'pick.video': 'Видео', 'pick.audio': 'Звук и озвучка', 'pick.code': 'Код и разработка', 'cmpDev': 'Разработчик', 'cmpCaps': 'Что умеет', 'cmpBugsNone': 'Не отмечено', 'pickModelsTitle': 'Выбор моделей', 'expTitle': 'Экспорт сравнения', 'expDocs': 'В Google Документы', 'expExcel': 'Excel (CSV)', 'expHtml': 'HTML-файл', 'expPrint': 'PDF / Печать', 'expNote': '«В Google Документы» копирует таблицу — откройте документ и вставьте (Ctrl+V). HTML-файл можно загрузить на Google Диск и открыть как Google Документ. PDF — через «Печать», «Сохранить как PDF».', 'expDocTitle': 'Сравнение моделей', 'expFileBase': 'Сравнение', 'expCopied': 'Таблица скопирована — вставьте её в документ (Ctrl+V)', 'expCopyFail': 'Не удалось скопировать — попробуйте HTML-файл', 'share': 'Поделиться', 'shareTitle': 'Поделиться сайтом', 'copyLink': 'Копировать ссылку', 'copied': 'Ссылка скопирована ✓', 'qrCaption': 'Наведите камеру телефона — сайт откроется сам', 'shareStripTitle': 'Понравилась НейроАфина?', 'shareStripText': 'Покажите её другу: наведите камеру на код или отправьте ссылку в мессенджер.',
     'cur.UAH': 'Гривна', 'cur.USD': 'Доллар США', 'cur.EUR': 'Евро', 'cur.PLN': 'Польский злотый', 'cur.GBP': 'Фунт стерлингов',
     'searchTitle': 'Найдите свой инструмент', 'searchSub': 'Поиск по нейросетям и фильтры',
     'searchPlaceholder': 'Название модели или сервиса', 'findBtn': 'Найти',
@@ -242,7 +242,7 @@ const I18N = {
     'convAmount': 'Сума', 'convFrom': 'З валюти', 'convTo': 'У валюту', 'convSwap': 'Поміняти валюти місцями',
     'convQuick': 'Часті суми підписок', 'convEnterAmount': 'Введіть суму', 'convNoRate': 'Немає курсу обраної валюти',
     'convNote': 'Офіційний курс НБУ, без комісій. Це не ціна купівлі чи продажу валюти.',
-    'convOther': 'Інші валюти НБУ', 'convBanner': 'Перерахувати підписку у свою валюту', 'collapseBlock': 'Згорнути блок', 'expandBlock': 'Розгорнути блок', 'qfAll': 'Усі', 'qfFree': 'Безкоштовні', 'qfRu': 'З російською', 'qfUk': 'З українською', 'qfEmpty': 'За цим фільтром поки нічого немає.', 'badgeToday': 'Оновлено сьогодні', 'toCompare': 'До порівняння', 'inCompare': 'У порівнянні', 'picksTitle': 'Добірки під задачу', 'picksSub': 'Найкращі моделі за оцінками користувачів — під ваше завдання.', 'pick.chats': 'Тексти і спілкування', 'pick.images': 'Картинки і дизайн', 'pick.video': 'Відео', 'pick.audio': 'Звук і озвучка', 'pick.code': 'Код і розробка', 'cmpDev': 'Розробник', 'cmpCaps': 'Що вміє', 'cmpBugsNone': 'Не відмічено', 'share': 'Поділитися', 'shareTitle': 'Поділитися сайтом', 'copyLink': 'Копіювати посилання', 'copied': 'Посилання скопійовано ✓', 'qrCaption': 'Наведіть камеру телефона — сайт відкриється сам', 'shareStripTitle': 'Сподобалася НейроАфіна?', 'shareStripText': 'Покажіть її другу: наведіть камеру на код або надішліть посилання в месенджер.',
+    'convOther': 'Інші валюти НБУ', 'convBanner': 'Перерахувати підписку у свою валюту', 'collapseBlock': 'Згорнути блок', 'expandBlock': 'Розгорнути блок', 'qfAll': 'Усі', 'qfFree': 'Безкоштовні', 'qfRu': 'З російською', 'qfUk': 'З українською', 'qfEmpty': 'За цим фільтром поки нічого немає.', 'badgeToday': 'Оновлено сьогодні', 'toCompare': 'До порівняння', 'inCompare': 'У порівнянні', 'picksTitle': 'Добірки під задачу', 'picksSub': 'Найкращі моделі за оцінками користувачів — під ваше завдання.', 'pick.chats': 'Тексти і спілкування', 'pick.images': 'Картинки і дизайн', 'pick.video': 'Відео', 'pick.audio': 'Звук і озвучка', 'pick.code': 'Код і розробка', 'cmpDev': 'Розробник', 'cmpCaps': 'Що вміє', 'cmpBugsNone': 'Не відмічено', 'pickModelsTitle': 'Вибір моделей', 'expTitle': 'Експорт порівняння', 'expDocs': 'У Google Документи', 'expExcel': 'Excel (CSV)', 'expHtml': 'HTML-файл', 'expPrint': 'PDF / Друк', 'expNote': '«У Google Документи» копіює таблицю — відкрийте документ і вставте (Ctrl+V). HTML-файл можна завантажити на Google Диск і відкрити як Google Документ. PDF — через «Друк», «Зберегти як PDF».', 'expDocTitle': 'Порівняння моделей', 'expFileBase': 'Порівняння', 'expCopied': 'Таблицю скопійовано — вставте її в документ (Ctrl+V)', 'expCopyFail': 'Не вдалося скопіювати — спробуйте HTML-файл', 'share': 'Поділитися', 'shareTitle': 'Поділитися сайтом', 'copyLink': 'Копіювати посилання', 'copied': 'Посилання скопійовано ✓', 'qrCaption': 'Наведіть камеру телефона — сайт відкриється сам', 'shareStripTitle': 'Сподобалася НейроАфіна?', 'shareStripText': 'Покажіть її другу: наведіть камеру на код або надішліть посилання в месенджер.',
     'cur.UAH': 'Гривня', 'cur.USD': 'Долар США', 'cur.EUR': 'Євро', 'cur.PLN': 'Польський злотий', 'cur.GBP': 'Фунт стерлінгів',
     'searchTitle': 'Знайдіть свій інструмент', 'searchSub': 'Пошук нейромереж і фільтри',
     'searchPlaceholder': 'Назва моделі або сервісу', 'findBtn': 'Знайти',
@@ -408,7 +408,7 @@ const I18N = {
     'convAmount': 'Amount', 'convFrom': 'From', 'convTo': 'To', 'convSwap': 'Swap currencies',
     'convQuick': 'Common subscription amounts', 'convEnterAmount': 'Enter an amount', 'convNoRate': 'No rate for the selected currency',
     'convNote': 'Official NBU rate, no fees. This is not a buy or sell price.',
-    'convOther': 'Other NBU currencies', 'convBanner': 'Convert a subscription into your currency', 'collapseBlock': 'Collapse section', 'expandBlock': 'Expand section', 'qfAll': 'All', 'qfFree': 'Free', 'qfRu': 'With Russian', 'qfUk': 'With Ukrainian', 'qfEmpty': 'Nothing matches this filter yet.', 'badgeToday': 'Updated today', 'toCompare': 'Compare', 'inCompare': 'In comparison', 'picksTitle': 'Picks by task', 'picksSub': 'Top-rated models for your task.', 'pick.chats': 'Text & chat', 'pick.images': 'Images & design', 'pick.video': 'Video', 'pick.audio': 'Audio & voice', 'pick.code': 'Code & development', 'cmpDev': 'Developer', 'cmpCaps': 'Capabilities', 'cmpBugsNone': 'None noted', 'share': 'Share', 'shareTitle': 'Share this site', 'copyLink': 'Copy link', 'copied': 'Link copied ✓', 'qrCaption': 'Point your phone camera — the site opens by itself', 'shareStripTitle': 'Like NeuroAthena?', 'shareStripText': 'Show it to a friend: point a camera at the code or send the link in a messenger.',
+    'convOther': 'Other NBU currencies', 'convBanner': 'Convert a subscription into your currency', 'collapseBlock': 'Collapse section', 'expandBlock': 'Expand section', 'qfAll': 'All', 'qfFree': 'Free', 'qfRu': 'With Russian', 'qfUk': 'With Ukrainian', 'qfEmpty': 'Nothing matches this filter yet.', 'badgeToday': 'Updated today', 'toCompare': 'Compare', 'inCompare': 'In comparison', 'picksTitle': 'Picks by task', 'picksSub': 'Top-rated models for your task.', 'pick.chats': 'Text & chat', 'pick.images': 'Images & design', 'pick.video': 'Video', 'pick.audio': 'Audio & voice', 'pick.code': 'Code & development', 'cmpDev': 'Developer', 'cmpCaps': 'Capabilities', 'cmpBugsNone': 'None noted', 'pickModelsTitle': 'Choose models', 'expTitle': 'Export comparison', 'expDocs': 'To Google Docs', 'expExcel': 'Excel (CSV)', 'expHtml': 'HTML file', 'expPrint': 'PDF / Print', 'expNote': '“To Google Docs” copies the table — open a document and paste (Ctrl+V). The HTML file can be uploaded to Google Drive and opened as a Google Doc. PDF — via Print, “Save as PDF”.', 'expDocTitle': 'Model comparison', 'expFileBase': 'Comparison', 'expCopied': 'Table copied — paste it into your document (Ctrl+V)', 'expCopyFail': 'Copy failed — try the HTML file', 'share': 'Share', 'shareTitle': 'Share this site', 'copyLink': 'Copy link', 'copied': 'Link copied ✓', 'qrCaption': 'Point your phone camera — the site opens by itself', 'shareStripTitle': 'Like NeuroAthena?', 'shareStripText': 'Show it to a friend: point a camera at the code or send the link in a messenger.',
     'cur.UAH': 'Ukrainian hryvnia', 'cur.USD': 'US dollar', 'cur.EUR': 'Euro', 'cur.PLN': 'Polish złoty', 'cur.GBP': 'British pound',
     'searchTitle': 'Find your tool', 'searchSub': 'Search neural networks and filters',
     'searchPlaceholder': 'Model or service name', 'findBtn': 'Search',
@@ -1088,7 +1088,8 @@ function langCell(v) {
   return t('noData');
 }
 function comparePage() {
-  return `<div class="container route page-route">${pageHead('compare', 'compareIntro')}<div class="compare-picker"><div class="searchbar"><input id="compareSearch" type="search" placeholder="${t('pricesSearchPh')}" aria-label="${t('pricesSearchPh')}"></div><p class="result-count" id="compareCount"></p><div class="compare-selected" id="compareSelected"></div><div class="compare-list" id="compareList"></div><p class="compare-note" id="compareNote" hidden>${t('compareLimit')}</p></div><div class="preset-block"><h3>${t('presetTitle')}</h3><div class="preset-form"><input id="presetName" type="text" placeholder="${t('presetNamePh')}" aria-label="${t('presetNamePh')}"><button class="button" id="presetSaveBtn" type="button">${t('presetSave')}</button></div><div class="preset-list" id="presetList"></div></div><div id="compareTable"></div></div>`;
+  const cst = collState(); const pClosed = 'comparePicker' in cst ? !!cst.comparePicker : compareSel.length >= 2;
+  return `<div class="container route page-route">${pageHead('compare', 'compareIntro')}<div class="compare-picker"><div class="picker-head"><h3>${t('pickModelsTitle')}</h3><button type="button" class="collapse-btn${pClosed ? ' closed' : ''}" data-collapse="comparePicker" aria-expanded="${!pClosed}" title="${pClosed ? t('expandBlock') : t('collapseBlock')}">▾</button></div><div class="collapsible" data-collapsible="comparePicker"${pClosed ? ' hidden' : ''}><div class="searchbar"><input id="compareSearch" type="search" placeholder="${t('pricesSearchPh')}" aria-label="${t('pricesSearchPh')}"></div><p class="result-count" id="compareCount"></p><div class="compare-selected" id="compareSelected"></div><div class="compare-list" id="compareList"></div><p class="compare-note" id="compareNote" hidden>${t('compareLimit')}</p></div></div><div class="preset-block"><h3>${t('presetTitle')}</h3><div class="preset-form"><input id="presetName" type="text" placeholder="${t('presetNamePh')}" aria-label="${t('presetNamePh')}"><button class="button" id="presetSaveBtn" type="button">${t('presetSave')}</button></div><div class="preset-list" id="presetList"></div></div><div id="compareTable"></div><div id="compareExport"></div></div>`;
 }
 function renderPresets() {
   const box = document.getElementById('presetList');
@@ -1129,9 +1130,9 @@ function renderComparePicker() {
     return `<div class="compare-item"><span class="compare-item-logo">${logo ? `<img src="${esc(logo)}" alt="">` : ''}</span><div class="grow"><strong>${esc(m.name)}</strong><span>${esc([m.vendor, pageName(cat)].filter(Boolean).join(' · '))}</span></div><button type="button" data-add="${esc(key)}" ${selected || full ? 'disabled' : ''}>${selected ? t('compareAdded') : t('compareAdd')}</button></div>`;
   }).join('') : `<p class="search-empty">${t('noMatches')}</p>`;
 }
-function compareTableHtml() {
+function compareData() {
   const sel = compareSel.map(findCompareModel).filter(Boolean).map(hit => ({ cat: hit.cat, m: displayModel(hit.cat, hit.m) }));
-  if (sel.length < 2) return `<div class="empty compare-empty"><p>${sel.length === 0 ? t('pickTwo') : t('pickMore')}</p></div>`;
+  if (sel.length < 2) return null;
   const cmpList = arr => Array.isArray(arr) && arr.length ? `<ul class="cmp-list">${arr.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : '';
   const rows = [
     { label: t('colCategory'), val: ({ cat }) => esc(pageName(cat)) },
@@ -1153,6 +1154,12 @@ function compareTableHtml() {
     { label: t('fldUk'), val: ({ m }) => langCell((m.languages || {}).uk) },
     { label: t('fldPlatforms'), val: ({ m }) => Array.isArray(m.platforms) && m.platforms.length ? esc(m.platforms.join(', ')) : t('noData') },
   ];
+  return { sel, rows };
+}
+function compareTableHtml() {
+  const data = compareData();
+  if (!data) return `<div class="empty compare-empty"><p>${compareSel.length === 0 ? t('pickTwo') : t('pickMore')}</p></div>`;
+  const { sel, rows } = data;
   const head = sel.map(({ cat, m }) => {
     const key = compareKey(cat, m.id);
     const logo = logos[key];
@@ -1165,7 +1172,18 @@ function compareTableHtml() {
 function renderCompareTable() {
   const box = document.getElementById('compareTable');
   if (box) box.innerHTML = compareTableHtml();
+  renderCompareExport();
 }
+function cmpText(html) { const d = document.createElement('div'); d.innerHTML = String(html).replace(/<\/li>/g, '; ').replace(/<br\s*\/?>/g, ' '); return d.textContent.replace(/\s+/g, ' ').replace(/;\s*$/, '').trim(); }
+function cmpTableHtmlDoc() { const data = compareData(); if (!data) return ''; const head = data.sel.map(({ m }) => `<th>${esc(m.name)}</th>`).join(''); const body = data.rows.map(r => `<tr><th>${esc(r.label)}</th>${data.sel.map(s => `<td>${r.val(s)}</td>`).join('')}</tr>`).join(''); return `<table><thead><tr><th></th>${head}</tr></thead><tbody>${body}</tbody></table>`; }
+function cmpFileName(ext) { const data = compareData(); const names = data ? data.sel.map(({ m }) => m.name).join('-') : 'compare'; return `${t('expFileBase')} — ${names}.${ext}`; }
+function downloadFile(name, content, type) { const blob = new Blob([content], { type }); const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = name; document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 1000); }
+const EXP_CSS = 'body{font-family:Arial,sans-serif}table{border-collapse:collapse}th,td{border:1px solid #999;padding:6px 10px;vertical-align:top;text-align:left}thead th{background:#e8eef2}tbody th{background:#f4f7f9}.cap-chip{display:inline-block;border:1px solid #999;border-radius:99px;padding:1px 8px;margin:0 3px 3px 0}ul{margin:0;padding-left:16px}';
+function exportCsv() { const data = compareData(); if (!data) return; const q = v => `"${String(v).replace(/"/g, '""')}"`; const head = ['', ...data.sel.map(({ m }) => m.name)]; const lines = [head.map(q).join(';'), ...data.rows.map(r => [r.label, ...data.sel.map(s => cmpText(r.val(s)))].map(q).join(';'))]; downloadFile(cmpFileName('csv'), '\uFEFF' + lines.join('\r\n'), 'text/csv;charset=utf-8'); }
+function exportHtml() { const data = compareData(); if (!data) return; const doc = `<!doctype html><html lang="${lang}"><head><meta charset="utf-8"><title>${esc(t('expDocTitle'))}</title><style>${EXP_CSS}</style></head><body><h1>${esc(t('expDocTitle'))}</h1><p>NeuroAthena — https://neuroathena.pages.dev</p>${cmpTableHtmlDoc()}</body></html>`; downloadFile(cmpFileName('html'), doc, 'text/html;charset=utf-8'); }
+async function exportCopy() { const html = cmpTableHtmlDoc(); if (!html) return; let ok = false; try { await navigator.clipboard.write([new ClipboardItem({ 'text/html': new Blob([html], { type: 'text/html' }), 'text/plain': new Blob([cmpText(html)], { type: 'text/plain' }) })]); ok = true; } catch (e) { try { await navigator.clipboard.writeText(cmpText(html)); ok = true; } catch (_) {} } showToast(ok ? t('expCopied') : t('expCopyFail')); }
+function exportPrint() { const html = cmpTableHtmlDoc(); if (!html) return; const w = window.open('', '_blank'); if (!w) { showToast(t('expCopyFail')); return; } w.document.write(`<!doctype html><html><head><meta charset="utf-8"><title>${esc(t('expDocTitle'))}</title><style>${EXP_CSS}table{width:100%}</style></head><body><h1>${esc(t('expDocTitle'))}</h1>${html}</body></html>`); w.document.close(); w.focus(); setTimeout(() => w.print(), 350); }
+function renderCompareExport() { const box = document.getElementById('compareExport'); if (!box) return; if (!compareData()) { box.innerHTML = ''; return; } box.innerHTML = `<div class="export-block"><h3>${t('expTitle')}</h3><div class="export-btns"><button type="button" class="button" data-exp="copy">${t('expDocs')}</button><button type="button" class="button" data-exp="csv">${t('expExcel')}</button><button type="button" class="button" data-exp="html">${t('expHtml')}</button><button type="button" class="button" data-exp="print">${t('expPrint')}</button></div><p class="export-note">${t('expNote')}</p></div>`; }
 function updateCompareUrl() {
   const ids = compareSel.map(k => findCompareModel(k)).filter(Boolean).map(({ m }) => encodeURIComponent(m.id));
   const hash = '#/compare' + (ids.length ? '?models=' + ids.join(',') : '');
@@ -1196,6 +1214,8 @@ function initCompare() {
       refreshCompare();
     }
   });
+  const expBox = document.getElementById('compareExport');
+  if (expBox) expBox.addEventListener('click', e => { const b = e.target.closest('button[data-exp]'); if (!b) return; if (b.dataset.exp === 'copy') exportCopy(); else if (b.dataset.exp === 'csv') exportCsv(); else if (b.dataset.exp === 'html') exportHtml(); else if (b.dataset.exp === 'print') exportPrint(); });
   const table = document.getElementById('compareTable');
   if (table) table.addEventListener('click', e => {
     const rem = e.target.closest('button[data-remove]');
@@ -1524,6 +1544,7 @@ function route() {
     compareQ = '';
     main.innerHTML = comparePage();
     initCompare();
+    initCollapse();
   } else if (id === 'news') {
     main.innerHTML = newsPage();
     initNews();
