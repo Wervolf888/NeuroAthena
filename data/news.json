@@ -31,11 +31,11 @@
       "product": "GitHub Copilot",
       "url": "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app",
       "auto": true,
+      "image": "https://github.com/user-attachments/assets/0db4bc3d-8d5c-456f-ac24-d6080eaad55f",
       "title_ru": "Поддержка GitHub Enterprise Server в приложении GitHub Copilot",
       "text_ru": "Теперь работу на GitHub Enterprise Server (GHES) можно вести прямо в приложении GitHub Copilot: добавьте учётную запись GHES для работы с удалёнными репозиториями, задачами и pull request'ами.",
       "title_uk": "Підтримка GitHub Enterprise Server у застосунку GitHub Copilot",
-      "text_uk": "Тепер роботу на GitHub Enterprise Server (GHES) можна вести прямо в застосунку GitHub Copilot: додайте обліковий запис GHES для роботи з віддаленими репозиторіями, задачами та pull request'ами.",
-      "image": "https://github.com/user-attachments/assets/0db4bc3d-8d5c-456f-ac24-d6080eaad55f"
+      "text_uk": "Тепер роботу на GitHub Enterprise Server (GHES) можна вести прямо в застосунку GitHub Copilot: додайте обліковий запис GHES для роботи з віддаленими репозиторіями, задачами та pull request'ами."
     },
     {
       "date": "2026-11-13T18:23:48.000Z",
@@ -57,9 +57,7 @@
       "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
       "auto": true,
       "title_ru": "Симуляция «робот берёт и кладёт» на ассетах SimReady",
-      "text_ru": "",
-      "title_uk": "Симуляція «робот бере і кладе» на асетах SimReady",
-      "text_uk": ""
+      "title_uk": "Симуляція «робот бере і кладе» на асетах SimReady"
     },
     {
       "date": "2026-11-13T17:02:35.000Z",
@@ -69,9 +67,7 @@
       "url": "https://huggingface.co/blog/allenai/xybench",
       "auto": true,
       "title_ru": "XYBench: помощь с проблемой, стоящей за вопросом",
-      "text_ru": "",
-      "title_uk": "XYBench: допомога з проблемою, що стоїть за питанням",
-      "text_uk": ""
+      "title_uk": "XYBench: допомога з проблемою, що стоїть за питанням"
     },
     {
       "date": "2026-11-13T17:00:00.000Z",
@@ -80,11 +76,11 @@
       "product": "Gemini",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app/",
       "auto": true,
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Personal_Intelligence_Wallet_27.max-600x600.format-webp.webp",
       "title_ru": "Google Wallet подключается к Gemini для личных финансовых подсказок",
       "text_ru": "Все пользователи приложения Gemini в США могут подключить Google Wallet и получать ответы с учётом своих привычек расходов.",
       "title_uk": "Google Wallet підключається до Gemini для особистих фінансових підказок",
-      "text_uk": "Усі користувачі застосунку Gemini у США можуть підключити Google Wallet і отримувати відповіді з урахуванням своїх звичок витрат.",
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Personal_Intelligence_Wallet_27.max-600x600.format-webp.webp"
+      "text_uk": "Усі користувачі застосунку Gemini у США можуть підключити Google Wallet і отримувати відповіді з урахуванням своїх звичок витрат."
     },
     {
       "date": "2026-11-13T15:00:00.000Z",
@@ -106,9 +102,7 @@
       "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
       "auto": true,
       "title_ru": "llama.cpp v1.0.0: более прочный фундамент локальной экосистемы ИИ",
-      "text_ru": "",
-      "title_uk": "llama.cpp v1.0.0: міцніший фундамент локальної екосистеми ШІ",
-      "text_uk": ""
+      "title_uk": "llama.cpp v1.0.0: міцніший фундамент локальної екосистеми ШІ"
     },
     {
       "date": "2026-11-13T14:00:00.000Z",
@@ -153,11 +147,11 @@
       "product": "ElevenLabs",
       "url": "https://elevenlabs.io/blog/introducing-forward-deployed-creatives",
       "auto": true,
+      "image": "https://eleven-public-cdn.elevenlabs.io/payloadcms/tepmgzfsczl-Group-2147256834.webp",
       "title_ru": "Forward Deployed Creatives в ElevenCreative",
       "text_ru": "Forward Deployed Creatives выстраивают процессы в ElevenCreative вместе с вашей командой или выпускают готовый креатив в фирменном стиле на утверждение вашей команды.",
       "title_uk": "Forward Deployed Creatives в ElevenCreative",
-      "text_uk": "Forward Deployed Creatives вибудовують процеси в ElevenCreative разом із вашою командою або випускають готовий креатив у фірмовому стилі на затвердження вашої команди.",
-      "image": "https://eleven-public-cdn.elevenlabs.io/payloadcms/tepmgzfsczl-Group-2147256834.webp"
+      "text_uk": "Forward Deployed Creatives вибудовують процеси в ElevenCreative разом із вашою командою або випускають готовий креатив у фірмовому стилі на затвердження вашої команди."
     },
     {
       "date": "2026-11-13T12:00:00.000Z",
@@ -166,11 +160,11 @@
       "product": "ElevenLabs",
       "url": "https://elevenlabs.io/blog/impact-sofia-oxford-said",
       "auto": true,
+      "image": "https://eleven-public-cdn.elevenlabs.io/payloadcms/k4ojn877vrg-Screenshot-2026-10-10-at-11.33.41%E2%80%AFam.webp",
       "title_ru": "Оксфорд годами изучал, как женщины строят компании. Теперь это исследование может говорить",
       "text_ru": "SOFIA for Business, созданная с Oxford Saïd и ElevenLabs Impact, позволяет основательницам общаться с исследованием о женщинах-предпринимателях и дополнять его.",
       "title_uk": "Оксфорд роками вивчав, як жінки будують компанії. Тепер це дослідження може говорити",
-      "text_uk": "SOFIA for Business, створена з Oxford Saïd та ElevenLabs Impact, дає засновницям змогу спілкуватися з дослідженням про жінок-підприємиць і доповнювати його.",
-      "image": "https://eleven-public-cdn.elevenlabs.io/payloadcms/k4ojn877vrg-Screenshot-2026-10-10-at-11.33.41%E2%80%AFam.webp"
+      "text_uk": "SOFIA for Business, створена з Oxford Saïd та ElevenLabs Impact, дає засновницям змогу спілкуватися з дослідженням про жінок-підприємиць і доповнювати його."
     },
     {
       "date": "2026-11-13T08:55:07.000Z",
@@ -203,11 +197,11 @@
       "product": "GitHub",
       "url": "https://github.blog/news-insights/company-news/github-availability-report-october-2026/",
       "auto": true,
+      "image": "https://github.blog/wp-content/uploads/2026/11/oct5-actions-jobs-starting-late.png?resize=1024%2C466",
       "title_ru": "Отчёт о доступности GitHub: октябрь 2026",
       "text_ru": "В октябре произошло восемь инцидентов, приведших к ухудшению работы сервисов GitHub.",
       "title_uk": "Звіт про доступність GitHub: жовтень 2026",
-      "text_uk": "У жовтні сталося вісім інцидентів, що призвели до погіршення роботи сервісів GitHub.",
-      "image": "https://github.blog/wp-content/uploads/2026/11/oct5-actions-jobs-starting-late.png?resize=1024%2C466"
+      "text_uk": "У жовтні сталося вісім інцидентів, що призвели до погіршення роботи сервісів GitHub."
     },
     {
       "date": "2026-11-12T22:54:52.000Z",
@@ -228,11 +222,11 @@
       "product": "GitHub Copilot",
       "url": "https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement",
       "auto": true,
+      "image": "https://github.com/user-attachments/assets/f878c51d-8e70-4f3f-bcb3-58b94509203a",
       "title_ru": "Завершение Actions для ARM32 Linux и Windows",
       "text_ru": "Хостовые раннеры GitHub Actions прекратят поддержку выполнения задач ARM32 на Windows и Linux к 8 декабря 2026 года.",
       "title_uk": "Завершення Actions для ARM32 Linux і Windows",
-      "text_uk": "Гостові раннери GitHub Actions припинять підтримку виконання задач ARM32 на Windows і Linux до 8 грудня 2026 року.",
-      "image": "https://github.com/user-attachments/assets/f878c51d-8e70-4f3f-bcb3-58b94509203a"
+      "text_uk": "Гостові раннери GitHub Actions припинять підтримку виконання задач ARM32 на Windows і Linux до 8 грудня 2026 року."
     },
     {
       "date": "2026-11-12T20:00:00.000Z",
@@ -254,9 +248,7 @@
       "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
       "auto": true,
       "title_ru": "LLMON: язык разметки, родной для LLM, теперь в Granite 4.1 3B и 8B",
-      "text_ru": "",
-      "title_uk": "LLMON: мова розмітки, рідна для LLM, тепер у Granite 4.1 3B і 8B",
-      "text_uk": ""
+      "title_uk": "LLMON: мова розмітки, рідна для LLM, тепер у Granite 4.1 3B і 8B"
     },
     {
       "date": "2026-11-12T18:00:50.000Z",
@@ -266,9 +258,7 @@
       "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
       "auto": true,
       "title_ru": "Представляем Gemini 4 Hydrogen",
-      "text_ru": "",
-      "title_uk": "Представляємо Gemini 4 Hydrogen",
-      "text_uk": ""
+      "title_uk": "Представляємо Gemini 4 Hydrogen"
     },
     {
       "date": "2026-11-12T18:00:00.000Z",
@@ -277,11 +267,11 @@
       "product": "Gemini",
       "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
       "auto": true,
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/HydrogenUI_socialshare.max-600x600.format-webp.webp",
       "title_ru": "Google Поиск получил крупное обновление с Gemini 4 Hydrogen",
       "text_ru": "Мы привносим Gemini 4 Hydrogen в Google Поиск по всему миру, чтобы ответы стали полезнее, нагляднее и интуитивнее.",
       "title_uk": "Google Пошук отримав велике оновлення з Gemini 4 Hydrogen",
-      "text_uk": "Ми привносимо Gemini 4 Hydrogen у Google Пошук по всьому світу, щоб відповіді стали кориснішими, наочнішими та інтуїтивнішими.",
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/HydrogenUI_socialshare.max-600x600.format-webp.webp"
+      "text_uk": "Ми привносимо Gemini 4 Hydrogen у Google Пошук по всьому світу, щоб відповіді стали кориснішими, наочнішими та інтуїтивнішими."
     },
     {
       "date": "2026-11-12T18:00:00.000Z",
@@ -290,11 +280,11 @@
       "product": "Gemini",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen/",
       "auto": true,
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Hydrogen_socialshare.max-600x600.format-webp.webp",
       "title_ru": "Gemini 4 Hydrogen: повседневный код и агентные процессы для разработчиков",
       "text_ru": "Стройте быстрее с Gemini 4 Hydrogen — новой моделью Google для экономичного агентного программирования и отладки. Начать можно уже сегодня в Google AI Studio.",
       "title_uk": "Gemini 4 Hydrogen: повсякденний код і агентні процеси для розробників",
-      "text_uk": "Будуйте швидше з Gemini 4 Hydrogen — новою моделлю Google для економічного агентного програмування й налагодження. Почати можна вже сьогодні в Google AI Studio.",
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Hydrogen_socialshare.max-600x600.format-webp.webp"
+      "text_uk": "Будуйте швидше з Gemini 4 Hydrogen — новою моделлю Google для економічного агентного програмування й налагодження. Почати можна вже сьогодні в Google AI Studio."
     },
     {
       "date": "2026-11-12T18:00:00.000Z",
@@ -303,11 +293,11 @@
       "product": "Gemini",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
       "auto": true,
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-element-hydrogen-light.max-600x600.format-webp.webp",
       "title_ru": "Представляем Gemini 4 Hydrogen",
       "text_ru": "Сегодня мы представляем Gemini 4 Hydrogen — нашу повседневную рабочую модель для агентных процессов.",
       "title_uk": "Представляємо Gemini 4 Hydrogen",
-      "text_uk": "Сьогодні ми представляємо Gemini 4 Hydrogen — нашу повсякденну робочу модель для агентних процесів.",
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-element-hydrogen-light.max-600x600.format-webp.webp"
+      "text_uk": "Сьогодні ми представляємо Gemini 4 Hydrogen — нашу повсякденну робочу модель для агентних процесів."
     },
     {
       "date": "2026-11-12T17:00:03.000Z",
@@ -328,11 +318,11 @@
       "product": "Gemini",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/research-with-gemini-in-chrome/",
       "auto": true,
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_in_Chrome_OZMdZhz.max-600x600.format-webp.webp",
       "title_ru": "Быстрые ответы от Gemini на любом сайте",
       "text_ru": "Получайте быстрые ответы с Gemini в Chrome: суммируйте статьи, сравнивайте продукты и разбирайте сложные темы прямо в боковой панели.",
       "title_uk": "Швидкі відповіді від Gemini на будь-якому сайті",
-      "text_uk": "Отримуйте швидкі відповіді з Gemini в Chrome: підсумовуйте статті, порівнюйте продукти й розбирайте складні теми прямо в бічній панелі.",
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_in_Chrome_OZMdZhz.max-600x600.format-webp.webp"
+      "text_uk": "Отримуйте швидкі відповіді з Gemini в Chrome: підсумовуйте статті, порівнюйте продукти й розбирайте складні теми прямо в бічній панелі."
     },
     {
       "date": "2026-11-12T16:00:02.000Z",
@@ -365,11 +355,11 @@
       "product": "Meta AI",
       "url": "https://about.fb.com/news/2026/11/meta-new-agreements-clean-manufacturing-data-center-supply-chains/",
       "auto": true,
+      "image": "https://about.fb.com/wp-content/uploads/2026/11/How-Meta-is-Helping-Bring-Clean-Industry-to-Commercial-Scale_Header.jpg?fit=1920%2C1080",
       "title_ru": "Новые соглашения Meta приносят чистое производство в цепочки поставок дата-центров",
       "text_ru": "Мы привносим чистое производство в наши дата-центры и задаём отраслевой стандарт, заключая долгосрочные соглашения о закупках с производителями с низким углеродным следом по всей цепочке поставок.",
       "title_uk": "Нові угоди Meta приносять чисте виробництво в ланцюги постачання дата-центрів",
-      "text_uk": "Ми привносимо чисте виробництво в наші дата-центри й задаємо галузевий стандарт, укладаючи довгострокові угоди про закупівлі з виробниками з низьким вуглецевим слідом по всьому ланцюгу постачання.",
-      "image": "https://about.fb.com/wp-content/uploads/2026/11/How-Meta-is-Helping-Bring-Clean-Industry-to-Commercial-Scale_Header.jpg?fit=1920%2C1080"
+      "text_uk": "Ми привносимо чисте виробництво в наші дата-центри й задаємо галузевий стандарт, укладаючи довгострокові угоди про закупівлі з виробниками з низьким вуглецевим слідом по всьому ланцюгу постачання."
     },
     {
       "date": "2026-11-12T12:00:00.000Z",
@@ -402,11 +392,11 @@
       "product": "ElevenLabs",
       "url": "https://elevenlabs.io/blog/impact-nyc-summit",
       "auto": true,
+      "image": "https://eleven-public-cdn.elevenlabs.io/payloadcms/hzu606cgpup-2304662705.webp",
       "title_ru": "ElevenLabs даёт бесплатное восстановление голоса ветеранам, авторам песен и другим пациентам",
       "text_ru": "ElevenLabs запускает бесплатный ElevenMusic для артистов, потерявших голос, сотрудничает с Wounded Warrior Project и добавляет NYU Langone к программе 1 Million Voices.",
       "title_uk": "ElevenLabs дає безкоштовне відновлення голосу ветеранам, авторам пісень та іншим пацієнтам",
-      "text_uk": "ElevenLabs запускає безкоштовний ElevenMusic для артистів, що втратили голос, співпрацює з Wounded Warrior Project і додає NYU Langone до програми 1 Million Voices.",
-      "image": "https://eleven-public-cdn.elevenlabs.io/payloadcms/hzu606cgpup-2304662705.webp"
+      "text_uk": "ElevenLabs запускає безкоштовний ElevenMusic для артистів, що втратили голос, співпрацює з Wounded Warrior Project і додає NYU Langone до програми 1 Million Voices."
     },
     {
       "date": "2026-11-12T09:30:00.000Z",
@@ -440,9 +430,7 @@
       "url": "https://huggingface.co/blog/3d-lora-finetuning",
       "auto": true,
       "title_ru": "Исчерпывающий гид по файнтюнингу моделей 3D-генерации",
-      "text_ru": "",
-      "title_uk": "Вичерпний гід файнтюнінгу моделей 3D-генерації",
-      "text_uk": ""
+      "title_uk": "Вичерпний гід файнтюнінгу моделей 3D-генерації"
     },
     {
       "date": "2026-11-11T21:34:04.000Z",
@@ -487,11 +475,11 @@
       "product": "Gemini",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-on-apple-carplay/",
       "auto": true,
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Carplay_hero_image.max-600x600.format-webp.webp",
       "title_ru": "Общайтесь с Gemini вслух — теперь и на Apple CarPlay",
       "text_ru": "Gemini теперь доступен на Apple CarPlay.",
       "title_uk": "Спілкуйтеся з Gemini вголос — тепер і на Apple CarPlay",
-      "text_uk": "Gemini тепер доступний на Apple CarPlay.",
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Carplay_hero_image.max-600x600.format-webp.webp"
+      "text_uk": "Gemini тепер доступний на Apple CarPlay."
     },
     {
       "date": "2026-11-11T16:00:00.000Z",
@@ -500,11 +488,11 @@
       "product": "Google AI",
       "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
       "auto": true,
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/labs_tabletop_blog_image_2784x1.max-600x600.format-webp.webp",
       "title_ru": "Try Tabletop: настраиваемые совместные пространства для планирования и игр в группе",
       "text_ru": "Tabletop — новый эксперимент Google Labs для совместной работы групп: интерактивные маршруты, опросы и турнирные сетки с вашей командой. Запись в лист ожидания открыта.",
       "title_uk": "Try Tabletop: налаштовувані спільні простори для планування та ігор у групі",
-      "text_uk": "Tabletop — новий експеримент Google Labs для спільної роботи груп: інтерактивні маршрути, опитування й турнірні сітки з вашою командою. Запис до листа очікування відкрито.",
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/labs_tabletop_blog_image_2784x1.max-600x600.format-webp.webp"
+      "text_uk": "Tabletop — новий експеримент Google Labs для спільної роботи груп: інтерактивні маршрути, опитування й турнірні сітки з вашою командою. Запис до листа очікування відкрито."
     },
     {
       "date": "2026-11-11T15:00:15.000Z",
@@ -513,11 +501,11 @@
       "product": "Google DeepMind",
       "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
       "auto": true,
+      "image": "https://lh3.googleusercontent.com/VPOhADdGu1T7kK_gWBiGzyVawQbKCjpL3-B0L0wxpYCyr8cHxviYmo9Hghy4f1laeIo2YKwuz8E07TR9HWWk2b0EONi0uvju-8TDLHX6YWHG4dXe3w=w528-h297-n-nu-rw-lo",
       "title_ru": "AlphaGenome 2: как клетки читают ДНК — чтобы лучше понимать болезни",
       "text_ru": "Предсказание того, как последовательности ДНК и их вариации влияют на конкретные типы клеток человека и болезни.",
       "title_uk": "AlphaGenome 2: як клітини читають ДНК — щоб краще розуміти хвороби",
-      "text_uk": "Передбачення того, як послідовності ДНК та їхні варіації впливають на конкретні типи клітин людини й хвороби.",
-      "image": "https://lh3.googleusercontent.com/VPOhADdGu1T7kK_gWBiGzyVawQbKCjpL3-B0L0wxpYCyr8cHxviYmo9Hghy4f1laeIo2YKwuz8E07TR9HWWk2b0EONi0uvju-8TDLHX6YWHG4dXe3w=w528-h297-n-nu-rw-lo"
+      "text_uk": "Передбачення того, як послідовності ДНК та їхні варіації впливають на конкретні типи клітин людини й хвороби."
     },
     {
       "date": "2026-11-11T12:00:00.000Z",
@@ -538,11 +526,11 @@
       "product": "Google AI",
       "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
       "auto": true,
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/esther_video_still.max-600x600.format-webp.webp",
       "title_ru": "Искусство и наследие доктора Эстер Махлангу",
       "text_ru": "Новый онлайн-архив жизни и искусства Эстер Махлангу теперь на Google Arts & Culture.",
       "title_uk": "Мистецтво і спадщина докторки Естер Махлангу",
-      "text_uk": "Новий онлайн-архів життя й мистецтва Естер Махлангу тепер на Google Arts & Culture.",
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/esther_video_still.max-600x600.format-webp.webp"
+      "text_uk": "Новий онлайн-архів життя й мистецтва Естер Махлангу тепер на Google Arts & Culture."
     },
     {
       "date": "2026-11-11T05:01:16.000Z",
@@ -552,9 +540,7 @@
       "url": "https://huggingface.co/blog/qvac/botpsy",
       "auto": true,
       "title_ru": "BotPsy: персональный ассистент на устройстве с агентной моделью меньше миллиарда параметров",
-      "text_ru": "",
-      "title_uk": "BotPsy: персональний асистент на пристрої з агентною моделлю менше мільярда параметрів",
-      "text_uk": ""
+      "title_uk": "BotPsy: персональний асистент на пристрої з агентною моделлю менше мільярда параметрів"
     },
     {
       "date": "2026-11-10T22:25:00.000Z",
@@ -575,11 +561,11 @@
       "product": "Google AI",
       "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
       "auto": true,
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Intelligence_Signature27.max-600x600.format-webp.webp",
       "title_ru": "Gemini Intelligence: новые функции на большем числе устройств",
       "text_ru": "Gemini Intelligence выходит на большее число устройств: расширенные возможности помогают делать больше.",
       "title_uk": "Gemini Intelligence: нові функції на більшій кількості пристроїв",
-      "text_uk": "Gemini Intelligence виходить на більшу кількість пристроїв: розширені можливості допомагають робити більше.",
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Intelligence_Signature27.max-600x600.format-webp.webp"
+      "text_uk": "Gemini Intelligence виходить на більшу кількість пристроїв: розширені можливості допомагають робити більше."
     },
     {
       "date": "2026-11-10T18:00:00.000Z",
@@ -613,9 +599,7 @@
       "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
       "auto": true,
       "title_ru": "Gemini 4 Carbon теперь доступен",
-      "text_ru": "",
-      "title_uk": "Gemini 4 Carbon тепер доступний",
-      "text_uk": ""
+      "title_uk": "Gemini 4 Carbon тепер доступний"
     },
     {
       "date": "2026-11-10T14:00:00.000Z",
@@ -624,11 +608,11 @@
       "product": "Google AI",
       "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
       "auto": true,
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Adobe_snippet_hero.max-600x600.format-webp.webp",
       "title_ru": "Инструменты Adobe — ближе к вашим повседневным приложениям Google",
       "text_ru": "Google и Adobe интегрируют креативные и продуктивные инструменты: редактируйте PDF в Drive и используйте Adobe AI в Gemini. Что нового в партнёрстве.",
       "title_uk": "Інструменти Adobe — ближче до ваших повсякденних застосунків Google",
-      "text_uk": "Google та Adobe інтегрують креативні й продуктивні інструменти: редагуйте PDF у Drive і використовуйте Adobe AI у Gemini. Що нового в партнерстві.",
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Adobe_snippet_hero.max-600x600.format-webp.webp"
+      "text_uk": "Google та Adobe інтегрують креативні й продуктивні інструменти: редагуйте PDF у Drive і використовуйте Adobe AI у Gemini. Що нового в партнерстві."
     },
     {
       "date": "2026-11-10T12:02:28.000Z",
@@ -637,11 +621,11 @@
       "product": "Google DeepMind",
       "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
       "auto": true,
+      "image": "https://lh3.googleusercontent.com/hn6AiI6lYFo6chi1mL6uJ9nOW9UXfsAKnSyOApiie2urHNU2tmSPUmGn0hNfWyYLRcsWCGjCIrBZSCt1ihZmvW-LDJPfyolsr5w-yvzlknZVzmaH=w528-h297-n-nu-rw-lo",
       "title_ru": "AlphaProof Code: прорыв в глубокой проверке сложного ПО",
       "text_ru": "Агенты AlphaProof Code написали три миллиона строк доказательств на Lean, чтобы проверить ядро шифрования Signal.",
       "title_uk": "AlphaProof Code: прорив у глибокій перевірці складного ПЗ",
-      "text_uk": "Агенти AlphaProof Code написали три мільйони рядків доказів на Lean, щоб перевірити ядро шифрування Signal.",
-      "image": "https://lh3.googleusercontent.com/hn6AiI6lYFo6chi1mL6uJ9nOW9UXfsAKnSyOApiie2urHNU2tmSPUmGn0hNfWyYLRcsWCGjCIrBZSCt1ihZmvW-LDJPfyolsr5w-yvzlknZVzmaH=w528-h297-n-nu-rw-lo"
+      "text_uk": "Агенти AlphaProof Code написали три мільйони рядків доказів на Lean, щоб перевірити ядро шифрування Signal."
     },
     {
       "date": "2026-11-10T11:13:04.000Z",
@@ -650,11 +634,11 @@
       "product": "Google DeepMind",
       "url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
       "auto": true,
+      "image": "https://lh3.googleusercontent.com/ggsqfaBnOayx-i7z9Kj8AeZruz8BSo0N7tsnqwH8Z3REnHcDKBt-QSA3DR4UUM8lcwklWihSARoEN2AyQFhoRFGFlk2-0-xGuKt_rtGoFwpJg8LHVQ=w528-h297-n-nu-rw-lo",
       "title_ru": "Открываем датасеты, стоящие за нашими погодными ИИ-моделями",
       "text_ru": "Базовые наборы данных осадков и геостационарных спутников — чтобы ясно наблюдать планету.",
       "title_uk": "Відкриваємо датасети, що стоять за нашими погодними ШІ-моделями",
-      "text_uk": "Базові набори даних опадів і геостаціонарних супутників — щоб ясно спостерігати планету.",
-      "image": "https://lh3.googleusercontent.com/ggsqfaBnOayx-i7z9Kj8AeZruz8BSo0N7tsnqwH8Z3REnHcDKBt-QSA3DR4UUM8lcwklWihSARoEN2AyQFhoRFGFlk2-0-xGuKt_rtGoFwpJg8LHVQ=w528-h297-n-nu-rw-lo"
+      "text_uk": "Базові набори даних опадів і геостаціонарних супутників — щоб ясно спостерігати планету."
     },
     {
       "date": "2026-11-10T04:16:29.000Z",
@@ -687,11 +671,11 @@
       "product": "Google DeepMind",
       "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
       "auto": true,
+      "image": "https://lh3.googleusercontent.com/F1CrVEYRb8lJOyyxGgcyow-Td1de-nkp7K8MZrhjrKPANJUc0EYB754Ninn-Yrppjdb54nolOWo6Rk8iDaRNuixWwLaEKc0K9ImGooxen9fj9IOh=w528-h297-n-nu-rw-lo",
       "title_ru": "Gemini Robotics 2.5 ускоряет общую ловкость в реальном мире",
       "text_ru": "Наша самая способная модель «зрение–язык–действие» повышает ловкость, надёжность и безопасность роботов.",
       "title_uk": "Gemini Robotics 2.5 прискорює загальну спритність у реальному світі",
-      "text_uk": "Наша найздібніша модель «зір–мова–дія» підвищує спритність, надійність і безпеку роботів.",
-      "image": "https://lh3.googleusercontent.com/F1CrVEYRb8lJOyyxGgcyow-Td1de-nkp7K8MZrhjrKPANJUc0EYB754Ninn-Yrppjdb54nolOWo6Rk8iDaRNuixWwLaEKc0K9ImGooxen9fj9IOh=w528-h297-n-nu-rw-lo"
+      "text_uk": "Наша найздібніша модель «зір–мова–дія» підвищує спритність, надійність і безпеку роботів."
     },
     {
       "date": "2026-11-09T12:00:45.000Z",
@@ -700,11 +684,11 @@
       "product": "Meta AI",
       "url": "https://about.fb.com/news/2026/11/expanding-teen-account-protections-to-teens-around-the-world/",
       "auto": true,
+      "image": "https://about.fb.com/wp-content/uploads/2026/11/01_Teen-Account-Protections.jpg",
       "title_ru": "Расширяем защиту подростковых аккаунтов на подростков по всему миру",
       "text_ru": "Мы расширяем нашу технологию оценки возраста на базе ИИ по всему миру, чтобы ещё миллионы подростков попали под защиту Teen Account в Instagram.",
       "title_uk": "Розширюємо захист підліткових акаунтів на підлітків по всьому світу",
-      "text_uk": "Ми розширюємо нашу технологію оцінки віку на базі ШІ по всьому світу, щоб ще мільйони підлітків потрапили під захист Teen Account в Instagram.",
-      "image": "https://about.fb.com/wp-content/uploads/2026/11/01_Teen-Account-Protections.jpg"
+      "text_uk": "Ми розширюємо нашу технологію оцінки віку на базі ШІ по всьому світу, щоб ще мільйони підлітків потрапили під захист Teen Account в Instagram."
     },
     {
       "date": "2026-11-08T00:36:53.000Z",
@@ -737,11 +721,11 @@
       "product": "Meta AI",
       "url": "https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/",
       "auto": true,
+      "image": "https://about.fb.com/wp-content/uploads/2026/11/Design-the-Muse-App_Just-for-You_Thumbnail.gif?fit=890%2C501",
       "title_ru": "Спроектируйте приложение Muse — именно под вас",
       "text_ru": "Сегодня мы представляем spaces — интерактивный способ построить более персонализированный опыт в приложении Muse.",
       "title_uk": "Спроєктуйте застосунок Muse — саме під вас",
-      "text_uk": "Сьогодні ми представляємо spaces — інтерактивний спосіб побудувати більш персоналізований досвід у застосунку Muse.",
-      "image": "https://about.fb.com/wp-content/uploads/2026/11/Design-the-Muse-App_Just-for-You_Thumbnail.gif?fit=890%2C501"
+      "text_uk": "Сьогодні ми представляємо spaces — інтерактивний спосіб побудувати більш персоналізований досвід у застосунку Muse."
     }
   ]
 }
