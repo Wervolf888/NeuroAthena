@@ -696,8 +696,9 @@ function signOut() {
 const LOCALES = { ru: 'ru-RU', uk: 'uk-UA', en: 'en-GB' };
 function time() {
   const d = new Date(), loc = LOCALES[lang] || 'ru-RU';
-  document.querySelector('#clock').textContent = new Intl.DateTimeFormat(loc, { timeZone: 'Europe/Kyiv', hour: '2-digit', minute: '2-digit', second: '2-digit' }).format(d);
-  document.querySelector('#date').textContent = new Intl.DateTimeFormat(loc, { timeZone: 'Europe/Kyiv', day: 'numeric', month: 'long', year: 'numeric' }).format(d) + t('citySuffix');
+  const c = document.querySelector('#clock'), dt = document.querySelector('#date');
+  if (c) c.textContent = new Intl.DateTimeFormat(loc, { timeZone: 'Europe/Kyiv', hour: '2-digit', minute: '2-digit', second: '2-digit' }).format(d);
+  if (dt) dt.textContent = new Intl.DateTimeFormat(loc, { timeZone: 'Europe/Kyiv', weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' }).format(d) + t('citySuffix');
 }
 time(); setInterval(time, 1000);
 
@@ -1297,7 +1298,7 @@ function choicePage() {
 
 /* ---------- Главная ---------- */
 function home() {
-  return `<div class="hero"><section class="hero-panel"><div class="hero-copy"><div class="eyebrow">${t('heroEyebrow')}</div><h1>Нейро<span>Афина</span></h1><p>${t('heroTag')}</p><div class="hero-actions"><a class="button primary" href="#categories">${t('openCatalog')}</a><a class="button" href="#/compare">${t('compareModels')}</a></div></div><div class="hero-medal"><img src="assets/athena-hero.webp" alt="Афина"></div></section></div>`
+  return `<div class="hero"><section class="hero-panel"><div class="hero-copy"><div class="eyebrow">${t('heroEyebrow')}</div><h1>Нейро<span>Афина</span></h1><p>${t('heroTag')}</p><div class="hero-actions"><a class="button primary" href="#categories">${t('openCatalog')}</a><a class="button" href="#/compare">${t('compareModels')}</a></div><div class="hero-clock"><strong id="clock">--:--:--</strong><span id="date"></span></div></div><div class="hero-medal"><video autoplay muted loop playsinline poster="assets/athena-hero.webp" src="assets/athena-live.mp4" aria-label="Афина"></video></div></section></div>`
     + `<div class="container"><div class="status-strip"><div class="rates"><strong>${t('ratesTitle')}</strong><span>USD <strong id="usd">—</strong></span><span>EUR <strong id="eur">—</strong></span><button type="button" class="rate-refresh" id="refreshRates">${t('refreshRates')}</button></div><span class="muted" id="ratesInfo" role="status">${t('ratesLoading')}</span></div>`
     + `<section class="section" aria-labelledby="searchTitle"><div class="section-head"><div><h2 id="searchTitle">${t('searchTitle')}</h2><p>${t('searchSub')}</p></div></div><div class="search-panel"><form id="modelSearch"><div class="searchbar"><input name="q" aria-label="${t('searchTitle')}" placeholder="${t('searchPlaceholder')}"><button class="button primary" type="submit">${t('findBtn')}</button></div><div class="filter-controls"><label>${t('filterLang')}<select name="language"><option value="">${t('optAny')}</option><option value="ru">${t('optRu')}</option><option value="uk">${t('optUk')}</option></select></label><label>${t('filterFree')}<select name="free"><option value="">${t('optAny')}</option><option value="yes">${t('optFreeYes')}</option></select></label><label>${t('filterPlatform')}<select name="platform"><option value="">${t('optAnyF')}</option><option value="web">${t('optWeb')}</option><option value="windows">Windows</option><option value="android">Android</option><option value="ios">iOS</option></select></label></div></form><div id="searchResults" role="status" aria-live="polite"></div><p class="search-note">${t('searchNote')}</p></div></section>`
     + `<section class="section" id="categories"><div class="section-head"><div><div class="eyebrow">${t('catEyebrow')}</div><h2>${t('catTitle')}</h2><p>${t('catSub')}</p></div></div><div class="cards">${categoryCards()}${sectionCards()}</div></section>`
@@ -1362,7 +1363,7 @@ function route() {
   if (id === 'ratings') id = 'rankings';
   if (id === 'choice') id = 'community';
   if (!pageIds.includes(id)) id = 'home';
-  document.body.dataset.route = id; markActiveNav();
+  document.body.dataset.route = id; markActiveNav(); time();
   if (id === 'home') {
     main.innerHTML = home(); rates(); initSearch(); initHome();
     if (hash === '#categories') document.getElementById('categories').scrollIntoView();
@@ -1513,7 +1514,7 @@ route();
 // The globe is decorative. Honour the device's reduced-motion setting.
 const earthVideo = document.querySelector('#earthVideo');
 const motionPreference = window.matchMedia('(prefers-reduced-motion: reduce)');
-function syncGlobeMotion() { if (motionPreference.matches) { earthVideo.pause(); try { earthVideo.currentTime = 0; } catch (e) {} } else { earthVideo.play().catch(() => {}); } }
+function syncGlobeMotion() { if (!earthVideo) return; if (motionPreference.matches) { earthVideo.pause(); try { earthVideo.currentTime = 0; } catch (e) {} } else { earthVideo.play().catch(() => {}); } }
 if (motionPreference.addEventListener) motionPreference.addEventListener('change', syncGlobeMotion);
 else if (motionPreference.addListener) motionPreference.addListener(syncGlobeMotion);
 syncGlobeMotion();
