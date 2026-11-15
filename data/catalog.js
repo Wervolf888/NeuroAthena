@@ -524,7 +524,9 @@ window.NEURO_CATALOG = {
       "web",
       "android",
       "ios",
-      "api"
+      "api",
+      "windows",
+      "macos"
      ],
      "user_rating": 8.4,
      "pros": [
@@ -541,7 +543,7 @@ window.NEURO_CATALOG = {
      "bugs": [
       "На темы, чувствительные для Китая, действует цензура"
      ],
-     "checked": "2026-11-14",
+     "checked": "2026-11-15",
      "flagship_uk": "Qwen3.8-Max (API $2/$6; у регіоні Frankfurt/global $1,65/$4,95)",
      "flagship_en": "Qwen3.8-Max (API $2/$6; Frankfurt/global region $1.65/$4.95)",
      "capabilities": [
@@ -2762,7 +2764,7 @@ window.NEURO_CATALOG = {
       "cheapest_en": null
      },
      "languages": {
-      "ru": null,
+      "ru": true,
       "uk": null
      },
      "platforms": [
@@ -2780,7 +2782,7 @@ window.NEURO_CATALOG = {
       "Полная привязка к экосистеме X"
      ],
      "bugs": [],
-     "checked": "2026-11-14",
+     "checked": "2026-11-15",
      "capabilities": [
       "Агентные задачи"
      ]
