@@ -537,3 +537,24 @@ body[data-route="converter"] .page-head{background-image:none}
 .cap-chip{display:inline-block;border:1px solid #3c5669;background:#12293a;color:#d5e4ec;border-radius:99px;padding:2px 9px;font-size:12.5px;margin:0 4px 4px 0}
 .cmp-dev{display:block;color:#9db8c6;font-size:13px;font-weight:400}
 .cmp-rate{display:block;color:#8fd4ff;font-weight:700;font-size:13px}
+
+/* === Правки 15.11.2026 v23: кнопка «Поделиться», панель и полоса с QR === */
+.share-btn{display:inline-flex;align-items:center;gap:6px;background:#10222f;border:1px solid #2c4a5e;color:#e8f2f7;border-radius:10px;padding:8px 12px;font:inherit;cursor:pointer;white-space:nowrap}
+.share-btn:hover{border-color:#57a8ec}
+.share-panel{position:fixed;top:78px;right:14px;z-index:130;width:308px;max-width:calc(100vw - 24px);background:#0c1d2b;border:1px solid #2c4a5e;border-radius:14px;padding:14px;box-shadow:0 18px 40px rgba(0,0,0,.5)}
+.share-panel-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}
+.share-close{background:none;border:0;color:#9db8c6;font-size:16px;cursor:pointer;line-height:1}
+.share-nets{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.share-net{display:block;text-align:center;background:#12293a;border:1px solid #3c5669;color:#d5e4ec;border-radius:10px;padding:9px 6px;text-decoration:none;font-weight:600}
+.share-net:hover{border-color:#57a8ec;color:#fff}
+.share-copy{width:100%;margin-top:8px;background:#12334d;border:1px solid #3c5669;color:#e8f2f7;border-radius:10px;padding:9px;cursor:pointer;font:inherit}
+.share-qr{text-align:center;margin-top:12px}
+.share-qr img{width:148px;height:148px;background:#fff;border-radius:10px;padding:6px}
+.share-qr p{color:#9db8c6;font-size:13px;margin:8px 0 0}
+.share-strip{display:flex;gap:22px;align-items:center;background:linear-gradient(120deg,#0c2233,#0a1926);border:1px solid #24455c;border-radius:16px;padding:22px}
+.share-strip-qr{width:132px;height:132px;background:#fff;border-radius:12px;padding:6px;flex:none}
+.share-strip-body h2{margin:0 0 6px}
+.share-strip-body p{color:#b9cfdb;margin:0 0 12px}
+.share-strip-links{display:flex;gap:8px;flex-wrap:wrap}
+.share-strip-links .share-net{padding:8px 14px}
+@media (max-width:640px){.share-strip{flex-direction:column;text-align:center}.share-strip-links{justify-content:center}.share-btn span:last-child{display:none}}
