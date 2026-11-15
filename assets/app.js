@@ -1396,12 +1396,14 @@ async function initHome() {
   const wm = document.getElementById('weekModel');
   if (wm && rated.length) {
     const top = rated[0].m;
-    wm.innerHTML = `<span class="label">${t('featWeek')}</span><h3>${esc(top.name)}</h3><p>${esc(locText(top, 'essence', 'essence_uk', 'essence_en'))}</p><p class="free-line">${t('fldRating')}: ${esc(top.user_rating)} / 10 \u00b7 G2</p>`;
+    const topLogo = logos[`${rated[0].cat}--${top.id}`];
+    wm.innerHTML = `<span class="label">${t('featWeek')}</span>${topLogo ? `<div class="home-logo"><img src="${esc(topLogo)}" alt="" loading="lazy"></div>` : ''}<h3>${esc(top.name)}</h3><p>${esc(locText(top, 'essence', 'essence_uk', 'essence_en'))}</p><p class="free-line">${t('fldRating')}: ${esc(top.user_rating)} / 10 \u00b7 G2</p>`;
   }
   const wt = document.getElementById('weekTop');
   if (wt && rated.length) {
     const top3 = rated.slice(0, 3);
-    wt.innerHTML = `<span class="label">${t('featTop')}</span><h3>${esc(top3[0].m.name)}</h3><p>${top3.map(({ m }, i) => `${i + 1}. ${esc(m.name)} \u2014 ${esc(m.user_rating)} / 10`).join('<br>')}</p>`;
+    const topRows = top3.map(({ cat, m }, i) => { const lg = logos[`${cat}--${m.id}`]; return `${i + 1}. ${lg ? `<img class="top-logo" src="${esc(lg)}" alt=""> ` : ''}${esc(m.name)} \u2014 ${esc(m.user_rating)} / 10`; }).join('<br>');
+    wt.innerHTML = `<span class="label">${t('featTop')}</span><h3>${esc(top3[0].m.name)}</h3><p>${topRows}</p>`;
   }
   const hn = document.getElementById('homeNews');
   if (hn) {
@@ -1414,6 +1416,10 @@ async function initHome() {
       const txt = newsLoc(it, 'text', 'text_uk', 'text_ru');
       hn.querySelector('h3').textContent = newsLoc(it, 'title', 'title_uk', 'title_ru') || t('newsTitle');
       hn.querySelector('p').textContent = (ds ? ds + ' \u2014 ' : '') + (txt || '').slice(0, 160);
+      const nLogoKey = NEWS_LOGOS[it.product || it.model || ''];
+      const nLogo = nLogoKey ? logos[nLogoKey] : '';
+      const media = it.image ? `<div class="news-media"><img src="${esc(it.image)}" alt="" loading="lazy"></div>` : nLogo ? `<div class="news-media logo"><img src="${esc(nLogo)}" alt="" loading="lazy"></div>` : '';
+      if (media) { const lbl = hn.querySelector('.label'); if (lbl) lbl.insertAdjacentHTML('afterend', media); }
     }
   }
   const ho = document.getElementById('homeOffer');
@@ -1424,6 +1430,10 @@ async function initHome() {
     if (pick) {
       const txt = pick.text || pick.description || pick.summary || '';
       ho.querySelector('p').textContent = ((pick.product || pick.name || '') + (txt ? ' \u2014 ' + txt : '')).slice(0, 180);
+      const oName = pick.product || pick.name || '';
+      let oLogo = (NEWS_LOGOS[oName] && logos[NEWS_LOGOS[oName]]) || '';
+      if (!oLogo) { const hit = dataItems().find(({ m }) => m.name === oName); if (hit) oLogo = logos[`${hit.cat}--${hit.m.id}`] || ''; }
+      if (oLogo) { const lbl = ho.querySelector('.label'); if (lbl) lbl.insertAdjacentHTML('afterend', `<div class="home-logo"><img src="${esc(oLogo)}" alt="" loading="lazy"></div>`); }
     }
   }
   const hp = document.getElementById('homePulse');
