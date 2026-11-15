@@ -320,20 +320,34 @@
 
 /* Картинка в шапке каждой страницы (как на странице «Видео») */
 .page-head,.category-hero{background-size:cover;background-position:center}
-body[data-route="chats"] .page-head,body[data-route="chats"] .category-hero{background-image:linear-gradient(90deg,rgba(5,16,28,.95) 22%,rgba(5,16,28,.52) 68%,rgba(5,16,28,.38)),url('backgrounds/bg-chats.jpg')}
-body[data-route="images"] .page-head,body[data-route="images"] .category-hero{background-image:linear-gradient(90deg,rgba(5,16,28,.95) 22%,rgba(5,16,28,.52) 68%,rgba(5,16,28,.38)),url('backgrounds/bg-images.jpg')}
-body[data-route="video"] .page-head,body[data-route="video"] .category-hero{background-image:linear-gradient(90deg,rgba(5,16,28,.95) 22%,rgba(5,16,28,.52) 68%,rgba(5,16,28,.38)),url('backgrounds/bg-video.jpg')}
-body[data-route="audio"] .page-head,body[data-route="audio"] .category-hero{background-image:linear-gradient(90deg,rgba(5,16,28,.95) 22%,rgba(5,16,28,.52) 68%,rgba(5,16,28,.38)),url('backgrounds/bg-audio.jpg')}
-body[data-route="code"] .page-head,body[data-route="code"] .category-hero{background-image:linear-gradient(90deg,rgba(5,16,28,.95) 22%,rgba(5,16,28,.52) 68%,rgba(5,16,28,.38)),url('backgrounds/bg-code.jpg')}
-body[data-route="agents"] .page-head,body[data-route="agents"] .category-hero{background-image:linear-gradient(90deg,rgba(5,16,28,.95) 22%,rgba(5,16,28,.52) 68%,rgba(5,16,28,.38)),url('backgrounds/bg-agents.jpg')}
-body[data-route="local"] .page-head,body[data-route="local"] .category-hero{background-image:linear-gradient(90deg,rgba(5,16,28,.95) 22%,rgba(5,16,28,.52) 68%,rgba(5,16,28,.38)),url('backgrounds/bg-local.jpg')}
-body[data-route="prices"] .page-head,body[data-route="prices"] .category-hero{background-image:linear-gradient(90deg,rgba(5,16,28,.95) 22%,rgba(5,16,28,.52) 68%,rgba(5,16,28,.38)),url('backgrounds/bg-prices.jpg')}
-body[data-route="offers"] .page-head,body[data-route="offers"] .category-hero{background-image:linear-gradient(90deg,rgba(5,16,28,.95) 22%,rgba(5,16,28,.52) 68%,rgba(5,16,28,.38)),url('backgrounds/bg-offers.jpg')}
-body[data-route="discounts"] .page-head,body[data-route="discounts"] .category-hero{background-image:linear-gradient(90deg,rgba(5,16,28,.95) 22%,rgba(5,16,28,.52) 68%,rgba(5,16,28,.38)),url('backgrounds/bg-discounts.jpg')}
-body[data-route="coupons"] .page-head,body[data-route="coupons"] .category-hero{background-image:linear-gradient(90deg,rgba(5,16,28,.95) 22%,rgba(5,16,28,.52) 68%,rgba(5,16,28,.38)),url('backgrounds/bg-coupons.jpg')}
-body[data-route="news"] .page-head,body[data-route="news"] .category-hero{background-image:linear-gradient(90deg,rgba(5,16,28,.95) 22%,rgba(5,16,28,.52) 68%,rgba(5,16,28,.38)),url('backgrounds/bg-news.jpg')}
-body[data-route="compare"] .page-head,body[data-route="compare"] .category-hero{background-image:linear-gradient(90deg,rgba(5,16,28,.95) 22%,rgba(5,16,28,.52) 68%,rgba(5,16,28,.38)),url('backgrounds/bg-compare.jpg')}
-body[data-route="free"] .page-head,body[data-route="free"] .category-hero{background-image:linear-gradient(90deg,rgba(5,16,28,.95) 22%,rgba(5,16,28,.52) 68%,rgba(5,16,28,.38)),url('backgrounds/bg-free.jpg')}
-body[data-route="rankings"] .page-head,body[data-route="rankings"] .category-hero{background-image:linear-gradient(90deg,rgba(5,16,28,.95) 22%,rgba(5,16,28,.52) 68%,rgba(5,16,28,.38)),url('backgrounds/bg-rankings.jpg')}
-body[data-route="calendar"] .page-head,body[data-route="calendar"] .category-hero{background-image:linear-gradient(90deg,rgba(5,16,28,.95) 22%,rgba(5,16,28,.52) 68%,rgba(5,16,28,.38)),url('backgrounds/bg-calendar.jpg')}
-body[data-route="community"] .page-head,body[data-route="community"] .category-hero{background-image:linear-gradient(90deg,rgba(5,16,28,.95) 22%,rgba(5,16,28,.52) 68%,rgba(5,16,28,.38)),url('backgrounds/bg-community.jpg')}
+body[data-route="chats"] .page-head,body[data-route="chats"] .category-hero{background-image:linear-gradient(90deg,rgba(5,16,28,.90) 8%,rgba(5,16,28,.48) 55%,rgba(5,16,28,.16)),url('backgrounds/bg-chats.jpg')}
+body[data-route="images"] .page-head,body[data-route="images"] .category-hero{background-image:linear-gradient(90deg,rgba(5,16,28,.90) 8%,rgba(5,16,28,.48) 55%,rgba(5,16,28,.16)),url('backgrounds/bg-images.jpg')}
+body[data-route="video"] .page-head,body[data-route="video"] .category-hero{background-image:linear-gradient(90deg,rgba(5,16,28,.90) 8%,rgba(5,16,28,.48) 55%,rgba(5,16,28,.16)),url('backgrounds/bg-video.jpg')}
+body[data-route="audio"] .page-head,body[data-route="audio"] .category-hero{background-image:linear-gradient(90deg,rgba(5,16,28,.90) 8%,rgba(5,16,28,.48) 55%,rgba(5,16,28,.16)),url('backgrounds/bg-audio.jpg')}
+body[data-route="code"] .page-head,body[data-route="code"] .category-hero{background-image:linear-gradient(90deg,rgba(5,16,28,.90) 8%,rgba(5,16,28,.48) 55%,rgba(5,16,28,.16)),url('backgrounds/bg-code.jpg')}
+body[data-route="agents"] .page-head,body[data-route="agents"] .category-hero{background-image:linear-gradient(90deg,rgba(5,16,28,.90) 8%,rgba(5,16,28,.48) 55%,rgba(5,16,28,.16)),url('backgrounds/bg-agents.jpg')}
+body[data-route="local"] .page-head,body[data-route="local"] .category-hero{background-image:linear-gradient(90deg,rgba(5,16,28,.90) 8%,rgba(5,16,28,.48) 55%,rgba(5,16,28,.16)),url('backgrounds/bg-local.jpg')}
+body[data-route="prices"] .page-head,body[data-route="prices"] .category-hero{background-image:linear-gradient(90deg,rgba(5,16,28,.90) 8%,rgba(5,16,28,.48) 55%,rgba(5,16,28,.16)),url('backgrounds/bg-prices.jpg')}
+body[data-route="offers"] .page-head,body[data-route="offers"] .category-hero{background-image:linear-gradient(90deg,rgba(5,16,28,.90) 8%,rgba(5,16,28,.48) 55%,rgba(5,16,28,.16)),url('backgrounds/bg-offers.jpg')}
+body[data-route="discounts"] .page-head,body[data-route="discounts"] .category-hero{background-image:linear-gradient(90deg,rgba(5,16,28,.90) 8%,rgba(5,16,28,.48) 55%,rgba(5,16,28,.16)),url('backgrounds/bg-discounts.jpg')}
+body[data-route="coupons"] .page-head,body[data-route="coupons"] .category-hero{background-image:linear-gradient(90deg,rgba(5,16,28,.90) 8%,rgba(5,16,28,.48) 55%,rgba(5,16,28,.16)),url('backgrounds/bg-coupons.jpg')}
+body[data-route="news"] .page-head,body[data-route="news"] .category-hero{background-image:linear-gradient(90deg,rgba(5,16,28,.90) 8%,rgba(5,16,28,.48) 55%,rgba(5,16,28,.16)),url('backgrounds/bg-news.jpg')}
+body[data-route="compare"] .page-head,body[data-route="compare"] .category-hero{background-image:linear-gradient(90deg,rgba(5,16,28,.90) 8%,rgba(5,16,28,.48) 55%,rgba(5,16,28,.16)),url('backgrounds/bg-compare.jpg')}
+body[data-route="free"] .page-head,body[data-route="free"] .category-hero{background-image:linear-gradient(90deg,rgba(5,16,28,.90) 8%,rgba(5,16,28,.48) 55%,rgba(5,16,28,.16)),url('backgrounds/bg-free.jpg')}
+body[data-route="rankings"] .page-head,body[data-route="rankings"] .category-hero{background-image:linear-gradient(90deg,rgba(5,16,28,.90) 8%,rgba(5,16,28,.48) 55%,rgba(5,16,28,.16)),url('backgrounds/bg-rankings.jpg')}
+body[data-route="calendar"] .page-head,body[data-route="calendar"] .category-hero{background-image:linear-gradient(90deg,rgba(5,16,28,.90) 8%,rgba(5,16,28,.48) 55%,rgba(5,16,28,.16)),url('backgrounds/bg-calendar.jpg')}
+body[data-route="community"] .page-head,body[data-route="community"] .category-hero{background-image:linear-gradient(90deg,rgba(5,16,28,.90) 8%,rgba(5,16,28,.48) 55%,rgba(5,16,28,.16)),url('backgrounds/bg-community.jpg')}
+
+/* === Правки 15.11.2026: видимость фонов шапок и компактность блоков === */
+.page-head{min-height:196px}
+.page-head h1,.page-head p,.category-hero h1,.category-hero p{text-shadow:0 2px 14px rgba(0,0,0,.85),0 1px 3px rgba(0,0,0,.9)}
+.offer-list{grid-template-columns:repeat(auto-fill,minmax(350px,1fr));gap:12px}
+.offer-card{padding:14px 16px}
+.offer-card h3{font-size:18px;margin-bottom:6px}
+.offer-card p{margin-bottom:8px}
+.offer-card .button{min-height:40px;padding:8px 14px}
+.offers-empty{max-width:none;min-height:0;padding:16px 20px}
+.calendar-month{margin-bottom:20px}
+.calendar-event{padding:8px 12px;gap:10px;margin-bottom:6px}
+.calendar-day{font-size:21px;min-width:30px}
+@media(max-width:700px){.offer-list{grid-template-columns:1fr}.page-head{min-height:170px}}
