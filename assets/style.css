@@ -570,3 +570,15 @@ body[data-route="converter"] .page-head{background-image:none}
 /* === Правки 15.11.2026 v25: кнопка «Поделиться» — яркая, чтобы не терялась в шапке === */
 .tell-btn{background:#90e4e7;border-color:#90e4e7;color:#071922;font-weight:700}
 .tell-btn:hover{filter:brightness(1.07)}
+
+/* === Пакет по ревью 15.11.2026 (CSS v26): прокрутка, панель, шапки, чипсы сравнения === */
+body{overflow-x:clip}
+.model-index{background:#0d1a28}
+.cmp-cats{margin-top:12px}
+@media(max-width:1100px){.header{gap:14px;padding-left:3%;padding-right:3%}.head-right{gap:10px}}
+@media(max-width:980px){.auth-user strong{display:none}}
+[data-route="prices"] .page-head{background-image:linear-gradient(90deg,rgba(5,16,28,.88),rgba(5,16,28,.26)),url('heads/head-prices.jpg')}
+[data-route="coupons"] .page-head{background-image:linear-gradient(90deg,rgba(5,16,28,.88),rgba(5,16,28,.26)),url('heads/head-coupons.jpg')}
+[data-route="news"] .page-head{background-image:linear-gradient(90deg,rgba(5,16,28,.88),rgba(5,16,28,.26)),url('heads/head-news.jpg')}
+[data-route="compare"] .page-head{background-image:linear-gradient(90deg,rgba(5,16,28,.88),rgba(5,16,28,.26)),url('heads/head-compare.jpg')}
+[data-route="calendar"] .page-head{background-image:linear-gradient(90deg,rgba(5,16,28,.88),rgba(5,16,28,.26)),url('heads/head-calendar.jpg')}
