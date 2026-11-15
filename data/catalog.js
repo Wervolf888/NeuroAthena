@@ -2293,18 +2293,18 @@ window.NEURO_CATALOG = {
      "free": true,
      "trial": null,
      "prices": {
-      "UA": null,
-      "UA_uk": null,
-      "UA_en": null,
-      "US": null,
-      "US_uk": null,
-      "US_en": null,
-      "EU": null,
-      "EU_uk": null,
-      "EU_en": null,
-      "cheapest": null,
-      "cheapest_uk": null,
-      "cheapest_en": null
+      "UA": "Бесплатно (открытый код); платите только за API моделей, которые подключаете",
+      "UA_uk": "Безкоштовно (відкритий код); платите лише за API моделей, які підключаєте",
+      "UA_en": "Free and open source; you only pay for the model APIs you connect",
+      "US": "Бесплатно (открытый код); платите только за API моделей, которые подключаете",
+      "US_uk": "Безкоштовно (відкритий код); платите лише за API моделей, які підключаєте",
+      "US_en": "Free and open source; you only pay for the model APIs you connect",
+      "EU": "Бесплатно (открытый код); платите только за API моделей, которые подключаете",
+      "EU_uk": "Безкоштовно (відкритий код); платите лише за API моделей, які підключаєте",
+      "EU_en": "Free and open source; you only pay for the model APIs you connect",
+      "cheapest": "Бесплатно — $0",
+      "cheapest_uk": "Безкоштовно — $0",
+      "cheapest_en": "Free — $0"
      },
      "languages": {
       "ru": false,
@@ -2327,7 +2327,7 @@ window.NEURO_CATALOG = {
       "Нет облачной версии: всё на вашей машине"
      ],
      "bugs": [],
-     "checked": "2026-11-14",
+     "checked": "2026-11-15",
      "capabilities": [
       "Агентные задачи",
       "Код",
