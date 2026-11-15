@@ -431,3 +431,12 @@ body[data-route] .page-head,body[data-route] .category-hero{background-size:auto
 /* Правка 15.11.2026 (v11): часы в герое — крупные, золотые, заметные */
 .hero-clock strong{font-size:clamp(58px,6.4vw,88px);color:#f5c95c;text-shadow:0 0 28px rgba(245,201,92,.35)}
 .hero-clock span{font-size:21px;color:#a9ecf0;font-weight:600}
+
+/* Правка 15.11.2026 (v12): часы — по центру главного блока */
+.hero-panel{flex-wrap:wrap}
+.hero-clock{flex:1 1 100%;order:3;text-align:center;margin-top:6px}
+
+/* Правка 15.11.2026 (v13): полоса курсов НБУ — заметная, золотая */
+.status-strip{background:linear-gradient(90deg,rgba(245,201,92,.08),transparent 55%);border-bottom:1px solid rgba(245,201,92,.38)}
+.rates{font-size:17px}
+.rates strong{color:#f5c95c;font-size:20px;text-shadow:0 0 14px rgba(245,201,92,.25)}
