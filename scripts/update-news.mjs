@@ -24,6 +24,9 @@ const FEEDS = [
   { product: 'OpenCode', url: 'https://github.com/sst/opencode/releases.atom' },
   { product: 'LM Studio', url: 'https://lmstudio.ai/rss.xml' },
   { product: 'Hugging Face', url: 'https://huggingface.co/blog/feed.xml' },
+  { product: 'dev.ua', url: 'https://dev.ua/rss', aiOnly: true },
+  { product: 'Gagadget', url: 'https://gagadget.com/uk/rss/', aiOnly: true },
+  { product: 'ITC.ua', url: 'https://itc.ua/feed/', aiOnly: true },
 ];
 
 const DAYS = 45;
@@ -75,6 +78,8 @@ function parseFeed(xml, product) {
   return items;
 }
 
+const AI_RE = /нейросет|нейромереж|штучн\w* інтелект|искусствен\w* интеллект|машинн\w* (навчанн|обучен)|чат-?бот|chatbot|gpt|llm|openai|anthropic|claude|gemini|deepmind|mistral|llama|copilot|midjourney|генератив|промпт|prompt|deepseek|qwen|grok|runway|elevenlabs|suno|ideogram|(^|[\s«"'(])(ии|ші|ai)([\s»"').,:;!?]|$)/i;
+
 async function fetchFeed(f) {
   const ctrl = new AbortController();
   const timer = setTimeout(() => ctrl.abort(), 20000);
@@ -84,6 +89,7 @@ async function fetchFeed(f) {
     const xml = await r.text();
     let items = parseFeed(xml, f.product);
     items = items.filter(it => !/^b\d+$/.test(it.title.trim()));
+    if (f.aiOnly) { const before = items.length; items = items.filter(it => AI_RE.test(it.title + ' ' + it.text)); console.log(`AI filter ${f.product}: ${items.length}/${before} kept`); }
     items.sort((a, b) => new Date(b.date) - new Date(a.date));
     const cap = f.url.includes('releases.atom') ? 3 : 6;
     items = items.slice(0, cap);
