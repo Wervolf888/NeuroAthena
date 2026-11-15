@@ -1277,21 +1277,16 @@ async function initCalendar() {
   const events = (Array.isArray(data.items) ? data.items : [])
     .map(it => ({ it, d: parseNewsDate(it.date || it.published || it.publishedAt || '') }))
     .filter(x => x.d)
-    .sort((a, b) => a.d - b.d);
+    .sort((a, b) => b.d - a.d);
   if (!events.length) { box.innerHTML = `<div class="empty offers-empty"><p>${t('calendarEmpty')}</p></div>`; return; }
   const groups = {};
   for (const e of events) {
     const key = e.d.getFullYear() + '-' + String(e.d.getMonth() + 1).padStart(2, '0');
     (groups[key] = groups[key] || []).push(e);
   }
-  box.innerHTML = Object.keys(groups).sort().map(key => {
+  box.innerHTML = Object.keys(groups).sort().reverse().map(key => {
     const list = groups[key];
-    return `<section class="calendar-month"><h2>${fmtMonth(list[0].d)}</h2>${list.map(({ it, d }) => {
-      const title = newsLoc(it, 'title', 'title_uk', 'title_ru');
-      const product = it.product || it.model || '';
-      const url = it.url || it.link || it.source || '';
-      return `<div class="calendar-event"><span class="calendar-day">${d.getDate()}</span><div><strong>${esc(title)}</strong>${product ? `<span>${esc(product)}</span>` : ''}</div>${url && /^https?:\/\//i.test(url) ? `<a href="${esc(url)}" target="_blank" rel="noopener">${t('newsSource')}</a>` : ''}</div>`;
-    }).join('')}</section>`;
+    return `<section class="calendar-month"><h2>${fmtMonth(list[0].d)}</h2><div class="news-list grid">${list.map(({ it }) => newsItem(it)).join('')}</div></section>`;
   }).join('');
 }
 function ratingRow(cat, m, place) {
