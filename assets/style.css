@@ -494,3 +494,7 @@ body[data-route="converter"] .page-head{background-image:none}
 .collapse-btn:hover{filter:brightness(1.2)}
 .collapse-btn.closed{transform:rotate(-90deg)}
 .collapsible[hidden]{display:none}
+
+/* === Правки 15.11.2026 v18.1: часы чуть правее от названия сайта === */
+.hero-clock{margin-left:34px}
+@media(max-width:1000px){.hero-clock{margin-left:0}}
