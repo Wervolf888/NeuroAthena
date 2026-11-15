@@ -47,4 +47,14 @@ window.NEURO_LOGOS = {
   "local--jan": "assets/logos/local--jan.png",
   "local--open-webui": "assets/logos/local--open-webui.png",
   "local--bionic": "assets/logos/local--bionic.png",
+  "chats--notion": "assets/logos/chats--notion.png",
+  "chats--notebooklm": "assets/logos/chats--notebooklm.png",
+  "chats--character-ai": "assets/logos/chats--character-ai.png",
+  "images--firefly": "assets/logos/images--firefly.png",
+  "images--canva": "assets/logos/images--canva.png",
+  "code--replit": "assets/logos/code--replit.png",
+  "agents--lovable": "assets/logos/agents--lovable.png",
+  "agents--bolt": "assets/logos/agents--bolt.png",
+  "local--comfyui": "assets/logos/local--comfyui.png",
+  "local--anythingllm": "assets/logos/local--anythingllm.png"
 };
