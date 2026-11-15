@@ -93,7 +93,7 @@ const I18N = {
     'newsLabel': 'Новости', 'newsTitle': 'Официальные новости',
     'newsText': 'Файл новостей пока не предоставлен.', 'toNews': 'К новостям ↗',
     'offersLabel': 'Предложения', 'offersTitle': 'Текущие акции',
-    'offersText': 'Файл акций пока не предоставлен.', 'toOffers': 'К акциям ↗',
+    'offersText': 'Файл акций пока не предоставлен.', 'pulseRates': 'Курс НБУ на сегодня:', 'toOffers': 'К акциям ↗',
     'stubEyebrow': 'НейроАтлас / раздел в разработке',
     'stubTitle': 'Раздел ещё готовится',
     'stubText': 'Содержимое и функции появятся на следующих этапах после проверки данных.',
@@ -253,7 +253,7 @@ const I18N = {
     'newsLabel': 'Новини', 'newsTitle': 'Офіційні новини',
     'newsText': 'Файл новин поки не надано.', 'toNews': 'До новин ↗',
     'offersLabel': 'Пропозиції', 'offersTitle': 'Поточні акції',
-    'offersText': 'Файл акцій поки не надано.', 'toOffers': 'До акцій ↗',
+    'offersText': 'Файл акцій поки не надано.', 'pulseRates': 'Курс НБУ на сьогодні:', 'toOffers': 'До акцій ↗',
     'stubEyebrow': 'НейроАтлас / розділ у розробці',
     'stubTitle': 'Розділ ще готується',
     'stubText': 'Вміст і функції з’являться на наступних етапах після перевірки даних.',
@@ -413,7 +413,7 @@ const I18N = {
     'newsLabel': 'News', 'newsTitle': 'Official news',
     'newsText': 'The news file has not been provided yet.', 'toNews': 'To news ↗',
     'offersLabel': 'Offers', 'offersTitle': 'Current deals',
-    'offersText': 'The deals file has not been provided yet.', 'toOffers': 'To deals ↗',
+    'offersText': 'The deals file has not been provided yet.', 'pulseRates': "Today's NBU rate:", 'toOffers': 'To deals ↗',
     'stubEyebrow': 'NeuroAtlas / section in progress',
     'stubTitle': 'This section is still being prepared',
     'stubText': 'Content and features will appear in later stages after the data is checked.',
@@ -1296,8 +1296,54 @@ function home() {
     + `<section class="section" aria-labelledby="searchTitle"><div class="section-head"><div><h2 id="searchTitle">${t('searchTitle')}</h2><p>${t('searchSub')}</p></div></div><div class="search-panel"><form id="modelSearch"><div class="searchbar"><input name="q" aria-label="${t('searchTitle')}" placeholder="${t('searchPlaceholder')}"><button class="button primary" type="submit">${t('findBtn')}</button></div><div class="filter-controls"><label>${t('filterLang')}<select name="language"><option value="">${t('optAny')}</option><option value="ru">${t('optRu')}</option><option value="uk">${t('optUk')}</option></select></label><label>${t('filterFree')}<select name="free"><option value="">${t('optAny')}</option><option value="yes">${t('optFreeYes')}</option></select></label><label>${t('filterPlatform')}<select name="platform"><option value="">${t('optAnyF')}</option><option value="web">${t('optWeb')}</option><option value="windows">Windows</option><option value="android">Android</option><option value="ios">iOS</option></select></label></div></form><div id="searchResults" role="status" aria-live="polite"></div><p class="search-note">${t('searchNote')}</p></div></section>`
     + `<section class="section" id="categories"><div class="section-head"><div><div class="eyebrow">${t('catEyebrow')}</div><h2>${t('catTitle')}</h2><p>${t('catSub')}</p></div></div><div class="cards">${categoryCards()}${sectionCards()}</div></section>`
     + `<section class="section" id="favSection">${favSectionHtml()}</section>`
-    + `<section class="section"><div class="section-head"><div><div class="eyebrow">${t('weekEyebrow')}</div><h2>${t('weekTitle')}</h2></div></div><div class="editorial"><article class="feature"><span class="label">${t('featWeek')}</span><h3>${t('featWeekNone')}</h3><p>${t('featWeekText')}</p></article><article class="feature"><span class="label">${t('featTop')}</span><h3>${t('featTopNone')}</h3><p>${t('featTopText')}</p></article></div></section>`
-    + `<section class="section"><div class="section-head"><div><div class="eyebrow">${t('newEyebrow')}</div><h2>${t('newTitle')}</h2></div></div><div class="three"><article class="empty"><span class="label">${t('pulseLabel')}</span><h3>${t('pulseTitle')}</h3><p>${t('pulseText')}</p><a href="#/prices">${t('toPrices')}</a></article><article class="empty"><span class="label">${t('newsLabel')}</span><h3>${t('newsTitle')}</h3><p>${t('newsText')}</p><a href="#/news">${t('toNews')}</a></article><article class="empty"><span class="label">${t('offersLabel')}</span><h3>${t('offersTitle')}</h3><p>${t('offersText')}</p><a href="#/offers">${t('toOffers')}</a></article></div></section></div>`;
+    + `<section class="section"><div class="section-head"><div><div class="eyebrow">${t('weekEyebrow')}</div><h2>${t('weekTitle')}</h2></div></div><div class="editorial"><article class="feature" id="weekModel"><span class="label">${t('featWeek')}</span><h3>${t('featWeekNone')}</h3><p>${t('featWeekText')}</p></article><article class="feature" id="weekTop"><span class="label">${t('featTop')}</span><h3>${t('featTopNone')}</h3><p>${t('featTopText')}</p></article></div></section>`
+    + `<section class="section"><div class="section-head"><div><div class="eyebrow">${t('newEyebrow')}</div><h2>${t('newTitle')}</h2></div></div><div class="three"><article class="empty" id="homePulse"><span class="label">${t('pulseLabel')}</span><h3>${t('pulseTitle')}</h3><p>${t('pulseText')}</p><a href="#/prices">${t('toPrices')}</a></article><article class="empty" id="homeNews"><span class="label">${t('newsLabel')}</span><h3>${t('newsTitle')}</h3><p>${t('newsText')}</p><a href="#/news">${t('toNews')}</a></article><article class="empty" id="homeOffer"><span class="label">${t('offersLabel')}</span><h3>${t('offersTitle')}</h3><p>${t('offersText')}</p><a href="#/offers">${t('toOffers')}</a></article></div></section></div>`;
+}
+
+async function initHome() {
+  const rated = dataItems().filter(({ m }) => typeof m.user_rating === 'number').sort((a, b) => b.m.user_rating - a.m.user_rating);
+  const wm = document.getElementById('weekModel');
+  if (wm && rated.length) {
+    const top = rated[0].m;
+    wm.innerHTML = `<span class="label">${t('featWeek')}</span><h3>${esc(top.name)}</h3><p>${esc(locText(top, 'essence', 'essence_uk', 'essence_en'))}</p><p class="free-line">${t('fldRating')}: ${esc(top.user_rating)} / 10 \u00b7 G2</p>`;
+  }
+  const wt = document.getElementById('weekTop');
+  if (wt && rated.length) {
+    const top3 = rated.slice(0, 3);
+    wt.innerHTML = `<span class="label">${t('featTop')}</span><h3>${esc(top3[0].m.name)}</h3><p>${top3.map(({ m }, i) => `${i + 1}. ${esc(m.name)} \u2014 ${esc(m.user_rating)} / 10`).join('<br>')}</p>`;
+  }
+  const hn = document.getElementById('homeNews');
+  if (hn) {
+    const data = await loadJsonFile('data/news.json');
+    const items = (data && Array.isArray(data.items)) ? [...data.items].sort((a, b) => String(b.date || b.published || '').localeCompare(String(a.date || a.published || ''))) : [];
+    if (items.length) {
+      const it = items[0];
+      const d = it.date || it.published || it.publishedAt || '';
+      const ds = d ? new Date(d).toLocaleDateString(newsLocale()) : '';
+      const txt = newsLoc(it, 'text', 'text_uk', 'text_ru');
+      hn.querySelector('h3').textContent = newsLoc(it, 'title', 'title_uk', 'title_ru') || t('newsTitle');
+      hn.querySelector('p').textContent = (ds ? ds + ' \u2014 ' : '') + (txt || '').slice(0, 160);
+    }
+  }
+  const ho = document.getElementById('homeOffer');
+  if (ho) {
+    const data = await loadOffers();
+    const items = (data && Array.isArray(data.items)) ? data.items : [];
+    const pick = items.find(x => offerKind(x) === 'offers') || items[0];
+    if (pick) {
+      const txt = pick.text || pick.description || pick.summary || '';
+      ho.querySelector('p').textContent = ((pick.product || pick.name || '') + (txt ? ' \u2014 ' + txt : '')).slice(0, 180);
+    }
+  }
+  const hp = document.getElementById('homePulse');
+  if (hp) {
+    try {
+      const r = await fetch('https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?json', { cache: 'no-store' });
+      const arr = await r.json();
+      const usd = arr.find(x => x.cc === 'USD'), eur = arr.find(x => x.cc === 'EUR');
+      if (usd && eur) hp.querySelector('p').textContent = `${t('pulseRates')} USD \u2014 ${usd.rate.toFixed(2).replace('.', ',')} \u20b4 \u00b7 EUR \u2014 ${eur.rate.toFixed(2).replace('.', ',')} \u20b4`;
+    } catch (e) { /* оставляем прежний текст */ }
+  }
 }
 
 /* ---------- Маршруты ---------- */
@@ -1312,7 +1358,7 @@ function route() {
   if (!pageIds.includes(id)) id = 'home';
   document.body.dataset.route = id;
   if (id === 'home') {
-    main.innerHTML = home(); rates(); initSearch();
+    main.innerHTML = home(); rates(); initSearch(); initHome();
     if (hash === '#categories') document.getElementById('categories').scrollIntoView();
   } else if (categories.includes(id)) {
     main.innerHTML = categoryPage(id);
