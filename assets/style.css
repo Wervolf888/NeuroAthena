@@ -459,3 +459,13 @@ body[data-route] .page-head,body[data-route] .category-hero{background-size:auto
 .hero-medal{order:3;margin:30px auto 0;align-self:center}
 @media(max-width:900px){.hero-medal{display:block}}
 @media(max-width:650px){.hero-panel{padding:38px 16px 36px}.hero-medal video{width:184px;height:184px}}
+
+/* Правка 15.11.2026 (v16): компактный блок — заголовок слева, часы в центре блока, Афина справа по центру и чуть ниже */
+.hero-panel{display:grid;grid-template-columns:minmax(0,1.05fr) auto minmax(0,.95fr);grid-template-rows:none;align-items:center;min-height:430px;padding:0 3%;background:linear-gradient(90deg,rgba(3,14,28,.96) 0%,rgba(3,14,28,.72) 42%,rgba(3,14,28,.06) 100%),url('atlas-hero.webp') center/cover}
+.hero-copy{grid-column:1;grid-row:1;max-width:640px;padding:48px 0 48px 12px;text-align:left}
+.hero-copy p{margin-left:0;margin-right:0}
+.hero-actions{justify-content:flex-start}
+.hero-clock{grid-column:2;grid-row:1;align-self:center;justify-self:center;margin:0;text-align:center}
+.hero-medal{grid-column:3;grid-row:1;align-self:center;justify-self:end;margin:0;transform:translateY(14px)}
+@media(max-width:1250px){.hero h1{font-size:56px}}
+@media(max-width:1000px){.hero-panel{grid-template-columns:1fr;min-height:0;padding:38px 16px 36px}.hero-copy{grid-column:1;grid-row:1;max-width:880px;padding:0;text-align:center}.hero-copy p{margin-left:auto;margin-right:auto}.hero-actions{justify-content:center}.hero-clock{grid-column:1;grid-row:2;margin-top:30px}.hero-medal{grid-column:1;grid-row:3;justify-self:center;margin-top:28px;transform:none}}
