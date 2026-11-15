@@ -14,7 +14,7 @@ const I18N = {
     'page.home': 'Главная', 'page.chats': 'Общие чаты', 'page.images': 'Картинки',
     'page.video': 'Видео', 'page.audio': 'Звук', 'page.code': 'Код',
     'page.agents': 'Агенты', 'page.local': 'Локальные модели', 'page.prices': 'Цены',
-    'page.offers': 'Акции', 'page.discounts': 'Скидки', 'page.coupons': 'Купоны',
+    'page.offers': 'Акции', 'page.discounts': 'Скидки', 'page.coupons': 'Купоны', 'page.sales': 'Календарь акций',
     'page.news': 'Новости', 'page.compare': 'Конструктор сравнений',
     'page.free': 'Бесплатное и пробы', 'page.rankings': 'Рейтинги по задачам',
     'page.calendar': 'Календарь релизов', 'page.community': 'Выбор пользователей', 'page.converter': 'Конвертер валют',
@@ -116,6 +116,7 @@ const I18N = {
     'foundCount': 'Найдено моделей: {n}',
     'noModelsFound': 'По этим фильтрам ничего не найдено.',
     'offersIntro': 'Предложения из файла куратора — продукт, суть, срок и ссылка на официальный источник.',
+    'salesIntro': 'Когда у нейросервисов настоящие распродажи: что идёт прямо сейчас и какие сезоны скидок впереди.', 'salesNow': 'Идёт сейчас', 'salesSeasons': 'Сезоны распродаж', 'salesNote': 'Конкретные предложения живут в разделах «Акции», «Скидки» и «Купоны» — здесь собраны только сроки.', 'salesLive': 'Идёт сейчас', 'salesSoon': 'Скоро', 'salesDone': 'Завершено', 'salesS1Name': 'Black Friday у ElevenLabs', 'salesS1Desc': '−55% на годовые планы ElevenLabs: Creator — $99 за первый год.', 'salesS2Name': 'Чёрная пятница', 'salesS2Desc': 'Главный день распродаж года: скидки у большинства сервисов — смотреть разделы «Акции» и «Скидки».', 'salesS3Name': 'Киберпонедельник', 'salesS3Desc': 'День скидок на цифровые товары и подписки.', 'salesS4Name': 'Рождественские и новогодние распродажи', 'salesS4Desc': 'Праздничное окно скидок у большинства сервисов.', 'pricesCurLabel': 'Валюта пересчёта цен',
     'offersEmpty': 'Сейчас здесь пусто. Предложения обновляются каждый день.',
     'offersLoading': 'Загружаем предложения…',
     'offersLoadFail': 'Не удалось загрузить предложения. Попробуйте позже.',
@@ -180,7 +181,7 @@ const I18N = {
     'page.home': 'Головна', 'page.chats': 'Загальні чати', 'page.images': 'Картинки',
     'page.video': 'Відео', 'page.audio': 'Звук', 'page.code': 'Код',
     'page.agents': 'Агенти', 'page.local': 'Локальні моделі', 'page.prices': 'Ціни',
-    'page.offers': 'Акції', 'page.discounts': 'Знижки', 'page.coupons': 'Купони',
+    'page.offers': 'Акції', 'page.discounts': 'Знижки', 'page.coupons': 'Купони', 'page.sales': 'Календар акцій',
     'page.news': 'Новини', 'page.compare': 'Конструктор порівнянь',
     'page.free': 'Безкоштовне і проби', 'page.rankings': 'Рейтинги за задачами',
     'page.calendar': 'Календар релізів', 'page.community': 'Вибір користувачів', 'page.converter': 'Конвертер валют',
@@ -282,6 +283,7 @@ const I18N = {
     'foundCount': 'Знайдено моделей: {n}',
     'noModelsFound': 'За цими фільтрами нічого не знайдено.',
     'offersIntro': 'Пропозиції з файлу куратора — продукт, суть, термін і посилання на офіційне джерело.',
+    'salesIntro': 'Коли в нейросервісів справжні розпродажі: що триває просто зараз і які сезони знижок попереду.', 'salesNow': 'Триває зараз', 'salesSeasons': 'Сезони розпродажів', 'salesNote': 'Конкретні пропозиції живуть у розділах «Акції», «Знижки» та «Купони» — тут зібрані лише строки.', 'salesLive': 'Триває зараз', 'salesSoon': 'Незабаром', 'salesDone': 'Завершено', 'salesS1Name': 'Black Friday в ElevenLabs', 'salesS1Desc': '−55% на річні плани ElevenLabs: Creator — $99 за перший рік.', 'salesS2Name': 'Чорна п’ятниця', 'salesS2Desc': 'Головний день розпродажів року: знижки в більшості сервісів — дивитися розділи «Акції» та «Знижки».', 'salesS3Name': 'Кіберпонеділок', 'salesS3Desc': 'День знижок на цифрові товари та підписки.', 'salesS4Name': 'Різдвяні та новорічні розпродажі', 'salesS4Desc': 'Святкове вікно знижок у більшості сервісів.', 'pricesCurLabel': 'Валюта перерахунку цін',
     'offersEmpty': 'Зараз тут порожньо. Пропозиції оновлюються щодня.',
     'offersLoading': 'Завантажуємо пропозиції…',
     'offersLoadFail': 'Не вдалося завантажити пропозиції. Спробуйте пізніше.',
@@ -346,7 +348,7 @@ const I18N = {
     'page.home': 'Home', 'page.chats': 'General chats', 'page.images': 'Images',
     'page.video': 'Video', 'page.audio': 'Audio', 'page.code': 'Code',
     'page.agents': 'Agents', 'page.local': 'Local models', 'page.prices': 'Prices',
-    'page.offers': 'Deals', 'page.discounts': 'Discounts', 'page.coupons': 'Coupons',
+    'page.offers': 'Deals', 'page.discounts': 'Discounts', 'page.coupons': 'Coupons', 'page.sales': 'Sales calendar',
     'page.news': 'News', 'page.compare': 'Comparison builder',
     'page.free': 'Free & trials', 'page.rankings': 'Task ratings',
     'page.calendar': 'Release calendar', 'page.community': 'Community picks', 'page.converter': 'Currency converter',
@@ -448,6 +450,7 @@ const I18N = {
     'foundCount': 'Models found: {n}',
     'noModelsFound': 'Nothing matches these filters.',
     'offersIntro': 'Offers from the curator file — product, terms, validity and a link to the official source.',
+    'salesIntro': 'When AI services run real sales: what is live right now and which discount seasons are ahead.', 'salesNow': 'Live now', 'salesSeasons': 'Sale seasons', 'salesNote': 'The actual offers live in the Deals, Discounts and Coupons sections — this page keeps only the dates.', 'salesLive': 'Live now', 'salesSoon': 'Upcoming', 'salesDone': 'Ended', 'salesS1Name': 'ElevenLabs Black Friday', 'salesS1Desc': '−55% on ElevenLabs annual plans: Creator is $99 for the first year.', 'salesS2Name': 'Black Friday', 'salesS2Desc': 'The biggest sale day of the year: discounts at most services — see the Deals and Discounts sections.', 'salesS3Name': 'Cyber Monday', 'salesS3Desc': 'A day of discounts on digital goods and subscriptions.', 'salesS4Name': 'Christmas and New Year sales', 'salesS4Desc': 'The holiday discount window at most services.', 'pricesCurLabel': 'Price conversion currency',
     'offersEmpty': 'Nothing here right now. Offers are updated every day.',
     'offersLoading': 'Loading offers…',
     'offersLoadFail': 'Could not load the offers. Try again later.',
@@ -523,7 +526,7 @@ function plural(n) {
 }
 const pageName = id => t('page.' + id);
 const brandName = () => lang === 'uk' ? 'НейроАфіна' : lang === 'en' ? 'NeuroAthena' : 'НейроАфина';
-const pageIds = ['home', 'chats', 'images', 'video', 'audio', 'code', 'agents', 'local', 'prices', 'converter', 'offers', 'discounts', 'coupons', 'news', 'compare', 'free', 'rankings', 'calendar', 'community'];
+const pageIds = ['home', 'chats', 'images', 'video', 'audio', 'code', 'agents', 'local', 'prices', 'converter', 'offers', 'discounts', 'coupons', 'sales', 'news', 'compare', 'free', 'rankings', 'calendar', 'community'];
 const categories = pageIds.slice(1, 8);
 
 /* ---------- Этап 6: перевод содержимого (механизм) ---------- */
@@ -959,6 +962,7 @@ const HERO_MARKS = {
   offers: '<svg viewBox="0 0 64 64" fill="none" stroke="#80e8ed" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><g class="hm-sway"><rect x="12" y="26" width="40" height="8"/><path d="M16 34v20h32V34M32 26v28"/><path d="M32 26c-8 0-12-4-12-8 0-3 2-5 5-5 5 0 7 6 7 13zm0 0c8 0 12-4 12-8 0-3-2-5-5-5-5 0-7 6-7 13z"/></g></svg>',
   discounts: '<svg viewBox="0 0 64 64" fill="none" stroke="#80e8ed" stroke-width="3.2" stroke-linecap="round"><circle cx="20" cy="20" r="6"/><circle cx="44" cy="44" r="6"/><line class="hm-pulse" x1="46" y1="14" x2="18" y2="50"/></svg>',
   coupons: '<svg viewBox="0 0 64 64" fill="none" stroke="#80e8ed" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M8 22a6 6 0 016-6h36a6 6 0 016 6v6a5 5 0 000 10v6a6 6 0 01-6 6H14a6 6 0 01-6-6v-6a5 5 0 000-10z"/><line x1="38" y1="20" x2="38" y2="48" stroke-dasharray="3 5" opacity=".7"/><path class="hm-pulse" d="M20 28l2.2 4.4 4.8.7-3.5 3.4.8 4.8L20 39l-4.3 2.3.8-4.8-3.5-3.4 4.8-.7z" fill="#ffd98a" stroke="none"/></svg>',
+  sales: '<svg viewBox="0 0 64 64" fill="none" stroke="#80e8ed" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><rect x="10" y="14" width="44" height="40" rx="5"/><path d="M10 26h44M22 10v8M42 10v8"/><circle cx="24" cy="37" r="3.4"/><circle cx="40" cy="45" r="3.4"/><line class="hm-pulse" x1="42" y1="33" x2="22" y2="49"/></svg>',
   news: '<svg viewBox="0 0 64 64" fill="none" stroke="#80e8ed" stroke-width="3" stroke-linecap="round"><circle cx="32" cy="32" r="17"/><ellipse cx="32" cy="32" rx="8" ry="17"/><path d="M15 32h34M18 22h28M18 42h28"/><g class="hm-spin"><circle cx="32" cy="6" r="3" fill="#ffd98a" stroke="none"/></g></svg>',
   compare: '<svg viewBox="0 0 64 64" fill="none" stroke="#80e8ed" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><g class="hm-sway"><path d="M32 12v6M14 18h36M32 18v26M22 50h20"/><path d="M14 18l-6 12a8 6 0 0012 0zM50 18l-6 12a8 6 0 0012 0z"/></g><circle cx="32" cy="12" r="3" fill="#80e8ed"/></svg>',
   free: '<svg viewBox="0 0 64 64" fill="none" stroke="#80e8ed" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M18 54V12h28v42M18 54h28"/><path class="hm-pulse" d="M24 50V18l16-4v32z" fill="rgba(128,232,237,.18)"/><circle cx="36" cy="32" r="1.8" fill="#80e8ed"/></svg>',
@@ -970,8 +974,42 @@ function heroMark(id) { const m = HERO_MARKS[id]; return m ? `<div class="hero-m
 function pageHead(id, introKey) {
   return `<a class="back" href="#/home">${t('backHome')}</a><div class="page-head"><div class="page-head-text"><div class="eyebrow">${brandName()} / ${esc(pageName(id))}</div><h1>${esc(pageName(id))}</h1><p>${t(introKey)}</p></div>${heroMark(id)}</div>`;
 }
+let priceCur = 'UAH';
+try { const pc = localStorage.getItem('neuroathena-prices-cur'); if (pc === 'USD' || pc === 'EUR') priceCur = pc; } catch (e) {}
+let priceRates = null;
+async function ensurePriceRates() {
+  if (priceRates) return priceRates;
+  if (convRatesCache && convRatesCache.map) { priceRates = convRatesCache.map; return priceRates; }
+  try {
+    const r = await fetch('https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?json', { cache: 'no-store' });
+    const data = await r.json();
+    const map = { UAH: { rate: 1, txt: '' } };
+    for (const x of data) if (/^[A-Z]{3}$/.test(x.cc) && Number.isFinite(x.rate) && x.rate > 0) map[x.cc] = { rate: x.rate, txt: x.txt || '' };
+    convRatesCache = { map, date: (data.find(x => x.cc === 'USD') || {}).exchangedate || '' };
+    priceRates = map;
+  } catch (e) { priceRates = null; }
+  return priceRates;
+}
+const CUR_SYM = { UAH: '₴', USD: '$', EUR: '€' };
+function convAppend(v) {
+  if (!v || !priceRates) return '';
+  const re = /(\$|€|₴|грн|USD|EUR|UAH)?\s*(\d[\d\s\u00A0]*(?:[.,]\d+)?)\s*(\$|€|₴|грн|USD|EUR|UAH)?/g;
+  for (const m of String(v).matchAll(re)) {
+    const mark = m[1] || m[3] || '';
+    const code = (mark === '$' || mark === 'USD') ? 'USD' : (mark === '€' || mark === 'EUR') ? 'EUR' : (mark === '₴' || mark === 'грн' || mark === 'UAH') ? 'UAH' : '';
+    if (!code || code === priceCur) continue;
+    const amount = parseFloat(m[2].replace(/[\s\u00A0]/g, '').replace(',', '.'));
+    if (!Number.isFinite(amount) || amount <= 0) continue;
+    const from = priceRates[code], to = priceRates[priceCur];
+    if (!from || !to) continue;
+    const val = amount * from.rate / to.rate;
+    const fmt = val >= 100 ? String(Math.round(val)).replace(/\B(?=(\d{3})+(?!\d))/g, ' ') : (Math.round(val * 100) / 100).toFixed(2).replace('.', ',').replace(/,?0+$/, '');
+    return ` ≈ ${fmt} ${CUR_SYM[priceCur]}`;
+  }
+  return '';
+}
 function priceCell(v) {
-  return v ? `<strong>${esc(v)}</strong>` : `<span class="no-price">${t('noPrice')}</span>`;
+  return v ? `<strong>${esc(v)}${esc(convAppend(v))}</strong>` : `<span class="no-price">${t('noPrice')}</span>`;
 }
 function priceEditInput(cat, m, key, labelKey, v) {
   return `<input class="price-edit" type="text" data-price-edit="${esc(cat)}--${esc(m.id)}:${key}" value="${esc(v || '')}" aria-label="${t(labelKey)}">`;
@@ -981,10 +1019,10 @@ function priceRow(cat, m) {
   const p = m.prices || {};
   const logo = logos[`${cat}--${m.id}`];
   const admin = isAdmin();
-  return `<article class="price-row"><div class="price-model">${logo ? `<span class="price-logo"><img src="${esc(logo)}" alt="" loading="lazy"></span>` : ''}<div><strong>${esc(m.name)}</strong><span>${esc(pageName(cat))}</span></div></div><div class="price-cell price-cat"><span class="price-cell-label">${t('colCategory')}</span>${esc(pageName(cat))}</div><div class="price-cell price-ua"><span class="price-cell-label">${t('priceUA')}</span>${admin ? priceEditInput(cat, m, 'UA', 'priceUA', p.UA) : priceCell(p.UA)}</div><div class="price-cell"><span class="price-cell-label">${t('priceUS')}</span>${admin ? priceEditInput(cat, m, 'US', 'priceUS', p.US) : priceCell(p.US)}</div><div class="price-cell"><span class="price-cell-label">${t('priceEU')}</span>${admin ? priceEditInput(cat, m, 'EU', 'priceEU', p.EU) : priceCell(p.EU)}</div><div class="price-cell"><span class="price-cell-label">${t('colCheapest')}</span>${admin ? priceEditInput(cat, m, 'cheapest', 'colCheapest', p.cheapest) : (p.cheapest ? `<strong>${esc(p.cheapest)}</strong>` : '—')}</div></article>`;
+  return `<article class="price-row"><div class="price-model">${logo ? `<span class="price-logo"><img src="${esc(logo)}" alt="" loading="lazy"></span>` : ''}<div><strong>${esc(m.name)}</strong><span>${esc(pageName(cat))}</span></div></div><div class="price-cell price-cat"><span class="price-cell-label">${t('colCategory')}</span>${esc(pageName(cat))}</div><div class="price-cell price-ua"><span class="price-cell-label">${t('priceUA')}</span>${admin ? priceEditInput(cat, m, 'UA', 'priceUA', p.UA) : priceCell(p.UA)}</div><div class="price-cell"><span class="price-cell-label">${t('priceUS')}</span>${admin ? priceEditInput(cat, m, 'US', 'priceUS', p.US) : priceCell(p.US)}</div><div class="price-cell"><span class="price-cell-label">${t('priceEU')}</span>${admin ? priceEditInput(cat, m, 'EU', 'priceEU', p.EU) : priceCell(p.EU)}</div><div class="price-cell"><span class="price-cell-label">${t('colCheapest')}</span>${admin ? priceEditInput(cat, m, 'cheapest', 'colCheapest', p.cheapest) : (p.cheapest ? `<strong>${esc(p.cheapest)}${esc(convAppend(p.cheapest))}</strong>` : '—')}</div></article>`;
 }
 function pricesPage() {
-  return `<div class="container route page-route">${pageHead('prices', 'pricesIntro')}<a class="conv-banner" href="#/converter"><span>${t('convBanner')}</span><span aria-hidden="true">⇄</span></a><div class="filter-bar"><div class="filter-chips" role="group" aria-label="${t('filterCatLabel')}"><button type="button" data-cat="" class="on">${t('filterAll')}</button>${categories.map(id => `<button type="button" data-cat="${id}">${esc(pageName(id))}</button>`).join('')}</div><div class="searchbar"><input id="priceSearch" type="search" placeholder="${t('pricesSearchPh')}" aria-label="${t('pricesSearchPh')}"></div></div><p class="result-count" id="priceCount"></p><div class="price-head" aria-hidden="true"><span>${t('colModel')}</span><span>${t('colCategory')}</span><span>${t('priceUA')}</span><span>${t('priceUS')}</span><span>${t('priceEU')}</span><span>${t('colCheapest')}</span></div><div class="price-list" id="priceList"></div></div>`;
+  return `<div class="container route page-route">${pageHead('prices', 'pricesIntro')}<a class="conv-banner" href="#/converter"><span>${t('convBanner')}</span><span aria-hidden="true">⇄</span></a><div class="filter-bar"><div class="filter-chips" role="group" aria-label="${t('filterCatLabel')}"><button type="button" data-cat="" class="on">${t('filterAll')}</button>${categories.map(id => `<button type="button" data-cat="${id}">${esc(pageName(id))}</button>`).join('')}</div><div class="filter-chips cur-chips" role="group" aria-label="${t('pricesCurLabel')}"><button type="button" data-cur="UAH" class="${priceCur === 'UAH' ? 'on' : ''}">₴</button><button type="button" data-cur="USD" class="${priceCur === 'USD' ? 'on' : ''}">$</button><button type="button" data-cur="EUR" class="${priceCur === 'EUR' ? 'on' : ''}">€</button></div><div class="searchbar"><input id="priceSearch" type="search" placeholder="${t('pricesSearchPh')}" aria-label="${t('pricesSearchPh')}"></div></div><p class="result-count" id="priceCount"></p><div class="price-head" aria-hidden="true"><span>${t('colModel')}</span><span>${t('colCategory')}</span><span>${t('priceUA')}</span><span>${t('priceUS')}</span><span>${t('priceEU')}</span><span>${t('colCheapest')}</span></div><div class="price-list" id="priceList"></div></div>`;
 }
 function renderPriceList() {
   const box = document.getElementById('priceList'), count = document.getElementById('priceCount');
@@ -1001,13 +1039,21 @@ function renderPriceList() {
 function initPrices() {
   const search = document.getElementById('priceSearch');
   if (search) search.addEventListener('input', () => { pricesFilter.q = search.value; renderPriceList(); });
-  document.querySelectorAll('.filter-chips button').forEach(btn => btn.addEventListener('click', () => {
-    document.querySelectorAll('.filter-chips button').forEach(b => b.classList.remove('on'));
+  document.querySelectorAll('.filter-chips:not(.cur-chips) button').forEach(btn => btn.addEventListener('click', () => {
+    document.querySelectorAll('.filter-chips:not(.cur-chips) button').forEach(b => b.classList.remove('on'));
     btn.classList.add('on');
     pricesFilter.cat = btn.dataset.cat;
     renderPriceList();
   }));
+  document.querySelectorAll('.cur-chips button').forEach(btn => btn.addEventListener('click', () => {
+    document.querySelectorAll('.cur-chips button').forEach(b => b.classList.remove('on'));
+    btn.classList.add('on');
+    priceCur = btn.dataset.cur;
+    try { localStorage.setItem('neuroathena-prices-cur', priceCur); } catch (e) {}
+    renderPriceList();
+  }));
   renderPriceList();
+  ensurePriceRates().then(() => renderPriceList());
 }
 const jsonCache = {};
 async function loadJsonFile(path) {
@@ -1045,6 +1091,37 @@ async function initOffers(kind) {
   const data = await loadOffers();
   if (data.error) { box.innerHTML = `<p class="search-empty">${t('offersLoadFail')}</p>`; return; }
   const items = (data.items || []).filter(it => { const k = offerKind(it); return k === kind || (k === '' && kind === 'offers'); });
+  if (!items.length) { box.innerHTML = `<div class="empty offers-empty"><p>${t('offersEmpty')}</p></div>`; return; }
+  box.innerHTML = items.map(offerCard).join('');
+}
+function fmtDay(iso) {
+  const parts = iso.split('-').map(Number);
+  const loc = lang === 'uk' ? 'uk-UA' : lang === 'en' ? 'en-GB' : 'ru-RU';
+  return new Intl.DateTimeFormat(loc, { day: 'numeric', month: 'long', year: 'numeric' }).format(new Date(parts[0], parts[1] - 1, parts[2]));
+}
+function seasonStatus(s) {
+  const now = new Date();
+  const today = now.getFullYear() + '-' + String(now.getMonth() + 1).padStart(2, '0') + '-' + String(now.getDate()).padStart(2, '0');
+  if (today < s.from) return 'salesSoon';
+  if (today > s.to) return 'salesDone';
+  return 'salesLive';
+}
+function salesPage() {
+  const seasons = [
+    { from: '2026-11-16', to: '2026-12-01', name: 'salesS1Name', desc: 'salesS1Desc' },
+    { from: '2026-11-27', to: '2026-11-27', name: 'salesS2Name', desc: 'salesS2Desc' },
+    { from: '2026-11-30', to: '2026-11-30', name: 'salesS3Name', desc: 'salesS3Desc' },
+    { from: '2026-12-24', to: '2027-01-02', name: 'salesS4Name', desc: 'salesS4Desc' }
+  ];
+  const cards = seasons.map(s => `<article class="offer-card"><h3>${t(s.name)}</h3><p>${t(s.desc)}</p><p class="offer-until">${esc(fmtDay(s.from))} — ${esc(fmtDay(s.to))}</p><p class="offer-until">${t(seasonStatus(s))}</p></article>`).join('');
+  return `<div class="container route page-route">${pageHead('sales', 'salesIntro')}<h2 class="sales-h">${t('salesNow')}</h2><div class="offer-list" id="salesNow"><p class="muted">${t('offersLoading')}</p></div><h2 class="sales-h">${t('salesSeasons')}</h2><div class="offer-list">${cards}</div><p class="muted">${t('salesNote')}</p></div>`;
+}
+async function initSales() {
+  const box = document.getElementById('salesNow');
+  if (!box) return;
+  const data = await loadOffers();
+  if (data.error) { box.innerHTML = `<p class="search-empty">${t('offersLoadFail')}</p>`; return; }
+  const items = (data.items || []).filter(it => ['offers', 'discounts'].includes(offerKind(it)));
   if (!items.length) { box.innerHTML = `<div class="empty offers-empty"><p>${t('offersEmpty')}</p></div>`; return; }
   box.innerHTML = items.map(offerCard).join('');
 }
@@ -1542,6 +1619,9 @@ function route() {
   } else if (id === 'converter') {
     main.innerHTML = converterPage();
     initConverter('conv');
+  } else if (id === 'sales') {
+    main.innerHTML = salesPage();
+    initSales();
   } else if (id === 'offers' || id === 'discounts' || id === 'coupons') {
     main.innerHTML = offersPage(id);
     initOffers(id);
