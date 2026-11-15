@@ -17,7 +17,7 @@ const I18N = {
     'page.offers': 'Акции', 'page.discounts': 'Скидки', 'page.coupons': 'Купоны',
     'page.news': 'Новости', 'page.compare': 'Конструктор сравнений',
     'page.free': 'Бесплатное и пробы', 'page.rankings': 'Рейтинги по задачам',
-    'page.calendar': 'Календарь релизов', 'page.community': 'Выбор пользователей',
+    'page.calendar': 'Календарь релизов', 'page.community': 'Выбор пользователей', 'page.converter': 'Конвертер валют',
     'desc.chats': 'Универсальные помощники', 'desc.images': 'Генерация и обработка',
     'desc.video': 'Создание видео', 'desc.audio': 'Голос и музыка',
     'desc.code': 'Помощники разработчика', 'desc.agents': 'Автономные инструменты',
@@ -26,7 +26,7 @@ const I18N = {
     'desc.discounts': 'Скидки и распродажи', 'desc.coupons': 'Промокоды и купоны',
     'desc.news': 'Главное из мира ИИ', 'desc.compare': 'Сравнение моделей',
     'desc.free': 'Бесплатное и пробы', 'desc.rankings': 'Рейтинги по задачам',
-    'desc.calendar': 'Календарь релизов', 'desc.community': 'Выбор пользователей',
+    'desc.calendar': 'Календарь релизов', 'desc.community': 'Выбор пользователей', 'desc.converter': 'Подписка в вашей валюте',
     'skip': 'Перейти к содержанию', 'brandTag': 'НАВИГАТОР ПО МИРУ ИИ',
     'navCatalog': 'Каталог', 'navPrices': 'Цены', 'navCompare': 'Сравнение', 'navNews': 'Новости',
     'menuAll': 'Все разделы', 'menuClose': 'Закрыть',
@@ -72,6 +72,12 @@ const I18N = {
     'ratesLoading': 'Загружаем данные НБУ…',
     'ratesFail': 'Не удалось получить курс НБУ. Попробуйте позже.',
     'ratesOn': 'Курс на {v} · источник НБУ',
+    'converterIntro': 'Сколько стоит подписка в ваших деньгах? Введите сумму, выберите валюты — пересчитаем по официальному курсу НБУ.',
+    'convAmount': 'Сумма', 'convFrom': 'Из валюты', 'convTo': 'В валюту', 'convSwap': 'Поменять валюты местами',
+    'convQuick': 'Частые суммы подписок', 'convEnterAmount': 'Введите сумму', 'convNoRate': 'Нет курса выбранной валюты',
+    'convNote': 'Официальный курс НБУ, без комиссий. Это не цена покупки или продажи валюты.',
+    'convOther': 'Другие валюты НБУ', 'convBanner': 'Пересчитать подписку в свою валюту',
+    'cur.UAH': 'Гривна', 'cur.USD': 'Доллар США', 'cur.EUR': 'Евро', 'cur.PLN': 'Польский злотый', 'cur.GBP': 'Фунт стерлингов',
     'searchTitle': 'Найдите свой инструмент', 'searchSub': 'Поиск по нейросетям и фильтры',
     'searchPlaceholder': 'Название модели или сервиса', 'findBtn': 'Найти',
     'filterLang': 'Язык интерфейса', 'filterFree': 'Бесплатный тариф', 'filterPlatform': 'Платформа',
@@ -177,7 +183,7 @@ const I18N = {
     'page.offers': 'Акції', 'page.discounts': 'Знижки', 'page.coupons': 'Купони',
     'page.news': 'Новини', 'page.compare': 'Конструктор порівнянь',
     'page.free': 'Безкоштовне і проби', 'page.rankings': 'Рейтинги за задачами',
-    'page.calendar': 'Календар релізів', 'page.community': 'Вибір користувачів',
+    'page.calendar': 'Календар релізів', 'page.community': 'Вибір користувачів', 'page.converter': 'Конвертер валют',
     'desc.chats': 'Універсальні помічники', 'desc.images': 'Генерація та обробка',
     'desc.video': 'Створення відео', 'desc.audio': 'Голос і музика',
     'desc.code': 'Помічники розробника', 'desc.agents': 'Автономні інструменти',
@@ -186,7 +192,7 @@ const I18N = {
     'desc.discounts': 'Знижки та розпродажі', 'desc.coupons': 'Промокоди й купони',
     'desc.news': 'Головне зі світу ШІ', 'desc.compare': 'Порівняння моделей',
     'desc.free': 'Безкоштовне та проби', 'desc.rankings': 'Рейтинги за задачами',
-    'desc.calendar': 'Календар релізів', 'desc.community': 'Вибір користувачів',
+    'desc.calendar': 'Календар релізів', 'desc.community': 'Вибір користувачів', 'desc.converter': 'Підписка у вашій валюті',
     'skip': 'Перейти до змісту', 'brandTag': 'НАВІГАТОР СВІТОМ ШІ',
     'navCatalog': 'Каталог', 'navPrices': 'Ціни', 'navCompare': 'Порівняння', 'navNews': 'Новини',
     'menuAll': 'Всі розділи',
@@ -232,6 +238,12 @@ const I18N = {
     'ratesLoading': 'Завантажуємо дані НБУ…',
     'ratesFail': 'Не вдалося отримати курс НБУ. Спробуйте пізніше.',
     'ratesOn': 'Курс на {v} · джерело НБУ',
+    'converterIntro': 'Скільки коштує підписка у ваших грошах? Введіть суму, оберіть валюти — перерахуємо за офіційним курсом НБУ.',
+    'convAmount': 'Сума', 'convFrom': 'З валюти', 'convTo': 'У валюту', 'convSwap': 'Поміняти валюти місцями',
+    'convQuick': 'Часті суми підписок', 'convEnterAmount': 'Введіть суму', 'convNoRate': 'Немає курсу обраної валюти',
+    'convNote': 'Офіційний курс НБУ, без комісій. Це не ціна купівлі чи продажу валюти.',
+    'convOther': 'Інші валюти НБУ', 'convBanner': 'Перерахувати підписку у свою валюту',
+    'cur.UAH': 'Гривня', 'cur.USD': 'Долар США', 'cur.EUR': 'Євро', 'cur.PLN': 'Польський злотий', 'cur.GBP': 'Фунт стерлінгів',
     'searchTitle': 'Знайдіть свій інструмент', 'searchSub': 'Пошук нейромереж і фільтри',
     'searchPlaceholder': 'Назва моделі або сервісу', 'findBtn': 'Знайти',
     'filterLang': 'Мова інтерфейсу', 'filterFree': 'Безкоштовний тариф', 'filterPlatform': 'Платформа',
@@ -337,7 +349,7 @@ const I18N = {
     'page.offers': 'Deals', 'page.discounts': 'Discounts', 'page.coupons': 'Coupons',
     'page.news': 'News', 'page.compare': 'Comparison builder',
     'page.free': 'Free & trials', 'page.rankings': 'Task ratings',
-    'page.calendar': 'Release calendar', 'page.community': 'Community picks',
+    'page.calendar': 'Release calendar', 'page.community': 'Community picks', 'page.converter': 'Currency converter',
     'desc.chats': 'General-purpose assistants', 'desc.images': 'Generation & editing',
     'desc.video': 'Video creation', 'desc.audio': 'Voice & music',
     'desc.code': 'Developer assistants', 'desc.agents': 'Autonomous tools',
@@ -346,7 +358,7 @@ const I18N = {
     'desc.discounts': 'Discounts & sales', 'desc.coupons': 'Promo codes & coupons',
     'desc.news': 'Top AI news', 'desc.compare': 'Model comparison',
     'desc.free': 'Free tiers & trials', 'desc.rankings': 'Rankings by task',
-    'desc.calendar': 'Release calendar', 'desc.community': 'Users\' choice',
+    'desc.calendar': 'Release calendar', 'desc.community': 'Users\' choice', 'desc.converter': 'Subscriptions in your currency',
     'skip': 'Skip to content', 'brandTag': 'NAVIGATOR OF THE AI WORLD',
     'navCatalog': 'Catalog', 'navPrices': 'Prices', 'navCompare': 'Compare', 'navNews': 'News',
     'menuAll': 'All sections',
@@ -392,6 +404,12 @@ const I18N = {
     'ratesLoading': 'Loading NBU data…',
     'ratesFail': 'Could not get the NBU rate. Try again later.',
     'ratesOn': 'Rate for {v} · source: NBU',
+    'converterIntro': 'What does a subscription cost in your money? Enter an amount, pick the currencies — we convert at the official NBU rate.',
+    'convAmount': 'Amount', 'convFrom': 'From', 'convTo': 'To', 'convSwap': 'Swap currencies',
+    'convQuick': 'Common subscription amounts', 'convEnterAmount': 'Enter an amount', 'convNoRate': 'No rate for the selected currency',
+    'convNote': 'Official NBU rate, no fees. This is not a buy or sell price.',
+    'convOther': 'Other NBU currencies', 'convBanner': 'Convert a subscription into your currency',
+    'cur.UAH': 'Ukrainian hryvnia', 'cur.USD': 'US dollar', 'cur.EUR': 'Euro', 'cur.PLN': 'Polish złoty', 'cur.GBP': 'British pound',
     'searchTitle': 'Find your tool', 'searchSub': 'Search neural networks and filters',
     'searchPlaceholder': 'Model or service name', 'findBtn': 'Search',
     'filterLang': 'Interface language', 'filterFree': 'Free plan', 'filterPlatform': 'Platform',
@@ -505,7 +523,7 @@ function plural(n) {
 }
 const pageName = id => t('page.' + id);
 const brandName = () => lang === 'uk' ? 'НейроАфіна' : lang === 'en' ? 'NeuroAthena' : 'НейроАфина';
-const pageIds = ['home', 'chats', 'images', 'video', 'audio', 'code', 'agents', 'local', 'prices', 'offers', 'discounts', 'coupons', 'news', 'compare', 'free', 'rankings', 'calendar', 'community'];
+const pageIds = ['home', 'chats', 'images', 'video', 'audio', 'code', 'agents', 'local', 'prices', 'converter', 'offers', 'discounts', 'coupons', 'news', 'compare', 'free', 'rankings', 'calendar', 'community'];
 const categories = pageIds.slice(1, 8);
 
 /* ---------- Этап 6: перевод содержимого (механизм) ---------- */
@@ -901,6 +919,7 @@ let pricesFilter = { cat: '', q: '' };
 
 /* Живые эмблемы-шапки страниц (в духе hero-marks Персонального портала). */
 const HERO_MARKS = {
+  converter: '<svg viewBox="0 0 64 64" fill="none" stroke="#80e8ed" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 24h33M37 15l9 9-9 9"/><path d="M52 42H19M27 33l-9 9 9 9"/></svg>',
   chats: '<svg viewBox="0 0 64 64" fill="none" stroke="#80e8ed" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14h30v20H22l-8 7v-7h-4z"/><path d="M44 26h10v16h-4v6l-7-6h-5" opacity=".65"/><circle class="hm-pulse" cx="19" cy="24" r="2.4" fill="#80e8ed"/><circle class="hm-pulse" cx="27" cy="24" r="2.4" fill="#80e8ed" style="animation-delay:.3s"/><circle class="hm-pulse" cx="35" cy="24" r="2.4" fill="#80e8ed" style="animation-delay:.6s"/></svg>',
   images: '<svg viewBox="0 0 64 64" fill="none" stroke="#80e8ed" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="12" width="48" height="40" rx="6"/><circle class="hm-pulse" cx="24" cy="26" r="4"/><path d="M10 46l14-12 10 8 8-6 12 10"/></svg>',
   video: '<svg viewBox="0 0 64 64" fill="none" stroke="#80e8ed" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="14" width="48" height="36" rx="8"/><path class="hm-pulse" d="M28 24l14 8-14 8z" fill="#80e8ed"/></svg>',
@@ -937,7 +956,7 @@ function priceRow(cat, m) {
   return `<article class="price-row"><div class="price-model">${logo ? `<span class="price-logo"><img src="${esc(logo)}" alt="" loading="lazy"></span>` : ''}<div><strong>${esc(m.name)}</strong><span>${esc(pageName(cat))}</span></div></div><div class="price-cell price-cat"><span class="price-cell-label">${t('colCategory')}</span>${esc(pageName(cat))}</div><div class="price-cell price-ua"><span class="price-cell-label">${t('priceUA')}</span>${admin ? priceEditInput(cat, m, 'UA', 'priceUA', p.UA) : priceCell(p.UA)}</div><div class="price-cell"><span class="price-cell-label">${t('priceUS')}</span>${admin ? priceEditInput(cat, m, 'US', 'priceUS', p.US) : priceCell(p.US)}</div><div class="price-cell"><span class="price-cell-label">${t('priceEU')}</span>${admin ? priceEditInput(cat, m, 'EU', 'priceEU', p.EU) : priceCell(p.EU)}</div><div class="price-cell"><span class="price-cell-label">${t('colCheapest')}</span>${admin ? priceEditInput(cat, m, 'cheapest', 'colCheapest', p.cheapest) : (p.cheapest ? `<strong>${esc(p.cheapest)}</strong>` : '—')}</div></article>`;
 }
 function pricesPage() {
-  return `<div class="container route page-route">${pageHead('prices', 'pricesIntro')}<div class="filter-bar"><div class="filter-chips" role="group" aria-label="${t('filterCatLabel')}"><button type="button" data-cat="" class="on">${t('filterAll')}</button>${categories.map(id => `<button type="button" data-cat="${id}">${esc(pageName(id))}</button>`).join('')}</div><div class="searchbar"><input id="priceSearch" type="search" placeholder="${t('pricesSearchPh')}" aria-label="${t('pricesSearchPh')}"></div></div><p class="result-count" id="priceCount"></p><div class="price-head" aria-hidden="true"><span>${t('colModel')}</span><span>${t('colCategory')}</span><span>${t('priceUA')}</span><span>${t('priceUS')}</span><span>${t('priceEU')}</span><span>${t('colCheapest')}</span></div><div class="price-list" id="priceList"></div></div>`;
+  return `<div class="container route page-route">${pageHead('prices', 'pricesIntro')}<a class="conv-banner" href="#/converter"><span>${t('convBanner')}</span><span aria-hidden="true">⇄</span></a><div class="filter-bar"><div class="filter-chips" role="group" aria-label="${t('filterCatLabel')}"><button type="button" data-cat="" class="on">${t('filterAll')}</button>${categories.map(id => `<button type="button" data-cat="${id}">${esc(pageName(id))}</button>`).join('')}</div><div class="searchbar"><input id="priceSearch" type="search" placeholder="${t('pricesSearchPh')}" aria-label="${t('pricesSearchPh')}"></div></div><p class="result-count" id="priceCount"></p><div class="price-head" aria-hidden="true"><span>${t('colModel')}</span><span>${t('colCategory')}</span><span>${t('priceUA')}</span><span>${t('priceUS')}</span><span>${t('priceEU')}</span><span>${t('colCheapest')}</span></div><div class="price-list" id="priceList"></div></div>`;
 }
 function renderPriceList() {
   const box = document.getElementById('priceList'), count = document.getElementById('priceCount');
@@ -1296,10 +1315,68 @@ function choicePage() {
   return `<div class="container route page-route">${pageHead('community', 'choiceIntro')}<p class="result-count">${tr('foundCount', { n: rated.length })}</p><div class="model-list">${rated.map(({ cat, m }, i) => modelCard(cat, m, { showRating: i + 1 })).join('')}</div></div>`;
 }
 
+/* ---------- Конвертер валют (форма как на Персональном портале) ---------- */
+const CONV_FIRST = ['UAH', 'USD', 'EUR', 'PLN', 'GBP'];
+let convRatesCache = null;
+let convState = { amount: '100', from: 'USD', to: 'UAH' };
+try { const s = JSON.parse(localStorage.getItem('neuroathena-converter') || 'null'); if (s) { if (typeof s.amount === 'string' && s.amount.length < 40) convState.amount = s.amount; if (/^[A-Z]{3}$/.test(s.from || '')) convState.from = s.from; if (/^[A-Z]{3}$/.test(s.to || '')) convState.to = s.to; } } catch (e) {}
+
+function converterBlock(p) {
+  return `<div class="conv" data-conv="${p}"><div class="conv-field"><label for="${p}Amt">${t('convAmount')}</label><input id="${p}Amt" type="number" min="0" step="any" inputmode="decimal" value="${esc(convState.amount)}"></div><div class="conv-pair"><div class="conv-field"><label for="${p}From">${t('convFrom')}</label><select id="${p}From"></select></div><button class="conv-swap" id="${p}Swap" type="button" title="${t('convSwap')}" aria-label="${t('convSwap')}">⇄</button><div class="conv-field"><label for="${p}To">${t('convTo')}</label><select id="${p}To"></select></div></div><div class="conv-quick"><span>${t('convQuick')}</span><button type="button" data-chip-amount="20" data-chip-cur="USD">$20</button><button type="button" data-chip-amount="10" data-chip-cur="USD">$10</button><button type="button" data-chip-amount="8" data-chip-cur="USD">$8</button><button type="button" data-chip-amount="229.99" data-chip-cur="UAH">229,99 ₴</button></div><div class="conv-out" id="${p}Out" role="status" aria-live="polite">${t('ratesLoading')}</div><p class="muted conv-note" id="${p}Note"></p></div>`;
+}
+
+function converterPage() {
+  return `<div class="container route page-route">${pageHead('converter', 'converterIntro')}${converterBlock('conv')}</div>`;
+}
+
+async function initConverter(p) {
+  const root = document.querySelector(`[data-conv="${p}"]`);
+  if (!root) return;
+  const amt = root.querySelector('#' + p + 'Amt'), fromSel = root.querySelector('#' + p + 'From'), toSel = root.querySelector('#' + p + 'To'), out = root.querySelector('#' + p + 'Out'), note = root.querySelector('#' + p + 'Note'), swap = root.querySelector('#' + p + 'Swap');
+  if (!convRatesCache) {
+    try {
+      const r = await fetch('https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?json', { cache: 'no-store' });
+      const data = await r.json();
+      const map = { UAH: { rate: 1, txt: '' } };
+      for (const x of data) if (/^[A-Z]{3}$/.test(x.cc) && Number.isFinite(x.rate) && x.rate > 0 && !/^X(AU|AG|PT|PD|DR)$/.test(x.cc)) map[x.cc] = { rate: x.rate, txt: x.txt || '' };
+      convRatesCache = { map, date: (data.find(x => x.cc === 'USD') || {}).exchangedate || '' };
+    } catch (e) { out.textContent = t('ratesFail'); return; }
+  }
+  const map = convRatesCache.map;
+  const first = CONV_FIRST.filter(cc => map[cc]);
+  const extra = Object.keys(map).filter(cc => !CONV_FIRST.includes(cc)).sort((a, b) => a.localeCompare(b));
+  const optFirst = cc => `<option value="${cc}">${cc} — ${esc(t('cur.' + cc))}</option>`;
+  const optExtra = cc => `<option value="${cc}">${cc} — ${esc(map[cc].txt || cc)}</option>`;
+  const options = first.map(optFirst).join('') + (extra.length ? `<optgroup label="${esc(t('convOther'))}">${extra.map(optExtra).join('')}</optgroup>` : '');
+  fromSel.innerHTML = options; toSel.innerHTML = options;
+  fromSel.value = map[convState.from] ? convState.from : 'USD';
+  toSel.value = map[convState.to] ? convState.to : 'UAH';
+  const fmtAmt = v => v.toLocaleString(newsLocale(), { maximumFractionDigits: 8 });
+  const fmtRes = v => v.toLocaleString(newsLocale(), { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  const run = persist => {
+    const raw = amt.value, a = Number(raw), from = fromSel.value, to = toSel.value;
+    convState = { amount: raw, from, to };
+    if (persist) { try { localStorage.setItem('neuroathena-converter', JSON.stringify(convState)); } catch (e) {} }
+    if (raw === '' || !Number.isFinite(a) || a < 0) { out.textContent = t('convEnterAmount'); return; }
+    const f = map[from], tt = map[to];
+    if (!f || !tt) { out.textContent = t('convNoRate'); return; }
+    const v = from === to ? a : a * f.rate / tt.rate;
+    out.textContent = `${fmtAmt(a)} ${from} = ${fmtRes(v)} ${to}`;
+  };
+  amt.addEventListener('input', () => run(true));
+  fromSel.addEventListener('change', () => run(true));
+  toSel.addEventListener('change', () => run(true));
+  swap.addEventListener('click', () => { const v = fromSel.value; fromSel.value = toSel.value; toSel.value = v; run(true); });
+  root.querySelectorAll('[data-chip-amount]').forEach(b => b.addEventListener('click', () => { amt.value = b.dataset.chipAmount; if (map[b.dataset.chipCur]) fromSel.value = b.dataset.chipCur; run(true); }));
+  note.textContent = (convRatesCache.date ? tr('ratesOn', { v: convRatesCache.date }) + ' · ' : '') + t('convNote');
+  run(false);
+}
+
 /* ---------- Главная ---------- */
 function home() {
   return `<div class="hero"><section class="hero-panel"><div class="hero-copy"><div class="eyebrow">${t('heroEyebrow')}</div><h1>Нейро<span>Афина</span></h1><p>${t('heroTag')}</p><div class="hero-actions"><a class="button primary" href="#categories">${t('openCatalog')}</a><a class="button" href="#/compare">${t('compareModels')}</a></div></div><div class="hero-medal"><video autoplay muted loop playsinline poster="assets/athena-hero.webp" src="assets/athena-live.mp4" aria-label="Афина"></video></div><div class="hero-clock"><strong id="clock">--:--:--</strong><span id="date"></span></div></section></div>`
     + `<div class="container"><div class="status-strip"><div class="rates"><strong>${t('ratesTitle')}</strong><span>USD <strong id="usd">—</strong></span><span>EUR <strong id="eur">—</strong></span><button type="button" class="rate-refresh" id="refreshRates">${t('refreshRates')}</button></div><span class="muted" id="ratesInfo" role="status">${t('ratesLoading')}</span></div>`
+    + `<section class="section conv-section" aria-labelledby="convTitle"><div class="section-head"><div><h2 id="convTitle">${t('page.converter')}</h2><p>${t('converterIntro')}</p></div></div>${converterBlock('home')}</section>`
     + `<section class="section" aria-labelledby="searchTitle"><div class="section-head"><div><h2 id="searchTitle">${t('searchTitle')}</h2><p>${t('searchSub')}</p></div></div><div class="search-panel"><form id="modelSearch"><div class="searchbar"><input name="q" aria-label="${t('searchTitle')}" placeholder="${t('searchPlaceholder')}"><button class="button primary" type="submit">${t('findBtn')}</button></div><div class="filter-controls"><label>${t('filterLang')}<select name="language"><option value="">${t('optAny')}</option><option value="ru">${t('optRu')}</option><option value="uk">${t('optUk')}</option></select></label><label>${t('filterFree')}<select name="free"><option value="">${t('optAny')}</option><option value="yes">${t('optFreeYes')}</option></select></label><label>${t('filterPlatform')}<select name="platform"><option value="">${t('optAnyF')}</option><option value="web">${t('optWeb')}</option><option value="windows">Windows</option><option value="android">Android</option><option value="ios">iOS</option></select></label></div></form><div id="searchResults" role="status" aria-live="polite"></div><p class="search-note">${t('searchNote')}</p></div></section>`
     + `<section class="section" id="categories"><div class="section-head"><div><div class="eyebrow">${t('catEyebrow')}</div><h2>${t('catTitle')}</h2><p>${t('catSub')}</p></div></div><div class="cards">${categoryCards()}${sectionCards()}</div></section>`
     + `<section class="section" id="favSection">${favSectionHtml()}</section>`
@@ -1365,7 +1442,7 @@ function route() {
   if (!pageIds.includes(id)) id = 'home';
   document.body.dataset.route = id; markActiveNav(); time();
   if (id === 'home') {
-    main.innerHTML = home(); rates(); initSearch(); initHome();
+    main.innerHTML = home(); rates(); initSearch(); initHome(); initConverter('home');
     if (hash === '#categories') document.getElementById('categories').scrollIntoView();
   } else if (categories.includes(id)) {
     main.innerHTML = categoryPage(id);
@@ -1380,6 +1457,9 @@ function route() {
     pricesFilter = { cat: '', q: '' };
     main.innerHTML = pricesPage();
     initPrices();
+  } else if (id === 'converter') {
+    main.innerHTML = converterPage();
+    initConverter('conv');
   } else if (id === 'offers' || id === 'discounts' || id === 'coupons') {
     main.innerHTML = offersPage(id);
     initOffers(id);
