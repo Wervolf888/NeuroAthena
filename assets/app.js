@@ -1549,12 +1549,18 @@ main.addEventListener('click', e => {
   const idxBtn = e.target.closest('.model-index button[data-model]');
   if (idxBtn) {
     const card = document.getElementById(`model-${idxBtn.dataset.cat}-${idxBtn.dataset.model}`);
-    if (card) { setCardExpanded(card, true); card.scrollIntoView({ block: 'start' }); }
+    if (card) { const on = !card.classList.contains('expanded'); setCardExpanded(card, on); if (on) card.scrollIntoView({ block: 'start' }); }
     return;
   }
   const detBtn = e.target.closest('.details-btn');
   if (detBtn) {
     const card = detBtn.closest('.model-card');
+    if (card) setCardExpanded(card, !card.classList.contains('expanded'));
+    return;
+  }
+  const top = e.target.closest('.model-top');
+  if (top && !e.target.closest('.fav-btn')) {
+    const card = top.closest('.model-card');
     if (card) setCardExpanded(card, !card.classList.contains('expanded'));
     return;
   }
