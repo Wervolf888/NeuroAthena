@@ -119,7 +119,16 @@ for (const it of byUrl.values()) {
   for (const k of ['title_ru', 'text_ru', 'title_uk', 'text_uk']) if (prev[k] && !it[k]) it[k] = prev[k];
   if (!it.image && prev.image) it.image = prev.image;
 }
-const auto = [...byUrl.values()].sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0, MAX_ITEMS);
+const normTitle = t => String(t || '').toLowerCase().replace(/[^a-z\u0430-\u044f\u0451\u0456\u0457\u0454\u04910-9]+/gi, ' ').trim();
+const seenTitles = new Set(manual.map(it => normTitle(it.title)).filter(Boolean));
+const deduped = [];
+for (const it of [...byUrl.values()].sort((a, b) => (b.text || '').length - (a.text || '').length)) {
+  const nt = normTitle(it.title);
+  if (nt && seenTitles.has(nt)) continue;
+  if (nt) seenTitles.add(nt);
+  deduped.push(it);
+}
+const auto = deduped.sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0, MAX_ITEMS);
 
 if (!auto.length && FEEDS.length) {
   console.error('No items collected from any feed — keeping the old file.');
