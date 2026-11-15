@@ -558,3 +558,11 @@ body[data-route="converter"] .page-head{background-image:none}
 .share-strip-links{display:flex;gap:8px;flex-wrap:wrap}
 .share-strip-links .share-net{padding:8px 14px}
 @media (max-width:640px){.share-strip{flex-direction:column;text-align:center}.share-strip-links{justify-content:center}.share-btn span:last-child{display:none}}
+
+/* === Правки 15.11.2026 v24: сворачиваемый выбор моделей и экспорт сравнения === */
+.picker-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}
+.picker-head h3{margin:0}
+.export-block{margin-top:18px;background:#0c1d2b;border:1px solid #24455c;border-radius:14px;padding:16px}
+.export-block h3{margin:0 0 10px}
+.export-btns{display:flex;gap:8px;flex-wrap:wrap}
+.export-note{color:#9db8c6;font-size:13.5px;margin:10px 0 0;line-height:1.45}
