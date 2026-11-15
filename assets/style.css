@@ -488,3 +488,9 @@ body[data-route="converter"] .page-head{background-image:none}
 .conv-banner{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:0 0 18px;padding:15px 18px;border:1px solid #497384;border-radius:10px;background:linear-gradient(135deg,rgba(24,43,59,.9),rgba(15,26,40,.94));color:#9de9ec;font-weight:650;font-size:17px}
 .conv-banner:hover{filter:brightness(1.15)}
 @media(max-width:650px){.conv{padding:16px}.conv-pair{gap:7px}.conv-swap{width:42px}}
+
+/* === Правки 15.11.2026 v18: сворачиваемые блоки главной === */
+.collapse-btn{flex:none;width:42px;height:42px;border-radius:50%;border:1px solid #497384;background:#12293a;color:#9de9ec;font-size:19px;line-height:1;cursor:pointer;transition:transform .25s ease;display:inline-flex;align-items:center;justify-content:center}
+.collapse-btn:hover{filter:brightness(1.2)}
+.collapse-btn.closed{transform:rotate(-90deg)}
+.collapsible[hidden]{display:none}
