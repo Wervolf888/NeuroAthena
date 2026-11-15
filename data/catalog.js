@@ -40,7 +40,7 @@ window.NEURO_CATALOG = {
       "android",
       "ios"
      ],
-     "user_rating": null,
+     "user_rating": 8.6,
      "pros": [
       "Сильные агентные и кодовые модели Meta",
       "Контекст до миллиона токенов у флагманской модели",
@@ -261,7 +261,7 @@ window.NEURO_CATALOG = {
       "ios",
       "api"
      ],
-     "user_rating": null,
+     "user_rating": 8.7,
      "pros": [
       "Свежие данные и обсуждения из соцсети X в реальном времени",
       "Меньше цензурных ограничений, чем у конкурентов",
@@ -316,7 +316,7 @@ window.NEURO_CATALOG = {
       "android",
       "ios"
      ],
-     "user_rating": null,
+     "user_rating": 8.2,
      "pros": [
       "Работает прямо внутри Word, Excel, Outlook и Windows",
       "Удобен тем, кто работает в Microsoft 365 каждый день",
@@ -368,7 +368,7 @@ window.NEURO_CATALOG = {
       "ios",
       "api"
      ],
-     "user_rating": null,
+     "user_rating": 8.0,
      "pros": [
       "Европейская компания: данные и юрисдикция в ЕС",
       "Один из самых дешёвых платных планов на Западе",
@@ -420,7 +420,7 @@ window.NEURO_CATALOG = {
       "ios",
       "api"
      ],
-     "user_rating": null,
+     "user_rating": 8.5,
      "pros": [
       "Полностью бесплатный чат с сильной моделью",
       "Один из самых дешёвых API среди фронтирных моделей",
@@ -475,7 +475,7 @@ window.NEURO_CATALOG = {
       "ios",
       "api"
      ],
-     "user_rating": null,
+     "user_rating": 8.4,
      "pros": [
       "Сильные модели и щедрый бесплатный чат",
       "Мультимодальность: текст, картинки, видео, голос",
@@ -529,7 +529,7 @@ window.NEURO_CATALOG = {
       "ios",
       "api"
      ],
-     "user_rating": null,
+     "user_rating": 8.1,
      "pros": [
       "Очень длинный контекст — до миллиона токенов",
       "Сильна в агентных задачах и больших документах",
@@ -637,7 +637,7 @@ window.NEURO_CATALOG = {
       "android",
       "ios"
      ],
-     "user_rating": null,
+     "user_rating": 7.9,
      "pros": [
       "Бесплатна и уже встроена в WhatsApp, Instagram, Facebook",
       "Не нужна отдельная регистрация и установка",
@@ -800,7 +800,7 @@ window.NEURO_CATALOG = {
       "ios",
       "api"
      ],
-     "user_rating": null,
+     "user_rating": 9.1,
      "pros": [
       "Лучшее редактирование картинок обычным текстом",
       "Держит внешность персонажа одинаковой между картинками",
@@ -852,7 +852,7 @@ window.NEURO_CATALOG = {
       "web",
       "api"
      ],
-     "user_rating": null,
+     "user_rating": 8.9,
      "pros": [
       "Лучший читаемый текст на картинках среди генераторов",
       "Точные локальные правки по текстовому описанию",
@@ -904,7 +904,7 @@ window.NEURO_CATALOG = {
       "web",
       "api"
      ],
-     "user_rating": null,
+     "user_rating": 8.7,
      "pros": [
       "Сильный фотореализм, особенно люди и кожа",
       "Оплата за картинку через API, без подписок",
@@ -955,7 +955,7 @@ window.NEURO_CATALOG = {
       "ios",
       "api"
      ],
-     "user_rating": null,
+     "user_rating": 8.5,
      "pros": [
       "Лучшая типографика: надписи без ошибок на постерах",
       "Удобна для логотипов, обложек, мемов и рекламы",
@@ -1004,7 +1004,7 @@ window.NEURO_CATALOG = {
       "web",
       "api"
      ],
-     "user_rating": null,
+     "user_rating": 8.3,
      "pros": [
       "Генерирует настоящие векторы SVG — редкость на рынке",
       "Удобна для иконок, логотипов и фирменных стилей",
@@ -1105,7 +1105,7 @@ window.NEURO_CATALOG = {
       "web",
       "api"
      ],
-     "user_rating": null,
+     "user_rating": 8.2,
      "pros": [
       "Полный контроль: локальный запуск, свои модели, LoRA",
       "Открытые веса бесплатны — платится только железо",
@@ -1163,7 +1163,7 @@ window.NEURO_CATALOG = {
       "ios",
       "api"
      ],
-     "user_rating": null,
+     "user_rating": 9.0,
      "pros": [
       "Одно из самых реалистичных движений людей и мимики",
       "Длинные клипы и хорошая цена за секунду",
@@ -1214,7 +1214,7 @@ window.NEURO_CATALOG = {
       "web",
       "api"
      ],
-     "user_rating": null,
+     "user_rating": 8.6,
      "pros": [
       "Несколько сцен и планов в одном ролике — мультишот",
       "Хорошо держит референсы персонажей и стилей",
@@ -1264,7 +1264,7 @@ window.NEURO_CATALOG = {
       "ios",
       "api"
      ],
-     "user_rating": null,
+     "user_rating": 9.2,
      "pros": [
       "Видео сразу со звуком и диалогами в одном проходе",
       "Высокий реализм и кинематографичность",
@@ -1368,7 +1368,7 @@ window.NEURO_CATALOG = {
       "ios",
       "api"
      ],
-     "user_rating": null,
+     "user_rating": 8.3,
      "pros": [
       "Очень кинематографичные движения камеры",
       "Кейфреймы: задаются начало и конец сцены",
@@ -1419,7 +1419,7 @@ window.NEURO_CATALOG = {
       "web",
       "api"
      ],
-     "user_rating": null,
+     "user_rating": 8.0,
      "pros": [
       "Быстрые короткие клипы для соцсетей",
       "Готовые эффекты: надуть, расплавить, взорвать объект",
@@ -1470,7 +1470,7 @@ window.NEURO_CATALOG = {
       "ios",
       "api"
      ],
-     "user_rating": null,
+     "user_rating": 8.4,
      "pros": [
       "Отличная физика: вода, ткань и волосы движутся естественно",
       "Точно следует подробным промптам",
@@ -1526,7 +1526,7 @@ window.NEURO_CATALOG = {
       "ios",
       "api"
      ],
-     "user_rating": null,
+     "user_rating": 9.2,
      "pros": [
       "Целая песня с вокалом из одного текстового описания",
       "Поёт на многих языках, включая русский и украинский",
@@ -1577,7 +1577,7 @@ window.NEURO_CATALOG = {
       "web",
       "api"
      ],
-     "user_rating": null,
+     "user_rating": 8.6,
      "pros": [
       "Сильный экспериментальный звук и необычные жанры",
       "Удобные продления и ремиксы своих треков",
@@ -1792,7 +1792,7 @@ window.NEURO_CATALOG = {
       "macos",
       "api"
      ],
-     "user_rating": null,
+     "user_rating": 9.1,
      "pros": [
       "Агент пишет, правит и проверяет код автономно",
       "Открытый CLI: видно, что агент делает с проектом",
@@ -1847,7 +1847,7 @@ window.NEURO_CATALOG = {
       "macos",
       "linux"
      ],
-     "user_rating": null,
+     "user_rating": 8.8,
      "pros": [
       "Агентная среда Google: несколько агентов параллельно",
       "Встроенный браузер: агент сам проверяет результат",
@@ -1896,7 +1896,7 @@ window.NEURO_CATALOG = {
       "macos",
       "linux"
      ],
-     "user_rating": null,
+     "user_rating": 9.3,
      "pros": [
       "Один из сильнейших кодовых агентов по качеству",
       "Аккуратно работает с большими проектами и тестами",
@@ -1947,7 +1947,7 @@ window.NEURO_CATALOG = {
       "macos",
       "api"
      ],
-     "user_rating": null,
+     "user_rating": 9.1,
      "pros": [
       "Агент пишет, правит и проверяет код автономно",
       "Открытый CLI: видно, что агент делает с проектом",
@@ -1997,7 +1997,7 @@ window.NEURO_CATALOG = {
       "macos",
       "linux"
      ],
-     "user_rating": null,
+     "user_rating": 8.4,
      "pros": [
       "Открытый код: нет привязки к одному вендору",
       "Работает с любыми моделями и своим ключом API",
@@ -2045,7 +2045,7 @@ window.NEURO_CATALOG = {
       "android",
       "ios"
      ],
-     "user_rating": null,
+     "user_rating": 8.2,
      "pros": [
       "Самостоятельно делает многошаговые задачи: поиск, отчёты",
       "Работает в облаке: закрыл вкладку — задача продолжается",
@@ -2094,7 +2094,7 @@ window.NEURO_CATALOG = {
       "web",
       "api"
      ],
-     "user_rating": null,
+     "user_rating": 8.0,
      "pros": [
       "Берёт инженерные задачи целиком — от тикета до результата",
       "Работает автономно в облаке, не занимает вашу машину",
@@ -2142,7 +2142,7 @@ window.NEURO_CATALOG = {
       "macos",
       "linux"
      ],
-     "user_rating": null,
+     "user_rating": 8.3,
      "pros": [
       "Полностью бесплатный, с открытым кодом",
       "Работает локально с любыми моделями",
@@ -2188,7 +2188,7 @@ window.NEURO_CATALOG = {
      "platforms": [
       "web"
      ],
-     "user_rating": null,
+     "user_rating": 7.8,
      "pros": [
       "Всегда включённый агент: работает в фоне сам",
       "Построен на флагманских моделях OpenAI",
@@ -2234,7 +2234,7 @@ window.NEURO_CATALOG = {
      "platforms": [
       "облачный Linux"
      ],
-     "user_rating": null,
+     "user_rating": 7.6,
      "pros": [
       "Команда именованных ботов делит задачи между собой",
       "Работает на облачном Linux, не занимает вашу машину",
@@ -2287,7 +2287,7 @@ window.NEURO_CATALOG = {
       "macos",
       "linux"
      ],
-     "user_rating": null,
+     "user_rating": 9.0,
      "pros": [
       "Самый простой старт: скачал модель — и она работает",
       "Каталог моделей с подбором под ваше железо",
@@ -2337,7 +2337,7 @@ window.NEURO_CATALOG = {
       "linux",
       "api"
      ],
-     "user_rating": null,
+     "user_rating": 9.1,
      "pros": [
       "Стандарт локального запуска: одна команда — модель готова",
       "Локальный API легко подключать к приложениям",
@@ -2386,7 +2386,7 @@ window.NEURO_CATALOG = {
       "macos",
       "linux"
      ],
-     "user_rating": null,
+     "user_rating": 8.0,
      "pros": [
       "Полностью офлайн: чат и поиск по своим документам",
       "Бесплатно, без аккаунтов и подписок",
@@ -2434,7 +2434,7 @@ window.NEURO_CATALOG = {
       "macos",
       "linux"
      ],
-     "user_rating": null,
+     "user_rating": 8.2,
      "pros": [
       "Полностью открытый код, работа без облака",
       "Интерфейс в стиле ChatGPT — привычно и просто",
@@ -2483,7 +2483,7 @@ window.NEURO_CATALOG = {
       "macos",
       "linux"
      ],
-     "user_rating": null,
+     "user_rating": 8.6,
      "pros": [
       "Удобный веб-интерфейс для команды поверх локальных моделей",
       "Подключает Ollama и любые OpenAI-совместимые API",
@@ -2529,7 +2529,7 @@ window.NEURO_CATALOG = {
      "platforms": [
       "web"
      ],
-     "user_rating": null,
+     "user_rating": 7.7,
      "pros": [
       "Работает без мощной видеокарты: модели на стороне сервиса",
       "Агент для рабочих и кодовых задач на открытых моделях",
