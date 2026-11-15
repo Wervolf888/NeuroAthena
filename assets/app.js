@@ -76,7 +76,7 @@ const I18N = {
     'convAmount': 'Сумма', 'convFrom': 'Из валюты', 'convTo': 'В валюту', 'convSwap': 'Поменять валюты местами',
     'convQuick': 'Частые суммы подписок', 'convEnterAmount': 'Введите сумму', 'convNoRate': 'Нет курса выбранной валюты',
     'convNote': 'Официальный курс НБУ, без комиссий. Это не цена покупки или продажи валюты.',
-    'convOther': 'Другие валюты НБУ', 'convBanner': 'Пересчитать подписку в свою валюту',
+    'convOther': 'Другие валюты НБУ', 'convBanner': 'Пересчитать подписку в свою валюту', 'collapseBlock': 'Свернуть блок', 'expandBlock': 'Развернуть блок',
     'cur.UAH': 'Гривна', 'cur.USD': 'Доллар США', 'cur.EUR': 'Евро', 'cur.PLN': 'Польский злотый', 'cur.GBP': 'Фунт стерлингов',
     'searchTitle': 'Найдите свой инструмент', 'searchSub': 'Поиск по нейросетям и фильтры',
     'searchPlaceholder': 'Название модели или сервиса', 'findBtn': 'Найти',
@@ -242,7 +242,7 @@ const I18N = {
     'convAmount': 'Сума', 'convFrom': 'З валюти', 'convTo': 'У валюту', 'convSwap': 'Поміняти валюти місцями',
     'convQuick': 'Часті суми підписок', 'convEnterAmount': 'Введіть суму', 'convNoRate': 'Немає курсу обраної валюти',
     'convNote': 'Офіційний курс НБУ, без комісій. Це не ціна купівлі чи продажу валюти.',
-    'convOther': 'Інші валюти НБУ', 'convBanner': 'Перерахувати підписку у свою валюту',
+    'convOther': 'Інші валюти НБУ', 'convBanner': 'Перерахувати підписку у свою валюту', 'collapseBlock': 'Згорнути блок', 'expandBlock': 'Розгорнути блок',
     'cur.UAH': 'Гривня', 'cur.USD': 'Долар США', 'cur.EUR': 'Євро', 'cur.PLN': 'Польський злотий', 'cur.GBP': 'Фунт стерлінгів',
     'searchTitle': 'Знайдіть свій інструмент', 'searchSub': 'Пошук нейромереж і фільтри',
     'searchPlaceholder': 'Назва моделі або сервісу', 'findBtn': 'Знайти',
@@ -408,7 +408,7 @@ const I18N = {
     'convAmount': 'Amount', 'convFrom': 'From', 'convTo': 'To', 'convSwap': 'Swap currencies',
     'convQuick': 'Common subscription amounts', 'convEnterAmount': 'Enter an amount', 'convNoRate': 'No rate for the selected currency',
     'convNote': 'Official NBU rate, no fees. This is not a buy or sell price.',
-    'convOther': 'Other NBU currencies', 'convBanner': 'Convert a subscription into your currency',
+    'convOther': 'Other NBU currencies', 'convBanner': 'Convert a subscription into your currency', 'collapseBlock': 'Collapse section', 'expandBlock': 'Expand section',
     'cur.UAH': 'Ukrainian hryvnia', 'cur.USD': 'US dollar', 'cur.EUR': 'Euro', 'cur.PLN': 'Polish złoty', 'cur.GBP': 'British pound',
     'searchTitle': 'Find your tool', 'searchSub': 'Search neural networks and filters',
     'searchPlaceholder': 'Model or service name', 'findBtn': 'Search',
@@ -1315,6 +1315,13 @@ function choicePage() {
   return `<div class="container route page-route">${pageHead('community', 'choiceIntro')}<p class="result-count">${tr('foundCount', { n: rated.length })}</p><div class="model-list">${rated.map(({ cat, m }, i) => modelCard(cat, m, { showRating: i + 1 })).join('')}</div></div>`;
 }
 
+/* ---------- Сворачиваемые блоки главной ---------- */
+function collState() { try { return JSON.parse(localStorage.getItem('neuroathena-collapsed') || '{}'); } catch (e) { return {}; } }
+function collClosed(key) { return collState()[key] !== false; }
+function collapseBtn(key) { const c = collClosed(key); return `<button type="button" class="collapse-btn${c ? ' closed' : ''}" data-collapse="${key}" aria-expanded="${!c}" title="${c ? t('expandBlock') : t('collapseBlock')}">▾</button>`; }
+function collWrapStart(key) { return `<div class="collapsible" data-collapsible="${key}"${collClosed(key) ? ' hidden' : ''}>`; }
+function initCollapse() { document.querySelectorAll('[data-collapse]').forEach(b => b.addEventListener('click', () => { const key = b.dataset.collapse; const body = document.querySelector(`[data-collapsible="${key}"]`); if (!body) return; const nowHidden = !body.hidden; body.hidden = nowHidden; b.classList.toggle('closed', nowHidden); b.setAttribute('aria-expanded', String(!nowHidden)); b.title = nowHidden ? t('expandBlock') : t('collapseBlock'); const st = collState(); st[key] = nowHidden; try { localStorage.setItem('neuroathena-collapsed', JSON.stringify(st)); } catch (e) {} })); }
+
 /* ---------- Конвертер валют (форма как на Персональном портале) ---------- */
 const CONV_FIRST = ['UAH', 'USD', 'EUR', 'PLN', 'GBP'];
 let convRatesCache = null;
@@ -1376,8 +1383,8 @@ async function initConverter(p) {
 function home() {
   return `<div class="hero"><section class="hero-panel"><div class="hero-copy"><div class="eyebrow">${t('heroEyebrow')}</div><h1>Нейро<span>Афина</span></h1><p>${t('heroTag')}</p><div class="hero-actions"><a class="button primary" href="#categories">${t('openCatalog')}</a><a class="button" href="#/compare">${t('compareModels')}</a></div></div><div class="hero-medal"><video autoplay muted loop playsinline poster="assets/athena-hero.webp" src="assets/athena-live.mp4" aria-label="Афина"></video></div><div class="hero-clock"><strong id="clock">--:--:--</strong><span id="date"></span></div></section></div>`
     + `<div class="container"><div class="status-strip"><div class="rates"><strong>${t('ratesTitle')}</strong><span>USD <strong id="usd">—</strong></span><span>EUR <strong id="eur">—</strong></span><button type="button" class="rate-refresh" id="refreshRates">${t('refreshRates')}</button></div><span class="muted" id="ratesInfo" role="status">${t('ratesLoading')}</span></div>`
-    + `<section class="section conv-section" aria-labelledby="convTitle"><div class="section-head"><div><h2 id="convTitle">${t('page.converter')}</h2><p>${t('converterIntro')}</p></div></div>${converterBlock('home')}</section>`
-    + `<section class="section" aria-labelledby="searchTitle"><div class="section-head"><div><h2 id="searchTitle">${t('searchTitle')}</h2><p>${t('searchSub')}</p></div></div><div class="search-panel"><form id="modelSearch"><div class="searchbar"><input name="q" aria-label="${t('searchTitle')}" placeholder="${t('searchPlaceholder')}"><button class="button primary" type="submit">${t('findBtn')}</button></div><div class="filter-controls"><label>${t('filterLang')}<select name="language"><option value="">${t('optAny')}</option><option value="ru">${t('optRu')}</option><option value="uk">${t('optUk')}</option></select></label><label>${t('filterFree')}<select name="free"><option value="">${t('optAny')}</option><option value="yes">${t('optFreeYes')}</option></select></label><label>${t('filterPlatform')}<select name="platform"><option value="">${t('optAnyF')}</option><option value="web">${t('optWeb')}</option><option value="windows">Windows</option><option value="android">Android</option><option value="ios">iOS</option></select></label></div></form><div id="searchResults" role="status" aria-live="polite"></div><p class="search-note">${t('searchNote')}</p></div></section>`
+    + `<section class="section conv-section" aria-labelledby="convTitle"><div class="section-head"><div><h2 id="convTitle">${t('page.converter')}</h2><p>${t('converterIntro')}</p></div>${collapseBtn('conv')}</div>${collWrapStart('conv')}${converterBlock('home')}</div></section>`
+    + `<section class="section" aria-labelledby="searchTitle"><div class="section-head"><div><h2 id="searchTitle">${t('searchTitle')}</h2><p>${t('searchSub')}</p></div>${collapseBtn('search')}</div>${collWrapStart('search')}<div class="search-panel"><form id="modelSearch"><div class="searchbar"><input name="q" aria-label="${t('searchTitle')}" placeholder="${t('searchPlaceholder')}"><button class="button primary" type="submit">${t('findBtn')}</button></div><div class="filter-controls"><label>${t('filterLang')}<select name="language"><option value="">${t('optAny')}</option><option value="ru">${t('optRu')}</option><option value="uk">${t('optUk')}</option></select></label><label>${t('filterFree')}<select name="free"><option value="">${t('optAny')}</option><option value="yes">${t('optFreeYes')}</option></select></label><label>${t('filterPlatform')}<select name="platform"><option value="">${t('optAnyF')}</option><option value="web">${t('optWeb')}</option><option value="windows">Windows</option><option value="android">Android</option><option value="ios">iOS</option></select></label></div></form><div id="searchResults" role="status" aria-live="polite"></div><p class="search-note">${t('searchNote')}</p></div></div></section>`
     + `<section class="section" id="categories"><div class="section-head"><div><div class="eyebrow">${t('catEyebrow')}</div><h2>${t('catTitle')}</h2><p>${t('catSub')}</p></div></div><div class="cards">${categoryCards()}${sectionCards()}</div></section>`
     + `<section class="section" id="favSection">${favSectionHtml()}</section>`
     + `<section class="section"><div class="section-head"><div><div class="eyebrow">${t('weekEyebrow')}</div><h2>${t('weekTitle')}</h2></div></div><div class="editorial"><article class="feature" id="weekModel"><span class="label">${t('featWeek')}</span><h3>${t('featWeekNone')}</h3><p>${t('featWeekText')}</p></article><article class="feature" id="weekTop"><span class="label">${t('featTop')}</span><h3>${t('featTopNone')}</h3><p>${t('featTopText')}</p></article></div></section>`
@@ -1442,7 +1449,7 @@ function route() {
   if (!pageIds.includes(id)) id = 'home';
   document.body.dataset.route = id; markActiveNav(); time();
   if (id === 'home') {
-    main.innerHTML = home(); rates(); initSearch(); initHome(); initConverter('home');
+    main.innerHTML = home(); rates(); initSearch(); initHome(); initConverter('home'); initCollapse();
     if (hash === '#categories') document.getElementById('categories').scrollIntoView();
   } else if (categories.includes(id)) {
     main.innerHTML = categoryPage(id);
