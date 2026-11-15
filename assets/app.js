@@ -76,7 +76,7 @@ const I18N = {
     'convAmount': 'Сумма', 'convFrom': 'Из валюты', 'convTo': 'В валюту', 'convSwap': 'Поменять валюты местами',
     'convQuick': 'Частые суммы подписок', 'convEnterAmount': 'Введите сумму', 'convNoRate': 'Нет курса выбранной валюты',
     'convNote': 'Официальный курс НБУ, без комиссий. Это не цена покупки или продажи валюты.',
-    'convOther': 'Другие валюты НБУ', 'convBanner': 'Пересчитать подписку в свою валюту', 'collapseBlock': 'Свернуть блок', 'expandBlock': 'Развернуть блок',
+    'convOther': 'Другие валюты НБУ', 'convBanner': 'Пересчитать подписку в свою валюту', 'collapseBlock': 'Свернуть блок', 'expandBlock': 'Развернуть блок', 'qfAll': 'Все', 'qfFree': 'Бесплатные', 'qfRu': 'С русским', 'qfUk': 'С украинским', 'qfEmpty': 'По этому фильтру пока ничего нет.', 'badgeToday': 'Обновлено сегодня', 'toCompare': 'В сравнение', 'inCompare': 'В сравнении', 'picksTitle': 'Подборки под задачу', 'picksSub': 'Лучшие модели по оценкам пользователей — под вашу задачу.', 'pick.chats': 'Тексты и общение', 'pick.images': 'Картинки и дизайн', 'pick.video': 'Видео', 'pick.audio': 'Звук и озвучка', 'pick.code': 'Код и разработка',
     'cur.UAH': 'Гривна', 'cur.USD': 'Доллар США', 'cur.EUR': 'Евро', 'cur.PLN': 'Польский злотый', 'cur.GBP': 'Фунт стерлингов',
     'searchTitle': 'Найдите свой инструмент', 'searchSub': 'Поиск по нейросетям и фильтры',
     'searchPlaceholder': 'Название модели или сервиса', 'findBtn': 'Найти',
@@ -242,7 +242,7 @@ const I18N = {
     'convAmount': 'Сума', 'convFrom': 'З валюти', 'convTo': 'У валюту', 'convSwap': 'Поміняти валюти місцями',
     'convQuick': 'Часті суми підписок', 'convEnterAmount': 'Введіть суму', 'convNoRate': 'Немає курсу обраної валюти',
     'convNote': 'Офіційний курс НБУ, без комісій. Це не ціна купівлі чи продажу валюти.',
-    'convOther': 'Інші валюти НБУ', 'convBanner': 'Перерахувати підписку у свою валюту', 'collapseBlock': 'Згорнути блок', 'expandBlock': 'Розгорнути блок',
+    'convOther': 'Інші валюти НБУ', 'convBanner': 'Перерахувати підписку у свою валюту', 'collapseBlock': 'Згорнути блок', 'expandBlock': 'Розгорнути блок', 'qfAll': 'Усі', 'qfFree': 'Безкоштовні', 'qfRu': 'З російською', 'qfUk': 'З українською', 'qfEmpty': 'За цим фільтром поки нічого немає.', 'badgeToday': 'Оновлено сьогодні', 'toCompare': 'До порівняння', 'inCompare': 'У порівнянні', 'picksTitle': 'Добірки під задачу', 'picksSub': 'Найкращі моделі за оцінками користувачів — під ваше завдання.', 'pick.chats': 'Тексти і спілкування', 'pick.images': 'Картинки і дизайн', 'pick.video': 'Відео', 'pick.audio': 'Звук і озвучка', 'pick.code': 'Код і розробка',
     'cur.UAH': 'Гривня', 'cur.USD': 'Долар США', 'cur.EUR': 'Євро', 'cur.PLN': 'Польський злотий', 'cur.GBP': 'Фунт стерлінгів',
     'searchTitle': 'Знайдіть свій інструмент', 'searchSub': 'Пошук нейромереж і фільтри',
     'searchPlaceholder': 'Назва моделі або сервісу', 'findBtn': 'Знайти',
@@ -408,7 +408,7 @@ const I18N = {
     'convAmount': 'Amount', 'convFrom': 'From', 'convTo': 'To', 'convSwap': 'Swap currencies',
     'convQuick': 'Common subscription amounts', 'convEnterAmount': 'Enter an amount', 'convNoRate': 'No rate for the selected currency',
     'convNote': 'Official NBU rate, no fees. This is not a buy or sell price.',
-    'convOther': 'Other NBU currencies', 'convBanner': 'Convert a subscription into your currency', 'collapseBlock': 'Collapse section', 'expandBlock': 'Expand section',
+    'convOther': 'Other NBU currencies', 'convBanner': 'Convert a subscription into your currency', 'collapseBlock': 'Collapse section', 'expandBlock': 'Expand section', 'qfAll': 'All', 'qfFree': 'Free', 'qfRu': 'With Russian', 'qfUk': 'With Ukrainian', 'qfEmpty': 'Nothing matches this filter yet.', 'badgeToday': 'Updated today', 'toCompare': 'Compare', 'inCompare': 'In comparison', 'picksTitle': 'Picks by task', 'picksSub': 'Top-rated models for your task.', 'pick.chats': 'Text & chat', 'pick.images': 'Images & design', 'pick.video': 'Video', 'pick.audio': 'Audio & voice', 'pick.code': 'Code & development',
     'cur.UAH': 'Ukrainian hryvnia', 'cur.USD': 'US dollar', 'cur.EUR': 'Euro', 'cur.PLN': 'Polish złoty', 'cur.GBP': 'British pound',
     'searchTitle': 'Find your tool', 'searchSub': 'Search neural networks and filters',
     'searchPlaceholder': 'Model or service name', 'findBtn': 'Search',
@@ -789,7 +789,8 @@ function modelCard(cat, m, opts = {}) {
   let url = '';
   try { const parsed = new URL(m.url); if (parsed.protocol === 'https:' && !badUrl) url = parsed.href; } catch (e) {}
   const lg = m.languages || {};
-  const badges = [m.free === true ? t('badgeFree') : '', lg.ru === true ? t('badgeRu') : '', lg.uk === true ? t('badgeUk') : ''].filter(Boolean);
+  const nowD = new Date(); const todayStr = nowD.getFullYear() + '-' + String(nowD.getMonth() + 1).padStart(2, '0') + '-' + String(nowD.getDate()).padStart(2, '0');
+  const badges = [m.free === true ? t('badgeFree') : '', lg.ru === true ? t('badgeRu') : '', lg.uk === true ? t('badgeUk') : '', String(m.checked || '').slice(0, 10) === todayStr ? t('badgeToday') : ''].filter(Boolean);
   const name = esc(m.name), id = esc(m.id);
   const missing = missingFields(cat, m);
   const ps = priceSummary(m, cat);
@@ -832,7 +833,8 @@ function modelCard(cat, m, opts = {}) {
     + `${badges.length ? `<div class="badge-row">${badges.map(b => `<span>${esc(b)}</span>`).join('')}</div>` : ''}`
     + `${(ps.ua || ps.others.length) ? `<div class="model-prices">${ps.ua ? `<div class="price-main"><span>${t('priceUA')}</span><strong title="${esc(ps.ua)}">${esc(ps.ua)}</strong></div>` : ''}${ps.others.length ? `<div class="price-sub" title="${esc(ps.others.join(' · '))}">${ps.others.join(' · ')}</div>` : ''}</div>` : ''}`
     + `${(freeLines.length || ratingLines.length) ? `<div class="free-lines">${freeLines.join('')}${ratingLines.join('')}</div>` : ''}`
-    + `<div class="model-actions">${url ? `<a class="button official" href="${esc(url)}" target="_blank" rel="noopener noreferrer">${t('official')}</a>` : `<span class="link-unavailable">${t('officialMissing')}</span>`}<button class="button details-btn" type="button" aria-expanded="false" aria-controls="details-${esc(cat)}-${id}">${t('details')}</button></div>`
+    + `${typeof m.user_rating === 'number' ? `<div class="rating-bar"><span class="rating-bar-fill" style="width:${Math.max(0, Math.min(100, Math.round(m.user_rating * 10)))}%"></span><span class="rating-bar-num">${t('fldRating')}: ${esc(m.user_rating)} / 10</span></div>` : ''}`
+    + `<div class="model-actions">${url ? `<a class="button official" href="${esc(url)}" target="_blank" rel="noopener noreferrer">${t('official')}</a>` : `<span class="link-unavailable">${t('officialMissing')}</span>`}<button class="button details-btn" type="button" aria-expanded="false" aria-controls="details-${esc(cat)}-${id}">${t('details')}</button><button class="button cmp-btn${loadCmpSel().includes(cat + '--' + m.id) ? ' in-cmp' : ''}" type="button" data-cmp="${esc(cat)}--${id}">${loadCmpSel().includes(cat + '--' + m.id) ? t('inCompare') : t('toCompare')}</button></div>`
     + `<div class="model-details" id="details-${esc(cat)}-${id}" hidden>${detailsHtml}</div></article>`;
 }
 function setCardExpanded(card, on) {
@@ -869,14 +871,20 @@ function refreshFavSection() {
   const s = document.getElementById('favSection');
   if (s) s.innerHTML = favSectionHtml();
 }
+let qfState = 'all';
+const CMP_KEY = 'neuroathena-compare-sel';
+function loadCmpSel() { const a = storeGet(CMP_KEY, []); return Array.isArray(a) ? a.filter(k => findCompareModel(k)).slice(0, 4) : []; }
 function renderCatList(cat, onlyFavs) {
   const box = document.getElementById('catModelList');
   if (!box) return;
   const models = (catalog?.categories?.[cat]?.models || []);
-  const list = onlyFavs ? models.filter(m => isFav(cat + '--' + m.id)) : models;
-  box.innerHTML = list.length ? list.map(m => modelCard(cat, m)).join('') : `<p class="search-empty">${t('favEmpty')}</p>`;
+  let list = onlyFavs ? models.filter(m => isFav(cat + '--' + m.id)) : models.slice();
+  if (qfState === 'free') list = list.filter(m => m.free === true);
+  else if (qfState === 'ru') list = list.filter(m => (m.languages || {}).ru === true);
+  else if (qfState === 'uk') list = list.filter(m => (m.languages || {}).uk === true);
+  box.innerHTML = list.length ? list.map(m => modelCard(cat, m)).join('') : `<p class="search-empty">${onlyFavs && qfState === 'all' ? t('favEmpty') : t('qfEmpty')}</p>`;
   const count = document.getElementById('favFilterCount');
-  if (count) count.textContent = onlyFavs ? tr('foundCount', { n: list.length }) : '';
+  if (count) count.textContent = (onlyFavs || qfState !== 'all') ? tr('foundCount', { n: list.length }) : '';
 }
 
 /* ---------- Страница раздела ---------- */
@@ -884,11 +892,13 @@ function categoryPage(cat) {
   const c = catalog?.categories?.[cat];
   if (!c) return `<div class="container route"><h1>${t('catalogUnavailable')}</h1><p>${t('checkFile')}</p></div>`;
   const models = Array.isArray(c.models) ? c.models : [];
+  qfState = 'all';
   const countLine = tr('catalogOf', { n: models.length, w: plural(models.length) });
   return `<div class="container route category-route"><a class="back" href="#/home">${t('backHome')}</a>`
     + `<section class="category-hero"><div class="category-hero-text"><div class="eyebrow">${countLine}</div><h1>${esc(pageName(cat))}</h1><p>${esc(t('desc.' + cat))}</p></div>${heroMark(cat)}</section>`
     + `<nav class="model-index" aria-label="${t('indexLabel')}"><span class="model-index-label">${t('indexLabel')}</span>${models.map(m => `<button type="button" data-cat="${esc(cat)}" data-model="${esc(m.id)}">${esc(m.name)}</button>`).join('')}</nav>`
     + `<div class="fav-filter"><button type="button" id="favFilterBtn" data-cat="${esc(cat)}" aria-pressed="false">${t('favOnly')}</button><span class="result-count" id="favFilterCount"></span></div>`
+    + `<div class="quick-filters" role="group">${[['all', 'qfAll'], ['free', 'qfFree'], ['ru', 'qfRu'], ['uk', 'qfUk']].map(([k, lk]) => `<button type="button" data-qf="${k}" aria-pressed="${k === 'all'}">${t(lk)}</button>`).join('')}</div>`
     + `<p class="catalog-notice">${t('catalogNotice')}</p><div class="model-list" id="catModelList">${models.map(m => modelCard(cat, m)).join('')}</div></div>`;
 }
 function platformMatch(platforms, selected) {
@@ -1142,6 +1152,7 @@ function updateCompareUrl() {
   history.replaceState(null, '', hash);
 }
 function refreshCompare() {
+  storeSet(CMP_KEY, compareSel);
   renderCompareSelected();
   renderComparePicker();
   renderCompareTable();
@@ -1383,7 +1394,7 @@ function home() {
     + `<section class="section" id="categories"><div class="section-head"><div><div class="eyebrow">${t('catEyebrow')}</div><h2>${t('catTitle')}</h2><p>${t('catSub')}</p></div></div><div class="cards">${categoryCards()}${sectionCards()}</div></section>`
     + `<section class="section" id="favSection">${favSectionHtml()}</section>`
     + `<section class="section"><div class="section-head"><div><div class="eyebrow">${t('weekEyebrow')}</div><h2>${t('weekTitle')}</h2></div></div><div class="editorial"><article class="feature" id="weekModel"><span class="label">${t('featWeek')}</span><h3>${t('featWeekNone')}</h3><p>${t('featWeekText')}</p></article><article class="feature" id="weekTop"><span class="label">${t('featTop')}</span><h3>${t('featTopNone')}</h3><p>${t('featTopText')}</p></article></div></section>`
-    + `<section class="section"><div class="section-head"><div><div class="eyebrow">${t('newEyebrow')}</div><h2>${t('newTitle')}</h2></div></div><div class="three"><article class="empty" id="homePulse"><span class="label">${t('pulseLabel')}</span><h3>${t('pulseTitle')}</h3><p>${t('pulseText')}</p><a href="#/prices">${t('toPrices')}</a></article><article class="empty" id="homeNews"><span class="label">${t('newsLabel')}</span><h3>${t('newsTitle')}</h3><p>${t('newsText')}</p><a href="#/news">${t('toNews')}</a></article><article class="empty" id="homeOffer"><span class="label">${t('offersLabel')}</span><h3>${t('offersTitle')}</h3><p>${t('offersText')}</p><a href="#/offers">${t('toOffers')}</a></article></div></section></div>`;
+    + `<section class="section"><div class="section-head"><div><h2>${t('picksTitle')}</h2><p class="section-sub">${t('picksSub')}</p></div></div><div class="picks-grid" id="homePicks"></div></section><section class="section"><div class="section-head"><div><div class="eyebrow">${t('newEyebrow')}</div><h2>${t('newTitle')}</h2></div></div><div class="three"><article class="empty" id="homePulse"><span class="label">${t('pulseLabel')}</span><h3>${t('pulseTitle')}</h3><p>${t('pulseText')}</p><a href="#/prices">${t('toPrices')}</a></article><article class="empty" id="homeNews"><span class="label">${t('newsLabel')}</span><h3>${t('newsTitle')}</h3><p>${t('newsText')}</p><a href="#/news">${t('toNews')}</a></article><article class="empty" id="homeOffer"><span class="label">${t('offersLabel')}</span><h3>${t('offersTitle')}</h3><p>${t('offersText')}</p><a href="#/offers">${t('toOffers')}</a></article></div></section></div>`;
 }
 
 async function initHome() {
@@ -1393,6 +1404,15 @@ async function initHome() {
     const top = rated[0].m;
     const topLogo = logos[`${rated[0].cat}--${top.id}`];
     wm.innerHTML = `<span class="label">${t('featWeek')}</span>${topLogo ? `<div class="home-logo"><img src="${esc(topLogo)}" alt="" loading="lazy"></div>` : ''}<h3>${esc(top.name)}</h3><p>${esc(locText(top, 'essence', 'essence_uk', 'essence_en'))}</p><p class="free-line">${t('fldRating')}: ${esc(top.user_rating)} / 10 \u00b7 G2</p>`;
+  }
+  const picksBox = document.getElementById('homePicks');
+  if (picksBox) {
+    const scenarios = [['chats', 'pick.chats'], ['images', 'pick.images'], ['video', 'pick.video'], ['audio', 'pick.audio'], ['code', 'pick.code']];
+    picksBox.innerHTML = scenarios.map(([pcat, lk]) => {
+      const top = (catalog?.categories?.[pcat]?.models || []).filter(m => typeof m.user_rating === 'number').sort((a, b) => b.user_rating - a.user_rating).slice(0, 3);
+      if (!top.length) return '';
+      return `<article class="pick-card"><h3>${t(lk)}</h3>${top.map(m => { const logo = logos[`${pcat}--${m.id}`]; const ps = priceSummary(m, pcat); return `<a class="pick-row" href="#/${pcat}">${logo ? `<img src="${esc(logo)}" alt="" loading="lazy">` : ''}<span class="pick-name">${esc(m.name)}</span><span class="pick-rating">${esc(m.user_rating)} / 10</span>${ps.ua ? `<span class="pick-price">${esc(ps.ua)}</span>` : ''}</a>`; }).join('')}<a class="pick-more" href="#/${pcat}">${esc(pageName(pcat))} →</a></article>`;
+    }).join('');
   }
   const wt = document.getElementById('weekTop');
   if (wt && rated.length) {
@@ -1479,6 +1499,7 @@ function route() {
     main.innerHTML = freePage();
   } else if (id === 'compare') {
     compareSel = parseCompareQuery(query);
+    if (!compareSel.length) compareSel = loadCmpSel();
     compareQ = '';
     main.innerHTML = comparePage();
     initCompare();
@@ -1545,6 +1566,25 @@ main.addEventListener('click', e => {
   if (idxBtn) {
     const card = document.getElementById(`model-${idxBtn.dataset.cat}-${idxBtn.dataset.model}`);
     if (card) { const on = !card.classList.contains('expanded'); setCardExpanded(card, on); if (on) card.scrollIntoView({ block: 'start' }); }
+    return;
+  }
+  const qfBtn = e.target.closest('[data-qf]');
+  if (qfBtn) {
+    qfState = qfBtn.dataset.qf;
+    document.querySelectorAll('[data-qf]').forEach(b => b.setAttribute('aria-pressed', String(b === qfBtn)));
+    const ff2 = document.getElementById('favFilterBtn');
+    if (ff2) renderCatList(ff2.dataset.cat, ff2.getAttribute('aria-pressed') === 'true');
+    return;
+  }
+  const cmpBtn = e.target.closest('[data-cmp]');
+  if (cmpBtn) {
+    const key = cmpBtn.dataset.cmp;
+    let sel = loadCmpSel();
+    if (sel.includes(key)) sel = sel.filter(k => k !== key);
+    else if (sel.length >= 4) { cmpBtn.classList.add('cmp-full'); setTimeout(() => cmpBtn.classList.remove('cmp-full'), 700); return; }
+    else sel.push(key);
+    storeSet(CMP_KEY, sel);
+    document.querySelectorAll('[data-cmp]').forEach(b => { const on = sel.includes(b.dataset.cmp); b.textContent = on ? t('inCompare') : t('toCompare'); b.classList.toggle('in-cmp', on); });
     return;
   }
   const detBtn = e.target.closest('.details-btn');
