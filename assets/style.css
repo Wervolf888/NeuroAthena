@@ -530,3 +530,10 @@ body[data-route="converter"] .page-head{background-image:none}
 .pick-more{display:inline-block;margin-top:10px;color:#80e8ed;text-decoration:none;font-weight:600}
 #compareTable{overflow-x:auto}
 .model-actions{flex-wrap:wrap}
+
+/* === Правки 15.11.2026 v22: полная таблица сравнения === */
+.cmp-list{margin:0;padding-left:16px;display:grid;gap:4px}
+.cmp-list li{line-height:1.35}
+.cap-chip{display:inline-block;border:1px solid #3c5669;background:#12293a;color:#d5e4ec;border-radius:99px;padding:2px 9px;font-size:12.5px;margin:0 4px 4px 0}
+.cmp-dev{display:block;color:#9db8c6;font-size:13px;font-weight:400}
+.cmp-rate{display:block;color:#8fd4ff;font-weight:700;font-size:13px}
