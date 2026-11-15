@@ -401,3 +401,15 @@ body[data-route="community"] .page-head{background-image:linear-gradient(90deg,r
 
 /* Правка 15.11.2026 (v7): картинки шапок показываются целиком по высоте блока, без обрезки сюжета */
 body[data-route] .page-head,body[data-route] .category-hero{background-size:auto 100%;background-position:right 150px center;background-repeat:no-repeat;background-color:#060f1a}
+
+/* Правка 15.11.2026 (v8): меню «Все разделы» — левая выезжающая панель со списком */
+.burger{display:inline-flex;align-items:center;gap:9px}
+.burger .burger-ico{font-size:19px;line-height:1;margin:0}
+.menu.drawer{position:fixed;left:0;right:auto;top:0;bottom:0;width:min(348px,88vw);max-width:none;max-height:none;overflow-y:auto;border-radius:0;border:0;border-right:1px solid #3c5669;padding:0;z-index:200;background:#0c1828;box-shadow:24px 0 60px rgba(0,0,0,.45)}
+.menu.drawer nav{display:flex;flex-direction:column;gap:2px;padding:12px 14px 22px}
+.menu.drawer a{display:flex;align-items:baseline;gap:12px;padding:11px 10px;border-radius:8px;font-size:17px}
+.menu.drawer a .nav-num{color:#8bdce2;font-size:13px;letter-spacing:.08em;min-width:27px}
+.menu.drawer a.active{background:#284154;color:#fff}
+.drawer-head{display:flex;justify-content:space-between;align-items:center;padding:15px 16px 13px 20px;border-bottom:1px solid var(--border);font-weight:700;letter-spacing:.05em;text-transform:uppercase;font-size:14px;color:#cfe3ef}
+.drawer-close{background:none;border:1px solid var(--border);color:#fff;border-radius:8px;width:38px;height:38px;min-height:38px;cursor:pointer;font-size:15px;line-height:1}
+.drawer-backdrop{position:fixed;inset:0;background:rgba(2,6,12,.55);z-index:190}
