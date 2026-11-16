@@ -1,35 +1,36 @@
 {
   "items": [
     {
-      "date": "2026-11-16T02:51:08.000Z",
-      "title": "Apple запустила застосунок для дослідження використання ШІ у сфері здоров’я",
-      "text": "Apple запустила застосунок Health AI Study для дослідження того, як люди використовують штучний інтелект для отримання інформації про здоров&rsquo;я. Проєкт компанія реалізує спільно з розробником медичного ШІ OpenEvidence. Дослідження триватиме понад 12 місяців і передбачає уча…",
-      "product": "Gagadget",
-      "url": "https://gagadget.com/uk/734359-apple-zapustila-zastosunok-dlia-doslidzhennia-vikoristannia-shi-u-sferi-zdorovia/",
+      "date": "2026-11-16T08:27:00.000Z",
+      "title": "Хакери зламали ШІ-платформу Fireworks AI та викрали дані тисяч водіїв Uber",
+      "text": "Тисячі водіїв Uber у США стали жертвами витоку персональних даних. Зловмисники зламали ШІ-платформу Fireworks AI, яка мала доступ до інформації Uber, і викрали дані водійських посвідчень.",
+      "product": "dev.ua",
+      "url": "https://dev.ua/news/uber-vkraly-dani-vodiiv-1794816013",
       "auto": true,
-      "image": "https://gagadget.com/media/post_big2/apple-health-ai-usage-study.webp",
-      "title_ru": "Apple запустила приложение для исследования использования ИИ в сфере здоровья",
-      "text_ru": "Apple запустила приложение Health AI Study для исследования того, как люди используют искусственный интеллект для получения информации о здоровье. Проект компания реализует совместно с разработчиком медицинского ИИ OpenEvidence. Исследование продлится более 12 месяцев и предусматривает участие…",
-      "title_uk": "Apple запустила застосунок для дослідження використання ШІ у сфері здоров’я",
-      "text_uk": "Apple запустила застосунок Health AI Study для дослідження того, як люди використовують штучний інтелект для отримання інформації про здоров&rsquo;я. Проєкт компанія реалізує спільно з розробником медичного ШІ OpenEvidence. Дослідження триватиме понад 12 місяців і передбачає уча…"
+      "image": "https://dev.ua/storage/images/72/18/16/46/derived/13c3667468ad785de772f0bfb66bc95d.webp"
     },
     {
-      "date": "2026-11-16T00:55:24.000Z",
-      "title": "Розробник Claude може провести найбільше IPO в історії фондового ринку",
-      "text": "Розробник ШІ-моделі Claude, Anthropic, готується провести первинне публічне розміщення акцій (IPO), яке може стати найбільшим в історії. Компанію оцінюють у $1,4 трлн, а загальна сума залучених коштів від IPO та окремого приватного розміщення може сягнути $90,4 млрд. Про це пише…",
-      "product": "Gagadget",
-      "url": "https://gagadget.com/uk/734346-rozrobnik-claude-mozhe-provesti-naibilshe-ipo-v-istoriyi-fondovogo-rinku/",
+      "date": "2026-11-16T07:34:00.000Z",
+      "title": "Український розробник створив ШІ-застосунок, який збирає валізу за прогнозом погоди та планами на поїздку. Як працює Packmates AI",
+      "text": "29-річний Алекс Столярчук родом з Одеси, майже десять років живе у США. Він закінчив University of Central Florida за спеціальністю «вебдизайн та інтерактивний дизайн», а зараз працює офіціантом в Орландо й паралельно розвиває власні цифрові продукти. Один із них — Packmates AI,…",
+      "product": "dev.ua",
+      "url": "https://dev.ua/news/aleks-1794807854",
       "auto": true,
-      "image": "https://gagadget.com/media/post_big2/0db011d99cb99adb875d44fb9103a6e1.webp",
-      "title_ru": "Разработчик Claude может провести крупнейшее IPO в истории фондового рынка",
-      "text_ru": "Разработчик ИИ-модели Claude, Anthropic, готовится провести первичное публичное размещение акций (IPO), которое может стать крупнейшим в истории. Компанию оценивают в $1,4 трлн, а общая сумма привлечённых средств от IPO и отдельного частного размещения может достичь $90,4 млрд. Об этом пишет…",
-      "title_uk": "Розробник Claude може провести найбільше IPO в історії фондового ринку",
-      "text_uk": "Розробник ШІ-моделі Claude, Anthropic, готується провести первинне публічне розміщення акцій (IPO), яке може стати найбільшим в історії. Компанію оцінюють у $1,4 трлн, а загальна сума залучених коштів від IPO та окремого приватного розміщення може сягнути $90,4 млрд. Про це пише…"
+      "image": "https://dev.ua/storage/images/11/81/91/44/derived/3caffe0816d561343aa99f181d98ef64.webp"
     },
     {
-      "date": "2026-11-15T23:32:09.000Z",
+      "date": "2026-11-16T06:25:27.000Z",
+      "title": "94% of Singapore Small Business Owners Surveyed Say More AI Guidance Is Needed",
+      "text": "More than 180 small businesses, heartland merchants and creator-entrepreneurs joined Meta Upskill Day 2026 in Singapore, part of Meta's Small Business Growth Academy, with Senior Minister of State Low Yen Ling attending as Guest of Honour. The post 94% of Singapore Small Busines…",
+      "product": "Meta AI",
+      "url": "https://about.fb.com/news/2026/11/94-of-singapore-small-business-owners-surveyed-say-more-ai-guidance-is-needed/",
+      "auto": true,
+      "image": "https://about.fb.com/wp-content/uploads/2026/11/WOL_1057.jpg?w=960&resize=960%2C640"
+    },
+    {
+      "date": "2026-11-16T05:34:21.000Z",
       "title": "v1.59.2",
-      "text": "fix(databricks): drop thinking blocks bound to a different prefix ( #1 …",
+      "text": "🐛 Bug Fixes Databricks provider: drop thinking blocks bound to a different prefix #13551",
       "product": "Goose",
       "url": "https://github.com/aaif-goose/goose/releases/tag/v1.59.2",
       "auto": true,
@@ -63,30 +64,13 @@
       "text_uk": "Науковий блог OpenAI розповідає про нові відкриття, практичні методи та досвід дослідників, які використовують ШІ для просування наукових відкриттів."
     },
     {
-      "date": "2026-11-15T20:13:21.000Z",
-      "title": "OpenAI запустила ChatGPT Wallet, який дозволяє ШІ-агентам оплачувати покупки без доступу до номера картки",
-      "text": "OpenAI представила ChatGPT Wallet &ndash; функцію, яка дає змогу ШІ-агентам самостійно оплачувати покупки в інтернеті та бронювати готелі. Для розрахунків сервіс використовує платіжний токен із віртуальним номером картки, який замінює справжні банківські реквізити.",
-      "product": "Gagadget",
-      "url": "https://gagadget.com/uk/734322-openai-zapustila-chatgpt-wallet-iakii-dozvoliaie-shi-agentam-oplachuvati-pokupki-bez-dostupu-do-nomera-kartki/",
+      "date": "2026-11-15T19:55:22.000Z",
+      "title": "Хакеры обчистили французский банк на €100 млн — в деле мог быть замешан ИИ",
+      "text": "Французская банковская группа Crédit Mutuel Arkéa столкнулась с беспрецедентной кибератакой, в ходе которой злоумышленники похитили около €100 миллионов через мгновенные платежи. Президент банка считает, что в деле замешан искусственный интеллект.",
+      "product": "hi-tech.ua",
+      "url": "https://hi-tech.ua/hakery-obchistili-franczuzskij-bank-na-e100-mln-v-dele-mog-byt-zameshan-ii/",
       "auto": true,
-      "image": "https://gagadget.com/media/post_big2/5463040505089304456.webp",
-      "title_ru": "OpenAI запустила ChatGPT Wallet, который позволяет ИИ-агентам оплачивать покупки без доступа к номеру карты",
-      "text_ru": "OpenAI представила ChatGPT Wallet — функцию, которая позволяет ИИ-агентам самостоятельно оплачивать покупки в интернете и бронировать отели. Для расчётов сервис использует платёжный токен с виртуальным номером карты, который заменяет настоящие банковские реквизиты.",
-      "title_uk": "OpenAI запустила ChatGPT Wallet, який дозволяє ШІ-агентам оплачувати покупки без доступу до номера картки",
-      "text_uk": "OpenAI представила ChatGPT Wallet &ndash; функцію, яка дає змогу ШІ-агентам самостійно оплачувати покупки в інтернеті та бронювати готелі. Для розрахунків сервіс використовує платіжний токен із віртуальним номером картки, який замінює справжні банківські реквізити."
-    },
-    {
-      "date": "2026-11-15T12:32:22.000Z",
-      "title": "Підтримка чотирьох SIM-карт та ШІ-прискорення мережі з'явилися в модемі Balong AI для чіпа Huawei Kirin 9050",
-      "text": "Модем Balong AI у складі Kirin 9050 підтримує чотири SIM-карти та обходить iPhone 16 Pro Max за швидкістю передачі даних у складних умовах.",
-      "product": "Gagadget",
-      "url": "https://gagadget.com/uk/smartphones/734260-pidtrimka-chotirokh-sim-kart-ta-shi-priskorennia-merezhi-ziavilisia-v-modemi-balong-ai-dlia-chipa-huawei-kirin-9050/",
-      "auto": true,
-      "image": "https://gagadget.com/media/post_big2/huawei-kirin-9050-ti-01.webp",
-      "title_ru": "Поддержка четырёх SIM-карт и ИИ-ускорение сети появились в модеме Balong AI для чипа Huawei Kirin 9050",
-      "text_ru": "Модем Balong AI в составе Kirin 9050 поддерживает четыре SIM-карты и обходит iPhone 16 Pro Max по скорости передачи данных в сложных условиях.",
-      "title_uk": "Підтримка чотирьох SIM-карт та ШІ-прискорення мережі з'явилися в модемі Balong AI для чіпа Huawei Kirin 9050",
-      "text_uk": "Модем Balong AI у складі Kirin 9050 підтримує чотири SIM-карти та обходить iPhone 16 Pro Max за швидкістю передачі даних у складних умовах."
+      "image": "https://hi-tech.ua/wp-content/uploads/2026/11/macbook12-300x169.webp"
     },
     {
       "date": "2026-11-15T07:40:14.000Z",
@@ -99,19 +83,6 @@
       "text_ru": "Подводные роботы выявляют паразитов на лососях и уничтожают их с помощью лазеров, а другие машины с помощью искусственного интеллекта определяют вид только что выловленной рыбы и выполняют древнюю японскую процедуру её обработки. Такие технологии уже используют в рыбной промышле…",
       "title_uk": "ШІ втрутився навіть у життя риб: роботи знищують паразитів і автоматизують вилов",
       "text_uk": "Підводні роботи виявляють паразитів на лососях і знищують їх за допомогою лазерів, а інші машини за допомогою штучного інтелекту визначають вид щойно виловленої риби та виконують давню японську процедуру її обробки. Такі технології вже використовують у рибній промисловості…"
-    },
-    {
-      "date": "2026-11-14T17:15:56.000Z",
-      "title": "Броня та локальний AI: Panasonic представила захищений 10\" планшет ToughBook FZ-G3 на чипі Intel Panther Lake",
-      "text": "Пристрій працює до 23 годин на одному заряді та не боїться найсуворіших умов",
-      "product": "Gagadget",
-      "url": "https://gagadget.com/uk/734173-bronia-ta-lokalnii-ai-panasonic-predstavila-zakhishchenii-10-planshet-toughbook-fz-g3-na-chipi-intel-panther-lake/",
-      "auto": true,
-      "image": "https://gagadget.com/media/post_big2/panasonic-rugged-tablet-launch.webp",
-      "title_ru": "Броня и локальный ИИ: Panasonic представила защищённый 10-дюймовый планшет ToughBook FZ-G3 на чипе Intel Panther Lake",
-      "text_ru": "Устройство работает до 23 часов на одном заряде и не боится самых суровых условий",
-      "title_uk": "Броня та локальний AI: Panasonic представила захищений 10\" планшет ToughBook FZ-G3 на чипі Intel Panther Lake",
-      "text_uk": "Пристрій працює до 23 годин на одному заряді та не боїться найсуворіших умов"
     },
     {
       "date": "2026-11-14T10:40:00.000Z",
@@ -221,6 +192,15 @@
       "text_uk": "Усі користувачі застосунку Gemini у США можуть підключити Google Wallet і отримувати відповіді з урахуванням своїх звичок витрат."
     },
     {
+      "date": "2026-11-13T16:15:00.000Z",
+      "title": "OpenAI запустила ChatGPT Wallet — платіжний гаманець для ШІ-агентів",
+      "text": "Компанія OpenAI оголосила про запуск сервісу ChatGPT Wallet, який дозволяє штучному інтелекту самостійно оплачувати покупки від імені користувача, не отримуючи прямого доступу до даних його банківської картки. Новий інструмент розроблено у партнерстві з платіжними системами Amer…",
+      "product": "dev.ua",
+      "url": "https://dev.ua/news/openai-zapustyla-chatgpt-wallet-1794585954",
+      "auto": true,
+      "image": "https://dev.ua/storage/images/68/48/72/55/derived/05aaf02af578be4245c72b4823612f1b.webp"
+    },
+    {
       "date": "2026-11-13T15:54:00.000Z",
       "title": "Головний ШІ-директор AWS назвав ключову рису успішних розробників",
       "text": "Розвиток штучного інтелекту та автоматизація написання коду докорінно змінюють роль розробників, проте головна суть професії полягає не в кодингу, а у вирішенні завдань. Директор із питань ШІ та технологій хмарного підрозділу Amazon Web Services (AWS) Метт Вуд в інтерв’ю Busines…",
@@ -269,19 +249,6 @@
       "title_uk": "llama.cpp v1.0.0: міцніший фундамент локальної екосистеми ШІ"
     },
     {
-      "date": "2026-11-13T14:04:00.000Z",
-      "title": "Американська лабораторія «перевиховала» ШІ-модель від Alibaba, прибравши китайську державну цензуру",
-      "text": "Американська дослідницька лабораторія штучного інтелекту Nous Research провела додаткове навчання популярної відкритої мовної моделі Qwen3.8-27B від китайського техногіганта Alibaba, щоб прибрати вбудовану державну цензуру Пекіна. Оновлена версія отримала назву Arete-27B і була…",
-      "product": "dev.ua",
-      "url": "https://dev.ua/news/amerykanska-laboratoriia-perevykhovala-shi-model-vid-alibaba-1794577191",
-      "auto": true,
-      "image": "https://dev.ua/storage/images/13/67/01/87/derived/7639c3a450f5b8f425143e63ca1ecc70.webp",
-      "title_ru": "Американська лабораторія «перевиховала» ШІ-модель від Alibaba, прибравши китайську державну цензуру",
-      "text_ru": "Американська дослідницька лабораторія штучного інтелекту Nous Research провела додаткове навчання популярної відкритої мовної моделі Qwen3.8-27B від китайського техногіганта Alibaba, щоб прибрати вбудовану державну цензуру Пекіна. Оновлена версія отримала назву Arete-27B і була…",
-      "title_uk": "Американська лабораторія «перевиховала» ШІ-модель від Alibaba, прибравши китайську державну цензуру",
-      "text_uk": "Американська дослідницька лабораторія штучного інтелекту Nous Research провела додаткове навчання популярної відкритої мовної моделі Qwen3.8-27B від китайського техногіганта Alibaba, щоб прибрати вбудовану державну цензуру Пекіна. Оновлена версія отримала назву Arete-27B і була…"
-    },
-    {
       "date": "2026-11-13T14:00:00.000Z",
       "title": "Suno Bridge: Your DAW, Suno-powered.",
       "text": "Get Suno in your session with our new standalone Mac app",
@@ -304,19 +271,6 @@
       "text_ru": "Теперь AI Scan в GitHub code scanning можно включать и выключать для репозиториев через REST API на уровне организации и репозитория. Публичный превью-режим добавляет настройку repository_scan.",
       "title_uk": "Керування AI Scan для репозиторіїв через REST API",
       "text_uk": "Тепер AI Scan у GitHub code scanning можна вмикати й вимикати для репозиторіїв через REST API на рівні організації та репозиторію. Публічний прев'ю-режим додає налаштування repository_scan."
-    },
-    {
-      "date": "2026-11-13T12:13:00.000Z",
-      "title": "Кабмін затвердив створення українського корпусу даних для тренування ШІ-моделей",
-      "text": "Кабінет Міністрів України ухвалив постанову, яка запускає створення національного корпусу даних для тренування та тестування великих мовних моделей (LLM). Ним буде опікуватися Міністерство цифрової трансформації.",
-      "product": "dev.ua",
-      "url": "https://dev.ua/news/kabmin-zatverdyv-stvorennia-ukrainskoho-korpusu-danykh-1794571027",
-      "auto": true,
-      "image": "https://dev.ua/storage/images/12/22/73/04/derived/4227d4ebf277057900bf6e3258d2dc2a.webp",
-      "title_ru": "Кабмин утвердил создание украинского корпуса данных для тренировки ИИ-моделей",
-      "text_ru": "Кабинет Министров Украины принял постановление, которое запускает создание национального корпуса данных для тренировки и тестирования больших языковых моделей (LLM). Им будет заниматься Министерство цифровой трансформации.",
-      "title_uk": "Кабмін затвердив створення українського корпусу даних для тренування ШІ-моделей",
-      "text_uk": "Кабінет Міністрів України ухвалив постанову, яка запускає створення національного корпусу даних для тренування та тестування великих мовних моделей (LLM). Ним буде опікуватися Міністерство цифрової трансформації."
     },
     {
       "date": "2026-11-13T12:00:00.000Z",
@@ -355,6 +309,15 @@
       "text_ru": "SOFIA for Business, созданная с Oxford Saïd и ElevenLabs Impact, позволяет основательницам общаться с исследованием о женщинах-предпринимателях и дополнять его.",
       "title_uk": "Оксфорд роками вивчав, як жінки будують компанії. Тепер це дослідження може говорити",
       "text_uk": "SOFIA for Business, створена з Oxford Saïd та ElevenLabs Impact, дає засновницям змогу спілкуватися з дослідженням про жінок-підприємиць і доповнювати його."
+    },
+    {
+      "date": "2026-11-13T11:34:00.000Z",
+      "title": "Масштабний збій Microsoft 365 порушив роботу Outlook, Teams і Copilot у різних країнах: які наслідки",
+      "text": "Спочатку Microsoft повідомила про проблеми в Америці, а згодом підтвердила, що вони можуть зачіпати користувачів у будь-якому регіоні.",
+      "product": "AIN.UA",
+      "url": "https://ain.ua/2026/11/13/masstabnii-zbii-microsoft-365-porusiv-robotu-outlook-teams-i-copilot-u-riznix-krayinax/",
+      "auto": true,
+      "image": "https://cdn.ain.ua/ua/articles/2026-11-13/OJvy1wbK4qpjozWdn0QHhcloz9pWKmlTb3v1UKvT.webp"
     },
     {
       "date": "2026-11-13T08:55:07.000Z",
@@ -517,6 +480,15 @@
       "text_uk": "Отримуйте швидкі відповіді з Gemini в Chrome: підсумовуйте статті, порівнюйте продукти й розбирайте складні теми прямо в бічній панелі."
     },
     {
+      "date": "2026-11-12T16:48:00.000Z",
+      "title": "OpenAI створила «червону кнопку» для зупинки ШІ: як вона працює",
+      "text": "Control Room відстежує роботу моделей штучного інтелекту під час досліджень і дозволяє зупиняти окремі завдання в разі загрози безпеці.",
+      "product": "AIN.UA",
+      "url": "https://ain.ua/2026/11/12/openai-stvorila-cervonu-knopku-dlia-zupinki-si-iak-vona-praciuje/",
+      "auto": true,
+      "image": "https://cdn.ain.ua/ua/articles/2026-11-12/B7p91pqBmA2c4F9TWHwExnuNVo0OcsRdrRKE9hvP.webp"
+    },
+    {
       "date": "2026-11-12T16:00:02.000Z",
       "title": "Scaling AI value without losing control: Lessons from Frontier Firms",
       "text": "Results are widespread. Value at scale is not, and that gap is what this year’s research from IDC, commissioned by Microsoft, set out to explain. In our fourth year commissioning IDC, more than 5,200 senior IT and business leaders across 28 industries shared what it takes to max…",
@@ -650,6 +622,15 @@
       "text_uk": "Gemini тепер доступний на Apple CarPlay."
     },
     {
+      "date": "2026-11-11T16:36:00.000Z",
+      "title": "Microsoft запатентувала технологію, яка дозволить навчати ШІ на відеокартах користувачів: як це працюватиме",
+      "text": "Компанія пропонує використовувати вільні потужності відеокарт на комп'ютерах і смартфонах для навчання штучного інтелекту. За участь у цьому користувачі зможуть отримувати винагороду.",
+      "product": "AIN.UA",
+      "url": "https://ain.ua/2026/11/11/microsoft-zapatentuvala-texnologiiu-iaka-dozvolit-navcati-si-na-videokartax-koristuvaciv/",
+      "auto": true,
+      "image": "https://cdn.ain.ua/ua/articles/2026-11-11/1pdDRo06kT6W32Y2SKus6gMhTYI0AjFnxl9FKzXf.webp"
+    },
+    {
       "date": "2026-11-11T16:00:00.000Z",
       "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
       "text": "Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.",
@@ -688,6 +669,15 @@
       "text_uk": "Як клонування голосу допомагає творцям контенту покращувати наявні процеси: подкасти, YouTube, цифрові курси та багато іншого — з ElevenCreative."
     },
     {
+      "date": "2026-11-11T10:37:00.000Z",
+      "title": "OpenAI запускає Business Hub у ChatGPT: як це працюватиме",
+      "text": "Бізнес зможе оновлювати інформацію про свої товари та послуги, відстежувати згадки в ChatGPT і створювати ШІ-агентів для спілкування з потенційними клієнтами.",
+      "product": "AIN.UA",
+      "url": "https://ain.ua/2026/11/11/openai-zapuskaje-profili-kompanii-u-chatgpt/",
+      "auto": true,
+      "image": "https://cdn.ain.ua/ua/articles/2026-11-11/ZQXGIQAvYz8hbGn3lEsjQ6Mulk56Lxi2FyjrYdSL.webp"
+    },
+    {
       "date": "2026-11-11T09:00:00.000Z",
       "title": "Experience the art and legacy of Dr. Esther Mahlangu",
       "text": "A new online archive of Esther Mahlangu’s life and art is now on Google Arts & Culture.",
@@ -701,26 +691,13 @@
       "text_uk": "Новий онлайн-архів життя й мистецтва Естер Махлангу тепер на Google Arts & Culture."
     },
     {
-      "date": "2026-11-11T05:01:16.000Z",
-      "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
-      "text": "",
-      "product": "Hugging Face",
-      "url": "https://huggingface.co/blog/qvac/botpsy",
+      "date": "2026-11-11T08:51:00.000Z",
+      "title": "Google відкрила доступ до Gemini 4 Carbon: що вміє нова ШІ-модель",
+      "text": "Нова ШІ-модель призначена для складних завдань із програмування, кібербезпеки та наукових досліджень. Вона також може працювати в команді з іншими ШІ-агентами.",
+      "product": "AIN.UA",
+      "url": "https://ain.ua/2026/11/11/google-vidkrila-dostup-do-gemini-4-carbon/",
       "auto": true,
-      "title_ru": "BotPsy: персональный ассистент на устройстве с агентной моделью меньше миллиарда параметров",
-      "title_uk": "BotPsy: персональний асистент на пристрої з агентною моделлю менше мільярда параметрів"
-    },
-    {
-      "date": "2026-11-10T22:25:00.000Z",
-      "title": "v0.40.17",
-      "text": "What's Changed Improve ChatGPT CLI restore and graceful restart by @hoyyeva in #19583 cmd/launch: use thinking metadata for OpenCode settings by @hoyyeva in #19409 llm: use mmap for Vulkan integrated GPUs by @dhiltgen in #19640 rpreslar4765/Ollama by @rpreslar4765 in #17163 mlx:…",
-      "product": "Ollama",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc0",
-      "auto": true,
-      "title_ru": "v0.40.17",
-      "text_ru": "Улучшены восстановление ChatGPT CLI и мягкий перезапуск; метаданные мышления для настроек OpenCode; mmap для интегрированных GPU Vulkan и другие изменения.",
-      "title_uk": "v0.40.17",
-      "text_uk": "Покращено відновлення ChatGPT CLI та м'який перезапуск; метадані мислення для налаштувань OpenCode; mmap для інтегрованих GPU Vulkan та інші зміни."
+      "image": "https://cdn.ain.ua/ua/articles/2026-11-11/v91DC5F3ZOXomClpK3BqV80ITsFFUDGcGWSAnNlz.webp"
     }
   ]
 }
