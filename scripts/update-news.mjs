@@ -27,6 +27,8 @@ const FEEDS = [
   { product: 'dev.ua', url: 'https://dev.ua/rss', aiOnly: true },
   { product: 'Gagadget', url: 'https://gagadget.com/uk/rss/', aiOnly: true },
   { product: 'ITC.ua', url: 'https://itc.ua/feed/', aiOnly: true },
+  { product: 'AIN.UA', url: 'https://ain.ua/feed', aiOnly: true },
+  { product: 'hi-tech.ua', url: 'https://hi-tech.ua/feed', aiOnly: true },
 ];
 
 const DAYS = 45;
