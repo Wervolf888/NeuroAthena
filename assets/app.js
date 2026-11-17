@@ -147,6 +147,9 @@ const I18N = {
     'calendarEmpty': 'Запланированных релизов в данных пока нет.',
     'ratingsIntro': 'Модели каждой категории — по оценке пользователей, от высокой к низкой. Источник оценок: G2, ноябрь 2026 г.',
     'ratingsEmpty': 'Оценок пользователей пока нет — куратор собирает первые данные.',
+    'onlyRated': 'Только с оценками',
+    'showAllBtn': 'Показать всех ({n})',
+    'showLessBtn': 'Свернуть список',
     'choiceIntro': 'Лучшие модели всего каталога по оценке пользователей. Источник оценок: G2, ноябрь 2026 г.',
     'placeLine': 'Место: {n}',
     'authSignIn': 'Войти через Google',
@@ -314,6 +317,9 @@ const I18N = {
     'calendarEmpty': 'Запланованих релізів у даних поки немає.',
     'ratingsIntro': 'Моделі кожної категорії — за оцінкою користувачів, від високої до низької. Джерело оцінок: G2, листопад 2026 р.',
     'ratingsEmpty': 'Оцінок користувачів поки немає — куратор збирає перші дані.',
+    'onlyRated': 'Лише з оцінками',
+    'showAllBtn': 'Показати всіх ({n})',
+    'showLessBtn': 'Згорнути список',
     'choiceIntro': 'Найкращі моделі всього каталогу за оцінкою користувачів. Джерело оцінок: G2, листопад 2026 р.',
     'placeLine': 'Місце: {n}',
     'authSignIn': 'Увійти через Google',
@@ -481,6 +487,9 @@ const I18N = {
     'calendarEmpty': 'No planned releases in the data yet.',
     'ratingsIntro': 'Models in each category — by user rating, from high to low. Rating source: G2, November 2026.',
     'ratingsEmpty': 'No user ratings yet — the curator is collecting the first data.',
+    'onlyRated': 'Rated only',
+    'showAllBtn': 'Show all ({n})',
+    'showLessBtn': 'Show less',
     'choiceIntro': 'The best models in the whole catalog by user rating. Rating source: G2, November 2026.',
     'placeLine': 'Place: {n}',
     'authSignIn': 'Sign in with Google',
@@ -1431,15 +1440,63 @@ function ratingRow(cat, m, place) {
   const rated = typeof m.user_rating === 'number';
   return `<div class="rating-row"><span class="rating-place">${place ? place : '—'}</span><span class="rating-logo">${logo ? `<img src="${esc(logo)}" alt="">` : ''}</span><strong>${esc(m.name)}</strong><span class="rating-value">${rated ? esc(m.user_rating) + ' / 10' : t('noData')}</span></div>`;
 }
+let ratingsFilter = { cat: '', q: '', onlyRated: false };
+const ratingsExpanded = new Set();
+const RATINGS_TOP = 10;
 function ratingsPage() {
-  return `<div class="container route page-route">${pageHead('rankings', 'ratingsIntro')}${categories.map(cat => {
+  return `<div class="container route page-route">${pageHead('rankings', 'ratingsIntro')}<div class="filter-bar ratings-bar"><div class="filter-chips" role="group" aria-label="${t('filterCatLabel')}"><button type="button" data-rcat="" class="${ratingsFilter.cat === '' ? 'on' : ''}">${t('filterAll')}</button>${categories.map(id => `<button type="button" data-rcat="${id}" class="${ratingsFilter.cat === id ? 'on' : ''}">${esc(pageName(id))}</button>`).join('')}</div><div class="ratings-controls"><div class="searchbar"><input id="ratingSearch" type="search" placeholder="${t('pricesSearchPh')}" aria-label="${t('pricesSearchPh')}"></div><div class="filter-chips"><button type="button" id="onlyRatedBtn" class="${ratingsFilter.onlyRated ? 'on' : ''}" aria-pressed="${ratingsFilter.onlyRated}">${t('onlyRated')}</button></div></div></div><p class="result-count" id="ratingCount"></p><div id="ratingList"></div></div>`;
+}
+function renderRatingList() {
+  const box = document.getElementById('ratingList'), count = document.getElementById('ratingCount');
+  if (!box) return;
+  const q = ratingsFilter.q.trim().toLowerCase();
+  const cats = ratingsFilter.cat ? [ratingsFilter.cat] : categories;
+  let totalShown = 0;
+  const html = cats.map(cat => {
     const models = Array.isArray(catalog?.categories?.[cat]?.models) ? catalog.categories[cat].models : [];
     const rated = models.filter(m => typeof m.user_rating === 'number').sort((a, b) => b.user_rating - a.user_rating);
     const unrated = models.filter(m => typeof m.user_rating !== 'number');
-    if (!rated.length) return `<section class="rating-cat"><h2>${esc(pageName(cat))}</h2><div class="empty ratings-empty"><p>${t('ratingsEmpty')}</p></div></section>`;
-    const rows = rated.map((m, i) => ratingRow(cat, m, i + 1)).join('') + unrated.map(m => ratingRow(cat, m, null)).join('');
-    return `<section class="rating-cat"><h2>${esc(pageName(cat))}</h2><div class="rating-list">${rows}</div></section>`;
-  }).join('')}</div>`;
+    if (!rated.length && !q && !ratingsFilter.onlyRated) return `<section class="rating-cat"><h2>${esc(pageName(cat))}</h2><div class="empty ratings-empty"><p>${t('ratingsEmpty')}</p></div></section>`;
+    let rows = rated.map((m, i) => ({ m, place: i + 1 })).concat(unrated.map(m => ({ m, place: null })));
+    if (ratingsFilter.onlyRated) rows = rows.filter(r => r.place !== null);
+    if (q) rows = rows.filter(r => (r.m.name + ' ' + (r.m.vendor || '')).toLowerCase().includes(q));
+    if (!rows.length) return '';
+    totalShown += rows.length;
+    const expanded = ratingsExpanded.has(cat) || !!q;
+    const visible = expanded ? rows : rows.slice(0, RATINGS_TOP);
+    const hiddenN = rows.length - visible.length;
+    let tail = '';
+    if (hiddenN > 0) tail = `<button type="button" class="button rating-more" data-rexpand="${cat}">${tr('showAllBtn', { n: rows.length })}</button>`;
+    else if (ratingsExpanded.has(cat) && rows.length > RATINGS_TOP) tail = `<button type="button" class="button rating-more" data-rcollapse="${cat}">${t('showLessBtn')}</button>`;
+    return `<section class="rating-cat"><h2>${esc(pageName(cat))}</h2><div class="rating-list">${visible.map(r => ratingRow(cat, r.m, r.place)).join('')}</div>${tail}</section>`;
+  }).join('');
+  if (count) count.textContent = tr('foundCount', { n: totalShown });
+  box.innerHTML = html || `<p class="search-empty">${t('noModelsFound')}</p>`;
+}
+function initRatings() {
+  const search = document.getElementById('ratingSearch');
+  if (search) search.addEventListener('input', () => { ratingsFilter.q = search.value; renderRatingList(); });
+  document.querySelectorAll('[data-rcat]').forEach(btn => btn.addEventListener('click', () => {
+    document.querySelectorAll('[data-rcat]').forEach(b => b.classList.remove('on'));
+    btn.classList.add('on');
+    ratingsFilter.cat = btn.dataset.rcat;
+    renderRatingList();
+  }));
+  const tog = document.getElementById('onlyRatedBtn');
+  if (tog) tog.addEventListener('click', () => {
+    ratingsFilter.onlyRated = !ratingsFilter.onlyRated;
+    tog.classList.toggle('on', ratingsFilter.onlyRated);
+    tog.setAttribute('aria-pressed', String(ratingsFilter.onlyRated));
+    renderRatingList();
+  });
+  const box = document.getElementById('ratingList');
+  if (box) box.addEventListener('click', e => {
+    const ex = e.target.closest('[data-rexpand]');
+    if (ex) { ratingsExpanded.add(ex.dataset.rexpand); renderRatingList(); return; }
+    const co = e.target.closest('[data-rcollapse]');
+    if (co) { ratingsExpanded.delete(co.dataset.rcollapse); renderRatingList(); }
+  });
+  renderRatingList();
 }
 function choicePage() {
   const rated = dedupeById(dataItems().filter(({ m }) => typeof m.user_rating === 'number')).sort((a, b) => b.m.user_rating - a.m.user_rating).slice(0, 10);
@@ -1641,7 +1698,10 @@ function route() {
     main.innerHTML = calendarPage();
     initCalendar();
   } else if (id === 'rankings') {
+    ratingsFilter = { cat: categories[0] || '', q: '', onlyRated: false };
+    ratingsExpanded.clear();
     main.innerHTML = ratingsPage();
+    initRatings();
   } else if (id === 'community') {
     main.innerHTML = choicePage();
   } else {
