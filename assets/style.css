@@ -589,3 +589,11 @@ body{overflow-x:clip}
 .picks-grid>*{min-width:0}.pick-row{min-width:0}.pick-price{overflow-wrap:anywhere}
 
 .sales-h{margin:28px 0 12px;font-size:22px}
+
+/* Рейтинги: липкая панель управления, поиск и переключатель оценок (17.11.2026) */
+.ratings-bar{position:sticky;top:10px;z-index:4;background:rgba(7,16,28,.94);border:1px solid var(--border);border-radius:12px;padding:12px 14px;backdrop-filter:blur(6px)}
+.ratings-controls{display:flex;gap:12px;align-items:flex-start}
+.ratings-controls .searchbar{flex:1;min-width:0}
+.ratings-controls .filter-chips{flex:none;padding-top:5px}
+.rating-more{margin-top:10px}
+@media(max-width:650px){.ratings-controls{flex-direction:column}.ratings-controls .filter-chips{padding-top:0}}
