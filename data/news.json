@@ -1,22 +1,310 @@
 {
   "items": [
     {
-      "date": "2026-11-16T08:27:00.000Z",
-      "title": "Хакери зламали ШІ-платформу Fireworks AI та викрали дані тисяч водіїв Uber",
-      "text": "Тисячі водіїв Uber у США стали жертвами витоку персональних даних. Зловмисники зламали ШІ-платформу Fireworks AI, яка мала доступ до інформації Uber, і викрали дані водійських посвідчень.",
-      "product": "dev.ua",
-      "url": "https://dev.ua/news/uber-vkraly-dani-vodiiv-1794816013",
+      "date": "2026-11-17T12:00:00.000Z",
+      "title": "How the Nordics' leading postal operator rebuilt its customer support on ElevenAgents",
+      "text": "Yahoo used the ElevenAgents platform to add conversational voice to its new Yahoo Scout AI answer tool, going from kickoff to production in 6 weeks.",
+      "product": "ElevenLabs",
+      "url": "https://elevenlabs.io/blog/postnord",
       "auto": true,
-      "image": "https://dev.ua/storage/images/72/18/16/46/derived/13c3667468ad785de772f0bfb66bc95d.webp"
+      "image": "https://eleven-public-cdn.elevenlabs.io/payloadcms/w7xjkvb77xo-Postnord.webp"
     },
     {
-      "date": "2026-11-16T07:34:00.000Z",
-      "title": "Український розробник створив ШІ-застосунок, який збирає валізу за прогнозом погоди та планами на поїздку. Як працює Packmates AI",
-      "text": "29-річний Алекс Столярчук родом з Одеси, майже десять років живе у США. Він закінчив University of Central Florida за спеціальністю «вебдизайн та інтерактивний дизайн», а зараз працює офіціантом в Орландо й паралельно розвиває власні цифрові продукти. Один із них — Packmates AI,…",
-      "product": "dev.ua",
-      "url": "https://dev.ua/news/aleks-1794807854",
+      "date": "2026-11-17T08:58:55.000Z",
+      "title": "Google заявила про ймовірно першу повністю автоматизовану кібератаку з використанням ШІ",
+      "text": "Хакери налаштували кількох ШІ-агентів, які безперервно порівнювали програмний код до та після випуску виправлень. На основі цих змін агенти знаходили вразливості й автоматично створювали інструменти для їх використання — без втручання людини.",
+      "product": "AIN.UA",
+      "url": "https://ain.ua/2026/11/17/google-zaiavila-pro-imovirno-persu-povnistiu-avtomatizovanu-kiberataku-z-vikoristanniam-si/",
       "auto": true,
-      "image": "https://dev.ua/storage/images/11/81/91/44/derived/3caffe0816d561343aa99f181d98ef64.webp"
+      "image": "https://cdn.ain.ua/ua/articles/2026-11-17/xHvIoz3USOQWQxxpJMwtKq0cvFhiwp60bem7FKTx.webp"
+    },
+    {
+      "date": "2026-11-17T07:21:32.000Z",
+      "title": "v1.19.6",
+      "text": "Desktop Improvements OpenCode 1 now offers the upgrade to OpenCode 2.0. OpenCode 2 downloads in the background and installs only when you choose: Restart to upgrade, Upgrade on quit, or Later. Your sessions, projects, and settings are kept. Plugins made for OpenCode 1 need an up…",
+      "product": "OpenCode",
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.19.6",
+      "auto": true
+    },
+    {
+      "date": "2026-11-17T05:05:28.000Z",
+      "title": "Apple изучает доверие к медицинскому ИИ: участникам разрешат подключать данные о здоровье",
+      "text": "Apple запускает исследование Apple Health AI Usage Study, в котором 200 000 пользователей iPhone протестируют медицинский ИИ-чат-бот",
+      "product": "hi-tech.ua",
+      "url": "https://hi-tech.ua/apple-izuchaet-doverie-k-mediczinskomu-ii-uchastnikam-razreshat-podklyuchat-dannye-o-zdorove/",
+      "auto": true,
+      "image": "https://hi-tech.ua/wp-content/uploads/2026/11/c532dfd8d3a4d82b4121e8634ef8e245-300x169.webp"
+    },
+    {
+      "date": "2026-11-17T03:58:09.000Z",
+      "title": "An Update on the Content We Recommend on Instagram in India",
+      "text": "We've strengthened the default protections behind what Instagram recommends in India to reduce unwanted content and improve people’s experience on Instagram. This work has been guided by what our users told us they want from their recommendations. The post An Update on the Conte…",
+      "product": "Meta AI",
+      "url": "https://about.fb.com/news/2026/11/an-update-on-the-content-we-recommend-on-instagram-in-india/",
+      "auto": true,
+      "image": "https://about.fb.com/wp-content/uploads/2026/11/Meta-logo.png?fit=2174%2C1216"
+    },
+    {
+      "date": "2026-11-17T01:00:48.000Z",
+      "title": "Introducing Direct: An App Just for Messaging",
+      "text": "Today, we're introducing Direct, a new messaging app brought to you by Instagram for chatting one-on-one or in groups with friends and family. The post Introducing Direct: An App Just for Messaging appeared first on Meta Newsroom .",
+      "product": "Meta AI",
+      "url": "https://about.fb.com/news/2026/11/introducing-direct-an-app-just-for-messaging/",
+      "auto": true,
+      "image": "https://about.fb.com/wp-content/uploads/2026/11/02_Direct.jpg"
+    },
+    {
+      "date": "2026-11-17T00:09:27.000Z",
+      "title": "Dependabot alert dismissal requests now last one year",
+      "text": "If you use delegated alert dismissal for Dependabot, dismissal requests now stay open for one year instead of one week. Reviewers have more time to respond before a request expires… The post Dependabot alert dismissal requests now last one year appeared first on The GitHub Blog .",
+      "product": "GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-11-16-dependabot-alert-dismissal-requests-now-last-one-year",
+      "auto": true,
+      "image": "https://github.com/user-attachments/assets/3574fc96-2263-4899-b66f-4651af692df2"
+    },
+    {
+      "date": "2026-11-17T00:00:00.000Z",
+      "title": "Strengthening NATO and allied cyber defenses with AI",
+      "text": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
+      "product": "OpenAI",
+      "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+      "auto": true
+    },
+    {
+      "date": "2026-11-16T23:36:04.000Z",
+      "title": "process-daemon v0.6.0",
+      "text": "opencode-pty 0.6.0 (protocol 9) from packages/process-daemon, published to npm as @opencode/pty@0.6.0.",
+      "product": "OpenCode",
+      "url": "https://github.com/anomalyco/opencode/releases/tag/process-daemon-v0.6.0",
+      "auto": true
+    },
+    {
+      "date": "2026-11-16T22:01:49.000Z",
+      "title": "gdk-v0.1.0-alpha.14: chore(GDK): release v0.1.0-alpha.14 (#13468)",
+      "text": "Co-authored-by: github-actions[bot]",
+      "product": "Goose",
+      "url": "https://github.com/aaif-goose/goose/releases/tag/gdk-v0.1.0-alpha.14",
+      "auto": true
+    },
+    {
+      "date": "2026-11-16T21:34:53.000Z",
+      "title": "GitHub Copilot weekly releases — November 9",
+      "text": "This week, bring GitHub Enterprise Server repositories into the Copilot app and see which agent sessions need you first in VS Code. You can also try two new models, Claude… The post GitHub Copilot weekly releases — November 9 appeared first on The GitHub Blog .",
+      "product": "GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-11-16-github-copilot-weekly-releases-november-9",
+      "auto": true
+    },
+    {
+      "date": "2026-11-16T21:30:49.000Z",
+      "title": "Budget limit increased to 40,000 budgets per account",
+      "text": "You can now create up to 40,000 budgets per GitHub Enterprise Cloud account, up from 10,000. If you set budgets for individual users, or manage budgets across many cost centers… The post Budget limit increased to 40,000 budgets per account appeared first on The GitHub Blog .",
+      "product": "GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-11-16-budget-limit-increased-to-40000-budgets-per-account",
+      "auto": true
+    },
+    {
+      "date": "2026-11-16T20:25:20.000Z",
+      "title": "GitHub Copilot models deprecated on November 16, 2026",
+      "text": "As of today, November 16, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Note… The post GitHub Copilot models deprecated on November 16, 2026 appeared first o…",
+      "product": "GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-11-16-github-copilot-models-deprecated-on-november-16-2026",
+      "auto": true
+    },
+    {
+      "date": "2026-11-16T19:48:33.000Z",
+      "title": "Control where GitHub Copilot customizations come from",
+      "text": "As an enterprise administrator, you can now require selected GitHub Copilot customizations to come from plugins or managed settings, rather than standalone user or project configuration. Combined with marketplace restrictions,… The post Control where GitHub Copilot customization…",
+      "product": "GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-11-16-control-where-github-copilot-customizations-come-from",
+      "auto": true
+    },
+    {
+      "date": "2026-11-16T19:22:56.000Z",
+      "title": "VS Code retires the Local harness in February 2027",
+      "text": "Visual Studio Code 1.146 deprecates the Local harness, the older software that coordinates the model, context, and tools for GitHub Copilot agent sessions in the editor. The Local harness will… The post VS Code retires the Local harness in February 2027 appeared first on The Git…",
+      "product": "GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-11-16-vs-code-retires-the-local-harness-in-february-2027",
+      "auto": true
+    },
+    {
+      "date": "2026-11-16T19:02:48.000Z",
+      "title": "v0.40.17",
+      "text": "What's Changed Improve ChatGPT CLI restore and graceful restart by @hoyyeva in #19583 cmd/launch: use thinking metadata for OpenCode settings by @hoyyeva in #19409 llm: use mmap for Vulkan integrated GPUs by @dhiltgen in #19640 rpreslar4765/Ollama by @rpreslar4765 in #17163 mlx:…",
+      "product": "Ollama",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc1",
+      "auto": true
+    },
+    {
+      "date": "2026-11-16T18:45:00.000Z",
+      "title": "Regional voices are rolling out in the Gemini app.",
+      "text": "Gemini now offers 66 regional voices on Android and iOS. Choose a natural, local dialect for your app interactions. Pick your favorite voice today.",
+      "product": "Gemini",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/regional-voices/",
+      "auto": true,
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/super-g_1.max-600x600.format-webp.webp"
+    },
+    {
+      "date": "2026-11-16T17:03:11.000Z",
+      "title": "ИИ-покупатель: OpenAI запустила платежный сервис ChatGPT Wallet",
+      "text": "Компания OpenAI представила инструмент ChatGPT Wallet, позволяющий ИИ оплачивать покупки от имени пользователя.",
+      "product": "hi-tech.ua",
+      "url": "https://hi-tech.ua/ii-pokupatel-openai-zapustila-platezhnyj-servis-chatgpt-wallet/",
+      "auto": true,
+      "image": "https://hi-tech.ua/wp-content/uploads/2026/11/ac5ceec539ffdf42800721bda8f398b3-300x169.webp"
+    },
+    {
+      "date": "2026-11-16T17:00:00.000Z",
+      "title": "Broadening access to AI for scientists",
+      "text": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
+      "product": "OpenAI",
+      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "auto": true
+    },
+    {
+      "date": "2026-11-16T17:00:00.000Z",
+      "title": "Strengthening the fight against online child sexual abuse with new tools and support",
+      "text": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
+      "product": "OpenAI",
+      "url": "https://openai.com/index/strengthening-online-child-safety",
+      "auto": true
+    },
+    {
+      "date": "2026-11-16T16:31:51.000Z",
+      "title": "Google предупреждает о грядущих полностью автоматизированных хакерских атаках на основе ИИ",
+      "text": "Google Threat Intelligence Group (GTIG) предупреждает, что киберпреступники переходят к использованию агентных рабочих процессов на основе ИИ-фреймворков, которые автоматизируют поиск и эксплуатацию уязвимостей. Сначала ИИ в атаках применялся экспериментально, однако теперь GTIG…",
+      "product": "ITC.ua",
+      "url": "https://itc.ua/news/google-preduprezhdaet-o-gryadushhyh-polnostyu-avtomatyzyrovannyh-hakerskyh-atakah-na-osnove-yy/",
+      "auto": true
+    },
+    {
+      "date": "2026-11-16T15:50:24.000Z",
+      "title": "Військовий ШІ, від якого відмовилася Швейцарія та з яким працює Україна: чому Європа шукає альтернативу Palantir (і чи зможе замінити)",
+      "text": "Швейцарія неодноразово відмовляла Palantir у співпраці через побоювання щодо безпеки даних, а Німеччина та Франція розробляють власні альтернативи. Чому Європа прагне позбутися залежності від американського військового ШІ та яку роль у цій історії відіграє Україна?",
+      "product": "AIN.UA",
+      "url": "https://ain.ua/2026/11/16/viiskovii-si-vid-iakogo-vidmovilasia-sveicariia-i-z-iakim-praciuje-ukrayina-comu-jevropa-sukaje-alternativu-palantir-i-ci-zmoze-zaminiti/",
+      "auto": true,
+      "image": "https://cdn.ain.ua/ua/articles/2026-11-16/5ONnZbkw4JGBA2MCtZy41B7weISaBAbxE3NnuIXI.webp"
+    },
+    {
+      "date": "2026-11-16T14:26:00.000Z",
+      "title": "Прошита PlayStation 4 запускає ШІ-модель на 9 млрд параметрів зі швидкістю до 43 токенів на секунду",
+      "text": "Розробник Леонардо Алегрія представив проєкт із відкритим вихідним кодом Garlic LLM, який дозволяє запускати локальну мовну модель Qwen3.5-9B на прошитій консолі PlayStation 4. Програма працює повністю в офлайн-режимі на графічному процесорі 2013 року, генеруючи текст зі швидкіс…",
+      "product": "dev.ua",
+      "url": "https://dev.ua/news/proshyta-playstation-4-zapuskaie-ai-model-1794838591",
+      "auto": true,
+      "image": "https://dev.ua/storage/images/11/67/03/61/derived/d12b4ad342c6c11616b2177628d5e24c.webp"
+    },
+    {
+      "date": "2026-11-16T14:00:00.000Z",
+      "title": "New Ask Maps features to help with holiday travel and prep",
+      "text": "Plan holiday road trips, get route tips, find local appointments, and search your saved lists with new Ask Maps features.",
+      "product": "Google AI",
+      "url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
+      "auto": true,
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Ask_Maps_November_herosocial.max-600x600.format-webp.webp"
+    },
+    {
+      "date": "2026-11-16T13:58:00.000Z",
+      "title": "У адміністрації Трампа хочуть зробити Nvidia, OpenAI, Anthropic і Microsoft «національними чемпіонами» ШІ. Що це означає?",
+      "text": "У адміністрації Дональда Трампа збираються надати Nvidia та ще понад двом десяткам технологічних компаній статус «національних чемпіонів» штучного інтелекту. Це дозволить їм розраховувати на державне фінансування та прискорений розгляд заявок на експорт чипів.",
+      "product": "dev.ua",
+      "url": "https://dev.ua/news/natsionalni-chempiony-shi-1794835088",
+      "auto": true,
+      "image": "https://dev.ua/storage/images/16/65/18/68/derived/0f96a9f3e7d68d6b157d8a95ac123337.webp"
+    },
+    {
+      "date": "2026-11-16T12:29:02.000Z",
+      "title": "Ни хакеры, ни ИИ: Microsoft объяснила, что вывело из строя Outlook и Teams",
+      "text": "На прошлой неделе Microsoft 365 «пролежал» около суток, а пользователи гадали, кто виноват: ИИ или хакеры. Оказалось, всё проще и в то же время тревожнее: ошибка тихо ждала своего часа в коде с июля.",
+      "product": "ITC.ua",
+      "url": "https://itc.ua/news/ny-hakery-ny-yy-microsoft-obyasnyla-chto-vyvelo-yz-stroya-outlook-y-teams/",
+      "auto": true
+    },
+    {
+      "date": "2026-11-16T12:00:00.000Z",
+      "title": "Science at the Frontier: How scientists use ChatGPT",
+      "text": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
+      "product": "OpenAI",
+      "url": "https://openai.com/index/science-at-the-frontier",
+      "auto": true
+    },
+    {
+      "date": "2026-11-16T12:00:00.000Z",
+      "title": "Kotoba is joining ElevenLabs",
+      "text": "ElevenLabs is acquiring Kotoba, the leading Japanese voice AI lab, to bring natural, culturally fluent AI agents and voice interfaces to Japan.",
+      "product": "ElevenLabs",
+      "url": "https://elevenlabs.io/blog/kotoba",
+      "auto": true,
+      "image": "https://eleven-public-cdn.elevenlabs.io/payloadcms/7bmftwo9yq5-Kotoba-and-ElevenLabs-2.webp"
+    },
+    {
+      "date": "2026-11-16T12:00:00.000Z",
+      "title": "What is an LLM? A practical guide to language models",
+      "text": "Learn what a large language model (LLM) is, how LLMs work, how they are trained, the main architectures, real examples, and their limitations.",
+      "product": "ElevenLabs",
+      "url": "https://elevenlabs.io/blog/what-is-an-llm",
+      "auto": true
+    },
+    {
+      "date": "2026-11-16T12:00:00.000Z",
+      "title": "Autotorino automates dealership calls with ElevenAgents",
+      "text": "Automated call handling more than doubled call volume capacity across the dealer network by using ElevenLabs.",
+      "product": "ElevenLabs",
+      "url": "https://elevenlabs.io/blog/autotorino-agents",
+      "auto": true,
+      "image": "https://eleven-public-cdn.elevenlabs.io/payloadcms/m67i5st2gwp-Autotorino--1-.webp"
+    },
+    {
+      "date": "2026-11-16T12:00:00.000Z",
+      "title": "The Year of More: $200,000 for what you create next",
+      "text": "The new ElevenCreative competition rewards work that brings voice, sound, image, and video together.",
+      "product": "ElevenLabs",
+      "url": "https://elevenlabs.io/blog/the-year-of-more",
+      "auto": true,
+      "image": "https://eleven-public-cdn.elevenlabs.io/payloadcms/k31pmekoew-Minimal-Chair-%E2%80%94-1_1--feed---in-app-notification--1080x1080.webp"
+    },
+    {
+      "date": "2026-11-16T11:41:00.000Z",
+      "title": "Студент КПІ створив LaTeX-шаблон для дипломів і курсових із лінтером нормоконтролю та плагіном для Claude Code — як альтернативу верстці у Word",
+      "text": "Олександр Соколов, студент Київського політехнічного інституту (ФІОТ) та Middle Back-end Engineer у компанії OBRIO, розробив відкритий інструмент kpi-thesis — LaTeX-клас, набір шаблонів, лінтер нормоконтролю та плагін для Claude Code, створені для автоматизації оформлення курсов…",
+      "product": "dev.ua",
+      "url": "https://dev.ua/news/student-kpi-stvoryv-latex-shablon-dlia-dyplomiv-i-kursovykh-1794827734",
+      "auto": true,
+      "image": "https://dev.ua/storage/images/15/16/99/57/derived/42495c8cc51501ece2a29d8895779735.webp"
+    },
+    {
+      "date": "2026-11-16T11:00:00.000Z",
+      "title": "2,4 трлн параметрів та вікно в 1 млн токенів: Alibaba представила флагманську ШІ-модель Qwen4-Max як відповідь OpenAI та Anthropic",
+      "text": "Китайський технологічний гігант Alibaba Group офіційно випустив свою нову флагманську модель штучного інтелекту Qwen4-Max, заявивши, що її продуктивність конкурує з провідними розробками американських компаній OpenAI та Anthropic.",
+      "product": "dev.ua",
+      "url": "https://dev.ua/news/alibaba-predstavyla-novu-flahmansku-shi-model-qwen4-max-1794825930",
+      "auto": true,
+      "image": "https://dev.ua/storage/images/55/82/30/18/derived/a5df9dc5c47f7781fbd9ce999eba78b1.webp"
+    },
+    {
+      "date": "2026-11-16T09:30:00.000Z",
+      "title": "How Revolut raises ambition without lowering the bar",
+      "text": "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security.",
+      "product": "OpenAI",
+      "url": "https://openai.com/business/customer-stories/revolut",
+      "auto": true
+    },
+    {
+      "date": "2026-11-16T09:00:00.000Z",
+      "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+      "text": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
+      "product": "OpenAI",
+      "url": "https://openai.com/index/lvmh-media-division-partnership",
+      "auto": true
+    },
+    {
+      "date": "2026-11-16T08:05:09.000Z",
+      "title": "Lazarus меняет правила проверки нейросетей: для скрытого бекдора достаточно семи нейронов",
+      "text": "Microsoft исследовала Lazarus — метод изменения внутренних параметров языковых моделей без переобучения.",
+      "product": "hi-tech.ua",
+      "url": "https://hi-tech.ua/lazarus-menyaet-pravila-proverki-nejrosetej-dlya-skrytogo-bekdora-dostatochno-semi-nejronov/",
+      "auto": true,
+      "image": "https://hi-tech.ua/wp-content/uploads/2026/11/msr-blg_laz_hero-300x169.webp"
     },
     {
       "date": "2026-11-16T06:25:27.000Z",
@@ -40,37 +328,20 @@
       "text_uk": "Виправлення (Databricks): прибрано блоки роздумів, прив’язані до іншого префікса ( #1 …"
     },
     {
-      "date": "2026-11-15T22:00:01.000Z",
-      "title": "A step toward defining the Standard Model on a lattice",
-      "text": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
-      "product": "OpenAI",
-      "url": "https://openai.com/index/step-toward-defining-the-standard-model",
-      "auto": true,
-      "title_ru": "Шаг к определению Стандартной модели на решётке",
-      "text_ru": "Исследуется кандидатное непертурбативное решёточное определение Стандартной модели и то, как GPT-6 Astra помогла превратить идею в детальное доказательство.",
-      "title_uk": "Крок до визначення Стандартної моделі на ґратці",
-      "text_uk": "Досліджується кандидатне непертурбативне ґраткове визначення Стандартної моделі та те, як GPT-6 Astra допомогла перетворити ідею на детальний доказ."
+      "date": "2026-11-16T00:00:00.000Z",
+      "title": "Introducing Agent Remote Control",
+      "text": "Run Bionic agents on your laptops, dev boxes, and cloud VMs, and control them from any of your devices over LM Link.",
+      "product": "LM Studio",
+      "url": "https://lmstudio.ai/blog/agent-remote-control",
+      "auto": true
     },
     {
-      "date": "2026-11-15T22:00:00.000Z",
-      "title": "Our new blog for science",
-      "text": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
-      "product": "OpenAI",
-      "url": "https://openai.com/index/our-new-blog-for-science",
-      "auto": true,
-      "title_ru": "Наш новый блог о науке",
-      "text_ru": "Научный блог OpenAI рассказывает о новых открытиях, практических методах и опыте исследователей, использующих ИИ для продвижения научных открытий.",
-      "title_uk": "Наш новий блог про науку",
-      "text_uk": "Науковий блог OpenAI розповідає про нові відкриття, практичні методи та досвід дослідників, які використовують ШІ для просування наукових відкриттів."
-    },
-    {
-      "date": "2026-11-15T19:55:22.000Z",
-      "title": "Хакеры обчистили французский банк на €100 млн — в деле мог быть замешан ИИ",
-      "text": "Французская банковская группа Crédit Mutuel Arkéa столкнулась с беспрецедентной кибератакой, в ходе которой злоумышленники похитили около €100 миллионов через мгновенные платежи. Президент банка считает, что в деле замешан искусственный интеллект.",
-      "product": "hi-tech.ua",
-      "url": "https://hi-tech.ua/hakery-obchistili-franczuzskij-bank-na-e100-mln-v-dele-mog-byt-zameshan-ii/",
-      "auto": true,
-      "image": "https://hi-tech.ua/wp-content/uploads/2026/11/macbook12-300x169.webp"
+      "date": "2026-11-16T00:00:00.000Z",
+      "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+      "text": "",
+      "product": "Hugging Face",
+      "url": "https://huggingface.co/blog/openrouter",
+      "auto": true
     },
     {
       "date": "2026-11-15T07:40:14.000Z",
@@ -85,19 +356,6 @@
       "text_uk": "Підводні роботи виявляють паразитів на лососях і знищують їх за допомогою лазерів, а інші машини за допомогою штучного інтелекту визначають вид щойно виловленої риби та виконують давню японську процедуру її обробки. Такі технології вже використовують у рибній промисловості…"
     },
     {
-      "date": "2026-11-14T10:40:00.000Z",
-      "title": "Microsoft відновила роботу своїх сервісів після понад 20-годинного глобального збою",
-      "text": "Корпорація Microsoft повністю відновила доступ до своїх хмарних і робочих продуктів, зокрема Outlook, Teams та ШІ-інструменту Copilot, після масштабного збою, який тривав понад 20 годин і паралізував роботу компаній та держустанов у понад 70 країнах світу.",
-      "product": "dev.ua",
-      "url": "https://dev.ua/news/microsoft-vidnovyla-robotu-svoikh-servisiv",
-      "auto": true,
-      "image": "https://dev.ua/storage/images/44/11/52/59/derived/3f9ee3fe0337d851994d88d27cc3d00f.webp",
-      "title_ru": "Microsoft восстановила работу своих сервисов после более чем 20-часового глобального сбоя",
-      "text_ru": "Корпорация Microsoft полностью восстановила доступ к своим облачным и рабочим продуктам, в частности Outlook, Teams и ИИ-инструменту Copilot, после масштабного сбоя, который длился более 20 часов и парализовал работу компаний и госучреждений в более чем 70 странах мира.",
-      "title_uk": "Microsoft відновила роботу своїх сервісів після понад 20-годинного глобального збою",
-      "text_uk": "Корпорація Microsoft повністю відновила доступ до своїх хмарних і робочих продуктів, зокрема Outlook, Teams та ШІ-інструменту Copilot, після масштабного збою, який тривав понад 20 годин і паралізував роботу компаній та держустанов у понад 70 країнах світу."
-    },
-    {
       "date": "2026-11-14T06:50:12.000Z",
       "title": "v1.59.1",
       "text": "macOS desktop builds and full release notes coming soon.",
@@ -108,43 +366,6 @@
       "text_ru": "Сборки для macOS и полные заметки к выпуску — скоро.",
       "title_uk": "v1.59.1",
       "text_uk": "Збірки для macOS і повні нотатки до випуску — скоро."
-    },
-    {
-      "date": "2026-11-13T20:40:05.000Z",
-      "title": "Upcoming deprecation of selected GitHub Copilot models in December",
-      "text": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on December 14, 2026: Model Deprecation date… The post Upcoming deprecation of selected GitHub Copilot models in Decembe…",
-      "product": "GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december",
-      "auto": true,
-      "title_ru": "Отмена ряда моделей GitHub Copilot в декабре",
-      "text_ru": "С 14 декабря 2026 года следующие модели будут отключены во всех сценариях GitHub Copilot: Copilot Chat, встроенные правки, режимы ask и agent, автодополнение кода.",
-      "title_uk": "Скасування низки моделей GitHub Copilot у грудні",
-      "text_uk": "З 14 грудня 2026 року такі моделі буде вимкнено в усіх сценаріях GitHub Copilot: Copilot Chat, вбудовані правки, режими ask та agent, автодоповнення коду."
-    },
-    {
-      "date": "2026-11-13T18:27:13.000Z",
-      "title": "GitHub Enterprise Server support in the GitHub Copilot app",
-      "text": "You can now bring your work on GitHub Enterprise Server (GHES) into the GitHub Copilot app. Add your GHES account to work with remote repositories, issues, and pull requests. This… The post GitHub Enterprise Server support in the GitHub Copilot app appeared first on The GitHub B…",
-      "product": "GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app",
-      "auto": true,
-      "image": "https://github.com/user-attachments/assets/0db4bc3d-8d5c-456f-ac24-d6080eaad55f",
-      "title_ru": "Поддержка GitHub Enterprise Server в приложении GitHub Copilot",
-      "text_ru": "Теперь работу на GitHub Enterprise Server (GHES) можно вести прямо в приложении GitHub Copilot: добавьте учётную запись GHES для работы с удалёнными репозиториями, задачами и pull request'ами.",
-      "title_uk": "Підтримка GitHub Enterprise Server у застосунку GitHub Copilot",
-      "text_uk": "Тепер роботу на GitHub Enterprise Server (GHES) можна вести прямо в застосунку GitHub Copilot: додайте обліковий запис GHES для роботи з віддаленими репозиторіями, задачами та pull request'ами."
-    },
-    {
-      "date": "2026-11-13T18:23:48.000Z",
-      "title": "Gemini 4 Hydrogen in GitHub Copilot",
-      "text": "Gemini 4 Hydrogen, Google’s latest Flash model, is now generally available in GitHub Copilot. It is designed for fast, efficient agentic coding, tool use, and multistep workflows, with improved instruction… The post Gemini 4 Hydrogen in GitHub Copilot appeared first on The GitHu…",
-      "product": "GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot",
-      "auto": true,
-      "title_ru": "Gemini 4 Hydrogen в GitHub Copilot",
-      "text_ru": "Gemini 4 Hydrogen, новейшая Flash-модель Google, стала общедоступной в GitHub Copilot. Она рассчитана на быстрое и эффективное агентное программирование, работу с инструментами и многошаговые процессы, с улучшенным следованием инструкциям.",
-      "title_uk": "Gemini 4 Hydrogen у GitHub Copilot",
-      "text_uk": "Gemini 4 Hydrogen, найновіша Flash-модель Google, стала загальнодоступною в GitHub Copilot. Вона розрахована на швидке й ефективне агентне програмування, роботу з інструментами та багатокрокові процеси, з покращеним дотриманням інструкцій."
     },
     {
       "date": "2026-11-13T18:00:39.000Z",
@@ -192,53 +413,6 @@
       "text_uk": "Усі користувачі застосунку Gemini у США можуть підключити Google Wallet і отримувати відповіді з урахуванням своїх звичок витрат."
     },
     {
-      "date": "2026-11-13T16:15:00.000Z",
-      "title": "OpenAI запустила ChatGPT Wallet — платіжний гаманець для ШІ-агентів",
-      "text": "Компанія OpenAI оголосила про запуск сервісу ChatGPT Wallet, який дозволяє штучному інтелекту самостійно оплачувати покупки від імені користувача, не отримуючи прямого доступу до даних його банківської картки. Новий інструмент розроблено у партнерстві з платіжними системами Amer…",
-      "product": "dev.ua",
-      "url": "https://dev.ua/news/openai-zapustyla-chatgpt-wallet-1794585954",
-      "auto": true,
-      "image": "https://dev.ua/storage/images/68/48/72/55/derived/05aaf02af578be4245c72b4823612f1b.webp"
-    },
-    {
-      "date": "2026-11-13T15:54:00.000Z",
-      "title": "Головний ШІ-директор AWS назвав ключову рису успішних розробників",
-      "text": "Розвиток штучного інтелекту та автоматизація написання коду докорінно змінюють роль розробників, проте головна суть професії полягає не в кодингу, а у вирішенні завдань. Директор із питань ШІ та технологій хмарного підрозділу Amazon Web Services (AWS) Метт Вуд в інтерв’ю Busines…",
-      "product": "dev.ua",
-      "url": "https://dev.ua/news/holovnyi-shi-dyrektor-aws-nazvav-kliuchovu-rysu-uspishnykh-rozrobnykiv-1794584525",
-      "auto": true,
-      "image": "https://dev.ua/storage/images/10/74/17/66/derived/1e654f105ef86e2479404ed05fbbe243.webp",
-      "title_ru": "Главный ИИ-директор AWS назвал ключевую черту успешных разработчиков",
-      "text_ru": "Развитие искусственного интеллекта и автоматизация написания кода коренным образом меняют роль разработчиков, однако главная суть профессии заключается не в кодинге, а в решении задач. Директор по вопросам ИИ и технологий облачного подразделения Amazon Web Services (AWS) Метт Вуд в интервью Business…",
-      "title_uk": "Головний ШІ-директор AWS назвав ключову рису успішних розробників",
-      "text_uk": "Розвиток штучного інтелекту та автоматизація написання коду докорінно змінюють роль розробників, проте головна суть професії полягає не в кодингу, а у вирішенні завдань. Директор із питань ШІ та технологій хмарного підрозділу Amazon Web Services (AWS) Метт Вуд в інтерв’ю Busines…"
-    },
-    {
-      "date": "2026-11-13T15:18:00.000Z",
-      "title": "Власник 32-річного Jeep Cherokee хакнув бортовий комп'ютер авто за допомогою Claude, щоб пройти екотест",
-      "text": "ШІ-ентузіаст Мухаммад Зулалі зумів налаштувати свій 32-річний позашляховик Jeep Cherokee 1994 року випуску для проходження суворих каліфорнійських тестів на викиди, використавши ШІ-моделі Claude та Codex і комплект електроніки вартістю менше ніж $15.",
-      "product": "dev.ua",
-      "url": "https://dev.ua/news/vlasnyk-32-richnoho-jeep-cherokee-khaknuv-bortovyi-kompiuter-avto-za-dopomohoiu-claude-ai-1794582432",
-      "auto": true,
-      "image": "https://dev.ua/storage/images/84/99/92/28/derived/9891ac89e65484b013dcab02f8ed8309.webp",
-      "title_ru": "Владелец 32-летнего Jeep Cherokee взломал бортовой компьютер авто с помощью Claude, чтобы пройти экотест",
-      "text_ru": "ШІ-ентузіаст Мухаммад Зулалі зумів налаштувати свій 32-річний позашляховик Jeep Cherokee 1994 року випуску для проходження суворих каліфорнійських тестів на викиди, використавши ШІ-моделі Claude та Codex і комплект електроніки вартістю менше ніж $15.",
-      "title_uk": "Власник 32-річного Jeep Cherokee хакнув бортовий комп'ютер авто за допомогою Claude, щоб пройти екотест",
-      "text_uk": "ШІ-ентузіаст Мухаммад Зулалі зумів налаштувати свій 32-річний позашляховик Jeep Cherokee 1994 року випуску для проходження суворих каліфорнійських тестів на викиди, використавши ШІ-моделі Claude та Codex і комплект електроніки вартістю менше ніж $15."
-    },
-    {
-      "date": "2026-11-13T15:00:00.000Z",
-      "title": "Introducing ChatGPT Wallet",
-      "text": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
-      "product": "OpenAI",
-      "url": "https://openai.com/index/introducing-chatgpt-wallet",
-      "auto": true,
-      "title_ru": "Представлен ChatGPT Wallet",
-      "text_ru": "ChatGPT Wallet — безопасный способ для агентов в ChatGPT Work, Codex и dots совершать покупки с одобрения пользователя и с действующей защитой карт.",
-      "title_uk": "Представлено ChatGPT Wallet",
-      "text_uk": "ChatGPT Wallet — безпечний спосіб для агентів у ChatGPT Work, Codex і dots здійснювати покупки зі схвалення користувача та з чинним захистом карт."
-    },
-    {
       "date": "2026-11-13T14:05:22.000Z",
       "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
       "text": "",
@@ -261,31 +435,6 @@
       "text_uk": "Вбудуйте Suno у свою сесію з новим окремим застосунком для Mac."
     },
     {
-      "date": "2026-11-13T12:22:41.000Z",
-      "title": "Manage AI Scan for repositories using the REST API",
-      "text": "You can now turn GitHub code scanning’s AI Scan for repositories on or off with the REST API at the organization and repository levels. This public preview adds a repository_scan… The post Manage AI Scan for repositories using the REST API appeared first on The GitHub Blog .",
-      "product": "GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-11-13-manage-ai-scan-for-repositories-using-the-rest-api",
-      "auto": true,
-      "title_ru": "Управление AI Scan для репозиториев через REST API",
-      "text_ru": "Теперь AI Scan в GitHub code scanning можно включать и выключать для репозиториев через REST API на уровне организации и репозитория. Публичный превью-режим добавляет настройку repository_scan.",
-      "title_uk": "Керування AI Scan для репозиторіїв через REST API",
-      "text_uk": "Тепер AI Scan у GitHub code scanning можна вмикати й вимикати для репозиторіїв через REST API на рівні організації та репозиторію. Публічний прев'ю-режим додає налаштування repository_scan."
-    },
-    {
-      "date": "2026-11-13T12:00:00.000Z",
-      "title": "Introducing Forward Deployed Creatives in ElevenCreative",
-      "text": "Forward Deployed Creatives build workflows in ElevenCreative alongside your team, or produce finished, on-brand creative for your team to approve.",
-      "product": "ElevenLabs",
-      "url": "https://elevenlabs.io/blog/introducing-forward-deployed-creatives",
-      "auto": true,
-      "image": "https://eleven-public-cdn.elevenlabs.io/payloadcms/tepmgzfsczl-Group-2147256834.webp",
-      "title_ru": "Forward Deployed Creatives в ElevenCreative",
-      "text_ru": "Forward Deployed Creatives выстраивают процессы в ElevenCreative вместе с вашей командой или выпускают готовый креатив в фирменном стиле на утверждение вашей команды.",
-      "title_uk": "Forward Deployed Creatives в ElevenCreative",
-      "text_uk": "Forward Deployed Creatives вибудовують процеси в ElevenCreative разом із вашою командою або випускають готовий креатив у фірмовому стилі на затвердження вашої команди."
-    },
-    {
       "date": "2026-11-13T12:00:00.000Z",
       "title": "Open source TTS vs paid APIs: How to choose wisely",
       "text": "Compare open source TTS vs paid APIs on cost, control, licensing, and data residency, and learn how to evaluate models before you commit.",
@@ -296,19 +445,6 @@
       "text_ru": "Сравнение открытого TTS и платных API по стоимости, контролю, лицензированию и размещению данных — и как оценивать модели до принятия решения.",
       "title_uk": "Відкритий TTS проти платних API: як обрати з розумом",
       "text_uk": "Порівняння відкритого TTS і платних API за вартістю, контролем, ліцензуванням і розміщенням даних — і як оцінювати моделі до ухвалення рішення."
-    },
-    {
-      "date": "2026-11-13T12:00:00.000Z",
-      "title": "Oxford spent years studying how women build companies. Now this research can speak.",
-      "text": "SOFIA for Business, built with Oxford Saïd and ElevenLabs Impact, lets founders talk to and add to research on women founders.",
-      "product": "ElevenLabs",
-      "url": "https://elevenlabs.io/blog/impact-sofia-oxford-said",
-      "auto": true,
-      "image": "https://eleven-public-cdn.elevenlabs.io/payloadcms/k4ojn877vrg-Screenshot-2026-10-10-at-11.33.41%E2%80%AFam.webp",
-      "title_ru": "Оксфорд годами изучал, как женщины строят компании. Теперь это исследование может говорить",
-      "text_ru": "SOFIA for Business, созданная с Oxford Saïd и ElevenLabs Impact, позволяет основательницам общаться с исследованием о женщинах-предпринимателях и дополнять его.",
-      "title_uk": "Оксфорд роками вивчав, як жінки будують компанії. Тепер це дослідження може говорити",
-      "text_uk": "SOFIA for Business, створена з Oxford Saïd та ElevenLabs Impact, дає засновницям змогу спілкуватися з дослідженням про жінок-підприємиць і доповнювати його."
     },
     {
       "date": "2026-11-13T11:34:00.000Z",
@@ -330,30 +466,6 @@
       "text_ru": "Главное: фоновые подагенты по умолчанию — подагенты теперь возвращают управление сразу, продолжают работу в фоне и докладывают, когда освобождаются. Транскрипты по умолчанию стали тише.",
       "title_uk": "v2.3.0",
       "text_uk": "Головне: фонові подаґенти за замовчуванням — подаґенти тепер повертають керування одразу, продовжують роботу у фоні й доповідають, коли звільняються. Транскрипти за замовчуванням стали тихішими."
-    },
-    {
-      "date": "2026-11-13T08:02:39.000Z",
-      "title": "Энтузиастка превратила видеокарту NVIDIA 8 ГБ для майнинга стоимостью $2500 в A100 80 ГБ за $20 000",
-      "text": "Энтузиастам, желающим создать собственный кластер для запуска ИИ, не обязательно покупать дорогостоящие DGX Spark или Apple Mac Studios. Последние модификации разблокируют мощность старых видеокарт. Однако одна техноблогер решила пойти ещё дальше.",
-      "product": "ITC.ua",
-      "url": "https://itc.ua/news/entuzyastka-prevratyla-vydeokartu-nvidia-8-gb-dlya-majnynga-stoymostyu-2500-v-a100-80-gb-za-20-000/",
-      "auto": true,
-      "title_ru": "Энтузиастка превратила видеокарту NVIDIA 8 ГБ для майнинга стоимостью $2500 в A100 80 ГБ за $20 000",
-      "text_ru": "Энтузиастам, желающим создать собственный кластер для запуска ИИ, не обязательно покупать дорогостоящие DGX Spark или Apple Mac Studios. Последние модификации разблокируют мощность старых видеокарт. Однако одна техноблогер решила пойти ещё дальше.",
-      "title_uk": "Ентузіастка перетворила відеокарту NVIDIA 8 ГБ для майнінгу вартістю $2500 на A100 80 ГБ за $20 000",
-      "text_uk": "Ентузіастам, які бажають створити власний кластер для запуску ШІ, не обов’язково купувати дорогі DGX Spark або Apple Mac Studios. Останні модифікації розблоковують потужність старих відеокарт. Однак одна техноблогерка вирішила піти ще далі."
-    },
-    {
-      "date": "2026-11-13T08:00:00.000Z",
-      "title": "Shield helps technicians hand off legacy portal work with OpenAI",
-      "text": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
-      "product": "OpenAI",
-      "url": "https://openai.com/business/customer-stories/shield",
-      "auto": true,
-      "title_ru": "Shield помогает техникам сдавать работу в устаревших порталах с OpenAI",
-      "text_ru": "Shield использует OpenAI, чтобы помогать ИТ-техникам передавать работу в устаревших порталах. Его агенты Forge перемещаются по системам, чтобы техники могли сосредоточиться на вопросах, где нужно их суждение.",
-      "title_uk": "Shield допомагає технікам здавати роботу в застарілих порталах з OpenAI",
-      "text_uk": "Shield використовує OpenAI, щоб допомагати ІТ-технікам передавати роботу в застарілих порталах. Його агенти Forge переміщуються системами, щоб техніки могли зосередитися на питаннях, де потрібне їхнє судження."
     },
     {
       "date": "2026-11-13T00:20:16.000Z",
@@ -379,31 +491,6 @@
       "text_ru": "Навыки агентов упаковывают повторяющуюся инженерную работу в файлы, которые команды могут проверять и переиспользовать, а инструменты, контекст проекта и разрешения остаются специфичными для среды запуска.",
       "title_uk": "Збери один раз — запускай на будь-якому агенті: практичний гід навичками агентів",
       "text_uk": "Навички агентів пакують повторювану інженерну роботу у файли, які команди можуть перевіряти й перевикористовувати, а інструменти, контекст проєкту та дозволи лишаються специфічними для середовища запуску."
-    },
-    {
-      "date": "2026-11-12T20:59:36.000Z",
-      "title": "Actions for ARM32 Linux & Windows retirement",
-      "text": "GitHub Actions hosted runners will be ending support for ARM32 job execution on Windows and Linux by 8th Dec 2026. This follows our end of support for node20 where Node… The post Actions for ARM32 Linux & Windows retirement appeared first on The GitHub Blog .",
-      "product": "GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement",
-      "auto": true,
-      "image": "https://github.com/user-attachments/assets/f878c51d-8e70-4f3f-bcb3-58b94509203a",
-      "title_ru": "Завершение Actions для ARM32 Linux и Windows",
-      "text_ru": "Хостовые раннеры GitHub Actions прекратят поддержку выполнения задач ARM32 на Windows и Linux к 8 декабря 2026 года.",
-      "title_uk": "Завершення Actions для ARM32 Linux і Windows",
-      "text_uk": "Гостові раннери GitHub Actions припинять підтримку виконання задач ARM32 на Windows і Linux до 8 грудня 2026 року."
-    },
-    {
-      "date": "2026-11-12T20:00:00.000Z",
-      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
-      "text": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
-      "product": "OpenAI",
-      "url": "https://openai.com/business/customer-stories/amplitude",
-      "auto": true,
-      "title_ru": "Как Amplitude выпускает улучшения продукта за 1–2 дня с OpenAI",
-      "text_ru": "Построенный в основном на моделях OpenAI проактивный продуктовый агент Amplitude Wave определяет, что строить, помогает командам выпускать изменения кодовыми агентами и измеряет эффект.",
-      "title_uk": "Як Amplitude випускає покращення продукту за 1–2 дні з OpenAI",
-      "text_uk": "Побудований переважно на моделях OpenAI проактивний продуктовий агент Amplitude Wave визначає, що будувати, допомагає командам випускати зміни кодовими агентами й вимірює ефект."
     },
     {
       "date": "2026-11-12T19:07:35.000Z",
@@ -487,217 +574,6 @@
       "url": "https://ain.ua/2026/11/12/openai-stvorila-cervonu-knopku-dlia-zupinki-si-iak-vona-praciuje/",
       "auto": true,
       "image": "https://cdn.ain.ua/ua/articles/2026-11-12/B7p91pqBmA2c4F9TWHwExnuNVo0OcsRdrRKE9hvP.webp"
-    },
-    {
-      "date": "2026-11-12T16:00:02.000Z",
-      "title": "Scaling AI value without losing control: Lessons from Frontier Firms",
-      "text": "Results are widespread. Value at scale is not, and that gap is what this year’s research from IDC, commissioned by Microsoft, set out to explain. In our fourth year commissioning IDC, more than 5,200 senior IT and business leaders across 28 industries shared what it takes to max…",
-      "product": "Microsoft",
-      "url": "https://blogs.microsoft.com/blog/2026/11/12/scaling-ai-value-without-losing-control-lessons-from-frontier-firms/",
-      "auto": true,
-      "title_ru": "Масштабирование ценности ИИ без потери контроля: уроки компаний-фронтиров",
-      "text_ru": "Результаты повсеместны, а ценности в масштабе — нет; именно этот разрыв и изучало исследование IDC этого года, заказанное Microsoft: более 5 200 руководителей ИТ и бизнеса из 28 отраслей поделились, что нужно для максимальной отдачи.",
-      "title_uk": "Масштабування цінності ШІ без втрати контролю: уроки компаній-фронтирів",
-      "text_uk": "Результати повсюдні, а цінності в масштабі — немає; саме цей розрив і вивчало цьогорічне дослідження IDC, замовлене Microsoft: понад 5 200 керівників ІТ і бізнесу з 28 галузей поділилися, що потрібно для максимальної віддачі."
-    },
-    {
-      "date": "2026-11-12T14:38:25.000Z",
-      "title": "Secret scanning detects Cloudflare service tokens",
-      "text": "Secret scanning now detects Cloudflare service tokens. Detectors added Secret scanning now automatically detects the following new secret type in your repositories. Provider Secret type Cloudflare cloudflare_access_service_token Partner secrets are… The post Secret scanning dete…",
-      "product": "GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-11-12-secret-scanning-adds-a-detector-for-cloudflare",
-      "auto": true,
-      "title_ru": "Secret scanning теперь находит служебные токены Cloudflare",
-      "text_ru": "Secret scanning теперь автоматически определяет новый тип секретов в ваших репозиториях: служебные токены доступа Cloudflare (cloudflare_access_service_token).",
-      "title_uk": "Secret scanning тепер знаходить службові токени Cloudflare",
-      "text_uk": "Secret scanning тепер автоматично визначає новий тип секретів у ваших репозиторіях: службові токени доступу Cloudflare (cloudflare_access_service_token)."
-    },
-    {
-      "date": "2026-11-12T12:00:07.000Z",
-      "title": "Meta’s New Agreements Bring Clean Manufacturing to Data Center Supply Chains",
-      "text": "We’re bringing clean manufacturing to our data centers and setting an industry standard by entering long-term purchase agreements with low-carbon producers across our supply chain. The post Meta’s New Agreements Bring Clean Manufacturing to Data Center Supply Chains appeared fir…",
-      "product": "Meta AI",
-      "url": "https://about.fb.com/news/2026/11/meta-new-agreements-clean-manufacturing-data-center-supply-chains/",
-      "auto": true,
-      "image": "https://about.fb.com/wp-content/uploads/2026/11/How-Meta-is-Helping-Bring-Clean-Industry-to-Commercial-Scale_Header.jpg?fit=1920%2C1080",
-      "title_ru": "Новые соглашения Meta приносят чистое производство в цепочки поставок дата-центров",
-      "text_ru": "Мы привносим чистое производство в наши дата-центры и задаём отраслевой стандарт, заключая долгосрочные соглашения о закупках с производителями с низким углеродным следом по всей цепочке поставок.",
-      "title_uk": "Нові угоди Meta приносять чисте виробництво в ланцюги постачання дата-центрів",
-      "text_uk": "Ми привносимо чисте виробництво в наші дата-центри й задаємо галузевий стандарт, укладаючи довгострокові угоди про закупівлі з виробниками з низьким вуглецевим слідом по всьому ланцюгу постачання."
-    },
-    {
-      "date": "2026-11-12T12:00:00.000Z",
-      "title": "7 customer service skills every human and AI agent needs (with examples)",
-      "text": "Learn the 7 customer service skills every human and AI agent needs, with real examples, a human vs AI comparison, and ways to train and measure them.",
-      "product": "ElevenLabs",
-      "url": "https://elevenlabs.io/blog/customer-service-skills",
-      "auto": true,
-      "title_ru": "7 навыков клиентского сервиса, нужных каждому человеку и ИИ-агенту (с примерами)",
-      "text_ru": "Разбор семи навыков клиентского сервиса для людей и ИИ-агентов: реальные примеры, сравнение «человек против ИИ» и способы обучать и измерять.",
-      "title_uk": "7 навичок клієнтського сервісу, потрібних кожній людині та ШІ-агенту (з прикладами)",
-      "text_uk": "Розбір семи навичок клієнтського сервісу для людей і ШІ-агентів: реальні приклади, порівняння «людина проти ШІ» та способи навчати й вимірювати."
-    },
-    {
-      "date": "2026-11-12T12:00:00.000Z",
-      "title": "ElevenLabs brings free voice restoration to veterans, songwriters, and more patients",
-      "text": "ElevenLabs launches free ElevenMusic for artists with voice loss, partners with Wounded Warrior Project, and adds NYU Langone to 1 Million Voices.",
-      "product": "ElevenLabs",
-      "url": "https://elevenlabs.io/blog/impact-nyc-summit",
-      "auto": true,
-      "image": "https://eleven-public-cdn.elevenlabs.io/payloadcms/hzu606cgpup-2304662705.webp",
-      "title_ru": "ElevenLabs даёт бесплатное восстановление голоса ветеранам, авторам песен и другим пациентам",
-      "text_ru": "ElevenLabs запускает бесплатный ElevenMusic для артистов, потерявших голос, сотрудничает с Wounded Warrior Project и добавляет NYU Langone к программе 1 Million Voices.",
-      "title_uk": "ElevenLabs дає безкоштовне відновлення голосу ветеранам, авторам пісень та іншим пацієнтам",
-      "text_uk": "ElevenLabs запускає безкоштовний ElevenMusic для артистів, що втратили голос, співпрацює з Wounded Warrior Project і додає NYU Langone до програми 1 Million Voices."
-    },
-    {
-      "date": "2026-11-12T12:00:00.000Z",
-      "title": "Gondola doubles revenue as its team builds more with Codex",
-      "text": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
-      "product": "OpenAI",
-      "url": "https://openai.com/business/customer-stories/gondola",
-      "auto": true,
-      "title_ru": "Gondola удвоила выручку, пока команда строит больше с Codex",
-      "text_ru": "Gondola помогает креаторам получать признание и работу: Codex поднял отдачу её ведущего инженера на 50%, а ChatGPT упростил повседневную работу.",
-      "title_uk": "Gondola подвоїла виручку, поки команда будує більше з Codex",
-      "text_uk": "Gondola допомагає креаторам отримувати визнання й роботу: Codex підняв віддачу її провідного інженера на 50%, а ChatGPT спростив повсякденну роботу."
-    },
-    {
-      "date": "2026-11-12T00:00:00.000Z",
-      "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
-      "text": "",
-      "product": "Hugging Face",
-      "url": "https://huggingface.co/blog/3d-lora-finetuning",
-      "auto": true,
-      "title_ru": "Исчерпывающий гид по файнтюнингу моделей 3D-генерации",
-      "title_uk": "Вичерпний гід файнтюнінгу моделей 3D-генерації"
-    },
-    {
-      "date": "2026-11-11T21:34:04.000Z",
-      "title": "process-daemon v0.5.2",
-      "text": "opencode-pty 0.5.2 (protocol 8) from packages/process-daemon, published to npm as @opencode/pty@0.5.2.",
-      "product": "OpenCode",
-      "url": "https://github.com/anomalyco/opencode/releases/tag/process-daemon-v0.5.2",
-      "auto": true,
-      "title_ru": "process-daemon v0.5.2",
-      "text_ru": "opencode-pty 0.5.2 (протокол 8) из пакета process-daemon, опубликован в npm как @opencode/pty@0.5.2.",
-      "title_uk": "process-daemon v0.5.2",
-      "text_uk": "opencode-pty 0.5.2 (протокол 8) з пакета process-daemon, опубліковано в npm як @opencode/pty@0.5.2."
-    },
-    {
-      "date": "2026-11-11T18:27:09.000Z",
-      "title": "process-daemon-v0.5.1",
-      "text": "chore(process-daemon): release 0.5.1 ( #63366 )",
-      "product": "OpenCode",
-      "url": "https://github.com/anomalyco/opencode/releases/tag/process-daemon-v0.5.1",
-      "auto": true,
-      "title_ru": "process-daemon-v0.5.1",
-      "text_ru": "Служебный выпуск process-daemon 0.5.1.",
-      "title_uk": "process-daemon-v0.5.1",
-      "text_uk": "Службовий випуск process-daemon 0.5.1."
-    },
-    {
-      "date": "2026-11-11T18:00:00.000Z",
-      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
-      "text": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
-      "product": "Google AI",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
-      "auto": true,
-      "title_ru": "Gemini Decisions API: быстрые калиброванные мультимодальные решения",
-      "text_ru": "Знакомьтесь: Gemini Decisions API на нашей передовой модели Gemini Decision — для быстрых калиброванных мультимодальных решений.",
-      "title_uk": "Gemini Decisions API: швидкі калібровані мультимодальні рішення",
-      "text_uk": "Знайомтеся: Gemini Decisions API на нашій передовій моделі Gemini Decision — для швидких каліброваних мультимодальних рішень."
-    },
-    {
-      "date": "2026-11-11T17:00:00.000Z",
-      "title": "Talk it through with Gemini, now on Apple CarPlay",
-      "text": "Gemini is now available on Apple CarPlay.",
-      "product": "Gemini",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-on-apple-carplay/",
-      "auto": true,
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Carplay_hero_image.max-600x600.format-webp.webp",
-      "title_ru": "Общайтесь с Gemini вслух — теперь и на Apple CarPlay",
-      "text_ru": "Gemini теперь доступен на Apple CarPlay.",
-      "title_uk": "Спілкуйтеся з Gemini вголос — тепер і на Apple CarPlay",
-      "text_uk": "Gemini тепер доступний на Apple CarPlay."
-    },
-    {
-      "date": "2026-11-11T16:36:00.000Z",
-      "title": "Microsoft запатентувала технологію, яка дозволить навчати ШІ на відеокартах користувачів: як це працюватиме",
-      "text": "Компанія пропонує використовувати вільні потужності відеокарт на комп'ютерах і смартфонах для навчання штучного інтелекту. За участь у цьому користувачі зможуть отримувати винагороду.",
-      "product": "AIN.UA",
-      "url": "https://ain.ua/2026/11/11/microsoft-zapatentuvala-texnologiiu-iaka-dozvolit-navcati-si-na-videokartax-koristuvaciv/",
-      "auto": true,
-      "image": "https://cdn.ain.ua/ua/articles/2026-11-11/1pdDRo06kT6W32Y2SKus6gMhTYI0AjFnxl9FKzXf.webp"
-    },
-    {
-      "date": "2026-11-11T16:00:00.000Z",
-      "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
-      "text": "Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.",
-      "product": "Google AI",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
-      "auto": true,
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/labs_tabletop_blog_image_2784x1.max-600x600.format-webp.webp",
-      "title_ru": "Try Tabletop: настраиваемые совместные пространства для планирования и игр в группе",
-      "text_ru": "Tabletop — новый эксперимент Google Labs для совместной работы групп: интерактивные маршруты, опросы и турнирные сетки с вашей командой. Запись в лист ожидания открыта.",
-      "title_uk": "Try Tabletop: налаштовувані спільні простори для планування та ігор у групі",
-      "text_uk": "Tabletop — новий експеримент Google Labs для спільної роботи груп: інтерактивні маршрути, опитування й турнірні сітки з вашою командою. Запис до листа очікування відкрито."
-    },
-    {
-      "date": "2026-11-11T15:00:15.000Z",
-      "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
-      "text": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
-      "product": "Google DeepMind",
-      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
-      "auto": true,
-      "image": "https://lh3.googleusercontent.com/VPOhADdGu1T7kK_gWBiGzyVawQbKCjpL3-B0L0wxpYCyr8cHxviYmo9Hghy4f1laeIo2YKwuz8E07TR9HWWk2b0EONi0uvju-8TDLHX6YWHG4dXe3w=w528-h297-n-nu-rw-lo",
-      "title_ru": "AlphaGenome 2: как клетки читают ДНК — чтобы лучше понимать болезни",
-      "text_ru": "Предсказание того, как последовательности ДНК и их вариации влияют на конкретные типы клеток человека и болезни.",
-      "title_uk": "AlphaGenome 2: як клітини читають ДНК — щоб краще розуміти хвороби",
-      "text_uk": "Передбачення того, як послідовності ДНК та їхні варіації впливають на конкретні типи клітин людини й хвороби."
-    },
-    {
-      "date": "2026-11-11T12:00:00.000Z",
-      "title": "Voice cloning for content creators: Scale your content workflows with voice AI",
-      "text": "Learn how voice cloning for content creators helps improve existing workflows across podcasts, YouTube, digital classes, and more with ElevenCreative",
-      "product": "ElevenLabs",
-      "url": "https://elevenlabs.io/blog/voice-cloning-for-content-creators",
-      "auto": true,
-      "title_ru": "Клонирование голоса для создателей контента: масштабируйте процессы голосовым ИИ",
-      "text_ru": "Как клонирование голоса помогает создателям контента улучшать существующие процессы: подкасты, YouTube, цифровые курсы и многое другое — с ElevenCreative.",
-      "title_uk": "Клонування голосу для творців контенту: масштабуйте процеси голосовим ШІ",
-      "text_uk": "Як клонування голосу допомагає творцям контенту покращувати наявні процеси: подкасти, YouTube, цифрові курси та багато іншого — з ElevenCreative."
-    },
-    {
-      "date": "2026-11-11T10:37:00.000Z",
-      "title": "OpenAI запускає Business Hub у ChatGPT: як це працюватиме",
-      "text": "Бізнес зможе оновлювати інформацію про свої товари та послуги, відстежувати згадки в ChatGPT і створювати ШІ-агентів для спілкування з потенційними клієнтами.",
-      "product": "AIN.UA",
-      "url": "https://ain.ua/2026/11/11/openai-zapuskaje-profili-kompanii-u-chatgpt/",
-      "auto": true,
-      "image": "https://cdn.ain.ua/ua/articles/2026-11-11/ZQXGIQAvYz8hbGn3lEsjQ6Mulk56Lxi2FyjrYdSL.webp"
-    },
-    {
-      "date": "2026-11-11T09:00:00.000Z",
-      "title": "Experience the art and legacy of Dr. Esther Mahlangu",
-      "text": "A new online archive of Esther Mahlangu’s life and art is now on Google Arts & Culture.",
-      "product": "Google AI",
-      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
-      "auto": true,
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/esther_video_still.max-600x600.format-webp.webp",
-      "title_ru": "Искусство и наследие доктора Эстер Махлангу",
-      "text_ru": "Новый онлайн-архив жизни и искусства Эстер Махлангу теперь на Google Arts & Culture.",
-      "title_uk": "Мистецтво і спадщина докторки Естер Махлангу",
-      "text_uk": "Новий онлайн-архів життя й мистецтва Естер Махлангу тепер на Google Arts & Culture."
-    },
-    {
-      "date": "2026-11-11T08:51:00.000Z",
-      "title": "Google відкрила доступ до Gemini 4 Carbon: що вміє нова ШІ-модель",
-      "text": "Нова ШІ-модель призначена для складних завдань із програмування, кібербезпеки та наукових досліджень. Вона також може працювати в команді з іншими ШІ-агентами.",
-      "product": "AIN.UA",
-      "url": "https://ain.ua/2026/11/11/google-vidkrila-dostup-do-gemini-4-carbon/",
-      "auto": true,
-      "image": "https://cdn.ain.ua/ua/articles/2026-11-11/v91DC5F3ZOXomClpK3BqV80ITsFFUDGcGWSAnNlz.webp"
     }
   ]
 }
