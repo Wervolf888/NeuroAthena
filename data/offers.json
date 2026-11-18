@@ -75,6 +75,13 @@
       "product": "Ideogram",
       "text": "Годовая оплата Plus — $15/мес вместо $20 при помесячной (−25%).",
       "url": "https://ideogram.ai"
+    },
+    {
+      "kind": "discounts",
+      "product": "Runway",
+      "text": "Runway предлагает 25 % скидку на генерацию видео моделью Kling 4.0 до 30 ноября 2026 года.",
+      "until": "30 ноября 2026 г.",
+      "url": "https://runway.com/pricing"
     }
   ]
 }
