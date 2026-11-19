@@ -1,40 +1,259 @@
 {
   "items": [
     {
-      "date": "2026-11-18T08:58:00.000Z",
-      "title": "Модель ШІ від OpenAI знайшла критичну вразливість у Java, яка загрожує 90% топових компаній",
-      "text": "Кібербезпековий стартап Calif за допомогою нової моделі штучного інтелекту GPT-6 Cyber від OpenAI виявив небезпечну вразливість нульового дня у мові програмування Java. Помилка, що отримала назву Java4Shell, дозволяє зловмисникам отримати віддалений доступ до конфіденційних внут…",
-      "product": "dev.ua",
-      "url": "https://dev.ua/news/model-shi-vid-openai-znaishla-krytychnu-vrazlyvist-u-java-1794991044",
+      "date": "2026-11-19T09:00:00.000Z",
+      "title": "Розробник Claude виходить на біржу після рекордного IPO на понад $81 млрд",
+      "text": "Акції Anthropic мають дебютувати на американській біржі Nasdaq 19 листопада під тикером ANT. Розміщення оцінює компанію приблизно в $1,5 трлн.",
+      "product": "AIN.UA",
+      "url": "https://ain.ua/2026/11/19/rozrobnik-claude-vixodit-na-birzu-pislia-rekordnogo-ipo-na-ponad-81-mlrd/",
       "auto": true,
-      "image": "https://dev.ua/storage/images/65/12/89/29/derived/27e1c635d9eff2f9cd696f801632a831.webp"
+      "image": "https://cdn.ain.ua/ua/articles/2026-11-19/v6hzb7AGoJKpm2fA7pXcIZaIyv9wAFhE936CV2xp.webp"
     },
     {
-      "date": "2026-11-18T08:35:00.000Z",
-      "title": "Anthropic може підвищити ціну акцій перед IPO через ажіотаж серед інвесторів. Попит майже всемеро перевищив пропозицію",
-      "text": "Акції розробника Claude ще не почали торгуватися на біржі, але за ними вже «вишикувалася черга». Попит на акції Anthropic майже всемеро перевищує пропозицію. До того ж, деякі інвестори подали заявки на $10 млрд і більше. На тлі такого ажіотажу компанія може підвищити ціну розміщ…",
+      "date": "2026-11-19T08:40:00.000Z",
+      "title": "Український розробник створив утиліту TABIR для миттєвого пошуку вкладок одразу в усіх браузерах та профілях",
+      "text": "AI Engineer та Frontend Developer Сергій Сідлецький розробив компактний Windows-застосунок TABIR, який дозволяє швидко знаходити та перемикатися між відкритими вкладками в різних браузерах та їхніх профілях без встановлення окремих розширень.",
       "product": "dev.ua",
-      "url": "https://dev.ua/news/anthropic-ipo-1794989111",
+      "url": "https://dev.ua/news/utylita-tabir-1795076398",
       "auto": true,
-      "image": "https://dev.ua/storage/images/46/44/76/36/derived/7c7f93a79df7b78b95747fcf3b13418b.webp"
+      "image": "https://dev.ua/storage/images/26/24/27/77/derived/282d1c8fe7780850b7b12a06d1e2cada.webp"
     },
     {
-      "date": "2026-11-18T06:20:00.000Z",
-      "title": "Microsoft представила ШІ-моделі для програмування та кібербезпеки",
-      "text": "У вівторок, 17 листопада, на конференції Microsoft Ignite у Сан-Франциско корпорація Microsoft анонсувала нову лінійку моделей штучного інтелекту з розширеними можливостями для програмування та кібербезпеки. Компанія посилює конкуренцію з такими суперниками, як Anthropic та Open…",
-      "product": "dev.ua",
-      "url": "https://dev.ua/news/microsoft-predstavyla-shi-modeli-dlia-prohramuvannia-ta-kiberbezpeky-1794979236",
+      "date": "2026-11-19T06:05:13.000Z",
+      "title": "Forum, a Dedicated App for Facebook Groups, Is Now Available in Indonesia",
+      "text": "Forum is now available in Indonesia, bringing Facebook Groups into one dedicated app to make joining conversations, finding answers and exploring interests easier. The post Forum, a Dedicated App for Facebook Groups, Is Now Available in Indonesia appeared first on Meta Newsroom .",
+      "product": "Meta AI",
+      "url": "https://about.fb.com/news/2026/11/forum-a-dedicated-app-for-facebook-groups-is-now-available-in-indonesia/",
       "auto": true,
-      "image": "https://dev.ua/storage/images/48/42/69/94/derived/dd168ad789858e98e4cda06fdfd1544c.webp"
+      "image": "https://about.fb.com/wp-content/uploads/2026/11/Forum-ID-holding-image.png?fit=2048%2C1152"
+    },
+    {
+      "date": "2026-11-19T05:09:58.000Z",
+      "title": "ИИ создал подводный 3D-мир Abyssal Garden всего из 97 КБ кода",
+      "text": "Фронтенд-разработчик создал интерактивный виртуальный мир Abyssal Garden с помощью искусственного интеллекта.",
+      "product": "hi-tech.ua",
+      "url": "https://hi-tech.ua/ii-sozdal-podvodnyj-3d-mir-abyssal-garden-vsego-iz-97-kb-koda/",
+      "auto": true,
+      "image": "https://hi-tech.ua/wp-content/uploads/2026/11/ce7a0dee6476f8cb02adc17f9c1c78df-300x169.webp"
+    },
+    {
+      "date": "2026-11-19T00:00:13.000Z",
+      "title": "Wait for pull request events with GitHub CLI",
+      "text": "GitHub CLI now supports GitHub Event Streams. With gh v2.105.0, you and your agents can wait for a pull request to change with a single command instead of polling it… The post Wait for pull request events with GitHub CLI appeared first on The GitHub Blog .",
+      "product": "GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-11-18-wait-for-pull-request-events-with-github-cli",
+      "auto": true
+    },
+    {
+      "date": "2026-11-18T22:04:50.000Z",
+      "title": "Connect Supabase, Box, Calendly, and more to Copilot",
+      "text": "You can now connect eight more services to Copilot using GitHub-verified MCP servers, or connectors, available in public preview. They join more than 25 services you can already connect, like… The post Connect Supabase, Box, Calendly, and more to Copilot appeared first on The Gi…",
+      "product": "GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot",
+      "auto": true
+    },
+    {
+      "date": "2026-11-18T21:49:21.000Z",
+      "title": "Gemini 4 Neon in GitHub Copilot",
+      "text": "Gemini 4 Neon is now generally available in GitHub Copilot. It is designed for agentic coding, multistep tool use, and knowledge work. According to Google, Gemini 4 Neon delivers quality… The post Gemini 4 Neon in GitHub Copilot appeared first on The GitHub Blog .",
+      "product": "GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot",
+      "auto": true
+    },
+    {
+      "date": "2026-11-18T21:00:00.000Z",
+      "title": "Introducing Gemini 4 Neon",
+      "text": "Today, we’re introducing Gemini 4 Neon",
+      "product": "Gemini",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "auto": true,
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-neon__blog-header__sm.max-600x600.format-webp.webp"
+    },
+    {
+      "date": "2026-11-18T19:54:56.000Z",
+      "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+      "text": "",
+      "product": "Hugging Face",
+      "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+      "auto": true
+    },
+    {
+      "date": "2026-11-18T18:53:43.000Z",
+      "title": "Why your fine-tuning job takes longer than the FLOPs say",
+      "text": "",
+      "product": "Hugging Face",
+      "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+      "auto": true
+    },
+    {
+      "date": "2026-11-18T18:01:47.000Z",
+      "title": "Our Approach to Updating Our Commercial Terms of Service",
+      "text": "We recently announced that the proposed updates to our commercial terms of service have been put on hold and that we will revise those proposed changes after a deeper consultation with stakeholders. We made this decision after hearing concerns from news publishers and other stak…",
+      "product": "Meta AI",
+      "url": "https://about.fb.com/news/2026/11/our-approach-to-updating-our-commercial-terms-of-service/",
+      "auto": true,
+      "image": "https://about.fb.com/wp-content/uploads/2026/09/Meta_Thumbnail.jpg?fit=5760%2C4320"
+    },
+    {
+      "date": "2026-11-18T18:00:00.000Z",
+      "title": "Genie 4 is now available",
+      "text": "We are rolling out a new Project Genie experience to eligible Google AI Ultra subscribers, opening access to our new Genie 4 world model.",
+      "product": "Gemini",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+      "auto": true,
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/resized_ProjectGenie_Thumbnail_.max-600x600.format-webp.webp"
+    },
+    {
+      "date": "2026-11-18T17:00:00.000Z",
+      "title": "The Gemini app is now available on lower-memory Android devices.",
+      "text": "The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today.",
+      "product": "Gemini",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+      "auto": true,
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_app_Android_social_share.max-600x600.format-webp.webp"
+    },
+    {
+      "date": "2026-11-18T16:54:26.000Z",
+      "title": "Security risk assessments run automatically on GitHub Team",
+      "text": "GitHub security risk assessments now run automatically for organizations on GitHub Team. Organization admins and security managers can review findings from the free assessments to identify exposed credentials and code… The post Security risk assessments run automatically on GitH…",
+      "product": "GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-11-18-security-risk-assessments-run-automatically-on-github-team",
+      "auto": true
+    },
+    {
+      "date": "2026-11-18T16:50:00.000Z",
+      "title": "Альтман вже сумує за Хуангом: «Важко уявити галузь ШІ без Дженсена»",
+      "text": "Керівники OpenAI Сем Альтман та Грег Брокман розповіли, що приватно поспілкувалися зі співзасновником та колишнім CEO Nvidia Дженсеном Хуангом після його звільнення на тлі скандалів. Попри це, у компанії планують продовжувати тісну співпрацю з виробником чипів.",
+      "product": "dev.ua",
+      "url": "https://dev.ua/news/altman-vzhe-sumuie-za-dzhensenom-1795019684",
+      "auto": true,
+      "image": "https://dev.ua/storage/images/20/75/84/09/derived/56696b05f3a9bbc35c2529c638012756.webp"
+    },
+    {
+      "date": "2026-11-18T16:00:13.000Z",
+      "title": "Customize GitHub Copilot for your team",
+      "text": "You can now share the GitHub Copilot plugins your team relies on without asking every member to repeat the same setup. Team customizations are generally available for organization teams. Team… The post Customize GitHub Copilot for your team appeared first on The GitHub Blog .",
+      "product": "GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team",
+      "auto": true
+    },
+    {
+      "date": "2026-11-18T15:00:23.000Z",
+      "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+      "text": "",
+      "product": "Hugging Face",
+      "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+      "auto": true
+    },
+    {
+      "date": "2026-11-18T14:09:00.000Z",
+      "title": "ШІ від Meta допоміг чоловіку подати позов проти техногіганта після того, як через цього ж помічника втратив доступ до Facebook",
+      "text": "Американський бізнесмен подав позов проти компанії Meta на суму $75 000 після того, як автоматизовані системи безпеки платформи нібито сплутали її власного ШІ-асистента з хакером і заблокували його робочі. Однак замість того, щоб наймати юристів, чоловік доручив підготовку судов…",
+      "product": "dev.ua",
+      "url": "https://dev.ua/news/shi-vid-meta-dopomih-choloviku-zasudyty-tekhnohihanta-1795010210",
+      "auto": true,
+      "image": "https://dev.ua/storage/images/14/81/36/35/derived/fcc701d540fb5ac81db0dfda36b76604.webp"
+    },
+    {
+      "date": "2026-11-18T14:07:00.000Z",
+      "title": "Meta Welcomes Loblaw as First Canadian Retail Partner to Muse",
+      "text": "Starting today, Loblaw is bringing its catalogue to Muse as a partner connector, the first Canadian retailer to do so. Connectors are a big reason Muse can do so much. Canadians can connect their Muse to apps they already use, including Gmail, Google Calendar and Instagram, so i…",
+      "product": "Meta AI",
+      "url": "https://about.fb.com/news/2026/11/meta-welcomes-loblaw-as-first-canadian-retail-partner-to-muse/",
+      "auto": true,
+      "image": "https://about.fb.com/wp-content/uploads/2026/11/ad846cce-d851-423a-a491-374201cd55ba.png?fit=2064%2C1161"
+    },
+    {
+      "date": "2026-11-18T13:19:00.000Z",
+      "title": "Suno навчили створювати відеокліпи до ШІ-пісень. Що вміє новий інструмент?",
+      "text": "Тепер у Suno можна створювати відеокліпи. Платформа запустила функцію Visuals, яка перетворює ШІ-музику на відео, синхронізує рухи губ персонажів із вокалом і дозволяє монтувати відеокліпи. Щоправда, за відео доведеться платити окремо.",
+      "product": "dev.ua",
+      "url": "https://dev.ua/news/suno-videoklipy-1795005989",
+      "auto": true,
+      "image": "https://dev.ua/storage/images/20/77/27/48/derived/0e5da825f23ead8fe5fa3ca48a7929c2.webp"
+    },
+    {
+      "date": "2026-11-18T12:25:00.000Z",
+      "title": "Розробник Genshin Impact створив ШІ, який уміє проходити ігри, дивлячись на екран",
+      "text": "Китайська студія miHoYo (відома за хітом Genshin Impact) представила модель штучного інтелекту під назвою Gamer, здатну самостійно грати у відеоігри. Розробники навчили алгоритм битися з ворогами, розв’язувати головоломки та виконувати квести в іншій популярній грі компанії — Ho…",
+      "product": "dev.ua",
+      "url": "https://dev.ua/news/rozrobnyk-genshin-impact-stvoryv-shi-iakyi-umiie-prokhodyty-ihry-dyvliachys-na-ekran-1795003842",
+      "auto": true,
+      "image": "https://dev.ua/storage/images/38/33/51/17/derived/01f55182775bda6aa24e30a0ddedf095.webp"
+    },
+    {
+      "date": "2026-11-18T12:14:00.000Z",
+      "title": "«Стежити за рішеннями ШІ-агентів і виловлювати помилки — робота на повний день». CEO Avenga розповів, як ШІ змінює IT-аутсорсинг і спрогнозував нове джерело заробітку для аутсорсерів",
+      "text": "У одного з клієнтів міжнародного IT-аутсорсера Avenga уже десятки тисяч ШІ-агентів. Тож перевірка їхніх рішень та пошук помилок перетворюються на постійну роботу. Через це CEO Avenga вважає, що в майбутньому IT-аутсорсери зможуть заробляти як на розробці ШІ-рішень, так і на їхнь…",
+      "product": "dev.ua",
+      "url": "https://dev.ua/news/avenga-1795000805",
+      "auto": true,
+      "image": "https://dev.ua/storage/images/92/49/77/10/derived/4639b9d1fdf2ded090f365f57e51ce7c.webp"
+    },
+    {
+      "date": "2026-11-18T12:00:00.000Z",
+      "title": "ElevenAgents for Healthcare: agents patients and medical teams trust in clinical settings",
+      "text": "Build healthcare voice agents that patients trust, with Scribe v3 Live Medical, EHR integrations, custom guardrails, and HIPAA-eligible deployments.",
+      "product": "ElevenLabs",
+      "url": "https://elevenlabs.io/blog/elevenagents-for-healthcare",
+      "auto": true,
+      "image": "https://eleven-public-cdn.elevenlabs.io/payloadcms/4i33poppacg-Scribe-v3-Live-Medical-Cover.webp"
+    },
+    {
+      "date": "2026-11-18T12:00:00.000Z",
+      "title": "What is a vector database? How AI search finds meaning",
+      "text": "Learn what a vector database is, how it works, and where it’s used. See examples, types, and how it compares to relational and graph databases.",
+      "product": "ElevenLabs",
+      "url": "https://elevenlabs.io/blog/vector-database",
+      "auto": true
+    },
+    {
+      "date": "2026-11-18T10:00:00.000Z",
+      "title": "The Silent Consensus",
+      "text": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+      "product": "OpenAI",
+      "url": "https://openai.com/index/the-silent-consensus",
+      "auto": true
+    },
+    {
+      "date": "2026-11-18T08:59:06.000Z",
+      "title": "До 120 FPS в GTA 6 на PS5: геймеры нашли способ повысить частоту смены кадров, но есть нюанс",
+      "text": "Несмотря на то, что GTA 6 на PlayStation 5 и Xbox Series X/S будет работать с частотой 30 кадров в секунду, энтузиаст нашёл способ сделать изображение более плавным. Для этого он создал бесплатную программу SmoovPlay, которая транслирует игру с консоли на ПК и использует ИИ для…",
+      "product": "ITC.ua",
+      "url": "https://itc.ua/news/do-120-fps-v-gta-6-na-ps5-gejmery-nashly-sposob-povysyt-chastotu-smeny-kadrov-no-est-nyuans/",
+      "auto": true
+    },
+    {
+      "date": "2026-11-18T08:00:00.000Z",
+      "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+      "text": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
+      "product": "OpenAI",
+      "url": "https://openai.com/business/customer-stories/sumitomo-life",
+      "auto": true
+    },
+    {
+      "date": "2026-11-18T08:00:00.000Z",
+      "title": "Research acceleration: The jagged frontier",
+      "text": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+      "product": "OpenAI",
+      "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+      "auto": true
+    },
+    {
+      "date": "2026-11-18T08:00:00.000Z",
+      "title": "Inside the Codex sandbox",
+      "text": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
+      "product": "OpenAI",
+      "url": "https://openai.com/index/inside-the-codex-sandbox",
+      "auto": true
     },
     {
       "date": "2026-11-18T06:00:00.000Z",
-      "title": "Google розширює доступ до функції Gemini Tasks, яка може телефонувати та здійснювати покупки",
-      "text": "Компанія Google розширює доступність функції Tasks у застосунку Gemini — спеціального перемикача, який перетворює чат-бота на активного віртуального помічника.",
-      "product": "dev.ua",
-      "url": "https://dev.ua/news/google-rozshyriuie-dostup-do-funktsii-gemini-tasks-1794978043",
-      "auto": true,
-      "image": "https://dev.ua/storage/images/74/47/34/90/derived/5136a03970d914ea2b4c3f3dcb04b58e.webp"
+      "title": "Managing frontier AI risk: From training to deployment",
+      "text": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
+      "product": "OpenAI",
+      "url": "https://openai.com/index/managing-frontier-ai-risk",
+      "auto": true
     },
     {
       "date": "2026-11-18T01:48:41.000Z",
@@ -66,6 +285,22 @@
       "text": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
       "product": "OpenAI",
       "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+      "auto": true
+    },
+    {
+      "date": "2026-11-18T00:00:00.000Z",
+      "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
+      "text": "",
+      "product": "Hugging Face",
+      "url": "https://huggingface.co/blog/moe-expert-streaming",
+      "auto": true
+    },
+    {
+      "date": "2026-11-18T00:00:00.000Z",
+      "title": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
+      "text": "",
+      "product": "Hugging Face",
+      "url": "https://huggingface.co/blog/rumble-2-flash",
       "auto": true
     },
     {
@@ -121,49 +356,6 @@
       "image": "https://github.blog/wp-content/uploads/2026/11/ahp-protocol-state.png?resize=1024%2C512"
     },
     {
-      "date": "2026-11-17T18:04:48.000Z",
-      "title": "GitHub Copilot Fusion updates: more availability, benchmarks, and models",
-      "text": "Today, we’re expanding GitHub Copilot Fusion with new models, available on more Copilot surfaces, and results on two public Terminal-Bench leaderboards, giving you more ways to use Fusion and compare… The post GitHub Copilot Fusion updates: more availability, benchmarks, and mod…",
-      "product": "GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-11-17-github-copilot-fusion-updates-more-availability-benchmarks-and-models",
-      "auto": true,
-      "image": "https://github.com/user-attachments/assets/92e558b2-c2de-4f9e-b8c0-abca0f8a1887"
-    },
-    {
-      "date": "2026-11-17T18:03:42.000Z",
-      "title": "GitHub Copilot app, Microsoft Ignite releases",
-      "text": "Copilot is most useful when it can work where you do. The GitHub Copilot app now supports your Azure DevOps repositories, your GitHub Enterprise Server instance, and the browser you’re… The post GitHub Copilot app, Microsoft Ignite releases appeared first on The GitHub Blog .",
-      "product": "GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-11-17-github-copilot-app-microsoft-ignite-releases",
-      "auto": true
-    },
-    {
-      "date": "2026-11-17T18:02:05.000Z",
-      "title": "Copilot code review: Adaptive effort, secret detection, and more",
-      "text": "GitHub Copilot code review now helps you catch more issues earlier, with less effort. Adaptive matches review depth to each pull request, so routine changes get a quick pass and… The post Copilot code review: Adaptive effort, secret detection, and more appeared first on The GitH…",
-      "product": "GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-11-17-copilot-code-review-adaptive-effort-secret-detection-and-more",
-      "auto": true,
-      "image": "https://github.com/user-attachments/assets/80e6deff-9b4b-42e4-ae51-07095bba35a1"
-    },
-    {
-      "date": "2026-11-17T18:01:45.000Z",
-      "title": "MAI Code 2 and MAI Code 2 Flash in GitHub Copilot",
-      "text": "The next generation of Microsoft AI (MAI) coding models has arrived in GitHub Copilot. Introducing MAI Code 2 and MAI Code 2 Flash, two new models that represent a major… The post MAI Code 2 and MAI Code 2 Flash in GitHub Copilot appeared first on The GitHub Blog .",
-      "product": "GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-11-17-mai-code-2-and-mai-code-2-flash-in-github-copilot",
-      "auto": true
-    },
-    {
-      "date": "2026-11-17T18:00:59.000Z",
-      "title": "GitHub Copilot in JetBrains, Ignite releases",
-      "text": "This update brings remote access, on-device voice dictation, and browser use controls to GitHub Copilot for JetBrains. Copilot users in JetBrains IDEs also get context usage shortcuts, historical diffs, simpler… The post GitHub Copilot in JetBrains, Ignite releases appeared firs…",
-      "product": "GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-11-17-github-copilot-in-jetbrains-ignite-releases",
-      "auto": true,
-      "image": "https://github.com/user-attachments/assets/1bb83780-126a-4969-aa54-6470837f06bb"
-    },
-    {
       "date": "2026-11-17T18:00:31.000Z",
       "title": "Muse Is Now Available in Australia: The World’s First Personal AI Agent Built for Everyone",
       "text": "Muse is available in Australia from today, with local connector experiences across creativity, shopping, property, fitness and entertainment rolling out progressively. The post Muse Is Now Available in Australia: The World’s First Personal AI Agent Built for Everyone appeared fi…",
@@ -171,14 +363,6 @@
       "url": "https://about.fb.com/news/2026/11/muse-is-now-available-in-australia/",
       "auto": true,
       "image": "https://about.fb.com/wp-content/uploads/2026/11/AU_Jolly_Surfer_Horizontal.png?fit=3840%2C2160"
-    },
-    {
-      "date": "2026-11-17T17:45:00.000Z",
-      "title": "Introducing GPT-6.2 Astra and Sol",
-      "text": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
-      "product": "OpenAI",
-      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
-      "auto": true
     },
     {
       "date": "2026-11-17T17:00:00.000Z",
@@ -196,15 +380,6 @@
       "product": "Suno",
       "url": "https://suno.com/blog/introducing-visuals",
       "auto": true
-    },
-    {
-      "date": "2026-11-17T14:03:00.000Z",
-      "title": "В Україні вдруге пройде глобальна освітня ініціатива для дітей «Година ШІ» від Wix: як долучитися",
-      "text": "Після успішного дебюту минулого року компанія Wix знову проведе в Україні глобальну освітню програму „Година ШІ“. Масштабна ініціатива, присвячена знайомству дітей зі штучним інтелектом, триватиме з 14 по 19 грудня 2026 року. До ініціативи, окрім шкіл, можуть долучитися діти з б…",
-      "product": "dev.ua",
-      "url": "https://dev.ua/news/v-ukraini-vdruhe-proide-hlobalna-osvitnia-initsiatyva-hodyna-shi-vid-wix-1794922782",
-      "auto": true,
-      "image": "https://dev.ua/storage/images/29/51/30/05/derived/4b3afca3948d3e7f43d7800980f2929c.webp"
     },
     {
       "date": "2026-11-17T12:00:00.000Z",
@@ -251,14 +426,6 @@
       "image": "https://cdn.ain.ua/ua/articles/2026-11-17/xHvIoz3USOQWQxxpJMwtKq0cvFhiwp60bem7FKTx.webp"
     },
     {
-      "date": "2026-11-17T08:00:00.000Z",
-      "title": "Introducing ChatGPT for Sales",
-      "text": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
-      "product": "OpenAI",
-      "url": "https://openai.com/index/introducing-chatgpt-for-sales",
-      "auto": true
-    },
-    {
       "date": "2026-11-17T07:21:32.000Z",
       "title": "v1.19.6",
       "text": "Desktop Improvements OpenCode 1 now offers the upgrade to OpenCode 2.0. OpenCode 2 downloads in the background and installs only when you choose: Restart to upgrade, Upgrade on quit, or Later. Your sessions, projects, and settings are kept. Plugins made for OpenCode 1 need an up…",
@@ -283,30 +450,6 @@
       "url": "https://about.fb.com/news/2026/11/introducing-direct-an-app-just-for-messaging/",
       "auto": true,
       "image": "https://about.fb.com/wp-content/uploads/2026/11/02_Direct.jpg"
-    },
-    {
-      "date": "2026-11-17T00:00:00.000Z",
-      "title": "Introducing OpenAI for Chile",
-      "text": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
-      "product": "OpenAI",
-      "url": "https://openai.com/index/introducing-openai-for-chile",
-      "auto": true
-    },
-    {
-      "date": "2026-11-17T00:00:00.000Z",
-      "title": "Strengthening NATO and allied cyber defenses with AI",
-      "text": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
-      "product": "OpenAI",
-      "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
-      "auto": true
-    },
-    {
-      "date": "2026-11-17T00:00:00.000Z",
-      "title": "Astra for Law leads in legal intelligence",
-      "text": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
-      "product": "OpenAI",
-      "url": "https://openai.com/index/astra-law-6-2",
-      "auto": true
     },
     {
       "date": "2026-11-16T22:01:49.000Z",
@@ -334,14 +477,6 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/super-g_1.max-600x600.format-webp.webp"
     },
     {
-      "date": "2026-11-16T16:31:51.000Z",
-      "title": "Google предупреждает о грядущих полностью автоматизированных хакерских атаках на основе ИИ",
-      "text": "Google Threat Intelligence Group (GTIG) предупреждает, что киберпреступники переходят к использованию агентных рабочих процессов на основе ИИ-фреймворков, которые автоматизируют поиск и эксплуатацию уязвимостей. Сначала ИИ в атаках применялся экспериментально, однако теперь GTIG…",
-      "product": "ITC.ua",
-      "url": "https://itc.ua/news/google-preduprezhdaet-o-gryadushhyh-polnostyu-avtomatyzyrovannyh-hakerskyh-atakah-na-osnove-yy/",
-      "auto": true
-    },
-    {
       "date": "2026-11-16T15:50:24.000Z",
       "title": "Військовий ШІ, від якого відмовилася Швейцарія та з яким працює Україна: чому Європа шукає альтернативу Palantir (і чи зможе замінити)",
       "text": "Швейцарія неодноразово відмовляла Palantir у співпраці через побоювання щодо безпеки даних, а Німеччина та Франція розробляють власні альтернативи. Чому Європа прагне позбутися залежності від американського військового ШІ та яку роль у цій історії відіграє Україна?",
@@ -360,38 +495,12 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Ask_Maps_November_herosocial.max-600x600.format-webp.webp"
     },
     {
-      "date": "2026-11-16T12:29:02.000Z",
-      "title": "Ни хакеры, ни ИИ: Microsoft объяснила, что вывело из строя Outlook и Teams",
-      "text": "На прошлой неделе Microsoft 365 «пролежал» около суток, а пользователи гадали, кто виноват: ИИ или хакеры. Оказалось, всё проще и в то же время тревожнее: ошибка тихо ждала своего часа в коде с июля.",
-      "product": "ITC.ua",
-      "url": "https://itc.ua/news/ny-hakery-ny-yy-microsoft-obyasnyla-chto-vyvelo-yz-stroya-outlook-y-teams/",
+      "date": "2026-11-16T00:00:00.000Z",
+      "title": "Making open models work for long-horizon agentic workloads",
+      "text": "Prefix caching helps coding agents stay fast as conversations grow. Prompts, tool calls, and inference routing determine how much work the model can reuse.",
+      "product": "Ollama",
+      "url": "https://ollama.com/blog/open-models-long-horizon-agents",
       "auto": true
-    },
-    {
-      "date": "2026-11-16T12:00:00.000Z",
-      "title": "Kotoba is joining ElevenLabs",
-      "text": "ElevenLabs is acquiring Kotoba, the leading Japanese voice AI lab, to bring natural, culturally fluent AI agents and voice interfaces to Japan.",
-      "product": "ElevenLabs",
-      "url": "https://elevenlabs.io/blog/kotoba",
-      "auto": true,
-      "image": "https://eleven-public-cdn.elevenlabs.io/payloadcms/7bmftwo9yq5-Kotoba-and-ElevenLabs-2.webp"
-    },
-    {
-      "date": "2026-11-16T12:00:00.000Z",
-      "title": "What is an LLM? A practical guide to language models",
-      "text": "Learn what a large language model (LLM) is, how LLMs work, how they are trained, the main architectures, real examples, and their limitations.",
-      "product": "ElevenLabs",
-      "url": "https://elevenlabs.io/blog/what-is-an-llm",
-      "auto": true
-    },
-    {
-      "date": "2026-11-16T06:25:27.000Z",
-      "title": "94% of Singapore Small Business Owners Surveyed Say More AI Guidance Is Needed",
-      "text": "More than 180 small businesses, heartland merchants and creator-entrepreneurs joined Meta Upskill Day 2026 in Singapore, part of Meta's Small Business Growth Academy, with Senior Minister of State Low Yen Ling attending as Guest of Honour. The post 94% of Singapore Small Busines…",
-      "product": "Meta AI",
-      "url": "https://about.fb.com/news/2026/11/94-of-singapore-small-business-owners-surveyed-say-more-ai-guidance-is-needed/",
-      "auto": true,
-      "image": "https://about.fb.com/wp-content/uploads/2026/11/WOL_1057.jpg?fit=6048%2C4032"
     },
     {
       "date": "2026-11-16T00:00:00.000Z",
@@ -400,147 +509,6 @@
       "product": "LM Studio",
       "url": "https://lmstudio.ai/blog/agent-remote-control",
       "auto": true
-    },
-    {
-      "date": "2026-11-16T00:00:00.000Z",
-      "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
-      "text": "",
-      "product": "Hugging Face",
-      "url": "https://huggingface.co/blog/openrouter",
-      "auto": true
-    },
-    {
-      "date": "2026-11-13T18:00:39.000Z",
-      "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
-      "text": "",
-      "product": "Hugging Face",
-      "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
-      "auto": true,
-      "title_ru": "Симуляция «робот берёт и кладёт» на ассетах SimReady",
-      "title_uk": "Симуляція «робот бере і кладе» на асетах SimReady"
-    },
-    {
-      "date": "2026-11-13T17:02:35.000Z",
-      "title": "XYBench: Helping with the problem behind the question",
-      "text": "",
-      "product": "Hugging Face",
-      "url": "https://huggingface.co/blog/allenai/xybench",
-      "auto": true,
-      "title_ru": "XYBench: помощь с проблемой, стоящей за вопросом",
-      "title_uk": "XYBench: допомога з проблемою, що стоїть за питанням"
-    },
-    {
-      "date": "2026-11-13T17:00:00.000Z",
-      "title": "Connect Google Wallet to Gemini for personal finance insights",
-      "text": "All Gemini app users in the U.S. can connect Google Wallet to get responses informed by their spending habits.",
-      "product": "Gemini",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app/",
-      "auto": true,
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Personal_Intelligence_Wallet_27.max-600x600.format-webp.webp",
-      "title_ru": "Google Wallet подключается к Gemini для личных финансовых подсказок",
-      "text_ru": "Все пользователи приложения Gemini в США могут подключить Google Wallet и получать ответы с учётом своих привычек расходов.",
-      "title_uk": "Google Wallet підключається до Gemini для особистих фінансових підказок",
-      "text_uk": "Усі користувачі застосунку Gemini у США можуть підключити Google Wallet і отримувати відповіді з урахуванням своїх звичок витрат."
-    },
-    {
-      "date": "2026-11-13T14:05:22.000Z",
-      "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
-      "text": "",
-      "product": "Hugging Face",
-      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
-      "auto": true,
-      "title_ru": "llama.cpp v1.0.0: более прочный фундамент локальной экосистемы ИИ",
-      "title_uk": "llama.cpp v1.0.0: міцніший фундамент локальної екосистеми ШІ"
-    },
-    {
-      "date": "2026-11-13T14:00:00.000Z",
-      "title": "Suno Bridge: Your DAW, Suno-powered.",
-      "text": "Get Suno in your session with our new standalone Mac app",
-      "product": "Suno",
-      "url": "https://suno.com/blog/introducing-bridge",
-      "auto": true,
-      "title_ru": "Suno Bridge: ваша DAW на движке Suno",
-      "text_ru": "Встройте Suno в свою сессию с новым отдельным приложением для Mac.",
-      "title_uk": "Suno Bridge: ваша DAW на движку Suno",
-      "text_uk": "Вбудуйте Suno у свою сесію з новим окремим застосунком для Mac."
-    },
-    {
-      "date": "2026-11-13T11:34:00.000Z",
-      "title": "Масштабний збій Microsoft 365 порушив роботу Outlook, Teams і Copilot у різних країнах: які наслідки",
-      "text": "Спочатку Microsoft повідомила про проблеми в Америці, а згодом підтвердила, що вони можуть зачіпати користувачів у будь-якому регіоні.",
-      "product": "AIN.UA",
-      "url": "https://ain.ua/2026/11/13/masstabnii-zbii-microsoft-365-porusiv-robotu-outlook-teams-i-copilot-u-riznix-krayinax/",
-      "auto": true,
-      "image": "https://cdn.ain.ua/ua/articles/2026-11-13/OJvy1wbK4qpjozWdn0QHhcloz9pWKmlTb3v1UKvT.webp"
-    },
-    {
-      "date": "2026-11-13T00:20:16.000Z",
-      "title": "GitHub availability report: October 2026",
-      "text": "In October, we experienced eight incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: October 2026 appeared first on The GitHub Blog .",
-      "product": "GitHub",
-      "url": "https://github.blog/news-insights/company-news/github-availability-report-october-2026/",
-      "auto": true,
-      "image": "https://github.blog/wp-content/uploads/2026/11/oct5-actions-jobs-starting-late.png?resize=1024%2C466",
-      "title_ru": "Отчёт о доступности GitHub: октябрь 2026",
-      "text_ru": "В октябре произошло восемь инцидентов, приведших к ухудшению работы сервисов GitHub.",
-      "title_uk": "Звіт про доступність GitHub: жовтень 2026",
-      "text_uk": "У жовтні сталося вісім інцидентів, що призвели до погіршення роботи сервісів GitHub."
-    },
-    {
-      "date": "2026-11-12T22:54:52.000Z",
-      "title": "Build once, run on any agent: A practical guide to agent skills",
-      "text": "Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them. The post Build once, run on any agent: A practical guide to agent skills appeared first on The GitHub B…",
-      "product": "GitHub",
-      "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
-      "auto": true,
-      "title_ru": "Собери один раз — запускай на любом агенте: практический гид по навыкам агентов",
-      "text_ru": "Навыки агентов упаковывают повторяющуюся инженерную работу в файлы, которые команды могут проверять и переиспользовать, а инструменты, контекст проекта и разрешения остаются специфичными для среды запуска.",
-      "title_uk": "Збери один раз — запускай на будь-якому агенті: практичний гід навичками агентів",
-      "text_uk": "Навички агентів пакують повторювану інженерну роботу у файли, які команди можуть перевіряти й перевикористовувати, а інструменти, контекст проєкту та дозволи лишаються специфічними для середовища запуску."
-    },
-    {
-      "date": "2026-11-12T19:07:35.000Z",
-      "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
-      "text": "",
-      "product": "Hugging Face",
-      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
-      "auto": true,
-      "title_ru": "LLMON: язык разметки, родной для LLM, теперь в Granite 4.1 3B и 8B",
-      "title_uk": "LLMON: мова розмітки, рідна для LLM, тепер у Granite 4.1 3B і 8B"
-    },
-    {
-      "date": "2026-11-12T18:00:50.000Z",
-      "title": "Introducing Gemini 4 Hydrogen",
-      "text": "",
-      "product": "Google DeepMind",
-      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
-      "auto": true
-    },
-    {
-      "date": "2026-11-12T18:00:00.000Z",
-      "title": "Gemini 4 Hydrogen: everyday coding and agentic workflows for developers",
-      "text": "Build faster with Gemini 4 Hydrogen, Google’s new model for cost-efficient agentic coding and debugging. Start building in Google AI Studio today.",
-      "product": "Gemini",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen/",
-      "auto": true,
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Hydrogen_socialshare.max-600x600.format-webp.webp",
-      "title_ru": "Gemini 4 Hydrogen: повседневный код и агентные процессы для разработчиков",
-      "text_ru": "Стройте быстрее с Gemini 4 Hydrogen — новой моделью Google для экономичного агентного программирования и отладки. Начать можно уже сегодня в Google AI Studio.",
-      "title_uk": "Gemini 4 Hydrogen: повсякденний код і агентні процеси для розробників",
-      "text_uk": "Будуйте швидше з Gemini 4 Hydrogen — новою моделлю Google для економічного агентного програмування й налагодження. Почати можна вже сьогодні в Google AI Studio."
-    },
-    {
-      "date": "2026-11-12T18:00:00.000Z",
-      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
-      "text": "We are bringing Gemini 4 Hydrogen to Google Search globally to provide you with more helpful, visual, and intuitive responses.",
-      "product": "Gemini",
-      "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
-      "auto": true,
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/HydrogenUI_socialshare.max-600x600.format-webp.webp",
-      "title_ru": "Google Поиск получил крупное обновление с Gemini 4 Hydrogen",
-      "text_ru": "Мы привносим Gemini 4 Hydrogen в Google Поиск по всему миру, чтобы ответы стали полезнее, нагляднее и интуитивнее.",
-      "title_uk": "Google Пошук отримав велике оновлення з Gemini 4 Hydrogen",
-      "text_uk": "Ми привносимо Gemini 4 Hydrogen у Google Пошук по всьому світу, щоб відповіді стали кориснішими, наочнішими та інтуїтивнішими."
     }
   ]
 }
