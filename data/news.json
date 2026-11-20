@@ -1,6 +1,187 @@
 {
   "items": [
     {
+      "date": "2026-11-20T08:48:21.000Z",
+      "title": "v1.60.2",
+      "text": "✨ Features Gemini 4 Neon added to the model catalog #13684 🐛 Bug Fixes Thinking levels now sent to Gemini 4 and later, including xhigh #13673",
+      "product": "Goose",
+      "url": "https://github.com/aaif-goose/goose/releases/tag/v1.60.2",
+      "auto": true
+    },
+    {
+      "date": "2026-11-20T08:22:00.000Z",
+      "title": "Від викрадених листів до атаки з ШІ: як хакери зламують системи установ ЄС",
+      "text": "У 2026 році на Єврокомісію уже відбувалася кібертатака: тоді викрали листи та персональні дані. Що відомо про інші випадки?",
+      "product": "AIN.UA",
+      "url": "https://ain.ua/2026/11/19/jevrokomisiia-zaznala-kiberataki-zboyi-v-roboti-servisiv-trivali-ponad-10-dniv/",
+      "auto": true,
+      "image": "https://cdn.ain.ua/ua/articles/2026-11-20/6QQzYHULUmZ5Pvwz7JGqPl5RzzjZStOFQkQO87As.webp"
+    },
+    {
+      "date": "2026-11-20T06:15:51.000Z",
+      "title": "Самый честный ИИ в истории Google? Встречайте новую модель Gemini 4 Neon",
+      "text": "Google анонсировала Gemini 4 Neon — новую модель среднего уровня в семействе Gemini 4. Она сочетает высокую скорость, интеллект и сбалансированную стоимость для различных рабочих задач.",
+      "product": "hi-tech.ua",
+      "url": "https://hi-tech.ua/google-predstavila-gemini-4-neon-novaya-sredneurovnevaya-ii-model/",
+      "auto": true,
+      "image": "https://hi-tech.ua/wp-content/uploads/2026/11/f487458f7af1f5240a3fe916c92fc9d7-e1795154760190-300x136.webp"
+    },
+    {
+      "date": "2026-11-20T00:25:30.000Z",
+      "title": "v0.40.17",
+      "text": "What's Changed Improve ChatGPT CLI restore and graceful restart by @hoyyeva in #19583 cmd/launch: use thinking metadata for OpenCode settings by @hoyyeva in #19409 llm: use mmap for Vulkan integrated GPUs by @dhiltgen in #19640 rpreslar4765/Ollama by @rpreslar4765 in #17163 mlx:…",
+      "product": "Ollama",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc2",
+      "auto": true
+    },
+    {
+      "date": "2026-11-20T00:02:21.000Z",
+      "title": "Improvements on the pull request overview in public preview",
+      "text": "Your feedback has helped improve the new pull request Overview page since its November 5, 2026 public preview. Here’s what’s new! Clearer merge status and next steps Failed optional checks… The post Improvements on the pull request overview in public preview appeared first on Th…",
+      "product": "GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-11-19-improvements-on-the-pull-request-overview-in-public-preview",
+      "auto": true,
+      "image": "https://github.com/user-attachments/assets/d718ce9c-872f-44a3-9c06-39dff4897603"
+    },
+    {
+      "date": "2026-11-19T21:22:13.000Z",
+      "title": "Еще одна Великобритания по спросу на электроэнергию: что показывает отчет МЭА о дата-центрах для ИИ",
+      "text": "Международное энергетическое агентство (МЭА) в отчете World Energy Outlook 2026 отметило, что строительство центров обработки данных для ИИ создает нагрузку на электросети во многих регионах: спрос со стороны этих проектов местами превышает нынешнюю пиковую нагрузку, которую мож…",
+      "product": "ITC.ua",
+      "url": "https://itc.ua/news/eshhe-odna-velykobrytanyya-po-sprosu-na-elektroenergyyu-chto-pokazyvaet-otchet-mea-o-data-tsentrah-dlya-yy/",
+      "auto": true
+    },
+    {
+      "date": "2026-11-19T20:30:00.000Z",
+      "title": "ICYMI: Transfer your history from other AI apps into Gemini.",
+      "text": "Transfer your chat history into Gemini. Import your ZIP files and AI summaries to continue conversations seamlessly. Get the details.",
+      "product": "Gemini",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/switch-ai-assistants-transfer-history/",
+      "auto": true,
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Transfer_socialshare.max-600x600.format-webp.webp"
+    },
+    {
+      "date": "2026-11-19T19:50:06.000Z",
+      "title": "oi-kit-v0.1.0-alpha.15",
+      "text": "oi-kit 0.1.0-alpha.15",
+      "product": "Goose",
+      "url": "https://github.com/aaif-goose/goose/releases/tag/oi-kit-v0.1.0-alpha.15",
+      "auto": true
+    },
+    {
+      "date": "2026-11-19T18:50:57.000Z",
+      "title": "Enterprise Live Migrations from Azure DevOps generally available",
+      "text": "Enterprise Live Migrations (ELM) from Azure DevOps Services to GitHub Enterprise Cloud with data residency is now generally available. You can move your repositories while your teams keep working, then… The post Enterprise Live Migrations from Azure DevOps generally available ap…",
+      "product": "GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-11-19-enterprise-live-migrations-from-azure-devops-generally-available",
+      "auto": true
+    },
+    {
+      "date": "2026-11-19T18:48:46.000Z",
+      "title": "Red Hat Enterprise Linux runner images now generally available",
+      "text": "Red Hat Enterprise Linux (RHEL) 9 and RHEL 10 images for GitHub-hosted larger runners are now generally available. Originally introduced in public preview in June 2026 in partnership with Red… The post Red Hat Enterprise Linux runner images now generally available appeared first…",
+      "product": "GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-11-19-red-hat-enterprise-linux-runner-images-now-generally-available",
+      "auto": true
+    },
+    {
+      "date": "2026-11-19T18:00:00.000Z",
+      "title": "Introducing Tool Retrieval in the Gemini API",
+      "text": "Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API.",
+      "product": "Google AI",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+      "auto": true,
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Tool_retrieval_hero.max-600x600.format-webp.webp"
+    },
+    {
+      "date": "2026-11-19T17:05:00.000Z",
+      "title": "«Якщо ти не кодиш — до побачення». Федоров закликає усіх своїх підлеглих вайбкодити. Чому?",
+      "text": "Михайло Федоров хоче, щоб усі його підлеглі навчилися створювати програми за допомогою ШІ. Для цього він закликав команду вайбкодити, влаштував змагання між колегами та навіть почав відстежувати, хто скільки коду пише.",
+      "product": "dev.ua",
+      "url": "https://dev.ua/news/yakshcho-ty-ne-kodysh-do-pobachennia-fedorov-zaklykaie-usikh-svoikh-pidlehlykh-vaibkodyty-chomu-1795106930",
+      "auto": true,
+      "image": "https://dev.ua/storage/images/86/85/89/92/derived/106d4c381a9fd1cfb15a78ba572a1a92.webp"
+    },
+    {
+      "date": "2026-11-19T17:00:00.000Z",
+      "title": "Walter Isaacson on curiosity and creativity in the AI age.",
+      "text": "Walter Isaacson joins Google to discuss how history’s greatest innovators inspire creativity and human judgment in the AI age. Watch the episode.",
+      "product": "Google AI",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
+      "auto": true,
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Dialogues.max-600x600.format-webp.webp"
+    },
+    {
+      "date": "2026-11-19T17:00:00.000Z",
+      "title": "Let Gemini tackle repetitive chores on your Mac",
+      "text": "The Gemini app for Mac now has computer use to help you with repetitive tasks.",
+      "product": "Gemini",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/",
+      "auto": true,
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/hero_header_CU_copy.max-600x600.format-webp.webp"
+    },
+    {
+      "date": "2026-11-19T16:00:00.000Z",
+      "title": "The best things in open source are built together",
+      "text": "Introducing Replica and the Open Source Accessibility Framework, new open source projects for collaboration and inclusion. The post The best things in open source are built together appeared first on The GitHub Blog .",
+      "product": "GitHub",
+      "url": "https://github.blog/open-source/maintainers/the-best-things-in-open-source-are-built-together/",
+      "auto": true
+    },
+    {
+      "date": "2026-11-19T15:20:00.000Z",
+      "title": "Від ідеї до результату: KSE Business School запускає два практичні курси для підприємців та управлінців",
+      "text": "Програма «Підприємництво майбутнього» (3–21 грудня) фокусується на тестуванні ідей та створенні прототипів за допомогою AI. Курс «Project Management» (28–29 листопада та 5 грудня) охоплює повний цикл управління проєктами та ризиками.",
+      "product": "AIN.UA",
+      "url": "https://ain.ua/2026/11/19/vid-ideyi-do-rezultatu-kse-business-school-zapuskaje-dva-prakticni-kursi/",
+      "auto": true,
+      "image": "https://cdn.ain.ua/ua/articles/2026-11-19/bafn4TYnB66ejRwCQm9beKbPgxbpPvQy8lvAm6Zk.webp"
+    },
+    {
+      "date": "2026-11-19T13:05:53.000Z",
+      "title": "Meta premieres India’s First Government-Led Microdrama Series on Scams Awareness",
+      "text": "Meta has partnered with The Ministry of Information & Broadcasting (MIB), Prasar Bharati, Securities and Exchange Board of India (SEBI), and Indian Cyber Crime Coordination Centre (I4C) to launch India's first government-led public interest microdrama series on online scams. The…",
+      "product": "Meta AI",
+      "url": "https://about.fb.com/news/2026/11/meta-premieres-indias-first-government-led-microdrama-series-on-scams-awareness/",
+      "auto": true,
+      "image": "https://about.fb.com/wp-content/uploads/2026/11/ScamSeBacho-Nov-2026.jpeg?fit=1672%2C941"
+    },
+    {
+      "date": "2026-11-19T12:00:00.000Z",
+      "title": "How many calls can an AI voice agent handle at scale?",
+      "text": "Learn how many calls can an AI voice agent handle at scale, how to estimate your peak needs, and how burst, queueing, and plan tiers affect capacity.",
+      "product": "ElevenLabs",
+      "url": "https://elevenlabs.io/blog/how-many-calls-can-an-ai-voice-agent-handle",
+      "auto": true
+    },
+    {
+      "date": "2026-11-19T12:00:00.000Z",
+      "title": "How Candid Health automates payer calls with ElevenAgents",
+      "text": "Candid Health uses ElevenAgents to investigate claim denials and verify eligibility on payer calls, saving 850+ staff hours in a one-month pilot.",
+      "product": "ElevenLabs",
+      "url": "https://elevenlabs.io/blog/candid-health",
+      "auto": true,
+      "image": "https://eleven-public-cdn.elevenlabs.io/payloadcms/r5tv7yo7ss-Blog_Candid.webp"
+    },
+    {
+      "date": "2026-11-19T11:43:00.000Z",
+      "title": "Ігноруючи заборону, ШІ-агенти Grok Bot «штурмували» пошту та Slack компанії, поки комп'ютери працівників були вимкнені",
+      "text": "Два автономні ШІ-агенти Grok Bot здійснили 31 спробу отримати доступ до корпоративних даних без дозволу своїх власників. Активність не припинилася навіть після того, як ботам прямо заборонили діяти самостійно, що знову порушило питання реального контролю людей над автономними ШІ…",
+      "product": "dev.ua",
+      "url": "https://dev.ua/news/shi-ahenty-grok-bot-napaly-na-kompaniiu-1795087333",
+      "auto": true,
+      "image": "https://dev.ua/storage/images/28/89/84/42/derived/c0632fcf36b850efb5f3b40f66f1b8b3.webp"
+    },
+    {
+      "date": "2026-11-19T10:02:00.000Z",
+      "title": "Google Gemini 4 Neon втричі покращила результати в тесті програмування завдяки середовищу Antigravity — без зміни самої моделі",
+      "text": "Нова ШІ-модель Google Gemini 4 Neon розв’язала 12,8% завдань у бенчмарку програмування SWE-sweep під час запуску в базовій оболонці mini-SWE, але її показник зріс до 39,0%, коли ту саму модель запустили всередині середовища Antigravity.",
+      "product": "dev.ua",
+      "url": "https://dev.ua/news/google-gemini-4-neon-1795081523",
+      "auto": true,
+      "image": "https://dev.ua/storage/images/65/29/04/51/derived/1a72ce2c472b5a93ce0a92f637b5aa4b.webp"
+    },
+    {
       "date": "2026-11-19T09:00:00.000Z",
       "title": "Розробник Claude виходить на біржу після рекордного IPO на понад $81 млрд",
       "text": "Акції Anthropic мають дебютувати на американській біржі Nasdaq 19 листопада під тикером ANT. Розміщення оцінює компанію приблизно в $1,5 трлн.",
@@ -10,13 +191,20 @@
       "image": "https://cdn.ain.ua/ua/articles/2026-11-19/v6hzb7AGoJKpm2fA7pXcIZaIyv9wAFhE936CV2xp.webp"
     },
     {
-      "date": "2026-11-19T08:40:00.000Z",
-      "title": "Український розробник створив утиліту TABIR для миттєвого пошуку вкладок одразу в усіх браузерах та профілях",
-      "text": "AI Engineer та Frontend Developer Сергій Сідлецький розробив компактний Windows-застосунок TABIR, який дозволяє швидко знаходити та перемикатися між відкритими вкладками в різних браузерах та їхніх профілях без встановлення окремих розширень.",
-      "product": "dev.ua",
-      "url": "https://dev.ua/news/utylita-tabir-1795076398",
-      "auto": true,
-      "image": "https://dev.ua/storage/images/26/24/27/77/derived/282d1c8fe7780850b7b12a06d1e2cada.webp"
+      "date": "2026-11-19T08:27:16.000Z",
+      "title": "S3 audit log streaming with OpenID Connect expands to GHE.com",
+      "text": "You can now stream enterprise audit logs to Amazon S3 using OpenID Connect (OIDC) on GitHub Enterprise Cloud with data residency (GHE.com). This extends the existing github.com capability, letting you… The post S3 audit log streaming with OpenID Connect expands to GHE.com appear…",
+      "product": "GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-11-19-s3-audit-log-streaming-with-openid-connect-expands-to-ghe-com",
+      "auto": true
+    },
+    {
+      "date": "2026-11-19T08:00:00.000Z",
+      "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+      "text": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+      "product": "OpenAI",
+      "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+      "auto": true
     },
     {
       "date": "2026-11-19T06:05:13.000Z",
@@ -28,15 +216,6 @@
       "image": "https://about.fb.com/wp-content/uploads/2026/11/Forum-ID-holding-image.png?fit=2048%2C1152"
     },
     {
-      "date": "2026-11-19T05:09:58.000Z",
-      "title": "ИИ создал подводный 3D-мир Abyssal Garden всего из 97 КБ кода",
-      "text": "Фронтенд-разработчик создал интерактивный виртуальный мир Abyssal Garden с помощью искусственного интеллекта.",
-      "product": "hi-tech.ua",
-      "url": "https://hi-tech.ua/ii-sozdal-podvodnyj-3d-mir-abyssal-garden-vsego-iz-97-kb-koda/",
-      "auto": true,
-      "image": "https://hi-tech.ua/wp-content/uploads/2026/11/ce7a0dee6476f8cb02adc17f9c1c78df-300x169.webp"
-    },
-    {
       "date": "2026-11-19T00:00:13.000Z",
       "title": "Wait for pull request events with GitHub CLI",
       "text": "GitHub CLI now supports GitHub Event Streams. With gh v2.105.0, you and your agents can wait for a pull request to change with a single command instead of polling it… The post Wait for pull request events with GitHub CLI appeared first on The GitHub Blog .",
@@ -45,19 +224,43 @@
       "auto": true
     },
     {
+      "date": "2026-11-19T00:00:00.000Z",
+      "title": "Explore the Codex Security Plugin",
+      "text": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+      "product": "OpenAI",
+      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+      "auto": true
+    },
+    {
+      "date": "2026-11-19T00:00:00.000Z",
+      "title": "Deploying Daybreak Red",
+      "text": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+      "product": "OpenAI",
+      "url": "https://openai.com/business/learn/deploying-daybreak-red",
+      "auto": true
+    },
+    {
+      "date": "2026-11-19T00:00:00.000Z",
+      "title": "Get started with Daybreak Blue",
+      "text": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
+      "product": "OpenAI",
+      "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+      "auto": true
+    },
+    {
+      "date": "2026-11-19T00:00:00.000Z",
+      "title": "See PR scans in action",
+      "text": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
+      "product": "OpenAI",
+      "url": "https://openai.com/business/learn/pr-scans-demo",
+      "auto": true
+    },
+    {
       "date": "2026-11-18T22:04:50.000Z",
       "title": "Connect Supabase, Box, Calendly, and more to Copilot",
       "text": "You can now connect eight more services to Copilot using GitHub-verified MCP servers, or connectors, available in public preview. They join more than 25 services you can already connect, like… The post Connect Supabase, Box, Calendly, and more to Copilot appeared first on The Gi…",
       "product": "GitHub Copilot",
       "url": "https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot",
-      "auto": true
-    },
-    {
-      "date": "2026-11-18T21:49:21.000Z",
-      "title": "Gemini 4 Neon in GitHub Copilot",
-      "text": "Gemini 4 Neon is now generally available in GitHub Copilot. It is designed for agentic coding, multistep tool use, and knowledge work. According to Google, Gemini 4 Neon delivers quality… The post Gemini 4 Neon in GitHub Copilot appeared first on The GitHub Blog .",
-      "product": "GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot",
       "auto": true
     },
     {
@@ -113,46 +316,12 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_app_Android_social_share.max-600x600.format-webp.webp"
     },
     {
-      "date": "2026-11-18T16:54:26.000Z",
-      "title": "Security risk assessments run automatically on GitHub Team",
-      "text": "GitHub security risk assessments now run automatically for organizations on GitHub Team. Organization admins and security managers can review findings from the free assessments to identify exposed credentials and code… The post Security risk assessments run automatically on GitH…",
-      "product": "GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-11-18-security-risk-assessments-run-automatically-on-github-team",
-      "auto": true
-    },
-    {
-      "date": "2026-11-18T16:50:00.000Z",
-      "title": "Альтман вже сумує за Хуангом: «Важко уявити галузь ШІ без Дженсена»",
-      "text": "Керівники OpenAI Сем Альтман та Грег Брокман розповіли, що приватно поспілкувалися зі співзасновником та колишнім CEO Nvidia Дженсеном Хуангом після його звільнення на тлі скандалів. Попри це, у компанії планують продовжувати тісну співпрацю з виробником чипів.",
-      "product": "dev.ua",
-      "url": "https://dev.ua/news/altman-vzhe-sumuie-za-dzhensenom-1795019684",
-      "auto": true,
-      "image": "https://dev.ua/storage/images/20/75/84/09/derived/56696b05f3a9bbc35c2529c638012756.webp"
-    },
-    {
-      "date": "2026-11-18T16:00:13.000Z",
-      "title": "Customize GitHub Copilot for your team",
-      "text": "You can now share the GitHub Copilot plugins your team relies on without asking every member to repeat the same setup. Team customizations are generally available for organization teams. Team… The post Customize GitHub Copilot for your team appeared first on The GitHub Blog .",
-      "product": "GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team",
-      "auto": true
-    },
-    {
       "date": "2026-11-18T15:00:23.000Z",
       "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
       "text": "",
       "product": "Hugging Face",
       "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
       "auto": true
-    },
-    {
-      "date": "2026-11-18T14:09:00.000Z",
-      "title": "ШІ від Meta допоміг чоловіку подати позов проти техногіганта після того, як через цього ж помічника втратив доступ до Facebook",
-      "text": "Американський бізнесмен подав позов проти компанії Meta на суму $75 000 після того, як автоматизовані системи безпеки платформи нібито сплутали її власного ШІ-асистента з хакером і заблокували його робочі. Однак замість того, щоб наймати юристів, чоловік доручив підготовку судов…",
-      "product": "dev.ua",
-      "url": "https://dev.ua/news/shi-vid-meta-dopomih-choloviku-zasudyty-tekhnohihanta-1795010210",
-      "auto": true,
-      "image": "https://dev.ua/storage/images/14/81/36/35/derived/fcc701d540fb5ac81db0dfda36b76604.webp"
     },
     {
       "date": "2026-11-18T14:07:00.000Z",
@@ -162,33 +331,6 @@
       "url": "https://about.fb.com/news/2026/11/meta-welcomes-loblaw-as-first-canadian-retail-partner-to-muse/",
       "auto": true,
       "image": "https://about.fb.com/wp-content/uploads/2026/11/ad846cce-d851-423a-a491-374201cd55ba.png?fit=2064%2C1161"
-    },
-    {
-      "date": "2026-11-18T13:19:00.000Z",
-      "title": "Suno навчили створювати відеокліпи до ШІ-пісень. Що вміє новий інструмент?",
-      "text": "Тепер у Suno можна створювати відеокліпи. Платформа запустила функцію Visuals, яка перетворює ШІ-музику на відео, синхронізує рухи губ персонажів із вокалом і дозволяє монтувати відеокліпи. Щоправда, за відео доведеться платити окремо.",
-      "product": "dev.ua",
-      "url": "https://dev.ua/news/suno-videoklipy-1795005989",
-      "auto": true,
-      "image": "https://dev.ua/storage/images/20/77/27/48/derived/0e5da825f23ead8fe5fa3ca48a7929c2.webp"
-    },
-    {
-      "date": "2026-11-18T12:25:00.000Z",
-      "title": "Розробник Genshin Impact створив ШІ, який уміє проходити ігри, дивлячись на екран",
-      "text": "Китайська студія miHoYo (відома за хітом Genshin Impact) представила модель штучного інтелекту під назвою Gamer, здатну самостійно грати у відеоігри. Розробники навчили алгоритм битися з ворогами, розв’язувати головоломки та виконувати квести в іншій популярній грі компанії — Ho…",
-      "product": "dev.ua",
-      "url": "https://dev.ua/news/rozrobnyk-genshin-impact-stvoryv-shi-iakyi-umiie-prokhodyty-ihry-dyvliachys-na-ekran-1795003842",
-      "auto": true,
-      "image": "https://dev.ua/storage/images/38/33/51/17/derived/01f55182775bda6aa24e30a0ddedf095.webp"
-    },
-    {
-      "date": "2026-11-18T12:14:00.000Z",
-      "title": "«Стежити за рішеннями ШІ-агентів і виловлювати помилки — робота на повний день». CEO Avenga розповів, як ШІ змінює IT-аутсорсинг і спрогнозував нове джерело заробітку для аутсорсерів",
-      "text": "У одного з клієнтів міжнародного IT-аутсорсера Avenga уже десятки тисяч ШІ-агентів. Тож перевірка їхніх рішень та пошук помилок перетворюються на постійну роботу. Через це CEO Avenga вважає, що в майбутньому IT-аутсорсери зможуть заробляти як на розробці ШІ-рішень, так і на їхнь…",
-      "product": "dev.ua",
-      "url": "https://dev.ua/news/avenga-1795000805",
-      "auto": true,
-      "image": "https://dev.ua/storage/images/92/49/77/10/derived/4639b9d1fdf2ded090f365f57e51ce7c.webp"
     },
     {
       "date": "2026-11-18T12:00:00.000Z",
@@ -213,46 +355,6 @@
       "text": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
       "product": "OpenAI",
       "url": "https://openai.com/index/the-silent-consensus",
-      "auto": true
-    },
-    {
-      "date": "2026-11-18T08:59:06.000Z",
-      "title": "До 120 FPS в GTA 6 на PS5: геймеры нашли способ повысить частоту смены кадров, но есть нюанс",
-      "text": "Несмотря на то, что GTA 6 на PlayStation 5 и Xbox Series X/S будет работать с частотой 30 кадров в секунду, энтузиаст нашёл способ сделать изображение более плавным. Для этого он создал бесплатную программу SmoovPlay, которая транслирует игру с консоли на ПК и использует ИИ для…",
-      "product": "ITC.ua",
-      "url": "https://itc.ua/news/do-120-fps-v-gta-6-na-ps5-gejmery-nashly-sposob-povysyt-chastotu-smeny-kadrov-no-est-nyuans/",
-      "auto": true
-    },
-    {
-      "date": "2026-11-18T08:00:00.000Z",
-      "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
-      "text": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
-      "product": "OpenAI",
-      "url": "https://openai.com/business/customer-stories/sumitomo-life",
-      "auto": true
-    },
-    {
-      "date": "2026-11-18T08:00:00.000Z",
-      "title": "Research acceleration: The jagged frontier",
-      "text": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
-      "product": "OpenAI",
-      "url": "https://openai.com/index/research-acceleration-jagged-frontier",
-      "auto": true
-    },
-    {
-      "date": "2026-11-18T08:00:00.000Z",
-      "title": "Inside the Codex sandbox",
-      "text": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
-      "product": "OpenAI",
-      "url": "https://openai.com/index/inside-the-codex-sandbox",
-      "auto": true
-    },
-    {
-      "date": "2026-11-18T06:00:00.000Z",
-      "title": "Managing frontier AI risk: From training to deployment",
-      "text": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
-      "product": "OpenAI",
-      "url": "https://openai.com/index/managing-frontier-ai-risk",
       "auto": true
     },
     {
@@ -281,14 +383,6 @@
     },
     {
       "date": "2026-11-18T00:00:00.000Z",
-      "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
-      "text": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
-      "product": "OpenAI",
-      "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
-      "auto": true
-    },
-    {
-      "date": "2026-11-18T00:00:00.000Z",
       "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
       "text": "",
       "product": "Hugging Face",
@@ -304,14 +398,6 @@
       "auto": true
     },
     {
-      "date": "2026-11-17T23:40:50.000Z",
-      "title": "v1.60.0",
-      "text": "✨ Features SkillOperation and drop the Skills extension #13574 Executable commands and SlashCommandOperation in oi-kit #13533 Bang command operation in oi-kit #13535 Steering operation in oi-kit #13502 Dutch (nl) translation #13240 Cortecs declarative provider #12617 Onysoft dec…",
-      "product": "Goose",
-      "url": "https://github.com/aaif-goose/goose/releases/tag/v1.60.0",
-      "auto": true
-    },
-    {
       "date": "2026-11-17T21:00:00.000Z",
       "title": "See what 5 builders are making with Gemini 4 Carbon",
       "text": "See what 5 builders are making with Gemini 4 Carbon.",
@@ -319,14 +405,6 @@
       "url": "https://blog.google/products-and-platforms/products/gemini/gemini-4-carbon-builders/",
       "auto": true,
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/5_buildersGemini_4_Carbon_hero.max-600x600.format-webp.webp"
-    },
-    {
-      "date": "2026-11-17T20:20:29.000Z",
-      "title": "OpenAI’s GPT-6.2 Astra and GPT-6.2 Sol now available",
-      "text": "OpenAI’s GPT-6.2 Astra and GPT-6.2 Sol are now generally available in GitHub Copilot. Both models are designed for agentic coding and code review, with stronger coding judgment than earlier GPT-6… The post OpenAI’s GPT-6.2 Astra and GPT-6.2 Sol now available appeared first on Th…",
-      "product": "GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-11-17-openais-gpt-6-2-astra-and-gpt-6-2-sol-now-available",
-      "auto": true
     },
     {
       "date": "2026-11-17T18:36:03.000Z",
@@ -368,7 +446,7 @@
       "date": "2026-11-17T17:00:00.000Z",
       "title": "Put Gemini to work for you",
       "text": "Tasks in Gemini is now free of charge in six countries, with new features starting in the U.S. and deeper Google Workspace integration to get things done on your behalf.",
-      "product": "Gemini",
+      "product": "Google AI",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
       "auto": true,
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Hero_2784_x_1566.max-600x600.format-webp.webp"
@@ -383,29 +461,11 @@
     },
     {
       "date": "2026-11-17T12:00:00.000Z",
-      "title": "How the Nordics' leading postal operator rebuilt its customer support on ElevenAgents",
-      "text": "Yahoo used the ElevenAgents platform to add conversational voice to its new Yahoo Scout AI answer tool, going from kickoff to production in 6 weeks.",
-      "product": "ElevenLabs",
-      "url": "https://elevenlabs.io/blog/postnord",
-      "auto": true,
-      "image": "https://eleven-public-cdn.elevenlabs.io/payloadcms/w7xjkvb77xo-Postnord.webp"
-    },
-    {
-      "date": "2026-11-17T12:00:00.000Z",
       "title": "What is WebRTC? A guide to real-time web communication",
       "text": "Learn what WebRTC is, how it works, and how STUN, TURN, and media servers fit in. Compare WebRTC vs WebSocket and see use cases and limitations.",
       "product": "ElevenLabs",
       "url": "https://elevenlabs.io/blog/what-is-webrtc",
       "auto": true
-    },
-    {
-      "date": "2026-11-17T12:00:00.000Z",
-      "title": "Scribe v3 Live Medical helps conversational agents get clinical details right",
-      "text": "Scribe v3 Live Medical helps agents catch drug names and clinical terms on live calls, with the lowest WER of the medical models we tested.",
-      "product": "ElevenLabs",
-      "url": "https://elevenlabs.io/blog/scribe-v3-live-medical",
-      "auto": true,
-      "image": "https://eleven-public-cdn.elevenlabs.io/payloadcms/r79y1odp3ia-Scribe-v3-Live-Medical-Cover.webp"
     },
     {
       "date": "2026-11-17T12:00:00.000Z",
@@ -443,71 +503,11 @@
       "image": "https://about.fb.com/wp-content/uploads/2026/11/Meta-logo.png?fit=2174%2C1216"
     },
     {
-      "date": "2026-11-17T01:00:48.000Z",
-      "title": "Introducing Direct: An App Just for Messaging",
-      "text": "Today, we're introducing Direct, a new messaging app brought to you by Instagram for chatting one-on-one or in groups with friends and family. The post Introducing Direct: An App Just for Messaging appeared first on Meta Newsroom .",
-      "product": "Meta AI",
-      "url": "https://about.fb.com/news/2026/11/introducing-direct-an-app-just-for-messaging/",
-      "auto": true,
-      "image": "https://about.fb.com/wp-content/uploads/2026/11/02_Direct.jpg"
-    },
-    {
-      "date": "2026-11-16T22:01:49.000Z",
-      "title": "gdk-v0.1.0-alpha.14: chore(GDK): release v0.1.0-alpha.14 (#13468)",
-      "text": "Co-authored-by: github-actions[bot]",
-      "product": "Goose",
-      "url": "https://github.com/aaif-goose/goose/releases/tag/gdk-v0.1.0-alpha.14",
-      "auto": true
-    },
-    {
-      "date": "2026-11-16T19:02:48.000Z",
-      "title": "v0.40.17",
-      "text": "What's Changed Improve ChatGPT CLI restore and graceful restart by @hoyyeva in #19583 cmd/launch: use thinking metadata for OpenCode settings by @hoyyeva in #19409 llm: use mmap for Vulkan integrated GPUs by @dhiltgen in #19640 rpreslar4765/Ollama by @rpreslar4765 in #17163 mlx:…",
+      "date": "2026-11-16T16:43:54.000Z",
+      "title": "v0.40.17-rc1: mlxrunner: batch speculative verification (#19663)",
+      "text": "mlxrunner: batch speculative verification Keep drafting active for concurrent generation by sharing target verification while preserving per-request sampling and cache rollback. Learn draft depth for each concurrent workload separately from isolated requests, and preserve probes…",
       "product": "Ollama",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc1",
-      "auto": true
-    },
-    {
-      "date": "2026-11-16T18:45:00.000Z",
-      "title": "Regional voices are rolling out in the Gemini app.",
-      "text": "Gemini now offers 66 regional voices on Android and iOS. Choose a natural, local dialect for your app interactions. Pick your favorite voice today.",
-      "product": "Gemini",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/regional-voices/",
-      "auto": true,
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/super-g_1.max-600x600.format-webp.webp"
-    },
-    {
-      "date": "2026-11-16T15:50:24.000Z",
-      "title": "Військовий ШІ, від якого відмовилася Швейцарія та з яким працює Україна: чому Європа шукає альтернативу Palantir (і чи зможе замінити)",
-      "text": "Швейцарія неодноразово відмовляла Palantir у співпраці через побоювання щодо безпеки даних, а Німеччина та Франція розробляють власні альтернативи. Чому Європа прагне позбутися залежності від американського військового ШІ та яку роль у цій історії відіграє Україна?",
-      "product": "AIN.UA",
-      "url": "https://ain.ua/2026/11/16/viiskovii-si-vid-iakogo-vidmovilasia-sveicariia-i-z-iakim-praciuje-ukrayina-comu-jevropa-sukaje-alternativu-palantir-i-ci-zmoze-zaminiti/",
-      "auto": true,
-      "image": "https://cdn.ain.ua/ua/articles/2026-11-16/5ONnZbkw4JGBA2MCtZy41B7weISaBAbxE3NnuIXI.webp"
-    },
-    {
-      "date": "2026-11-16T14:00:00.000Z",
-      "title": "New Ask Maps features to help with holiday travel and prep",
-      "text": "Plan holiday road trips, get route tips, find local appointments, and search your saved lists with new Ask Maps features.",
-      "product": "Google AI",
-      "url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
-      "auto": true,
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Ask_Maps_November_herosocial.max-600x600.format-webp.webp"
-    },
-    {
-      "date": "2026-11-16T00:00:00.000Z",
-      "title": "Making open models work for long-horizon agentic workloads",
-      "text": "Prefix caching helps coding agents stay fast as conversations grow. Prompts, tool calls, and inference routing determine how much work the model can reuse.",
-      "product": "Ollama",
-      "url": "https://ollama.com/blog/open-models-long-horizon-agents",
-      "auto": true
-    },
-    {
-      "date": "2026-11-16T00:00:00.000Z",
-      "title": "Introducing Agent Remote Control",
-      "text": "Run Bionic agents on your laptops, dev boxes, and cloud VMs, and control them from any of your devices over LM Link.",
-      "product": "LM Studio",
-      "url": "https://lmstudio.ai/blog/agent-remote-control",
       "auto": true
     }
   ]
