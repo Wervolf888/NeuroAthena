@@ -1,6 +1,75 @@
 {
   "items": [
     {
+      "date": "2026-11-22T08:03:00.000Z",
+      "title": "Перегони за доведення гіпотези Рімана перетворилися на протистояння людини та штучного інтелекту",
+      "text": "У математичній спільноті розгортається справжня драма навколо ролі штучного інтелекту. У п’ятницю математик компанії Anthropic Левент Альпьоге заявив, що за допомогою ШІ розв’язав найвідомішу відкриту проблему сучасної математики. Вже за кілька годин інший науковець несподівано…",
+      "product": "dev.ua",
+      "url": "https://dev.ua/news/perehony-za-dovedennia-hipotezy-rimana-peretvorylysia-na-protystoiannia-liudyny-ta-shtuchnoho-intelektu-1795333743",
+      "auto": true,
+      "image": "https://dev.ua/storage/images/17/53/75/81/derived/f73a360cb323ff114a3a2685b03b7caf.webp"
+    },
+    {
+      "date": "2026-11-21T20:18:42.000Z",
+      "title": "AI-устройство без экрана: Nothing собирается научить ИИ понимать вашу жизнь",
+      "text": "Компания Nothing официально объявила дату анонса своего первого ИИ-устройства без экрана и всего лишь с двумя кнопками. Презентация ожидаемого устройства состоится 8 декабря.",
+      "product": "hi-tech.ua",
+      "url": "https://hi-tech.ua/ai-ustrojstvo-bez-ekrana-nothing-sobiraetsya-nauchit-ii-ponimat-vashu-zhizn/",
+      "auto": true,
+      "image": "https://hi-tech.ua/wp-content/uploads/2026/11/948a76718023697a47ea5fea4c89ddfc-300x169.webp"
+    },
+    {
+      "date": "2026-11-21T18:32:52.000Z",
+      "title": "Google добавляет боковую панель с недавними поисковыми запросами в AI Mode на главную страницу",
+      "text": "Google добавляет на главную страницу десктопных браузеров сворачиваемую боковую панель для быстрого доступа к недавним запросам в режиме AI Mode, что вызывает вопросы о конфиденциальности при использовании общих ПК.",
+      "product": "hi-tech.ua",
+      "url": "https://hi-tech.ua/google-dobavlyaet-bokovuyu-panel-s-nedavnimi-poiskovymi-zaprosami-v-ai-mode-na-glavnuyu-straniczu/",
+      "auto": true,
+      "image": "https://hi-tech.ua/wp-content/uploads/2026/11/570d5bf11b2bd39361ecc82428b78878-300x225.webp"
+    },
+    {
+      "date": "2026-11-21T12:05:54.000Z",
+      "title": "250 000 страниц: Claude «доказал» гипотезу Римана, над которой бились 167 лет",
+      "text": "Задача, которую математики не могли решить 167 лет и за которую обещают 1 млн долларов, возможно, оказалась по силам ИИ. Математик из Anthropic Левент Альпоге заявил, что вместе с Claude доказал гипотезу Римана. Какую именно версию модели он использовал, не уточняется. Ранее ком…",
+      "product": "ITC.ua",
+      "url": "https://itc.ua/news/250-000-stranyts-claude-dokazal-gypotezu-rymana-nad-kotoroj-bylys-167-let/",
+      "auto": true
+    },
+    {
+      "date": "2026-11-21T12:01:00.000Z",
+      "title": "Загальний дохід Lenovo у другому кварталі сягнув рекордних $30,2 млрд, а дохід від ШІ вперше перевищив $10 млрд",
+      "text": "Lenovo відзвітувала про рекордний другий квартал фінансового року: загальний дохід компанії зріс на 48% — до $30,2 млрд, а чистий прибуток підскочив на 166% — до $1,4 млрд. Понад третину всіх надходжень ($10 млрд) компанії вперше принесли продукти та сервіси у сфері штучного інт…",
+      "product": "AIN.UA",
+      "url": "https://ain.ua/2026/11/20/vitorg-lenovo-u-drugomu-kvartali-siagnuv-rekordnix-302-mlrd-a-doxid-vid-si-vperse-perevishhiv-10-mlrd/",
+      "auto": true,
+      "image": "https://cdn.ain.ua/ua/articles/2026-11-20/8wTvaWVv20ToImpIceAD6JUKQB1Vkd5FZbX634qN.webp"
+    },
+    {
+      "date": "2026-11-21T10:43:11.000Z",
+      "title": "«Оторву голову»: Дженсен Хуанг десятилетиями унижал сотрудников NVIDIA",
+      "text": "Угрозы «вырвать сердце» и пожелания смерти подчинённым: The New York Times опубликовала расследование о том, как Дженсен Хуанг на протяжении многих лет руководил NVIDIA — компанией, без которой трудно представить себе рынок видеокарт и ИИ. Параллельно, по данным Reuters, бухгалт…",
+      "product": "ITC.ua",
+      "url": "https://itc.ua/news/otorvu-golovu-dzhensen-huang-desyatyletyyamy-unyzhal-sotrudnykov-nvidia/",
+      "auto": true
+    },
+    {
+      "date": "2026-11-21T09:38:00.000Z",
+      "title": "«Вирішили опублікувати в день IPO Anthropic»: SendPulse розмістила власний MCP-сервер в офіційному маркетплейсі Claude",
+      "text": "Офіційний MCP-сервер (Model Context Protocol) української платформи автоматизації маркетингу SendPulse став доступним в офіційному маркетплейсі Claude. Публікацію приурочили до дня виходу розробника Claude — компанії Anthropic — на біржу (IPO).",
+      "product": "dev.ua",
+      "url": "https://dev.ua/news/sendpulse-rozmistyla-vlasnyi-mcp-server-v-ofitsiinomu-marketpleisi-claude-1795251977",
+      "auto": true,
+      "image": "https://dev.ua/storage/images/23/08/89/10/derived/d6597d5d0909cc92fb4dd430e0c09857.webp"
+    },
+    {
+      "date": "2026-11-21T09:30:30.000Z",
+      "title": "$435 млн превратились в $6 млрд: фонд Кутчера заработал на IPO Anthropic",
+      "text": "Эштон Катчер и Сэм Бэнкман-Фрид в свое время сделали ставку на одну компанию — разработчика Claude, конкурента ChatGPT. Но выход Anthropic на биржу празднует только актер. Основатель FTX узнал о результате в тюрьме, где отбывает 25-летний срок.",
+      "product": "ITC.ua",
+      "url": "https://itc.ua/news/435-mln-prevratylys-v-6-mlrd-fond-kutchera-zarabotal-na-ipo-anthropic/",
+      "auto": true
+    },
+    {
       "date": "2026-11-21T08:58:00.000Z",
       "title": "Anthropic оновила дизайн мобільного застосунку Claude: з’явилася нижня панель вкладок",
       "text": "Компанія Anthropic розпочала розгортання оновленого дизайну мобільного застосунку Claude. Головним нововведенням стала нижня навігаційна панель зі швидким доступом до основних розділів: чатів, проєктів (Projects), коду (Code) та артефактів (Artifacts).",
@@ -85,15 +154,6 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Connected_apps_-_Social_share_a.max-600x600.format-webp.webp"
     },
     {
-      "date": "2026-11-20T17:09:08.000Z",
-      "title": "ИИ добрался до рыбных ферм: роботы лечат лосося лазерами и обрабатывают улов",
-      "text": "ИИ роботы кардинально меняют рыбную промышленность. Подводные аппараты уничтожают лазером паразитов на лососях",
-      "product": "hi-tech.ua",
-      "url": "https://hi-tech.ua/ie-varianty-zagolovka-ii-dobralsya-do-rybnyh-ferm-roboty-lechat-lososya-lazerami-i-obrabatyvayut-ulov/",
-      "auto": true,
-      "image": "https://hi-tech.ua/wp-content/uploads/2026/11/ryby-2-d719cb4f-58fd-4488-93f9-2f10b1179c8a-1536x1024-1-300x200.webp"
-    },
-    {
       "date": "2026-11-20T16:53:00.000Z",
       "title": "Біткоїн обвалився майже на 23% перед IPO Anthropic. Чому це могло статися та коли криптовалюта може знову почати зростати?",
       "text": "Перед виходом Anthropic та SpaceX на біржу біткоїн пережив майже однакове падіння — приблизно на 23% за місяць до кожного IPO. Аналітики припускають, що інвестори могли продавати криптовалюту, щоб звільнити кошти для купівлі акцій технологічних компаній. Після IPO SpaceX біткоїн…",
@@ -129,15 +189,6 @@
       "auto": true
     },
     {
-      "date": "2026-11-20T15:04:19.000Z",
-      "title": "До 128 ГБ памяти и 1 петафлопс: NVIDIA представила новые ИИ-станции RTX Spark",
-      "text": "В продажу поступили мощные мини-ПК NVIDIA RTX Spark от ведущих производителей ASUS, Dell и MSI для локального запуска ИИ",
-      "product": "hi-tech.ua",
-      "url": "https://hi-tech.ua/do-128-gb-pamyati-i-1-petaflops-nvidia-predstavila-novye-ii-stanczii-rtx-spark/",
-      "auto": true,
-      "image": "https://hi-tech.ua/wp-content/uploads/2026/11/784345eadb13f6a5796e8cbd8f0dcf40-300x169.webp"
-    },
-    {
       "date": "2026-11-20T14:38:00.000Z",
       "title": "Мобільний застосунок ChatGPT отримав масштабний редизайн із окремою вкладкою для ШІ-агентів Dots",
       "text": "Компанія OpenAI розпочала оновлення мобільного застосунку ChatGPT, додавши окрему вкладку для персональних ШІ-агентів Dots та можливість налаштовувати панель швидкого доступу. Завдяки змінам сервіс дедалі більше нагадує єдиний центр інструментів компанії, а не просто вікно чат-б…",
@@ -145,15 +196,6 @@
       "url": "https://dev.ua/news/mobilnyi-zastosunok-chatgpt-otrymav-masshtabnyi-redyzain-1795183926",
       "auto": true,
       "image": "https://dev.ua/storage/images/21/92/57/65/derived/8332e20293636c8fbd0f0cfe213dd896.webp"
-    },
-    {
-      "date": "2026-11-20T14:18:00.000Z",
-      "title": "Очільниця Мінцифри заявила, що Україна не продаватиме «Дію» іншим державам як готовий ІТ-продукт",
-      "text": "Міністерство цифрової трансформації не планує монетизувати застосунок «Дія» через прямий продаж іншим державам. Натомість відомство робить ставку на консалтинг та співпрацю з розробниками штучного інтелекту, такими як OpenAI та Anthropic.",
-      "product": "dev.ua",
-      "url": "https://dev.ua/news/diia-ne-prodaietsia-1795181400",
-      "auto": true,
-      "image": "https://dev.ua/storage/images/17/92/27/26/derived/a5825c68a39d04cdd26b1796fefa3d90.webp"
     },
     {
       "date": "2026-11-20T14:12:05.000Z",
@@ -170,15 +212,6 @@
       "product": "ITC.ua",
       "url": "https://itc.ua/news/intel-y-amd-podvyntes-architect-labs-predstavyla-v-4-6-raz-bolee-effektyvnyj-protsessor/",
       "auto": true
-    },
-    {
-      "date": "2026-11-20T13:11:00.000Z",
-      "title": "У Ukrspecsystems розкрили характеристики дрона Black Betty, яким уже уразили ЗРК «Бук-М3»",
-      "text": "Українська компанія Ukrspecsystems розкрила вартість і характеристики ударного безпілотника Black Betty, який створила як доступнішу альтернативу RAM-2X. Дрон коштує близько $15 000, може долати до 100 км і самостійно переслідувати цілі за допомогою ШІ.",
-      "product": "dev.ua",
-      "url": "https://dev.ua/news/black-betty-kharakterystyk-1795179055",
-      "auto": true,
-      "image": "https://dev.ua/storage/images/42/82/01/20/derived/6f0d28e0ddb1a9745db569a686cfcf22.webp"
     },
     {
       "date": "2026-11-20T12:00:00.000Z",
@@ -212,14 +245,6 @@
       "text": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
       "product": "OpenAI",
       "url": "https://openai.com/index/combatting-adversarial-distillation",
-      "auto": true
-    },
-    {
-      "date": "2026-11-20T08:57:09.000Z",
-      "title": "Студии Assassin's Creed и Far Cry уволили 166 человек: Ubisoft делает ставку на ИИ",
-      "text": "Ubisoft сокращает 166 сотрудников в канадских студиях в Монреале и Квебеке. В тот же день компания объявила о создании новой дочерней студии Motherbrain, которая будет заниматься генеративным ИИ для игр. Общий процент сокращений составляет чуть менее 4% от всего канадского штата…",
-      "product": "ITC.ua",
-      "url": "https://itc.ua/news/studyy-assassin-s-creed-y-far-cry-uvolyly-166-chelovek-ubisoft-delaet-stavku-na-yy/",
       "auto": true
     },
     {
@@ -286,14 +311,6 @@
       "text": "",
       "product": "Hugging Face",
       "url": "https://huggingface.co/blog/harness-adapters-at-scale",
-      "auto": true
-    },
-    {
-      "date": "2026-11-19T21:22:13.000Z",
-      "title": "Еще одна Великобритания по спросу на электроэнергию: что показывает отчет МЭА о дата-центрах для ИИ",
-      "text": "Международное энергетическое агентство (МЭА) в отчете World Energy Outlook 2026 отметило, что строительство центров обработки данных для ИИ создает нагрузку на электросети во многих регионах: спрос со стороны этих проектов местами превышает нынешнюю пиковую нагрузку, которую мож…",
-      "product": "ITC.ua",
-      "url": "https://itc.ua/news/eshhe-odna-velykobrytanyya-po-sprosu-na-elektroenergyyu-chto-pokazyvaet-otchet-mea-o-data-tsentrah-dlya-yy/",
       "auto": true
     },
     {
@@ -491,23 +508,6 @@
       "text": "",
       "product": "Hugging Face",
       "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
-      "auto": true
-    },
-    {
-      "date": "2026-11-18T14:07:00.000Z",
-      "title": "Meta Welcomes Loblaw as First Canadian Retail Partner to Muse",
-      "text": "Starting today, Loblaw is bringing its catalogue to Muse as a partner connector, the first Canadian retailer to do so. Connectors are a big reason Muse can do so much. Canadians can connect their Muse to apps they already use, including Gmail, Google Calendar and Instagram, so i…",
-      "product": "Meta AI",
-      "url": "https://about.fb.com/news/2026/11/meta-welcomes-loblaw-as-first-canadian-retail-partner-to-muse/",
-      "auto": true,
-      "image": "https://about.fb.com/wp-content/uploads/2026/11/ad846cce-d851-423a-a491-374201cd55ba.png?fit=2064%2C1161"
-    },
-    {
-      "date": "2026-11-18T01:48:41.000Z",
-      "title": "v1.60.1",
-      "text": "🐛 Bug Fixes Compaction: drop the scratchpad that Claude models refuse #13572",
-      "product": "Goose",
-      "url": "https://github.com/aaif-goose/goose/releases/tag/v1.60.1",
       "auto": true
     }
   ]
