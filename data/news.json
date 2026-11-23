@@ -1,6 +1,86 @@
 {
   "items": [
     {
+      "date": "2026-11-23T12:00:00.000Z",
+      "title": "How the Nordics' leading postal operator rebuilt its customer support on ElevenAgents",
+      "text": "Raising AI resolution rate from 45% to 60% on ElevenAgents in 90 days",
+      "product": "ElevenLabs",
+      "url": "https://elevenlabs.io/blog/postnord",
+      "auto": true,
+      "image": "https://eleven-public-cdn.elevenlabs.io/payloadcms/w7xjkvb77xo-Postnord.webp"
+    },
+    {
+      "date": "2026-11-23T09:22:21.000Z",
+      "title": "v2.4.0",
+      "text": "Highlights Built-In Desktop Browser : Import your sign-ins and browsing history from Chrome, Edge, Firefox or Safari, and add extensions from Chromium browsers or the Chrome and Edge stores. Everything stays in one persistent desktop profile: chat links open signed in, your tabs…",
+      "product": "OpenCode",
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v2.4.0",
+      "auto": true
+    },
+    {
+      "date": "2026-11-23T07:59:00.000Z",
+      "title": "16-річний латвієць отримав $500 000 на створення дешевих ракет із ШІ, які мають бути стійкими до РЕБ. До створення стартапу його підштовхнула війна в Україні",
+      "text": "16-річний Генрійс Дандзбергс із Латвії отримав $500 000 від відомого акселератора Y Combinator на власний оборонний стартап. Хлопець покинув школу, щоб створювати дешеві ракети з наведенням за допомогою штучного інтелекту. Одним із головних поштовхів для нього стала війна Росії…",
+      "product": "dev.ua",
+      "url": "https://dev.ua/news/henriis-dandzberhs-1795418855",
+      "auto": true,
+      "image": "https://dev.ua/storage/images/16/84/37/59/derived/3363d55164e6cab5160efffe41accc22.webp"
+    },
+    {
+      "date": "2026-11-22T18:48:32.000Z",
+      "title": "Искусственный интеллект запускается на 486 ПК с MS-DOS с обычной дискеты",
+      "text": "Разработчик представил Tiny 2.1 — миниатюрный ИИ-чат-бот, который работает на ПК с MS-DOS и процессорами 486, умещаясь на одной дискете объемом 1.44 МБ.",
+      "product": "hi-tech.ua",
+      "url": "https://hi-tech.ua/iskusstvennyj-intellekt-zapuskaetsya-na-486-pk-s-ms-dos-s-obychnoj-diskety/",
+      "auto": true,
+      "image": "https://hi-tech.ua/wp-content/uploads/2026/11/d33a3c2706af2b2d7c32c6fd4182d456-300x225.webp"
+    },
+    {
+      "date": "2026-11-22T16:09:48.000Z",
+      "title": "Десятиминутное ограничение отменено: OpenAI обновила систему распознавания речи в ChatGPT",
+      "text": "Разработчики ChatGPT обновили функцию голосового ввода, добавив транскрипцию речи в реальном времени и убрали ограничение на длительность записи",
+      "product": "hi-tech.ua",
+      "url": "https://hi-tech.ua/desyatiminutnoe-ogranichenie-otmeneno-openai-obnovila-sistemu-raspoznavaniya-rechi-v-chatgpt/",
+      "auto": true,
+      "image": "https://hi-tech.ua/wp-content/uploads/2026/11/8b04f24a60017dd23aa16912c3ceb837-300x169.webp"
+    },
+    {
+      "date": "2026-11-22T13:00:00.000Z",
+      "title": "У Gemini з’явилася функція створення GIF-анімацій за допомогою ШІ",
+      "text": "Google посилює конкуренцію з ChatGPT, додавши до Gemini вбудовану функцію створення анімованих GIF-зображень.",
+      "product": "dev.ua",
+      "url": "https://dev.ua/news/google-zapustyla-heneratsiiu-shi-gif-1795350586",
+      "auto": true,
+      "image": "https://dev.ua/storage/images/44/44/03/50/derived/c2d0b78e1855d2d38273cc042b54fac5.webp"
+    },
+    {
+      "date": "2026-11-22T11:30:00.000Z",
+      "title": "«Я злив секрети»: ШІ-агент для програмування зізнався у витоку даних, а інший обійшов корпоративні обмеження",
+      "text": "ШІ-агенти дедалі частіше отримують доступ до внутрішніх систем компаній, документації та чутливих облікових даних для виконання завдань співробітників. Проте два інциденти, виявлені інструментом NordLayer AI Scout, показують, як звичні робочі інструкції можуть призвести до виток…",
+      "product": "dev.ua",
+      "url": "https://dev.ua/news/ya-zlyv-sekrety-shi-ahent-ziznavsia-u-vytoku-danykh-1795344674",
+      "auto": true,
+      "image": "https://dev.ua/storage/images/17/91/66/57/derived/7c5aacbc278649502f5e21db95de0da2.webp"
+    },
+    {
+      "date": "2026-11-22T10:30:00.000Z",
+      "title": "ChatGPT «стиснули» для запуску на 16-бітній приставці Super Nintendo",
+      "text": "Технологічний журналіст та ентузіаст ретротехніки Бендж Едвардс створив мініатюрну версію штучного інтелекту, здатну працювати на ігровій консолі Super Nintendo Entertainment System (SNES) 1990-х років. Проєкт отримав назву ChatGPT for SNES, його вже можна протестувати в онлайн-…",
+      "product": "dev.ua",
+      "url": "https://dev.ua/news/chatgpt-stysnuly-dlia-zapusku-na-16-bitnii-prystavtsi-super-nintendo-1795340326",
+      "auto": true,
+      "image": "https://dev.ua/storage/images/78/82/68/41/derived/44847edfa05921129711d6c86e2ebdb1.webp"
+    },
+    {
+      "date": "2026-11-22T09:56:00.000Z",
+      "title": "Signal обмежить створення скриншотів на смартфонах, щоб захистити листування від ШІ",
+      "text": "Месенджер закликає Apple, Google та Microsoft надати розробникам більше інструментів для захисту конфіденційних даних від ШІ-агентів.",
+      "product": "AIN.UA",
+      "url": "https://ain.ua/2026/11/20/signal-obmezit-stvorennia-skrinsotiv-na-smartfonax-shhob-zaxistiti-listuvannia-vid-si/",
+      "auto": true,
+      "image": "https://cdn.ain.ua/ua/articles/2026-11-20/HgsyTRT51U4w5uvdYBXSBamX7ohPuQzoArBga708.webp"
+    },
+    {
       "date": "2026-11-22T08:03:00.000Z",
       "title": "Перегони за доведення гіпотези Рімана перетворилися на протистояння людини та штучного інтелекту",
       "text": "У математичній спільноті розгортається справжня драма навколо ролі штучного інтелекту. У п’ятницю математик компанії Anthropic Левент Альпьоге заявив, що за допомогою ШІ розв’язав найвідомішу відкриту проблему сучасної математики. Вже за кілька годин інший науковець несподівано…",
@@ -10,22 +90,12 @@
       "image": "https://dev.ua/storage/images/17/53/75/81/derived/f73a360cb323ff114a3a2685b03b7caf.webp"
     },
     {
-      "date": "2026-11-21T20:18:42.000Z",
-      "title": "AI-устройство без экрана: Nothing собирается научить ИИ понимать вашу жизнь",
-      "text": "Компания Nothing официально объявила дату анонса своего первого ИИ-устройства без экрана и всего лишь с двумя кнопками. Презентация ожидаемого устройства состоится 8 декабря.",
-      "product": "hi-tech.ua",
-      "url": "https://hi-tech.ua/ai-ustrojstvo-bez-ekrana-nothing-sobiraetsya-nauchit-ii-ponimat-vashu-zhizn/",
-      "auto": true,
-      "image": "https://hi-tech.ua/wp-content/uploads/2026/11/948a76718023697a47ea5fea4c89ddfc-300x169.webp"
-    },
-    {
-      "date": "2026-11-21T18:32:52.000Z",
-      "title": "Google добавляет боковую панель с недавними поисковыми запросами в AI Mode на главную страницу",
-      "text": "Google добавляет на главную страницу десктопных браузеров сворачиваемую боковую панель для быстрого доступа к недавним запросам в режиме AI Mode, что вызывает вопросы о конфиденциальности при использовании общих ПК.",
-      "product": "hi-tech.ua",
-      "url": "https://hi-tech.ua/google-dobavlyaet-bokovuyu-panel-s-nedavnimi-poiskovymi-zaprosami-v-ai-mode-na-glavnuyu-straniczu/",
-      "auto": true,
-      "image": "https://hi-tech.ua/wp-content/uploads/2026/11/570d5bf11b2bd39361ecc82428b78878-300x225.webp"
+      "date": "2026-11-22T00:00:00.000Z",
+      "title": "Perplexity and Intelligence",
+      "text": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+      "product": "OpenAI",
+      "url": "https://openai.com/index/perplexity-and-intelligence",
+      "auto": true
     },
     {
       "date": "2026-11-21T12:05:54.000Z",
@@ -68,15 +138,6 @@
       "product": "ITC.ua",
       "url": "https://itc.ua/news/435-mln-prevratylys-v-6-mlrd-fond-kutchera-zarabotal-na-ipo-anthropic/",
       "auto": true
-    },
-    {
-      "date": "2026-11-21T08:58:00.000Z",
-      "title": "Anthropic оновила дизайн мобільного застосунку Claude: з’явилася нижня панель вкладок",
-      "text": "Компанія Anthropic розпочала розгортання оновленого дизайну мобільного застосунку Claude. Головним нововведенням стала нижня навігаційна панель зі швидким доступом до основних розділів: чатів, проєктів (Projects), коду (Code) та артефактів (Artifacts).",
-      "product": "dev.ua",
-      "url": "https://dev.ua/news/anthropic-onovyla-dyzain-mobilnoho-zastosunku-claude-1795249677",
-      "auto": true,
-      "image": "https://dev.ua/storage/images/43/22/10/34/derived/e3a45755fb7a23ea52cdd35ba05d750b.webp"
     },
     {
       "date": "2026-11-21T04:05:14.000Z",
@@ -154,24 +215,6 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Connected_apps_-_Social_share_a.max-600x600.format-webp.webp"
     },
     {
-      "date": "2026-11-20T16:53:00.000Z",
-      "title": "Біткоїн обвалився майже на 23% перед IPO Anthropic. Чому це могло статися та коли криптовалюта може знову почати зростати?",
-      "text": "Перед виходом Anthropic та SpaceX на біржу біткоїн пережив майже однакове падіння — приблизно на 23% за місяць до кожного IPO. Аналітики припускають, що інвестори могли продавати криптовалюту, щоб звільнити кошти для купівлі акцій технологічних компаній. Після IPO SpaceX біткоїн…",
-      "product": "dev.ua",
-      "url": "https://dev.ua/news/bitok-padaie-mozhe-cherez-aktsii-1795191534",
-      "auto": true,
-      "image": "https://dev.ua/storage/images/72/63/50/66/derived/a095fe21ad655d8e99c4490aaecf659c.webp"
-    },
-    {
-      "date": "2026-11-20T15:59:00.000Z",
-      "title": "Українська N-iX стала партнером SpaceX і допомагатиме іншим компаніям впроваджувати Grok у робочі процеси. У компанії заявляють про скорочення часу роботи з pull request на 49%",
-      "text": "Українська IT-компанія N-iX приєдналася до партнерської мережі SpaceX Super Intelligence (SpaceXSI) і тепер допомагатиме бізнесам впроваджувати ШІ-інструменти Grok у розробку програмного забезпечення. У командах, де N-iX вимірювала результати використання ШІ, час роботи з pull r…",
-      "product": "dev.ua",
-      "url": "https://dev.ua/news/n-ix-spacex-super-intelligence-1795188043",
-      "auto": true,
-      "image": "https://dev.ua/storage/images/33/37/61/56/derived/76fb7ca5997551deb005f714448f556e.webp"
-    },
-    {
       "date": "2026-11-20T15:20:00.000Z",
       "title": "Світ в епоху ШІ: 27 листопада відбудеться безоплатна конференція ШТУКА",
       "text": "27 листопада на безоплатній онлайн-конференції «ШТУКА» розберуть практичне впровадження ШІ в українському бізнесі. У програмі — кейси автоматизації процесів, використання віртуальних працівників, юридичні ризики та зміни в креативних індустріях. Захід пройде на платформі CASES.",
@@ -187,15 +230,6 @@
       "product": "ITC.ua",
       "url": "https://itc.ua/news/na-19-dorozhe-samsung-snova-povysyt-tseny-na-smartfony-galaxy-a/",
       "auto": true
-    },
-    {
-      "date": "2026-11-20T14:38:00.000Z",
-      "title": "Мобільний застосунок ChatGPT отримав масштабний редизайн із окремою вкладкою для ШІ-агентів Dots",
-      "text": "Компанія OpenAI розпочала оновлення мобільного застосунку ChatGPT, додавши окрему вкладку для персональних ШІ-агентів Dots та можливість налаштовувати панель швидкого доступу. Завдяки змінам сервіс дедалі більше нагадує єдиний центр інструментів компанії, а не просто вікно чат-б…",
-      "product": "dev.ua",
-      "url": "https://dev.ua/news/mobilnyi-zastosunok-chatgpt-otrymav-masshtabnyi-redyzain-1795183926",
-      "auto": true,
-      "image": "https://dev.ua/storage/images/21/92/57/65/derived/8332e20293636c8fbd0f0cfe213dd896.webp"
     },
     {
       "date": "2026-11-20T14:12:05.000Z",
@@ -400,15 +434,6 @@
       "auto": true
     },
     {
-      "date": "2026-11-19T12:00:00.000Z",
-      "title": "How Candid Health automates payer calls with ElevenAgents",
-      "text": "Candid Health uses ElevenAgents to investigate claim denials and verify eligibility on payer calls, saving 850+ staff hours in a one-month pilot.",
-      "product": "ElevenLabs",
-      "url": "https://elevenlabs.io/blog/candid-health",
-      "auto": true,
-      "image": "https://eleven-public-cdn.elevenlabs.io/payloadcms/r5tv7yo7ss-Blog_Candid.webp"
-    },
-    {
       "date": "2026-11-19T09:00:00.000Z",
       "title": "Розробник Claude виходить на біржу після рекордного IPO на понад $81 млрд",
       "text": "Акції Anthropic мають дебютувати на американській біржі Nasdaq 19 листопада під тикером ANT. Розміщення оцінює компанію приблизно в $1,5 трлн.",
@@ -436,18 +461,10 @@
     },
     {
       "date": "2026-11-19T00:00:00.000Z",
-      "title": "Explore the Codex Security Plugin",
-      "text": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+      "title": "Deploying Daybreak Red",
+      "text": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
       "product": "OpenAI",
-      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
-      "auto": true
-    },
-    {
-      "date": "2026-11-19T00:00:00.000Z",
-      "title": "See PR scans in action",
-      "text": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
-      "product": "OpenAI",
-      "url": "https://openai.com/business/learn/pr-scans-demo",
+      "url": "https://openai.com/business/learn/deploying-daybreak-red",
       "auto": true
     },
     {
@@ -492,23 +509,6 @@
       "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
       "auto": true,
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/resized_ProjectGenie_Thumbnail_.max-600x600.format-webp.webp"
-    },
-    {
-      "date": "2026-11-18T17:00:00.000Z",
-      "title": "The Gemini app is now available on lower-memory Android devices.",
-      "text": "The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today.",
-      "product": "Gemini",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
-      "auto": true,
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_app_Android_social_share.max-600x600.format-webp.webp"
-    },
-    {
-      "date": "2026-11-18T15:00:23.000Z",
-      "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
-      "text": "",
-      "product": "Hugging Face",
-      "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
-      "auto": true
     }
   ]
 }
