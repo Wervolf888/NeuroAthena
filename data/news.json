@@ -1,6 +1,229 @@
 {
   "items": [
     {
+      "date": "2026-11-24T11:22:00.000Z",
+      "title": "Anthropic запустила Claude Ship — набір інструментів для автоматизації код-рев'ю. Що вони вміють?",
+      "text": "Компанія Anthropic представила Claude Ship — набір ШІ-інструментів, який може автоматизувати роботу з pull request (запитами на внесення змін до коду). Тепер розробники зможуть переходити до наступного завдання, поки Claude перевірятиме їхній код і виправляє помилки та, якщо це…",
+      "product": "dev.ua",
+      "url": "https://dev.ua/news/claude-ship-1795514757",
+      "auto": true,
+      "image": "https://dev.ua/storage/images/12/71/20/78/derived/4208b8b7cc04fbe6414414c72dac71a1.webp"
+    },
+    {
+      "date": "2026-11-24T11:00:00.000Z",
+      "title": "Як підготувати інфраструктуру до масштабування ШІ",
+      "text": "ШІ-сервіс, який добре працює під час тестування, має залишатися доступним і для тисяч користувачів у години пікового попиту. Це залежить від обчислювальних потужностей, електроживлення та охолодження. Розглянемо, як влаштована ця інфраструктура і що потрібно врахувати українськи…",
+      "product": "dev.ua",
+      "url": "https://dev.ua/news/yak-pidhotuvaty-infrastrukturu-do-masshtabuvannia-shi-1795517702",
+      "auto": true,
+      "image": "https://dev.ua/storage/images/35/21/90/30/derived/67a09e28b0e7ce7e2ad8eb641dee9c82.webp"
+    },
+    {
+      "date": "2026-11-24T10:12:00.000Z",
+      "title": "Signal посилює захист від ШІ-агентів Gemini та Siri, які можуть сканувати екран",
+      "text": "Орієнтований на приватність месенджер Signal запроваджує нові обмеження проти агентів штучного інтелекту, здатних аналізувати вміст екрана користувачів. Для захисту листування застосунок блокуватиме створення скриншотів на iOS та активуватиме функцію захисту екрана на Android у…",
+      "product": "dev.ua",
+      "url": "https://dev.ua/news/signal-posyliuie-zakhyst-vid-shi-ahentiv-gemini-ta-siri-iaki-mozhut-skanuvaty-ekran-1795508107",
+      "auto": true,
+      "image": "https://dev.ua/storage/images/13/87/57/75/derived/b609bf338838d9b5345649ece56c8229.webp"
+    },
+    {
+      "date": "2026-11-24T09:19:53.000Z",
+      "title": "Samsung отказывается от важной функции камеры Galaxy S27 Ultra ради ИИ",
+      "text": "По информации авторитетного инсайдера Ice Universe, Samsung планирует заменить важную функцию камеры в будущем флагмане Galaxy S27 Ultra на альтернативу на базе ИИ.",
+      "product": "ITC.ua",
+      "url": "https://itc.ua/news/samsung-otkazyvaetsya-ot-vazhnoj-funktsyy-kamery-galaxy-s27-ultra-rady-yy/",
+      "auto": true
+    },
+    {
+      "date": "2026-11-24T08:27:44.000Z",
+      "title": "v0.40.18",
+      "text": "What's Changed mlx: fuse Inkling residual mixing on Metal by @dhiltgen in #19808 mlxrunner: share tensor helpers and model setup across architectures by @jaingaurav in #19805 llama.cpp: version bump b12651 + remove jetpack5 support by @pdevine in #19865 inkling2: faster Metal de…",
+      "product": "Ollama",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.18",
+      "auto": true
+    },
+    {
+      "date": "2026-11-24T07:53:00.000Z",
+      "title": "Intellias використовує ШІ у 60% проєктів і планує наростити виторг на 8–9% до кінця року",
+      "text": "Українська сервісна IT-компанія Intellias інтегрувала штучний інтелект приблизно у 60% своїх проєктів і впровадила ШІ у понад 100 внутрішніх юзкейсів. Попри те, що частина замовників досі обережно ставиться до технології через ризики безпеки, компанія розраховує збільшити глобал…",
+      "product": "dev.ua",
+      "url": "https://dev.ua/news/intellias-transformuietsia-1795505647",
+      "auto": true,
+      "image": "https://dev.ua/storage/images/29/46/08/72/derived/bd6a03f25c3f9c910d580bebdae3c296.webp"
+    },
+    {
+      "date": "2026-11-24T06:17:00.000Z",
+      "title": "«Напишу промпт у Suno і я вже композитор?». Артем Пивоваров посварився з Могилевською та фанами через ШІ-пісню на «Голосі країни»",
+      "text": "Виступ 47-річної учасниці з піснею, створеною штучним інтелектом, спричинив гостру дискусію між тренерами на шоу «Голос країни». Артем Пивоваров розкритикував використання генеративних нейромереж у музиці, а згодом продовжив суперечку з глядачами в Instagram, висміявши авторів т…",
+      "product": "dev.ua",
+      "url": "https://dev.ua/news/napyshu-prompt-u-suno-i-ia-vzhe-kompozytor",
+      "auto": true,
+      "image": "https://dev.ua/storage/images/10/77/56/25/derived/37124ccf612456ab809479cebc0e1112.webp"
+    },
+    {
+      "date": "2026-11-24T06:00:40.000Z",
+      "title": "Introducing Muse in the UK: A Personal AI Agent You Control",
+      "text": "Muse is now in the UK: a personal AI agent that doesn't just answer questions, but one that you can task to get things done on your behalf The post Introducing Muse in the UK: A Personal AI Agent You Control appeared first on Meta Newsroom .",
+      "product": "Meta AI",
+      "url": "https://about.fb.com/news/2026/11/introducing-muse-in-the-uk-a-personal-ai-agent-you-control/",
+      "auto": true,
+      "image": "https://about.fb.com/wp-content/uploads/2026/11/England_v2a_4x3.png?fit=1440%2C1080"
+    },
+    {
+      "date": "2026-11-24T06:00:04.000Z",
+      "title": "Muse Now Available in the UK: Muse Does the Work, You Stay in Control",
+      "text": "Muse, Meta’s personal AI agent, is now available to adults in the UK. Think of it as a helping hand for the jobs that pile up, like chasing a refund, renewing car insurance or keeping on top of the school calendar. To get those jobs done you can connect Muse to the apps you alre…",
+      "product": "Meta AI",
+      "url": "https://about.fb.com/news/2026/11/muse-now-available-in-the-uk-muse-does-the-work-you-stay-in-control/",
+      "auto": true
+    },
+    {
+      "date": "2026-11-24T05:18:27.000Z",
+      "title": "Перплексия вместо десятков бенчмарков: OpenAI предложила новый способ оценки языковых моделей",
+      "text": "Главный научный сотрудник OpenAI Якуб Пачоцки предложил использовать перплексию в качестве универсального показателя прогресса ИИ.",
+      "product": "hi-tech.ua",
+      "url": "https://hi-tech.ua/perpleksiya-vmesto-desyatkov-benchmarkov-openai-predlozhila-novyj-sposob-oczenki-yazykovyh-modelej/",
+      "auto": true,
+      "image": "https://hi-tech.ua/wp-content/uploads/2026/11/c0f247c85d1094b3b425c021d369518d-300x169.webp"
+    },
+    {
+      "date": "2026-11-24T01:35:09.000Z",
+      "title": "v0.40.18-rc0: inkling2: faster Metal decode, prefill and draft rounds (#19843)",
+      "text": "inkling2: faster Metal decode, prefill and draft rounds Add Inkling-only Metal kernels, each with a stock-graph fallback, gated by GPU generation and size class: short BF16 products, deduplicated NVFP4/MXFP8 expert gathers with fused SwiGLU, fused loop controllers and residual m…",
+      "product": "Ollama",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.18-rc0",
+      "auto": true
+    },
+    {
+      "date": "2026-11-23T21:20:00.000Z",
+      "title": "OpenAI and Cisco introduce Shirudo",
+      "text": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
+      "product": "OpenAI",
+      "url": "https://openai.com/index/introducing-shirudo",
+      "auto": true
+    },
+    {
+      "date": "2026-11-23T20:37:11.000Z",
+      "title": "Issue statuses and repository boards are in public preview",
+      "text": "Open or closed doesn’t always tell you where an issue stands. You can now use more specific statuses to give your team and agents shared context about what’s in flight… The post Issue statuses and repository boards are in public preview appeared first on The GitHub Blog .",
+      "product": "GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview",
+      "auto": true
+    },
+    {
+      "date": "2026-11-23T18:32:59.000Z",
+      "title": "Secret scanning reduces false positives for Slack",
+      "text": "Secret scanning now reduces false-positive detections for Slack secrets. False positives reduced The following detector improvements reduce false-positive matches for supported secrets. Provider Secret type Improvement Slack slack_incoming_webhook_url Exclude URLs… The post Secr…",
+      "product": "GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-11-23-secret-scanning-reduces-false-positives-for-slack",
+      "auto": true
+    },
+    {
+      "date": "2026-11-23T18:00:01.000Z",
+      "title": "Researchers Are Using Meta’s Open-Weight AI Models to Transform Medicine",
+      "text": "We brought researchers together for the Open Source AI For Science Summit, where they shared how they’re using AI to accelerate scientific discovery. The post Researchers Are Using Meta’s Open-Weight AI Models to Transform Medicine appeared first on Meta Newsroom .",
+      "product": "Meta AI",
+      "url": "https://about.fb.com/news/2026/11/researchers-using-meta-open-weight-ai-models-medical-breakthroughs/",
+      "auto": true,
+      "image": "https://about.fb.com/wp-content/uploads/2027/11/Researchers-Are-Using-Metas-Open-Weight-AI-Models-to-Transform-Medicine_Header-1.jpg?fit=3840%2C2160"
+    },
+    {
+      "date": "2026-11-23T18:00:00.000Z",
+      "title": "Here are 4 things you didn’t know you could do with Gemini Canvas.",
+      "text": "Boost productivity with Google Gemini Canvas. Build web apps, create custom study tools, and refine writing side-by-side. Try it in your next chat.",
+      "product": "Gemini",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-canvas-tasks/",
+      "auto": true,
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/02_hero_video_poster.max-600x600.format-webp.webp"
+    },
+    {
+      "date": "2026-11-23T18:00:00.000Z",
+      "title": "See what 6 builders are making with Gemini 4 Hydrogen",
+      "text": "See six projects builders created with Gemini 4 Hydrogen, from rainy sci-fi skies and pixelated koi ponds to an interactive moth.",
+      "product": "Gemini",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-hydrogen-builders/",
+      "auto": true,
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/6_Builders_Hydrogen_herosocial_.max-600x600.format-webp.webp"
+    },
+    {
+      "date": "2026-11-23T17:20:37.000Z",
+      "title": "RoboTrack: Point tracking for real-world robotic manipulation",
+      "text": "",
+      "product": "Hugging Face",
+      "url": "https://huggingface.co/blog/allenai/robotrack",
+      "auto": true
+    },
+    {
+      "date": "2026-11-23T17:09:15.000Z",
+      "title": "Как отключить генеративный искусственный интеллект в Canva",
+      "text": "Популярный графический редактор Canva добавил долгожданную функцию отключения инструментов искусственного интеллекта.",
+      "product": "hi-tech.ua",
+      "url": "https://hi-tech.ua/kak-otklyuchit-generativnyj-iskusstvennyj-intellekt-v-canva/",
+      "auto": true,
+      "image": "https://hi-tech.ua/wp-content/uploads/2026/11/9db81e279f073381cb4a60c45a161cab-300x169.webp"
+    },
+    {
+      "date": "2026-11-23T17:00:00.000Z",
+      "title": "A more tailored Google Search that’s uniquely yours",
+      "text": "Get more helpful Search responses by securely opting in to connect Google Wallet, Drive, and the Gemini app to Personal Intelligence in AI Mode.",
+      "product": "Gemini",
+      "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+      "auto": true,
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Blog_pContext_Drive_1118.max-600x600.format-webp.webp"
+    },
+    {
+      "date": "2026-11-23T16:59:40.000Z",
+      "title": "Finding faster quantum algorithms with agents and formal verification",
+      "text": "Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry.",
+      "product": "Google DeepMind",
+      "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+      "auto": true,
+      "image": "https://lh3.googleusercontent.com/jIoM2lo98EDqLMQjIaXBlXPmXgPbUPpM2GgtXcDsGekZBOPUY41IjBsnuZIhLac7MSOuRkklNBsp20a5M25oDz-xTIY0BIqoBxUqmmXvEHwlM3MJJw=w528-h297-n-nu-rw-lo"
+    },
+    {
+      "date": "2026-11-23T15:58:38.000Z",
+      "title": "v2.4.1",
+      "text": "Highlights macOS 12 Session Fix : OpenCode can save assistant messages again on the older SQLite version included with macOS 12. ( #65771 ) Config-Only Providers Show Their Models : Providers you set up only in your config, such as Ollama, now show their models in /models withou…",
+      "product": "OpenCode",
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v2.4.1",
+      "auto": true
+    },
+    {
+      "date": "2026-11-23T15:28:36.000Z",
+      "title": "Code coverage uploads now flag invalid report formats",
+      "text": "The GitHub Code Quality upload-code-coverage action now checks that your coverage report is in Cobertura XML format. If it isn’t in a supported format, the upload step fails and the… The post Code coverage uploads now flag invalid report formats appeared first on The GitHub Blog…",
+      "product": "GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-11-23-code-coverage-uploads-now-flag-invalid-report-formats",
+      "auto": true
+    },
+    {
+      "date": "2026-11-23T14:42:00.000Z",
+      "title": "Канадська Draganfly вироблятиме українські дрони та інтегруватиме ШІ від TAF Industries і DOD Solution",
+      "text": "Український виробник безпілотників TAF Industries та естонсько-український розробник систем автономності DOD Solution підписали меморандуми про взаєморозуміння з канадською компанією Draganfly Inc. Партнерство відкриває для українських defense-tech рішень локалізацію виробництва…",
+      "product": "dev.ua",
+      "url": "https://dev.ua/news/kanadska-draganfly-vyrobliatyme-ukrainski-drony-1795444210",
+      "auto": true,
+      "image": "https://dev.ua/storage/images/32/44/24/41/derived/b0867e09d45b309b0ebee81d0e196fd8.webp"
+    },
+    {
+      "date": "2026-11-23T12:00:00.000Z",
+      "title": "How to choose the best speech to text API for your use case",
+      "text": "How to choose the best speech to text API for your business? Compare accuracy, latency, pricing, and more to find the best fit for your use case.",
+      "product": "ElevenLabs",
+      "url": "https://elevenlabs.io/blog/choose-the-best-speech-to-text-api",
+      "auto": true
+    },
+    {
+      "date": "2026-11-23T12:00:00.000Z",
+      "title": "ElevenMusic vs. music in ElevenCreative: which do I need?",
+      "text": "Compare ElevenMusic and ElevenCreative music generation. See what each does, how pricing differs, and which fits your song or project.",
+      "product": "ElevenLabs",
+      "url": "https://elevenlabs.io/blog/elevenmusic-vs-elevencreative",
+      "auto": true,
+      "image": "https://eleven-public-cdn.elevenlabs.io/payloadcms/ElevenMusic_1920.webp"
+    },
+    {
       "date": "2026-11-23T12:00:00.000Z",
       "title": "How the Nordics' leading postal operator rebuilt its customer support on ElevenAgents",
       "text": "Raising AI resolution rate from 45% to 60% on ElevenAgents in 90 days",
@@ -8,6 +231,22 @@
       "url": "https://elevenlabs.io/blog/postnord",
       "auto": true,
       "image": "https://eleven-public-cdn.elevenlabs.io/payloadcms/w7xjkvb77xo-Postnord.webp"
+    },
+    {
+      "date": "2026-11-23T10:29:36.000Z",
+      "title": "Usage reports will include a user ID column starting December 1",
+      "text": "Starting December 1, 2026, usage reports that include a username column will also include a user_id column next to it. Every column after username will move one position to the… The post Usage reports will include a user ID column starting December 1 appeared first on The GitHub…",
+      "product": "GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-11-23-usage-reports-will-include-a-user-id-column-starting-december-1",
+      "auto": true
+    },
+    {
+      "date": "2026-11-23T10:12:28.000Z",
+      "title": "Unreal Engine 6 останется без визуальных скриптов: Epic делает ставку на ИИ",
+      "text": "Epic Games окончательно решила: в Unreal Engine 6 не будет визуальных скриптов Blueprints даже в раннем доступе. Компания объясняет это тем, что ИИ возьмет на себя перенос старых проектов.",
+      "product": "ITC.ua",
+      "url": "https://itc.ua/news/unreal-engine-6-ostanetsya-bez-vyzualnyh-skryptov-epic-delaet-stavku-na-yy/",
+      "auto": true
     },
     {
       "date": "2026-11-23T09:22:21.000Z",
@@ -18,58 +257,28 @@
       "auto": true
     },
     {
-      "date": "2026-11-23T07:59:00.000Z",
-      "title": "16-річний латвієць отримав $500 000 на створення дешевих ракет із ШІ, які мають бути стійкими до РЕБ. До створення стартапу його підштовхнула війна в Україні",
-      "text": "16-річний Генрійс Дандзбергс із Латвії отримав $500 000 від відомого акселератора Y Combinator на власний оборонний стартап. Хлопець покинув школу, щоб створювати дешеві ракети з наведенням за допомогою штучного інтелекту. Одним із головних поштовхів для нього стала війна Росії…",
-      "product": "dev.ua",
-      "url": "https://dev.ua/news/henriis-dandzberhs-1795418855",
-      "auto": true,
-      "image": "https://dev.ua/storage/images/16/84/37/59/derived/3363d55164e6cab5160efffe41accc22.webp"
+      "date": "2026-11-23T08:00:00.000Z",
+      "title": "Connected intelligence for in-house legal",
+      "text": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
+      "product": "OpenAI",
+      "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+      "auto": true
     },
     {
-      "date": "2026-11-22T18:48:32.000Z",
-      "title": "Искусственный интеллект запускается на 486 ПК с MS-DOS с обычной дискеты",
-      "text": "Разработчик представил Tiny 2.1 — миниатюрный ИИ-чат-бот, который работает на ПК с MS-DOS и процессорами 486, умещаясь на одной дискете объемом 1.44 МБ.",
-      "product": "hi-tech.ua",
-      "url": "https://hi-tech.ua/iskusstvennyj-intellekt-zapuskaetsya-na-486-pk-s-ms-dos-s-obychnoj-diskety/",
-      "auto": true,
-      "image": "https://hi-tech.ua/wp-content/uploads/2026/11/d33a3c2706af2b2d7c32c6fd4182d456-300x225.webp"
+      "date": "2026-11-23T08:00:00.000Z",
+      "title": "Richpanel helps companies automate 50% of support in 30 days",
+      "text": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
+      "product": "OpenAI",
+      "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+      "auto": true
     },
     {
-      "date": "2026-11-22T16:09:48.000Z",
-      "title": "Десятиминутное ограничение отменено: OpenAI обновила систему распознавания речи в ChatGPT",
-      "text": "Разработчики ChatGPT обновили функцию голосового ввода, добавив транскрипцию речи в реальном времени и убрали ограничение на длительность записи",
-      "product": "hi-tech.ua",
-      "url": "https://hi-tech.ua/desyatiminutnoe-ogranichenie-otmeneno-openai-obnovila-sistemu-raspoznavaniya-rechi-v-chatgpt/",
-      "auto": true,
-      "image": "https://hi-tech.ua/wp-content/uploads/2026/11/8b04f24a60017dd23aa16912c3ceb837-300x169.webp"
-    },
-    {
-      "date": "2026-11-22T13:00:00.000Z",
-      "title": "У Gemini з’явилася функція створення GIF-анімацій за допомогою ШІ",
-      "text": "Google посилює конкуренцію з ChatGPT, додавши до Gemini вбудовану функцію створення анімованих GIF-зображень.",
-      "product": "dev.ua",
-      "url": "https://dev.ua/news/google-zapustyla-heneratsiiu-shi-gif-1795350586",
-      "auto": true,
-      "image": "https://dev.ua/storage/images/44/44/03/50/derived/c2d0b78e1855d2d38273cc042b54fac5.webp"
-    },
-    {
-      "date": "2026-11-22T11:30:00.000Z",
-      "title": "«Я злив секрети»: ШІ-агент для програмування зізнався у витоку даних, а інший обійшов корпоративні обмеження",
-      "text": "ШІ-агенти дедалі частіше отримують доступ до внутрішніх систем компаній, документації та чутливих облікових даних для виконання завдань співробітників. Проте два інциденти, виявлені інструментом NordLayer AI Scout, показують, як звичні робочі інструкції можуть призвести до виток…",
-      "product": "dev.ua",
-      "url": "https://dev.ua/news/ya-zlyv-sekrety-shi-ahent-ziznavsia-u-vytoku-danykh-1795344674",
-      "auto": true,
-      "image": "https://dev.ua/storage/images/17/91/66/57/derived/7c5aacbc278649502f5e21db95de0da2.webp"
-    },
-    {
-      "date": "2026-11-22T10:30:00.000Z",
-      "title": "ChatGPT «стиснули» для запуску на 16-бітній приставці Super Nintendo",
-      "text": "Технологічний журналіст та ентузіаст ретротехніки Бендж Едвардс створив мініатюрну версію штучного інтелекту, здатну працювати на ігровій консолі Super Nintendo Entertainment System (SNES) 1990-х років. Проєкт отримав назву ChatGPT for SNES, його вже можна протестувати в онлайн-…",
-      "product": "dev.ua",
-      "url": "https://dev.ua/news/chatgpt-stysnuly-dlia-zapusku-na-16-bitnii-prystavtsi-super-nintendo-1795340326",
-      "auto": true,
-      "image": "https://dev.ua/storage/images/78/82/68/41/derived/44847edfa05921129711d6c86e2ebdb1.webp"
+      "date": "2026-11-23T00:00:00.000Z",
+      "title": "How to build and maintain an agentic evaluation",
+      "text": "",
+      "product": "Hugging Face",
+      "url": "https://huggingface.co/blog/agentic-evals",
+      "auto": true
     },
     {
       "date": "2026-11-22T09:56:00.000Z",
@@ -79,15 +288,6 @@
       "url": "https://ain.ua/2026/11/20/signal-obmezit-stvorennia-skrinsotiv-na-smartfonax-shhob-zaxistiti-listuvannia-vid-si/",
       "auto": true,
       "image": "https://cdn.ain.ua/ua/articles/2026-11-20/HgsyTRT51U4w5uvdYBXSBamX7ohPuQzoArBga708.webp"
-    },
-    {
-      "date": "2026-11-22T08:03:00.000Z",
-      "title": "Перегони за доведення гіпотези Рімана перетворилися на протистояння людини та штучного інтелекту",
-      "text": "У математичній спільноті розгортається справжня драма навколо ролі штучного інтелекту. У п’ятницю математик компанії Anthropic Левент Альпьоге заявив, що за допомогою ШІ розв’язав найвідомішу відкриту проблему сучасної математики. Вже за кілька годин інший науковець несподівано…",
-      "product": "dev.ua",
-      "url": "https://dev.ua/news/perehony-za-dovedennia-hipotezy-rimana-peretvorylysia-na-protystoiannia-liudyny-ta-shtuchnoho-intelektu-1795333743",
-      "auto": true,
-      "image": "https://dev.ua/storage/images/17/53/75/81/derived/f73a360cb323ff114a3a2685b03b7caf.webp"
     },
     {
       "date": "2026-11-22T00:00:00.000Z",
@@ -123,36 +323,11 @@
       "auto": true
     },
     {
-      "date": "2026-11-21T09:38:00.000Z",
-      "title": "«Вирішили опублікувати в день IPO Anthropic»: SendPulse розмістила власний MCP-сервер в офіційному маркетплейсі Claude",
-      "text": "Офіційний MCP-сервер (Model Context Protocol) української платформи автоматизації маркетингу SendPulse став доступним в офіційному маркетплейсі Claude. Публікацію приурочили до дня виходу розробника Claude — компанії Anthropic — на біржу (IPO).",
-      "product": "dev.ua",
-      "url": "https://dev.ua/news/sendpulse-rozmistyla-vlasnyi-mcp-server-v-ofitsiinomu-marketpleisi-claude-1795251977",
-      "auto": true,
-      "image": "https://dev.ua/storage/images/23/08/89/10/derived/d6597d5d0909cc92fb4dd430e0c09857.webp"
-    },
-    {
-      "date": "2026-11-21T09:30:30.000Z",
-      "title": "$435 млн превратились в $6 млрд: фонд Кутчера заработал на IPO Anthropic",
-      "text": "Эштон Катчер и Сэм Бэнкман-Фрид в свое время сделали ставку на одну компанию — разработчика Claude, конкурента ChatGPT. Но выход Anthropic на биржу празднует только актер. Основатель FTX узнал о результате в тюрьме, где отбывает 25-летний срок.",
-      "product": "ITC.ua",
-      "url": "https://itc.ua/news/435-mln-prevratylys-v-6-mlrd-fond-kutchera-zarabotal-na-ipo-anthropic/",
-      "auto": true
-    },
-    {
       "date": "2026-11-21T04:05:14.000Z",
       "title": "v0.40.17",
       "text": "Inkling 2 Mini Inkling 2 Mini from Thinking Machines is a 26B parameter model with 5.4B active. Its looped layers give it more computation per token than its size suggests, and it still fits on a Mac at about 20GB. It handles text and images, tool calls, and thinking, and scores…",
       "product": "Ollama",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17",
-      "auto": true
-    },
-    {
-      "date": "2026-11-20T23:04:26.000Z",
-      "title": "v0.40.17-rc4",
-      "text": "Merge remote-tracking branch 'upstream/main' into release_v0.40.17",
-      "product": "Ollama",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc4",
       "auto": true
     },
     {
@@ -173,14 +348,6 @@
       "image": "https://eleven-public-cdn.elevenlabs.io/payloadcms/wkj94xsg9yf-ads-engine-video-variants-cover-v5.webp"
     },
     {
-      "date": "2026-11-20T20:41:27.000Z",
-      "title": "Бывший руководитель Take-Two: GTA 6 — последний игровой блокбастер до эпохи генеративного ИИ",
-      "text": "Бывший руководитель Take-Two Бен Федер считает, что GTA 6 положит конец целой эпохе в разработке игр. Следующие крупные хиты, по его мнению, будут создаваться уже совсем по-другому.",
-      "product": "ITC.ua",
-      "url": "https://itc.ua/news/byvshyj-rukovodytel-take-two-gta-6-poslednyj-ygrovoj-blokbaster-do-epohy-generatyvnogo-yy/",
-      "auto": true
-    },
-    {
       "date": "2026-11-20T20:41:26.000Z",
       "title": "GitHub Enterprise Server 3.23 release candidate",
       "text": "GitHub Enterprise Server (GHES) 3.23 is now available and introduces new capabilities across the platform. Here are a few highlights in the 3.23 release: When working in GitHub Projects, you… The post GitHub Enterprise Server 3.23 release candidate appeared first on The GitHub B…",
@@ -189,17 +356,9 @@
       "auto": true
     },
     {
-      "date": "2026-11-20T18:37:07.000Z",
-      "title": "v0.40.17-rc3",
-      "text": "mlxrunner: add Inkling 2 Mini",
-      "product": "Ollama",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc3",
-      "auto": true
-    },
-    {
       "date": "2026-11-20T18:30:45.000Z",
-      "title": "Advancing Science Together: Highlights From the Open Source AI For Science Summit",
-      "text": "We brought researchers from universities, hospitals, and industry together for the Open Source AI for Science Summit, an event built around using open source AI to accelerate scientific discovery. The post Advancing Science Together: Highlights From the Open Source AI For Scienc…",
+      "title": "Advancing Science Together: Highlights From the Open Source AI for Science Summit",
+      "text": "We brought researchers from universities, hospitals, and industry together for the Open Source AI for Science Summit, an event built around using open source AI to accelerate scientific discovery. The post Advancing Science Together: Highlights From the Open Source AI for Scienc…",
       "product": "Meta AI",
       "url": "https://about.fb.com/news/2026/11/advancing-science-together-highlights-from-the-open-source-ai-for-science-summit/",
       "auto": true,
@@ -224,45 +383,12 @@
       "image": "https://cdn.ain.ua/ua/articles/2026-11-20/EWAHJGckYm300v29zC8fVJKCoUZtwdhppGMkSazp.webp"
     },
     {
-      "date": "2026-11-20T15:20:00.000Z",
-      "title": "На 19 % дороже: Samsung снова повысит цены на смартфоны Galaxy A",
-      "text": "Тем, кто собирается купить бюджетный смартфон Galaxy, похоже, лучше успеть до Нового года. По данным корейской газеты Seoul Economic Daily, с 1 января Samsung повысит цены на восемь моделей Galaxy A — на 19 %. Причина всем известна: проблемы с памятью, вызванные бумом ИИ.",
-      "product": "ITC.ua",
-      "url": "https://itc.ua/news/na-19-dorozhe-samsung-snova-povysyt-tseny-na-smartfony-galaxy-a/",
-      "auto": true
-    },
-    {
-      "date": "2026-11-20T14:12:05.000Z",
-      "title": "Pin your favorite repositories to your dashboard",
-      "text": "Choose which repositories appear on the Dashboard with the new Favorite repositories section. If the new dashboard experience isn’t enabled, Top repositories remains unchanged. Select Edit or Add repositories to… The post Pin your favorite repositories to your dashboard appeared…",
-      "product": "GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-11-20-pin-your-favorite-repositories-to-your-dashboard",
-      "auto": true
-    },
-    {
-      "date": "2026-11-20T14:00:22.000Z",
-      "title": "Intel и AMD, подвиньтесь: Architect Labs представила в 4,6 раз более эффективный процессор",
-      "text": "Стартап Architect Lab, специализирующийся на ИИ, заявил, что его экспериментальная процессорная архитектура Frostbite обеспечивает в 4,59 раза большую производительность на ватт по сравнению с обычным ядром процессора.",
-      "product": "ITC.ua",
-      "url": "https://itc.ua/news/intel-y-amd-podvyntes-architect-labs-predstavyla-v-4-6-raz-bolee-effektyvnyj-protsessor/",
-      "auto": true
-    },
-    {
       "date": "2026-11-20T12:00:00.000Z",
       "title": "How to fix text to speech accuracy problems",
       "text": "Text to speech not working? Learn how to fix text to speech accuracy problems like mispronounced words, robotic delivery, and API errors with these tips.",
       "product": "ElevenLabs",
       "url": "https://elevenlabs.io/blog/fix-text-to-speech-accuracy-problems",
       "auto": true
-    },
-    {
-      "date": "2026-11-20T12:00:00.000Z",
-      "title": "ElevenAgents for Healthcare: Build an outbound appointment reminder agent with Architect",
-      "text": "Build an outbound voice agent on ElevenAgents that verifies patients and confirms, reschedules, or cancels appointments in the EHR during the call.",
-      "product": "ElevenLabs",
-      "url": "https://elevenlabs.io/blog/build-an-outbound-reminder-agent-with-architect",
-      "auto": true,
-      "image": "https://eleven-public-cdn.elevenlabs.io/payloadcms/rf8z7tpiwd-Outbound-Cover.webp"
     },
     {
       "date": "2026-11-20T12:00:00.000Z",
@@ -299,36 +425,11 @@
       "image": "https://cdn.ain.ua/ua/articles/2026-11-20/6QQzYHULUmZ5Pvwz7JGqPl5RzzjZStOFQkQO87As.webp"
     },
     {
-      "date": "2026-11-20T02:06:01.000Z",
-      "title": "GitHub Desktop now supports multiple accounts per host",
-      "text": "GitHub Desktop now lets you sign in with more than one account on the same host, including GitHub.com, GitHub Enterprise Server, and GHE.com. This has been one of the most… The post GitHub Desktop now supports multiple accounts per host appeared first on The GitHub Blog .",
-      "product": "GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-11-19-github-desktop-now-supports-multiple-accounts-per-host",
-      "auto": true
-    },
-    {
-      "date": "2026-11-20T00:02:21.000Z",
-      "title": "Improvements on the pull request overview in public preview",
-      "text": "Your feedback has helped improve the new pull request Overview page since its November 5, 2026 public preview. Here’s what’s new! Clearer merge status and next steps Failed optional checks… The post Improvements on the pull request overview in public preview appeared first on Th…",
-      "product": "GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-11-19-improvements-on-the-pull-request-overview-in-public-preview",
-      "auto": true,
-      "image": "https://github.com/user-attachments/assets/d718ce9c-872f-44a3-9c06-39dff4897603"
-    },
-    {
       "date": "2026-11-20T00:00:00.000Z",
       "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
       "text": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
       "product": "OpenAI",
       "url": "https://openai.com/business/customer-stories/hebbia",
-      "auto": true
-    },
-    {
-      "date": "2026-11-20T00:00:00.000Z",
-      "title": "Can AI help scientists identify promising drug candidates?",
-      "text": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
-      "product": "OpenAI",
-      "url": "https://openai.com/index/introducing-medchembench",
       "auto": true
     },
     {
@@ -362,14 +463,6 @@
       "text": "oi-kit 0.1.0-alpha.15",
       "product": "Goose",
       "url": "https://github.com/aaif-goose/goose/releases/tag/oi-kit-v0.1.0-alpha.15",
-      "auto": true
-    },
-    {
-      "date": "2026-11-19T18:50:57.000Z",
-      "title": "Enterprise Live Migrations from Azure DevOps generally available",
-      "text": "Enterprise Live Migrations (ELM) from Azure DevOps Services to GitHub Enterprise Cloud with data residency is now generally available. You can move your repositories while your teams keep working, then… The post Enterprise Live Migrations from Azure DevOps generally available ap…",
-      "product": "GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-11-19-enterprise-live-migrations-from-azure-devops-generally-available",
       "auto": true
     },
     {
@@ -415,100 +508,6 @@
       "url": "https://ain.ua/2026/11/19/vid-ideyi-do-rezultatu-kse-business-school-zapuskaje-dva-prakticni-kursi/",
       "auto": true,
       "image": "https://cdn.ain.ua/ua/articles/2026-11-19/bafn4TYnB66ejRwCQm9beKbPgxbpPvQy8lvAm6Zk.webp"
-    },
-    {
-      "date": "2026-11-19T13:05:53.000Z",
-      "title": "Meta premieres India’s First Government-Led Microdrama Series on Scams Awareness",
-      "text": "Meta has partnered with The Ministry of Information & Broadcasting (MIB), Prasar Bharati, Securities and Exchange Board of India (SEBI), and Indian Cyber Crime Coordination Centre (I4C) to launch India's first government-led public interest microdrama series on online scams. The…",
-      "product": "Meta AI",
-      "url": "https://about.fb.com/news/2026/11/meta-premieres-indias-first-government-led-microdrama-series-on-scams-awareness/",
-      "auto": true,
-      "image": "https://about.fb.com/wp-content/uploads/2026/11/ScamSeBacho-Nov-2026.jpeg?fit=1672%2C941"
-    },
-    {
-      "date": "2026-11-19T12:00:00.000Z",
-      "title": "How many calls can an AI voice agent handle at scale?",
-      "text": "Learn how many calls can an AI voice agent handle at scale, how to estimate your peak needs, and how burst, queueing, and plan tiers affect capacity.",
-      "product": "ElevenLabs",
-      "url": "https://elevenlabs.io/blog/how-many-calls-can-an-ai-voice-agent-handle",
-      "auto": true
-    },
-    {
-      "date": "2026-11-19T09:00:00.000Z",
-      "title": "Розробник Claude виходить на біржу після рекордного IPO на понад $81 млрд",
-      "text": "Акції Anthropic мають дебютувати на американській біржі Nasdaq 19 листопада під тикером ANT. Розміщення оцінює компанію приблизно в $1,5 трлн.",
-      "product": "AIN.UA",
-      "url": "https://ain.ua/2026/11/19/rozrobnik-claude-vixodit-na-birzu-pislia-rekordnogo-ipo-na-ponad-81-mlrd/",
-      "auto": true,
-      "image": "https://cdn.ain.ua/ua/articles/2026-11-19/v6hzb7AGoJKpm2fA7pXcIZaIyv9wAFhE936CV2xp.webp"
-    },
-    {
-      "date": "2026-11-19T08:00:00.000Z",
-      "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
-      "text": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
-      "product": "OpenAI",
-      "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
-      "auto": true
-    },
-    {
-      "date": "2026-11-19T06:05:13.000Z",
-      "title": "Forum, a Dedicated App for Facebook Groups, Is Now Available in Indonesia",
-      "text": "Forum is now available in Indonesia, bringing Facebook Groups into one dedicated app to make joining conversations, finding answers and exploring interests easier. The post Forum, a Dedicated App for Facebook Groups, Is Now Available in Indonesia appeared first on Meta Newsroom .",
-      "product": "Meta AI",
-      "url": "https://about.fb.com/news/2026/11/forum-a-dedicated-app-for-facebook-groups-is-now-available-in-indonesia/",
-      "auto": true,
-      "image": "https://about.fb.com/wp-content/uploads/2026/11/Forum-ID-holding-image.png?fit=2048%2C1152"
-    },
-    {
-      "date": "2026-11-19T00:00:00.000Z",
-      "title": "Deploying Daybreak Red",
-      "text": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
-      "product": "OpenAI",
-      "url": "https://openai.com/business/learn/deploying-daybreak-red",
-      "auto": true
-    },
-    {
-      "date": "2026-11-18T21:00:00.000Z",
-      "title": "Introducing Gemini 4 Neon",
-      "text": "Today, we’re introducing Gemini 4 Neon",
-      "product": "Gemini",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
-      "auto": true,
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-neon__blog-header__sm.max-600x600.format-webp.webp"
-    },
-    {
-      "date": "2026-11-18T19:54:56.000Z",
-      "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
-      "text": "",
-      "product": "Hugging Face",
-      "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
-      "auto": true
-    },
-    {
-      "date": "2026-11-18T18:53:43.000Z",
-      "title": "Why your fine-tuning job takes longer than the FLOPs say",
-      "text": "",
-      "product": "Hugging Face",
-      "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
-      "auto": true
-    },
-    {
-      "date": "2026-11-18T18:01:47.000Z",
-      "title": "Our Approach to Updating Our Commercial Terms of Service",
-      "text": "We recently announced that the proposed updates to our commercial terms of service have been put on hold and that we will revise those proposed changes after a deeper consultation with stakeholders. We made this decision after hearing concerns from news publishers and other stak…",
-      "product": "Meta AI",
-      "url": "https://about.fb.com/news/2026/11/our-approach-to-updating-our-commercial-terms-of-service/",
-      "auto": true,
-      "image": "https://about.fb.com/wp-content/uploads/2026/09/Meta_Thumbnail.jpg?fit=5760%2C4320"
-    },
-    {
-      "date": "2026-11-18T18:00:00.000Z",
-      "title": "Genie 4 is now available",
-      "text": "We are rolling out a new Project Genie experience to eligible Google AI Ultra subscribers, opening access to our new Genie 4 world model.",
-      "product": "Gemini",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
-      "auto": true,
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/resized_ProjectGenie_Thumbnail_.max-600x600.format-webp.webp"
     }
   ]
 }
