@@ -1,93 +1,100 @@
 {
-  "items": [
-    {
-      "kind": "offers",
-      "product": "ElevenLabs",
-      "text": "Чёрная пятница с 16 ноября: −55% на годовые планы. Creator — $99 за первый год; на годовой Pro — также −55% для новых подписчиков.",
-      "until": "1 декабря 2026 г.",
-      "url": "https://elevenlabs.io"
-    },
-    {
-      "kind": "offers",
-      "product": "Adobe Firefly",
-      "text": "Чёрная пятница в Adobe Firefly: план Pro – 9,99 $ в месяц (50 % скидка) и план Pro Plus – 19,99 $ в месяц (60 % скидка) в течение первых 6 месяцев, акция действует до 6 декабря 2026 года.",
-      "until": "6 декабря 2026 г.",
-      "url": "https://firefly.adobe.com"
-    },
-    {
-      "kind": "offers",
-      "product": "Kling",
-      "text": "Kling, Чёрная пятница: скидка до 50% на первый год годовых планов — Standard $60 вместо $120, Pro $222 вместо $444, 35% скидка на первые 3 месяца помесячных планов и до 20% бонусных кредитов при автопополнении, акция действует до 3 декабря 2026 года.",
-      "until": "3 декабря 2026 г.",
-      "url": "https://kling.ai/app/membership/membership-plan"
-    },
-    {
-      "kind": "offers",
-      "product": "GitHub Copilot",
-      "text": "План Copilot Student — бесплатно для подтверждённых студентов через GitHub Education: безлимитные дополнения кода и лимит AI-кредитов на чат и агентов.",
-      "url": "https://github.com/features/copilot"
-    },
-    {
-      "kind": "offers",
-      "product": "Gemini",
-      "text": "Google AI Pro для новых подписчиков: вводная цена на первые 3 месяца (в Украине — 229,99 ₴/мес), далее обычная цена — 909,99 ₴/мес.",
-      "url": "https://gemini.google.com"
-    },
-    {
-      "kind": "offers",
-      "product": "Microsoft 365",
-      "text": "Ограниченное предложение Microsoft 365: 30% скидка на первый год — Personal $69,99 (вместо $99,99, первый месяц $6,99 вместо $9,99), Premium $139,99 (вместо $199,99, первый месяц $13,99 вместо $19,99); дальше — обычные цены, включён Copilot с расширенным ИИ.",
-      "url": "https://www.microsoft.com/en-us/microsoft-365/buy/compare-all-microsoft-365-products"
-    },
-    {
-      "kind": "discounts",
-      "product": "Suno",
-      "text": "Годовая оплата −20%: Pro — $96 в год вместо $120, Premier — $288 в год вместо $360.",
-      "url": "https://suno.com"
-    },
-    {
-      "kind": "discounts",
-      "product": "Runway",
-      "text": "Годовая оплата −20% на все планы: Standard — $12/мес вместо $15, Pro — $28 вместо $35, Max — $76 вместо $95.",
-      "url": "https://runway.com"
-    },
-    {
-      "kind": "discounts",
-      "product": "Runway — API Kling 4.0",
-      "text": "Генерации Kling 4.0 в API Runway — на 20% дешевле обычных кредитов (720p — 12,56 кредита/сек вместо 15,7).",
-      "until": "30 ноября 2026 г.",
-      "url": "https://dev.runwayml.com/pricing"
-    },
-    {
-      "kind": "discounts",
-      "product": "Perplexity",
-      "text": "Годовая оплата Pro — $200 в год вместо $240 при помесячной (около −17%).",
-      "url": "https://www.perplexity.ai"
-    },
-    {
-      "kind": "discounts",
-      "product": "Claude",
-      "text": "Годовая оплата Pro — около −17%: $200 в год вместо $240 при помесячной.",
-      "url": "https://claude.ai"
-    },
-    {
-      "kind": "discounts",
-      "product": "Leonardo",
-      "text": "Годовая оплата — до −20% на платные планы (Essential — от $10/мес при оплате за год).",
-      "url": "https://leonardo.ai"
-    },
-    {
-      "kind": "discounts",
-      "product": "Ideogram",
-      "text": "Годовая оплата Plus — $15/мес вместо $20 при помесячной (−25%).",
-      "url": "https://ideogram.ai"
-    },
-    {
-      "kind": "discounts",
-      "product": "Runway",
-      "text": "Runway предлагает 25 % скидку на генерацию видео моделью Kling 4.0 до 30 ноября 2026 года.",
-      "until": "30 ноября 2026 г.",
-      "url": "https://runway.com/pricing"
-    }
-  ]
+ "items": [
+  {
+   "kind": "offers",
+   "product": "ElevenLabs",
+   "text": "Чёрная пятница с 16 ноября: −55% на годовые планы. Creator — $99 за первый год; на годовой Pro — также −55% для новых подписчиков.",
+   "until": "1 декабря 2026 г.",
+   "url": "https://elevenlabs.io"
+  },
+  {
+   "kind": "offers",
+   "product": "Adobe Firefly",
+   "text": "Чёрная пятница в Adobe Firefly: план Pro – 9,99 $ в месяц (50 % скидка) и план Pro Plus – 19,99 $ в месяц (60 % скидка) в течение первых 6 месяцев, акция действует до 6 декабря 2026 года.",
+   "until": "6 декабря 2026 г.",
+   "url": "https://firefly.adobe.com"
+  },
+  {
+   "kind": "offers",
+   "product": "Kling",
+   "text": "Kling, Чёрная пятница: скидка до 50% на первый год годовых планов — Standard $60 вместо $120, Pro $222 вместо $444, 35% скидка на первые 3 месяца помесячных планов и до 20% бонусных кредитов при автопополнении, акция действует до 3 декабря 2026 года.",
+   "until": "3 декабря 2026 г.",
+   "url": "https://kling.ai/app/membership/membership-plan"
+  },
+  {
+   "kind": "offers",
+   "product": "GitHub Copilot",
+   "text": "План Copilot Student — бесплатно для подтверждённых студентов через GitHub Education: безлимитные дополнения кода и лимит AI-кредитов на чат и агентов.",
+   "url": "https://github.com/features/copilot"
+  },
+  {
+   "kind": "offers",
+   "product": "Gemini",
+   "text": "Google AI Pro для новых подписчиков: вводная цена на первые 3 месяца (в Украине — 229,99 ₴/мес), далее обычная цена — 909,99 ₴/мес.",
+   "url": "https://gemini.google.com"
+  },
+  {
+   "kind": "offers",
+   "product": "Microsoft 365",
+   "text": "Ограниченное предложение Microsoft 365: 30% скидка на первый год — Personal $69,99 (вместо $99,99, первый месяц $6,99 вместо $9,99), Premium $139,99 (вместо $199,99, первый месяц $13,99 вместо $19,99); дальше — обычные цены, включён Copilot с расширенным ИИ.",
+   "url": "https://www.microsoft.com/en-us/microsoft-365/buy/compare-all-microsoft-365-products"
+  },
+  {
+   "kind": "discounts",
+   "product": "Suno",
+   "text": "Годовая оплата −20%: Pro — $96 в год вместо $120, Premier — $288 в год вместо $360.",
+   "url": "https://suno.com"
+  },
+  {
+   "kind": "discounts",
+   "product": "Runway",
+   "text": "Годовая оплата −20% на все планы: Standard — $12/мес вместо $15, Pro — $28 вместо $35, Max — $76 вместо $95.",
+   "url": "https://runway.com"
+  },
+  {
+   "kind": "discounts",
+   "product": "Runway — API Kling 4.0",
+   "text": "Генерации Kling 4.0 в API Runway — на 20% дешевле обычных кредитов (720p — 12,56 кредита/сек вместо 15,7).",
+   "until": "30 ноября 2026 г.",
+   "url": "https://dev.runwayml.com/pricing"
+  },
+  {
+   "kind": "discounts",
+   "product": "Perplexity",
+   "text": "Годовая оплата Pro — $200 в год вместо $240 при помесячной (около −17%).",
+   "url": "https://www.perplexity.ai"
+  },
+  {
+   "kind": "discounts",
+   "product": "Claude",
+   "text": "Годовая оплата Pro — около −17%: $200 в год вместо $240 при помесячной.",
+   "url": "https://claude.ai"
+  },
+  {
+   "kind": "discounts",
+   "product": "Leonardo",
+   "text": "Годовая оплата — до −20% на платные планы (Essential — от $10/мес при оплате за год).",
+   "url": "https://leonardo.ai"
+  },
+  {
+   "kind": "discounts",
+   "product": "Ideogram",
+   "text": "Годовая оплата Plus — $15/мес вместо $20 при помесячной (−25%).",
+   "url": "https://ideogram.ai"
+  },
+  {
+   "kind": "discounts",
+   "product": "Runway",
+   "text": "Runway предлагает 25 % скидку на генерацию видео моделью Kling 4.0 до 30 ноября 2026 года.",
+   "until": "30 ноября 2026 г.",
+   "url": "https://runway.com/pricing"
+  },
+  {
+   "kind": "offers",
+   "product": "Recraft",
+   "text": "Recraft — Чёрная пятница: 40 % скидка на первый год любого годового плана (Basic $72/год вместо $120, Pro $115,20/год вместо $192, от $6/мес при оплате), только новые планы, далее обычная цена, акция до 1 декабря 2026 г.",
+   "until": "1 декабря 2026 г.",
+   "url": "https://www.recraft.ai/pricing"
+  }
+ ]
 }
