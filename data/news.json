@@ -1,6 +1,191 @@
 {
   "items": [
     {
+      "date": "2026-11-26T09:42:00.000Z",
+      "title": "«Втомився від ШІ-інструментів, які намагаються бути дизайнером замість мене»: український Senior UI/UX Designer запустив власний ШІ-редактор. Чим module.build відрізняється від Figma та Paper?",
+      "text": "Senior UI/UX Designer Богдан Матвіїв втомився від сучасних ШІ-інструментів, які намагаються замінити фахівця, заганяючи роботу в рамки чату та промптів замість повноцінного контролю над елементами. Тож він створив власний редактор module.build, який об'єднує дизайн і розробку в…",
+      "product": "dev.ua",
+      "url": "https://dev.ua/news/ukrainskyi-dyzainer-stvoryv-shi-redaktor-modulebuild-1795684607",
+      "auto": true,
+      "image": "https://dev.ua/storage/images/12/76/04/30/derived/def65f680780c1ce391508a5362cfd89.webp"
+    },
+    {
+      "date": "2026-11-26T08:48:00.000Z",
+      "title": "Соло-розробник без досвіду навайбкодив гру Slotbound, яка за тиждень заробила $1,3 млн",
+      "text": "Інді-розробник Мін Кім з ніком Optima Arch заробив $1 332 409 за перший тиждень продажів дебютної гри Slotbound у Steam. Більшу частину коду та візуальних матеріалів він створив за допомогою інструментів генеративного штучного інтелекту.",
+      "product": "dev.ua",
+      "url": "https://dev.ua/news/sloty-na-vaibkodi-krutiatsia-hroshi-v-steam-mutiatsia-1795681587",
+      "auto": true,
+      "image": "https://dev.ua/storage/images/15/67/12/30/derived/5feb03f226e76137e3ea948a13a90623.webp"
+    },
+    {
+      "date": "2026-11-26T07:26:00.000Z",
+      "title": "«Я — продакт і дизайнер, Claude Code — розробник». 16-річний розробник із Полтавщини створив маркетплейс рибальських товарів Fishly, на якому вже понад 18 000 товарів",
+      "text": "16-річний Андрій Козуб із Гадяча на Полтавщині запустив Fishly — український маркетплейс рибальських товарів. На платформі зібрані пропозиції спеціалізованих магазинів і приватних продавців. За словами засновника, після перших тижнів роботи каталог налічує понад 18 000 активних…",
+      "product": "dev.ua",
+      "url": "https://dev.ua/news/ya-prodakt-i-dyzainer-claude-code-rozrobnyk-16-richnyi-rozrobnyk-iz-poltavshchyny-stvoryv-marketpleis-rybalskykh-tovariv-fishly-na-iakomu-vzhe-ponad-18-000-tovariv-1795668852",
+      "auto": true,
+      "image": "https://dev.ua/storage/images/98/48/21/43/derived/3cdda044624c52ece5733630f7f24970.webp"
+    },
+    {
+      "date": "2026-11-26T06:20:48.000Z",
+      "title": "v0.40.19-rc0",
+      "text": "bump llama-server ( #19917 )",
+      "product": "Ollama",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.19-rc0",
+      "auto": true
+    },
+    {
+      "date": "2026-11-26T05:05:36.000Z",
+      "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+      "text": "",
+      "product": "Hugging Face",
+      "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+      "auto": true
+    },
+    {
+      "date": "2026-11-26T05:04:41.000Z",
+      "title": "Выручка Dell достигла рекорда: компания повысила прогноз на 2027 год до $202 млрд",
+      "text": "Dell Technologies в третий раз за год улучшила финансовые прогнозы на фоне рекордных заказов на серверы для ИИ и рекордных квартальных результатов.",
+      "product": "hi-tech.ua",
+      "url": "https://hi-tech.ua/vyruchka-dell-dostigla-rekorda-kompaniya-povysila-prognoz-na-2027-god-do-202-mlrd/",
+      "auto": true,
+      "image": "https://hi-tech.ua/wp-content/uploads/2026/11/f69cf3e1bcf936c0bd4b56af0d79819e-300x169.webp"
+    },
+    {
+      "date": "2026-11-26T01:00:12.000Z",
+      "title": "v2.4.2",
+      "text": "Highlights GPT-6.2 System Prompt : GPT-6.2 Sol and Astra, and the gpt-latest aliases, use a system prompt written for GPT-6.2. ( #66297 ) OpenCode Go Onboarding Fix : After you connect OpenCode, the model picker lists OpenCode Go first. ( #66363 ) Esc Takes Back Your Last Messag…",
+      "product": "OpenCode",
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v2.4.2",
+      "auto": true
+    },
+    {
+      "date": "2026-11-26T00:42:06.000Z",
+      "title": "v1.61.1",
+      "text": "🐛 Bug Fixes Drop tool approval state from imported sessions to prevent automatic tool execution on session load Import sessions with local extensions and goose mode, dropping recipe retry, recipe values, container and provider session IDs Remove recipe template re-rendering on…",
+      "product": "Goose",
+      "url": "https://github.com/aaif-goose/goose/releases/tag/v1.61.1",
+      "auto": true
+    },
+    {
+      "date": "2026-11-25T22:18:03.000Z",
+      "title": "Copilot code review billing will default to the organization",
+      "text": "If you haven’t chosen how to bill Copilot code review for members with a Copilot license, those reviews will be billed to your organization starting December 30, 2026. To keep… The post Copilot code review billing will default to the organization appeared first on The GitHub Blo…",
+      "product": "GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-11-25-copilot-code-review-billing-will-default-to-the-organization",
+      "auto": true
+    },
+    {
+      "date": "2026-11-25T18:52:55.000Z",
+      "title": "Where scientists draw the line on AI agents",
+      "text": "",
+      "product": "Hugging Face",
+      "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+      "auto": true
+    },
+    {
+      "date": "2026-11-25T16:00:00.000Z",
+      "title": "Art of play in the age of AI",
+      "text": "Now that code ships faster than ever, you have more time to spend on projects just for the fun of it. Here's what we can learn through that process as developers. The post Art of play in the age of AI appeared first on The GitHub Blog .",
+      "product": "GitHub",
+      "url": "https://github.blog/news-insights/company-news/art-of-play-in-the-age-of-ai/",
+      "auto": true
+    },
+    {
+      "date": "2026-11-25T15:03:53.000Z",
+      "title": "Уволили из-за ИИ — играй в видеоигры: что предложил руководитель Anthropic",
+      "text": "Генеральный директор и соучредитель Anthropic Дарио Амодеи когда-то предлагал иммерсивные видеоигры как способ смягчить политическую напряженность, которую может вызвать безработица из-за искусственного интеллекта. Об этом пишет The Wall Street Journal со ссылкой на переписку в…",
+      "product": "ITC.ua",
+      "url": "https://itc.ua/news/uvolyly-yz-za-yy-ygraj-v-vydeoygry-chto-predlozhyl-rukovodytel-anthropic/",
+      "auto": true
+    },
+    {
+      "date": "2026-11-25T15:00:00.000Z",
+      "title": "How to choose the next safe step in application modernization",
+      "text": "Learn how to assess a legacy application, choose a bounded modernization step, and reuse the method with a GitHub Copilot agent skill. The post How to choose the next safe step in application modernization appeared first on The GitHub Blog .",
+      "product": "GitHub",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization/",
+      "auto": true
+    },
+    {
+      "date": "2026-11-25T14:47:51.000Z",
+      "title": "OpenAI запатентовала наушники, распознающие беззвучную речь",
+      "text": "OpenAI подала патентную заявку на наушники, способные распознавать слова, которые человек формирует губами, но не произносит вслух. Для этого устройство будет отслеживать микродвижения внутри слухового прохода, вызванные движением челюсти и мышц лица. Полученные сигналы система…",
+      "product": "ITC.ua",
+      "url": "https://itc.ua/news/openai-zapatentovala-naushnyky-raspoznayushhye-bezzvuchnuyu-rech/",
+      "auto": true
+    },
+    {
+      "date": "2026-11-25T14:27:00.000Z",
+      "title": "Гадаєте, ви зберігаєте анонімність онлайн? ШІ може викрити людину за дрібними деталями в тексті менш ніж за хвилину",
+      "text": "Сучасні ШІ-моделі здатні вирахувати реальну особу за анонімним текстом, зіставивши дрібні деталі біографії та робочого досвіду. Дослідники Північно-Східного університету (Northeastern University) з’ясували, що чатботи встановлюють особу автора майже у половині випадків, навіть я…",
+      "product": "dev.ua",
+      "url": "https://dev.ua/news/hadaiete-zberihaiete-anonimnist-onlain",
+      "auto": true,
+      "image": "https://dev.ua/storage/images/15/78/74/22/derived/5e9c3a712e82f49e92a80a401946dfd0.webp"
+    },
+    {
+      "date": "2026-11-25T13:10:00.000Z",
+      "title": "Стартап колишньої CTO OpenAI випустив Inkling 2 Mini — ШІ-модель для програмування без інтернету. Для її запуску достатньо близько 20 ГБ пам’яті",
+      "text": "Компанія Thinking Machines випустила Inkling 2 Mini — ШІ-модель із відкритими вагами, яка може програмувати навіть без доступу до інтернету. Розробники випробували її під час авіаперельоту. Її запустили на MacBook Pro і за кілька хвилин отримали працюючий авіасимулятор. Для запу…",
+      "product": "dev.ua",
+      "url": "https://dev.ua/news/inkling-2-mini-1795611097",
+      "auto": true,
+      "image": "https://dev.ua/storage/images/30/60/13/77/derived/08134a0243f3e1bcd8961731e6c0d556.webp"
+    },
+    {
+      "date": "2026-11-25T12:19:00.000Z",
+      "title": "Claude навчився перетворювати артефакти на окремі десктопні застосунки для macOS і Windows",
+      "text": "Компанія Anthropic запустила бета-версію функції Install as app, яка дозволяє користувачам перетворювати створені в Claude артефакти на десктопні застосунки для macOS та Windows і ділитися ними з іншими. Проте ці програми мають суттєве обмеження: вони не працюють без інтернету т…",
+      "product": "dev.ua",
+      "url": "https://dev.ua/news/claude-navchyvsia-peretvoriuvaty-artefakty-na-okremi-desktopni-zastosunky-1795608617",
+      "auto": true,
+      "image": "https://dev.ua/storage/images/61/03/32/21/derived/416aeca3e0b2a27ce4496353a10a4b8f.webp"
+    },
+    {
+      "date": "2026-11-25T12:15:17.000Z",
+      "title": "ИИ решил задачу, над которой люди бились 47 лет — дважды с помощью разных моделей",
+      "text": "У математиков с 1979 года оставался нерешённым вопрос, связанный с фундаментальной проблемой скорости умножения матриц. За несколько дней две компании, занимающиеся искусственным интеллектом, независимо друг от друга заявили, что решили эту проблему. Anthropic и OpenAI опубликов…",
+      "product": "ITC.ua",
+      "url": "https://itc.ua/news/yy-reshyl-zadachu-nad-kotoroj-lyudy-bylys-47-let-dvazhdy-s-pomoshhyu-raznyh-modelej/",
+      "auto": true
+    },
+    {
+      "date": "2026-11-25T12:00:00.000Z",
+      "title": "What is GraphRAG? A practical guide to smarter AI retrieval",
+      "text": "Learn what is GraphRAG, how knowledge graph RAG works, and where it beats standard RAG. See use cases and how ElevenAgents handles RAG for voice agents.",
+      "product": "ElevenLabs",
+      "url": "https://elevenlabs.io/blog/what-is-graphrag",
+      "auto": true
+    },
+    {
+      "date": "2026-11-25T12:00:00.000Z",
+      "title": "Fixing the front door to government, one voice agent at a time",
+      "text": "The front door to government for millions of people is an outdated IVR phone menu. Governments are now adopting AI agents for several kinds of calls.",
+      "product": "ElevenLabs",
+      "url": "https://elevenlabs.io/blog/fixing-front-door-government",
+      "auto": true,
+      "image": "https://eleven-public-cdn.elevenlabs.io/payloadcms/bxbv23zf2u-fixing-front-door-government-agent-16x9.webp"
+    },
+    {
+      "date": "2026-11-25T11:00:31.000Z",
+      "title": "Хакери зламали систему ЦРУ та інших розвідслужб США за допомогою ШІ",
+      "text": "Атака зачепила системи аналізу відкритих даних трьох американських розвідувальних відомств. Для злому могли використати інструмент штучного інтелекту Artex, створений китайським розробником.",
+      "product": "AIN.UA",
+      "url": "https://ain.ua/2026/11/25/xakeri-zlamali-sistemu-cru-ta-insix-rozvidsluzb-ssa-za-dopomogoiu-si/",
+      "auto": true,
+      "image": "https://cdn.ain.ua/ua/articles/2026-11-25/WAC2ib7QZEbpFj4At4XaQinrFWStcbUNTnZehbsx.webp"
+    },
+    {
+      "date": "2026-11-25T10:57:59.000Z",
+      "title": "Первый ИИ-сериал Lionsgate Play: индийский эпос без рамок производства",
+      "text": "Индийский стриминговый сервис Lionsgate Play снимает свой первый оригинальный сериал с участием ИИ. Проект Eklavya основан на индийской мифологии, одну из ролей в нём исполнит ИИ-актёр Yug R.Ai, а технологии искусственного интеллекта для производства предоставляет Google.",
+      "product": "ITC.ua",
+      "url": "https://itc.ua/news/pervyj-yy-seryal-lionsgate-play-yndyjskyj-epos-bez-ramok-proyzvodstva/",
+      "auto": true
+    },
+    {
       "date": "2026-11-25T10:22:09.000Z",
       "title": "An Indic Voice Agent with CUGA",
       "text": "",
@@ -16,33 +201,6 @@
       "url": "https://ain.ua/2026/11/24/dod-solution-integruje-svoiu-sistemu-avtonomnosti-aura-ai-v-kanadskii-dron-draganfly-flex-fpv/",
       "auto": true,
       "image": "https://cdn.ain.ua/ua/articles/2026-11-24/ujp3UOI8QVrTyDkQlymy6JyFzAuBThwV0xWwBWfx.webp"
-    },
-    {
-      "date": "2026-11-25T08:22:00.000Z",
-      "title": "CEO Shopify вважає, що програмістам доведеться переписати весь код на продакшені у світі за допомогою ШІ вже за 12 місяців",
-      "text": "Генеральний директор Shopify Тобі Лютке заявив, що штучний інтелект може замінити весь написаний людьми код на продакшені протягом найближчих 6–12 місяців. За його словами, головними причинами цього стануть посилення уваги до кібербезпеки та дефіцит обчислювальних ресурсів.",
-      "product": "dev.ua",
-      "url": "https://dev.ua/news/uves-svit-u-vaibkodi-1795593341",
-      "auto": true,
-      "image": "https://dev.ua/storage/images/76/07/34/01/derived/9bae9317b5dab9797e5bcec66a71355f.webp"
-    },
-    {
-      "date": "2026-11-25T08:06:00.000Z",
-      "title": "НАБУ планує витратити понад пів мільйона гривень на доступ до Claude. Які завдання Бюро хоче доручити штучному інтелекту?",
-      "text": "Національне антикорупційне бюро України планує залучати штучний інтелект до аналізу великих обсягів інформації, пошуку взаємозв’язків та роботи з відкритими джерелами. Відомство вже оголосило тендер на закупівлю доступу до Claude AI з очікуваною вартістю понад пів мільйона гриве…",
-      "product": "dev.ua",
-      "url": "https://dev.ua/news/nabu-shi-1795593165",
-      "auto": true,
-      "image": "https://dev.ua/storage/images/69/01/41/97/derived/7b3980f03c6afba3e6935b89a44f14f1.webp"
-    },
-    {
-      "date": "2026-11-25T07:19:00.000Z",
-      "title": "НБУ використовує платну версію ChatGPT Enterprise за $63 000. Що робить ШІ OpenAI в Нацбанку",
-      "text": "Національний банк України уклав договір із компанією OpenAI Ireland Limited на користування корпоративною версією ChatGPT Enterprise вартістю $63 000. Його обрали поміж Gemini від Google та Llama від Meta.",
-      "product": "dev.ua",
-      "url": "https://dev.ua/news/nbu-prydbav-korporatyvnyi-dostup-do-chatgpt-enterprise-za-63-000-1795590538",
-      "auto": true,
-      "image": "https://dev.ua/storage/images/49/70/77/65/derived/b5461b2fe9e08fab477c71d8b37f9ebd.webp"
     },
     {
       "date": "2026-11-25T07:15:09.000Z",
@@ -69,19 +227,19 @@
       "auto": true
     },
     {
+      "date": "2026-11-25T00:00:00.000Z",
+      "title": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
+      "text": "",
+      "product": "Hugging Face",
+      "url": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
+      "auto": true
+    },
+    {
       "date": "2026-11-24T16:40:59.000Z",
       "title": "More predictable notifications on GitHub.com",
       "text": "Starting December 1, 2026, we’re migrating notifications on GitHub.com over the course of a week to make subscriptions more predictable, correct unexpected behavior, and support the growing scale of activity.… The post More predictable notifications on GitHub.com appeared first…",
       "product": "GitHub Copilot",
       "url": "https://github.blog/changelog/2026-11-24-more-predictable-notifications-on-github-com",
-      "auto": true
-    },
-    {
-      "date": "2026-11-24T16:34:13.000Z",
-      "title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
-      "text": "",
-      "product": "Hugging Face",
-      "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
       "auto": true
     },
     {
@@ -112,22 +270,13 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/5_Builders_Neon_herosocial.max-600x600.format-webp.webp"
     },
     {
-      "date": "2026-11-24T14:10:00.000Z",
-      "title": "«Окуляри збоченців» стали словом року за версією словника Маккуорі",
-      "text": "Австралійський словник Маккуорі визнав словом 2026 року термін «окуляри збоченців» (pervert glasses). Так називають смарт-окуляри з вбудованими камерами, які можуть знімати людей без їхньої згоди. Цей вислів випередив «оголити» (nudify) та «ШІ, не читав» (AI;DR), а ще отримав зв…",
-      "product": "dev.ua",
-      "url": "https://dev.ua/news/pervert-glasses-slovo-roku-1795528890",
+      "date": "2026-11-24T13:07:53.000Z",
+      "title": "From spectrum to structure: Identifying molecules with Mass Spec Skills for Google Antigravity",
+      "text": "Mass Spec Skills empowers scientists using Google Antigravity to interpret tandem mass spectra.",
+      "product": "Google DeepMind",
+      "url": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
       "auto": true,
-      "image": "https://dev.ua/storage/images/44/99/54/22/derived/9913e18e37bd114c324e74a0e3aaada1.webp"
-    },
-    {
-      "date": "2026-11-24T13:02:00.000Z",
-      "title": "Українська DroneMate AI розробляє альтернативу Raspberry Pi Compute Module 5 для виробників дронів. Чим відрізняється її мікрокомп'ютер?",
-      "text": "Українська DroneMate AI виготовила перші тестові зразки мікрокомп’ютера DMCM-5, який має стати альтернативою Raspberry Pi Compute Module 5. Компанія взялася за розробку, аби задовольнити потреби українських виробників дронів, яким уже бракує таких пристроїв. Перші тестові зразки…",
-      "product": "dev.ua",
-      "url": "https://dev.ua/news/dronemate-ai-1795523246",
-      "auto": true,
-      "image": "https://dev.ua/storage/images/68/63/38/86/derived/f9f3dec5853c3ac41bfdc3ec3bd3c608.webp"
+      "image": "https://lh3.googleusercontent.com/CtAfS_JWygw2R9cuDNty3xd0S4WFRzVew1vtNDiPaN1ZOGa88hCwTiCLxtgCtpSFER2t3jFO-moRkPnQYPjXziNgMvKHVc0wkOkzBTdGRoOYL3Ld=w528-h297-n-nu-rw-lo"
     },
     {
       "date": "2026-11-24T13:00:00.000Z",
@@ -136,15 +285,6 @@
       "product": "OpenAI",
       "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
       "auto": true
-    },
-    {
-      "date": "2026-11-24T12:54:00.000Z",
-      "title": "Акції Anthropic впали нижче ціни IPO лише за кілька днів після рекордного дебюту",
-      "text": "Акції розробника штучного інтелекту Anthropic впали нижче ціни первинного публічного розміщення у $83. Тоді торги відкрилися на позначці $111,50, що на 34% перевищувало ціну розміщення, а повністю ринкова капіталізація Anthropic ненадовго перевищила $2 трлн.",
-      "product": "dev.ua",
-      "url": "https://dev.ua/news/aktsii-anthropic-vpaly-nyzhche-tsiny-ipo-1795523347",
-      "auto": true,
-      "image": "https://dev.ua/storage/images/97/41/64/15/derived/b3f043a3911a62cc7343d78f4ffd8ac8.webp"
     },
     {
       "date": "2026-11-24T12:00:00.000Z",
@@ -172,14 +312,6 @@
       "auto": true
     },
     {
-      "date": "2026-11-24T09:19:53.000Z",
-      "title": "Samsung отказывается от важной функции камеры Galaxy S27 Ultra ради ИИ",
-      "text": "По информации авторитетного инсайдера Ice Universe, Samsung планирует заменить важную функцию камеры в будущем флагмане Galaxy S27 Ultra на альтернативу на базе ИИ.",
-      "product": "ITC.ua",
-      "url": "https://itc.ua/news/samsung-otkazyvaetsya-ot-vazhnoj-funktsyy-kamery-galaxy-s27-ultra-rady-yy/",
-      "auto": true
-    },
-    {
       "date": "2026-11-24T08:27:44.000Z",
       "title": "v0.40.18",
       "text": "What's Changed mlx: fuse Inkling residual mixing on Metal by @dhiltgen in #19808 mlxrunner: share tensor helpers and model setup across architectures by @jaingaurav in #19805 llama.cpp: version bump b12651 + remove jetpack5 support by @pdevine in #19865 inkling2: faster Metal de…",
@@ -203,15 +335,6 @@
       "product": "Meta AI",
       "url": "https://about.fb.com/news/2026/11/muse-now-available-in-the-uk-muse-does-the-work-you-stay-in-control/",
       "auto": true
-    },
-    {
-      "date": "2026-11-24T05:18:27.000Z",
-      "title": "Перплексия вместо десятков бенчмарков: OpenAI предложила новый способ оценки языковых моделей",
-      "text": "Главный научный сотрудник OpenAI Якуб Пачоцки предложил использовать перплексию в качестве универсального показателя прогресса ИИ.",
-      "product": "hi-tech.ua",
-      "url": "https://hi-tech.ua/perpleksiya-vmesto-desyatkov-benchmarkov-openai-predlozhila-novyj-sposob-oczenki-yazykovyh-modelej/",
-      "auto": true,
-      "image": "https://hi-tech.ua/wp-content/uploads/2026/11/c0f247c85d1094b3b425c021d369518d-300x169.webp"
     },
     {
       "date": "2026-11-24T01:35:09.000Z",
@@ -297,14 +420,6 @@
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/6_Builders_Hydrogen_herosocial_.max-600x600.format-webp.webp"
     },
     {
-      "date": "2026-11-23T17:20:37.000Z",
-      "title": "RoboTrack: Point tracking for real-world robotic manipulation",
-      "text": "",
-      "product": "Hugging Face",
-      "url": "https://huggingface.co/blog/allenai/robotrack",
-      "auto": true
-    },
-    {
       "date": "2026-11-23T17:00:00.000Z",
       "title": "A more tailored Google Search that’s uniquely yours",
       "text": "Get more helpful Search responses by securely opting in to connect Google Wallet, Drive, and the Gemini app to Personal Intelligence in AI Mode.",
@@ -356,15 +471,6 @@
       "image": "https://eleven-public-cdn.elevenlabs.io/payloadcms/ElevenMusic_1920.webp"
     },
     {
-      "date": "2026-11-23T12:00:00.000Z",
-      "title": "How the Nordics' leading postal operator rebuilt its customer support on ElevenAgents",
-      "text": "Raising AI resolution rate from 45% to 60% on ElevenAgents in 90 days",
-      "product": "ElevenLabs",
-      "url": "https://elevenlabs.io/blog/postnord",
-      "auto": true,
-      "image": "https://eleven-public-cdn.elevenlabs.io/payloadcms/w7xjkvb77xo-Postnord.webp"
-    },
-    {
       "date": "2026-11-23T10:29:36.000Z",
       "title": "Usage reports will include a user ID column starting December 1",
       "text": "Starting December 1, 2026, usage reports that include a username column will also include a user_id column next to it. Every column after username will move one position to the… The post Usage reports will include a user ID column starting December 1 appeared first on The GitHub…",
@@ -396,118 +502,6 @@
       "url": "https://ain.ua/2026/11/20/signal-obmezit-stvorennia-skrinsotiv-na-smartfonax-shhob-zaxistiti-listuvannia-vid-si/",
       "auto": true,
       "image": "https://cdn.ain.ua/ua/articles/2026-11-20/HgsyTRT51U4w5uvdYBXSBamX7ohPuQzoArBga708.webp"
-    },
-    {
-      "date": "2026-11-21T12:01:00.000Z",
-      "title": "Загальний дохід Lenovo у другому кварталі сягнув рекордних $30,2 млрд, а дохід від ШІ вперше перевищив $10 млрд",
-      "text": "Lenovo відзвітувала про рекордний другий квартал фінансового року: загальний дохід компанії зріс на 48% — до $30,2 млрд, а чистий прибуток підскочив на 166% — до $1,4 млрд. Понад третину всіх надходжень ($10 млрд) компанії вперше принесли продукти та сервіси у сфері штучного інт…",
-      "product": "AIN.UA",
-      "url": "https://ain.ua/2026/11/20/vitorg-lenovo-u-drugomu-kvartali-siagnuv-rekordnix-302-mlrd-a-doxid-vid-si-vperse-perevishhiv-10-mlrd/",
-      "auto": true,
-      "image": "https://cdn.ain.ua/ua/articles/2026-11-20/8wTvaWVv20ToImpIceAD6JUKQB1Vkd5FZbX634qN.webp"
-    },
-    {
-      "date": "2026-11-21T04:05:14.000Z",
-      "title": "v0.40.17",
-      "text": "Inkling 2 Mini Inkling 2 Mini from Thinking Machines is a 26B parameter model with 5.4B active. Its looped layers give it more computation per token than its size suggests, and it still fits on a Mac at about 20GB. It handles text and images, tool calls, and thinking, and scores…",
-      "product": "Ollama",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17",
-      "auto": true
-    },
-    {
-      "date": "2026-11-20T21:49:29.000Z",
-      "title": "Security advisory permissions are now generally available",
-      "text": "Organization owners can now let people work on repository security advisories, including private vulnerability reports, through custom repository roles. You no longer have to make them repository administrators or give… The post Security advisory permissions are now generally av…",
-      "product": "GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-11-20-security-advisory-permissions-are-now-generally-available",
-      "auto": true
-    },
-    {
-      "date": "2026-11-20T21:12:00.000Z",
-      "title": "Introducing video ad variants and localization in Ads Engine",
-      "text": "Ads Engine makes new versions of the video ads you already run: new hooks, new soundtracks, and dubbed versions with translated captions.",
-      "product": "ElevenLabs",
-      "url": "https://elevenlabs.io/blog/video-variants-localization-ads-engine",
-      "auto": true,
-      "image": "https://eleven-public-cdn.elevenlabs.io/payloadcms/wkj94xsg9yf-ads-engine-video-variants-cover-v5.webp"
-    },
-    {
-      "date": "2026-11-20T18:30:45.000Z",
-      "title": "Advancing Science Together: Highlights From the Open Source AI for Science Summit",
-      "text": "We brought researchers from universities, hospitals, and industry together for the Open Source AI for Science Summit, an event built around using open source AI to accelerate scientific discovery. The post Advancing Science Together: Highlights From the Open Source AI for Scienc…",
-      "product": "Meta AI",
-      "url": "https://about.fb.com/news/2026/11/advancing-science-together-highlights-from-the-open-source-ai-for-science-summit/",
-      "auto": true,
-      "image": "https://about.fb.com/wp-content/uploads/2026/11/Highlights-From-the-Open-Source-AI-For-Science-Summit_Thumbnail.jpg?fit=890%2C501"
-    },
-    {
-      "date": "2026-11-20T18:00:00.000Z",
-      "title": "Get your year-end tasks done with new Connected Apps.",
-      "text": "Google Connected Apps simplify your year-end tasks. Manage groceries, credit scores, and home services directly in Search. Get the details for November 2026.",
-      "product": "Gemini",
-      "url": "https://blog.google/products-and-platforms/products/search/connected-apps-holiday-errands/",
-      "auto": true,
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Connected_apps_-_Social_share_a.max-600x600.format-webp.webp"
-    },
-    {
-      "date": "2026-11-20T15:20:00.000Z",
-      "title": "Світ в епоху ШІ: 27 листопада відбудеться безоплатна конференція ШТУКА",
-      "text": "27 листопада на безоплатній онлайн-конференції «ШТУКА» розберуть практичне впровадження ШІ в українському бізнесі. У програмі — кейси автоматизації процесів, використання віртуальних працівників, юридичні ризики та зміни в креативних індустріях. Захід пройде на платформі CASES.",
-      "product": "AIN.UA",
-      "url": "https://ain.ua/2026/11/20/svit-v-epoxu-si-27-listopada-vidbudetsia-bezoplatna-konferenciia-shtuka/",
-      "auto": true,
-      "image": "https://cdn.ain.ua/ua/articles/2026-11-20/EWAHJGckYm300v29zC8fVJKCoUZtwdhppGMkSazp.webp"
-    },
-    {
-      "date": "2026-11-20T08:48:21.000Z",
-      "title": "v1.60.2",
-      "text": "✨ Features Gemini 4 Neon added to the model catalog #13684 🐛 Bug Fixes Thinking levels now sent to Gemini 4 and later, including xhigh #13673",
-      "product": "Goose",
-      "url": "https://github.com/aaif-goose/goose/releases/tag/v1.60.2",
-      "auto": true
-    },
-    {
-      "date": "2026-11-20T08:22:00.000Z",
-      "title": "Від викрадених листів до атаки з ШІ: як хакери зламують системи установ ЄС",
-      "text": "У 2026 році на Єврокомісію уже відбувалася кібертатака: тоді викрали листи та персональні дані. Що відомо про інші випадки?",
-      "product": "AIN.UA",
-      "url": "https://ain.ua/2026/11/19/jevrokomisiia-zaznala-kiberataki-zboyi-v-roboti-servisiv-trivali-ponad-10-dniv/",
-      "auto": true,
-      "image": "https://cdn.ain.ua/ua/articles/2026-11-20/6QQzYHULUmZ5Pvwz7JGqPl5RzzjZStOFQkQO87As.webp"
-    },
-    {
-      "date": "2026-11-20T00:00:00.000Z",
-      "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
-      "text": "",
-      "product": "Hugging Face",
-      "url": "https://huggingface.co/blog/inkling2mini",
-      "auto": true
-    },
-    {
-      "date": "2026-11-20T00:00:00.000Z",
-      "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
-      "text": "",
-      "product": "Hugging Face",
-      "url": "https://huggingface.co/blog/harness-adapters-at-scale",
-      "auto": true
-    },
-    {
-      "date": "2026-11-19T18:00:00.000Z",
-      "title": "Introducing Tool Retrieval in the Gemini API",
-      "text": "Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API.",
-      "product": "Google AI",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
-      "auto": true,
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Tool_retrieval_hero.max-600x600.format-webp.webp"
-    },
-    {
-      "date": "2026-11-19T17:00:00.000Z",
-      "title": "Walter Isaacson on curiosity and creativity in the AI age.",
-      "text": "Walter Isaacson joins Google to discuss how history’s greatest innovators inspire creativity and human judgment in the AI age. Watch the episode.",
-      "product": "Google AI",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
-      "auto": true,
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Dialogues.max-600x600.format-webp.webp"
     }
   ]
 }
