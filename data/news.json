@@ -1,38 +1,148 @@
 {
   "items": [
     {
-      "date": "2026-11-26T09:42:00.000Z",
-      "title": "«Втомився від ШІ-інструментів, які намагаються бути дизайнером замість мене»: український Senior UI/UX Designer запустив власний ШІ-редактор. Чим module.build відрізняється від Figma та Paper?",
-      "text": "Senior UI/UX Designer Богдан Матвіїв втомився від сучасних ШІ-інструментів, які намагаються замінити фахівця, заганяючи роботу в рамки чату та промптів замість повноцінного контролю над елементами. Тож він створив власний редактор module.build, який об'єднує дизайн і розробку в…",
+      "date": "2026-11-27T07:47:00.000Z",
+      "title": "«Це не ШІ-слоп». Український розробник покрокової стратегії Agelong випустив тестову збірку й розповів про використання ШІ під час створення гри",
+      "text": "Автор покрокової стратегії в дусі Civilization під назвою Agelong представив першу іграбельну тестову збірку на майданчику itch.io та пояснив, яку роль у розробці відіграв штучний інтелект.",
       "product": "dev.ua",
-      "url": "https://dev.ua/news/ukrainskyi-dyzainer-stvoryv-shi-redaktor-modulebuild-1795684607",
+      "url": "https://dev.ua/news/rozrobnyk-agelong-pro-ai-1795765048",
       "auto": true,
-      "image": "https://dev.ua/storage/images/12/76/04/30/derived/def65f680780c1ce391508a5362cfd89.webp"
+      "image": "https://dev.ua/storage/images/29/01/38/62/derived/f08d1318855ba603f1e054ce63c6ede8.webp"
     },
     {
-      "date": "2026-11-26T08:48:00.000Z",
-      "title": "Соло-розробник без досвіду навайбкодив гру Slotbound, яка за тиждень заробила $1,3 млн",
-      "text": "Інді-розробник Мін Кім з ніком Optima Arch заробив $1 332 409 за перший тиждень продажів дебютної гри Slotbound у Steam. Більшу частину коду та візуальних матеріалів він створив за допомогою інструментів генеративного штучного інтелекту.",
+      "date": "2026-11-27T07:00:00.000Z",
+      "title": "В Anthropic розповіли, як ШІ змінює критерії кар’єрного зростання та найму програмістів",
+      "text": "Штучний інтелект змінює підходи до підвищення розробників усередині самої компанії Anthropic.",
       "product": "dev.ua",
-      "url": "https://dev.ua/news/sloty-na-vaibkodi-krutiatsia-hroshi-v-steam-mutiatsia-1795681587",
+      "url": "https://dev.ua/news/v-anthropic-rozpovily-iak-shi-zminiuie-kryterii-kariernoho-zrostannia-ta-naimu-prohramistiv-1795762053",
       "auto": true,
-      "image": "https://dev.ua/storage/images/15/67/12/30/derived/5feb03f226e76137e3ea948a13a90623.webp"
+      "image": "https://dev.ua/storage/images/51/40/09/80/derived/d6fdb5ba2f5f0d75127231f6fa0a63c0.webp"
     },
     {
-      "date": "2026-11-26T07:26:00.000Z",
-      "title": "«Я — продакт і дизайнер, Claude Code — розробник». 16-річний розробник із Полтавщини створив маркетплейс рибальських товарів Fishly, на якому вже понад 18 000 товарів",
-      "text": "16-річний Андрій Козуб із Гадяча на Полтавщині запустив Fishly — український маркетплейс рибальських товарів. На платформі зібрані пропозиції спеціалізованих магазинів і приватних продавців. За словами засновника, після перших тижнів роботи каталог налічує понад 18 000 активних…",
+      "date": "2026-11-27T06:15:00.000Z",
+      "title": "Німецький софтверний гігант SAP розглядає скорочення щонайменше 10 000 робочих місць через впровадження ШІ",
+      "text": "SAP — найдорожча європейська компанія у сфері програмного забезпечення — готує план зі скорочення щонайменше 10 000 посад. Мета — трансформувати свій бізнес під епоху штучного інтелекту.",
       "product": "dev.ua",
-      "url": "https://dev.ua/news/ya-prodakt-i-dyzainer-claude-code-rozrobnyk-16-richnyi-rozrobnyk-iz-poltavshchyny-stvoryv-marketpleis-rybalskykh-tovariv-fishly-na-iakomu-vzhe-ponad-18-000-tovariv-1795668852",
+      "url": "https://dev.ua/news/skorochennia-u-sap-1795757796",
       "auto": true,
-      "image": "https://dev.ua/storage/images/98/48/21/43/derived/3cdda044624c52ece5733630f7f24970.webp"
+      "image": "https://dev.ua/storage/images/12/49/58/00/derived/98f579ebfffd3110819fb5196754b4f5.webp"
     },
     {
-      "date": "2026-11-26T06:20:48.000Z",
-      "title": "v0.40.19-rc0",
-      "text": "bump llama-server ( #19917 )",
+      "date": "2026-11-26T19:13:00.000Z",
+      "title": "BRAVE1 Dataroom обʼєднають із Avengers Labs, щоб навчати ШІ виявляти й перехоплювати «шахеди»",
+      "text": "Розробники отримають доступ до більшого обсягу даних та інструментів для навчання й перевірки моделей. Як це працюватиме?",
+      "product": "AIN.UA",
+      "url": "https://ain.ua/2026/11/26/brave1-dataroom-objednaiut-iz-avengers-labs-shhob-navcati-si-viiavliati-i-perexopliuvati-saxedi/",
+      "auto": true,
+      "image": "https://cdn.ain.ua/ua/articles/2026-11-26/krKzlI7UDa8HhZXnngFiYEntWKdI3AWu7TvOj3SO.webp"
+    },
+    {
+      "date": "2026-11-26T18:44:40.000Z",
+      "title": "GTA 6 на ПК уже показывает до 44 FPS: модерам помогает Claude",
+      "text": "Неофициальные версии для ПК GTA 6, которые энтузиасты собирают из утечке сборки для Xbox Series, уже работают со скоростью 20–30 кадров в секунду, а один игрок сообщил о 44 FPS. Ускорить работу модерам помог Claude — ИИ-ассистент от Anthropic.",
+      "product": "ITC.ua",
+      "url": "https://itc.ua/news/gta-6-na-pk-uzhe-pokazyvaet-do-44-fps-moderam-pomogaet-claude/",
+      "auto": true
+    },
+    {
+      "date": "2026-11-26T17:52:02.000Z",
+      "title": "v0.40.19",
+      "text": "What's Changed inkling2: faster short histories, draft proposals and conv snapshots by @dhiltgen in #19881 mlxrunner: compact Engram history buffers by @pdevine in #19913 bump llama-server by @pdevine in #19917 Full Changelog : v0.40.18...v0.40.19-rc0",
       "product": "Ollama",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.19-rc0",
+      "auto": true
+    },
+    {
+      "date": "2026-11-26T17:07:45.000Z",
+      "title": "Instagram объединяет Direct и ИИ: Muse поможет с покупками, поездками и подборками",
+      "text": "Meta начала внедрять Muse в личные сообщения Instagram. Ассистент сможет анализировать публикации и сортировать сохраненные Reels",
+      "product": "hi-tech.ua",
+      "url": "https://hi-tech.ua/instagram-obedinyaet-direct-i-ii-muse-pomozhet-s-pokupkami-poezdkami-i-podborkami/",
+      "auto": true,
+      "image": "https://hi-tech.ua/wp-content/uploads/2026/11/d44a7f59a74d8dc8bae3e0aa8a26e3eb-300x169.webp"
+    },
+    {
+      "date": "2026-11-26T15:11:39.000Z",
+      "title": "Вайбкодинг без кода: Claude создает приложения для Windows и macOS на основе подсказок на естественном языке",
+      "text": "Anthropic представила новую функцию Claude, позволяющую создавать, устанавливать и совместно использовать приложения с помощью подсказок на естественном языке.",
+      "product": "ITC.ua",
+      "url": "https://itc.ua/news/vajbkodyng-bez-koda-claude-sozdaet-prylozhenyya-dlya-windows-y-macos-na-osnove-podskazok-na-estestvennom-yazyke/",
+      "auto": true
+    },
+    {
+      "date": "2026-11-26T15:03:00.000Z",
+      "title": "На Одещині чоловік за допомогою ChatGPT підробив пенсійне посвідчення з «довічною інвалідністю» і подав його через «Дію»",
+      "text": "Ізмаїльський міськрайонний суд Одеської області виніс вирок місцевому жителю, який за допомогою чат-бота ChatGPT створив фальшиве пенсійне посвідчення про нібито довічну інвалідність другої групи та використав його під час подання заяви через портал «Дія». Суд призначив чоловіко…",
+      "product": "dev.ua",
+      "url": "https://dev.ua/news/na-odeshchyni-cholovik-za-dopomohoiu-chatgpt-pidrobyv-pensiine-posvidchennia-z-dovichnoiu-invalidnistiu-1795704422",
+      "auto": true,
+      "image": "https://dev.ua/storage/images/17/52/23/58/derived/bfbabc16882c3a1861ee0882acd78e52.webp"
+    },
+    {
+      "date": "2026-11-26T14:51:12.000Z",
+      "title": "«Абсурд»: Амодеи опроверг, что Anthropic хочет передать ИИ контроль над людьми",
+      "text": "Генеральный директор Anthropic Дарио Амодеи отверг обвинения в том, что его компания хочет, чтобы люди передали контроль искусственному интеллекту. В большом посте в X в среду, 25 ноября, он назвал такое предположение абсурдным:",
+      "product": "ITC.ua",
+      "url": "https://itc.ua/news/amodei-absurd-kontrol-nad-yy/",
+      "auto": true
+    },
+    {
+      "date": "2026-11-26T14:40:00.000Z",
+      "title": "Платформи Brave1 Dataroom та Avengers Labs об’єднають для розвитку військового ШІ та перехоплення «Шахедів»",
+      "text": "Оборонні платформи Avengers Labs та Brave1 Dataroom об’єднають у єдину екосистему для вдосконалення розробки моделей штучного інтелекту (ШІ) для потреб Сил оборони України. Інтеграція дозволить поєднати бази реальних бойових даних і технологічні рішення, зокрема для підвищення е…",
+      "product": "dev.ua",
+      "url": "https://dev.ua/news/platformy-brave1-dataroom-ta-avengers-labs-obiednaiut-dlia-rozvytku-viiskovoho-shi-1795703413",
+      "auto": true,
+      "image": "https://dev.ua/storage/images/55/50/84/32/derived/ece8dea6d1a449a4d829e741484578f6.webp"
+    },
+    {
+      "date": "2026-11-26T14:19:20.000Z",
+      "title": "Один на двоих: OpenAI объединяет квоты ChatGPT и Codex уже с 1 декабря",
+      "text": "Компания OpenAI объявила о введении общих лимитов на использование чат-бота ChatGPT и инструмента Codex для владельцев платных подписок. Нововведение затронет пользователей тарифов Plus, Pro и Business.",
+      "product": "hi-tech.ua",
+      "url": "https://hi-tech.ua/odin-na-dvoih-openai-obedinyaet-kvoty-chatgpt-i-codex-uzhe-s-1-dekabrya/",
+      "auto": true,
+      "image": "https://hi-tech.ua/wp-content/uploads/2026/11/9eb49b3999c96cbb8af7255d9bdd0a4c-300x169.webp"
+    },
+    {
+      "date": "2026-11-26T13:46:00.000Z",
+      "title": "Користувач Linux за допомогою Claude зламав гру для PlayStation 1 і витягнув приховані відео про НЛО, які нібито походять з NASA",
+      "text": "Користувач Reddit використав інструменти операційної системи Linux та штучний інтелект Claude від компанії Anthropic для зворотної розробки маловідомої японської гри 1996 року для PlayStation 1. У результаті ентузіасту вдалося витягнути з архівів гри 90 прихованих відеозаписів,…",
+      "product": "dev.ua",
+      "url": "https://dev.ua/news/prykhovani-video-z-nlo-vytiahly-z-hry-za-dopomohoiu-shi-1795699588",
+      "auto": true,
+      "image": "https://dev.ua/storage/images/81/09/95/77/derived/41486c28db4ab12b336757ad23698b4c.webp"
+    },
+    {
+      "date": "2026-11-26T12:41:07.000Z",
+      "title": "Чаты 21 млн человек на аукцион: Character.AI хочет продать личные беседы с ИИ",
+      "text": "Обанкротившаяся компания Character.AI готовится продать с аукциона истории переписки с ИИ-чат-ботами более 21 млн аккаунтов, в том числе 2,1 млн детей. Остановить продажу пытается коалиция из 42 генеральных прокуроров штатов США.",
+      "product": "ITC.ua",
+      "url": "https://itc.ua/news/chaty-21-mln-chelovek-na-auktsyon-character-ai-hochet-prodat-lychnye-besedy-s-yy/",
+      "auto": true
+    },
+    {
+      "date": "2026-11-26T12:00:00.000Z",
+      "title": "What is AI transcription: The complete guide",
+      "text": "Learn what is AI transcription and how it works, which features to look for, and how teams use it for meetings and support. Plus legal and privacy basics.",
+      "product": "ElevenLabs",
+      "url": "https://elevenlabs.io/blog/what-is-ai-transcription",
+      "auto": true
+    },
+    {
+      "date": "2026-11-26T11:37:17.000Z",
+      "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+      "text": "",
+      "product": "Hugging Face",
+      "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+      "auto": true
+    },
+    {
+      "date": "2026-11-26T09:47:57.000Z",
+      "title": "Нарисовал в ChatGPT пенсионное и отправил в «Дію»: чем всё закончилось",
+      "text": "Житель Болградского района Одесской области с помощью ChatGPT изготовил поддельное пенсионное удостоверение с пожизненной инвалидностью II группы. Подделку он попытался использовать при подаче электронного заявления через портал «Дія», но дело закончилось вынесением приговора.",
+      "product": "ITC.ua",
+      "url": "https://itc.ua/news/narysoval-v-chatgpt-pensyonnoe-y-otpravyl-v-diyu-chem-vsyo-zakonchylos/",
       "auto": true
     },
     {
@@ -42,15 +152,6 @@
       "product": "Hugging Face",
       "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
       "auto": true
-    },
-    {
-      "date": "2026-11-26T05:04:41.000Z",
-      "title": "Выручка Dell достигла рекорда: компания повысила прогноз на 2027 год до $202 млрд",
-      "text": "Dell Technologies в третий раз за год улучшила финансовые прогнозы на фоне рекордных заказов на серверы для ИИ и рекордных квартальных результатов.",
-      "product": "hi-tech.ua",
-      "url": "https://hi-tech.ua/vyruchka-dell-dostigla-rekorda-kompaniya-povysila-prognoz-na-2027-god-do-202-mlrd/",
-      "auto": true,
-      "image": "https://hi-tech.ua/wp-content/uploads/2026/11/f69cf3e1bcf936c0bd4b56af0d79819e-300x169.webp"
     },
     {
       "date": "2026-11-26T01:00:12.000Z",
@@ -66,6 +167,14 @@
       "text": "🐛 Bug Fixes Drop tool approval state from imported sessions to prevent automatic tool execution on session load Import sessions with local extensions and goose mode, dropping recipe retry, recipe values, container and provider session IDs Remove recipe template re-rendering on…",
       "product": "Goose",
       "url": "https://github.com/aaif-goose/goose/releases/tag/v1.61.1",
+      "auto": true
+    },
+    {
+      "date": "2026-11-26T00:00:00.000Z",
+      "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+      "text": "",
+      "product": "Hugging Face",
+      "url": "https://huggingface.co/blog/training-swarms",
       "auto": true
     },
     {
@@ -109,49 +218,6 @@
       "auto": true
     },
     {
-      "date": "2026-11-25T14:47:51.000Z",
-      "title": "OpenAI запатентовала наушники, распознающие беззвучную речь",
-      "text": "OpenAI подала патентную заявку на наушники, способные распознавать слова, которые человек формирует губами, но не произносит вслух. Для этого устройство будет отслеживать микродвижения внутри слухового прохода, вызванные движением челюсти и мышц лица. Полученные сигналы система…",
-      "product": "ITC.ua",
-      "url": "https://itc.ua/news/openai-zapatentovala-naushnyky-raspoznayushhye-bezzvuchnuyu-rech/",
-      "auto": true
-    },
-    {
-      "date": "2026-11-25T14:27:00.000Z",
-      "title": "Гадаєте, ви зберігаєте анонімність онлайн? ШІ може викрити людину за дрібними деталями в тексті менш ніж за хвилину",
-      "text": "Сучасні ШІ-моделі здатні вирахувати реальну особу за анонімним текстом, зіставивши дрібні деталі біографії та робочого досвіду. Дослідники Північно-Східного університету (Northeastern University) з’ясували, що чатботи встановлюють особу автора майже у половині випадків, навіть я…",
-      "product": "dev.ua",
-      "url": "https://dev.ua/news/hadaiete-zberihaiete-anonimnist-onlain",
-      "auto": true,
-      "image": "https://dev.ua/storage/images/15/78/74/22/derived/5e9c3a712e82f49e92a80a401946dfd0.webp"
-    },
-    {
-      "date": "2026-11-25T13:10:00.000Z",
-      "title": "Стартап колишньої CTO OpenAI випустив Inkling 2 Mini — ШІ-модель для програмування без інтернету. Для її запуску достатньо близько 20 ГБ пам’яті",
-      "text": "Компанія Thinking Machines випустила Inkling 2 Mini — ШІ-модель із відкритими вагами, яка може програмувати навіть без доступу до інтернету. Розробники випробували її під час авіаперельоту. Її запустили на MacBook Pro і за кілька хвилин отримали працюючий авіасимулятор. Для запу…",
-      "product": "dev.ua",
-      "url": "https://dev.ua/news/inkling-2-mini-1795611097",
-      "auto": true,
-      "image": "https://dev.ua/storage/images/30/60/13/77/derived/08134a0243f3e1bcd8961731e6c0d556.webp"
-    },
-    {
-      "date": "2026-11-25T12:19:00.000Z",
-      "title": "Claude навчився перетворювати артефакти на окремі десктопні застосунки для macOS і Windows",
-      "text": "Компанія Anthropic запустила бета-версію функції Install as app, яка дозволяє користувачам перетворювати створені в Claude артефакти на десктопні застосунки для macOS та Windows і ділитися ними з іншими. Проте ці програми мають суттєве обмеження: вони не працюють без інтернету т…",
-      "product": "dev.ua",
-      "url": "https://dev.ua/news/claude-navchyvsia-peretvoriuvaty-artefakty-na-okremi-desktopni-zastosunky-1795608617",
-      "auto": true,
-      "image": "https://dev.ua/storage/images/61/03/32/21/derived/416aeca3e0b2a27ce4496353a10a4b8f.webp"
-    },
-    {
-      "date": "2026-11-25T12:15:17.000Z",
-      "title": "ИИ решил задачу, над которой люди бились 47 лет — дважды с помощью разных моделей",
-      "text": "У математиков с 1979 года оставался нерешённым вопрос, связанный с фундаментальной проблемой скорости умножения матриц. За несколько дней две компании, занимающиеся искусственным интеллектом, независимо друг от друга заявили, что решили эту проблему. Anthropic и OpenAI опубликов…",
-      "product": "ITC.ua",
-      "url": "https://itc.ua/news/yy-reshyl-zadachu-nad-kotoroj-lyudy-bylys-47-let-dvazhdy-s-pomoshhyu-raznyh-modelej/",
-      "auto": true
-    },
-    {
       "date": "2026-11-25T12:00:00.000Z",
       "title": "What is GraphRAG? A practical guide to smarter AI retrieval",
       "text": "Learn what is GraphRAG, how knowledge graph RAG works, and where it beats standard RAG. See use cases and how ElevenAgents handles RAG for voice agents.",
@@ -178,14 +244,6 @@
       "image": "https://cdn.ain.ua/ua/articles/2026-11-25/WAC2ib7QZEbpFj4At4XaQinrFWStcbUNTnZehbsx.webp"
     },
     {
-      "date": "2026-11-25T10:57:59.000Z",
-      "title": "Первый ИИ-сериал Lionsgate Play: индийский эпос без рамок производства",
-      "text": "Индийский стриминговый сервис Lionsgate Play снимает свой первый оригинальный сериал с участием ИИ. Проект Eklavya основан на индийской мифологии, одну из ролей в нём исполнит ИИ-актёр Yug R.Ai, а технологии искусственного интеллекта для производства предоставляет Google.",
-      "product": "ITC.ua",
-      "url": "https://itc.ua/news/pervyj-yy-seryal-lionsgate-play-yndyjskyj-epos-bez-ramok-proyzvodstva/",
-      "auto": true
-    },
-    {
       "date": "2026-11-25T10:22:09.000Z",
       "title": "An Indic Voice Agent with CUGA",
       "text": "",
@@ -201,14 +259,6 @@
       "url": "https://ain.ua/2026/11/24/dod-solution-integruje-svoiu-sistemu-avtonomnosti-aura-ai-v-kanadskii-dron-draganfly-flex-fpv/",
       "auto": true,
       "image": "https://cdn.ain.ua/ua/articles/2026-11-24/ujp3UOI8QVrTyDkQlymy6JyFzAuBThwV0xWwBWfx.webp"
-    },
-    {
-      "date": "2026-11-25T07:15:09.000Z",
-      "title": "Как дата-центры обеспечивают работу ИИ и охлаждают мощные графические процессоры",
-      "text": "Ответ ассистента, найденный фрагмент в документе или сгенерированное изображение появляются на экране за считанные секунды. За этим стоят физические серверы в центрах обработки данных, или ЦОД. Обучение и использование моделей требуют вычислений, стабильного питания и отвода теп…",
-      "product": "ITC.ua",
-      "url": "https://itc.ua/articles/kak-data-tsentry-obespechyvayut-rabotu-yy-y-ohlazhdayut-moshhnye-grafycheskye-protsessory/",
-      "auto": true
     },
     {
       "date": "2026-11-25T04:38:40.000Z",
@@ -452,56 +502,6 @@
       "product": "GitHub Copilot",
       "url": "https://github.blog/changelog/2026-11-23-code-coverage-uploads-now-flag-invalid-report-formats",
       "auto": true
-    },
-    {
-      "date": "2026-11-23T12:00:00.000Z",
-      "title": "How to choose the best speech to text API for your use case",
-      "text": "How to choose the best speech to text API for your business? Compare accuracy, latency, pricing, and more to find the best fit for your use case.",
-      "product": "ElevenLabs",
-      "url": "https://elevenlabs.io/blog/choose-the-best-speech-to-text-api",
-      "auto": true
-    },
-    {
-      "date": "2026-11-23T12:00:00.000Z",
-      "title": "ElevenMusic vs. music in ElevenCreative: which do I need?",
-      "text": "Compare ElevenMusic and ElevenCreative music generation. See what each does, how pricing differs, and which fits your song or project.",
-      "product": "ElevenLabs",
-      "url": "https://elevenlabs.io/blog/elevenmusic-vs-elevencreative",
-      "auto": true,
-      "image": "https://eleven-public-cdn.elevenlabs.io/payloadcms/ElevenMusic_1920.webp"
-    },
-    {
-      "date": "2026-11-23T10:29:36.000Z",
-      "title": "Usage reports will include a user ID column starting December 1",
-      "text": "Starting December 1, 2026, usage reports that include a username column will also include a user_id column next to it. Every column after username will move one position to the… The post Usage reports will include a user ID column starting December 1 appeared first on The GitHub…",
-      "product": "GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-11-23-usage-reports-will-include-a-user-id-column-starting-december-1",
-      "auto": true
-    },
-    {
-      "date": "2026-11-23T09:22:21.000Z",
-      "title": "v2.4.0",
-      "text": "Highlights Built-In Desktop Browser : Import your sign-ins and browsing history from Chrome, Edge, Firefox or Safari, and add extensions from Chromium browsers or the Chrome and Edge stores. Everything stays in one persistent desktop profile: chat links open signed in, your tabs…",
-      "product": "OpenCode",
-      "url": "https://github.com/anomalyco/opencode/releases/tag/v2.4.0",
-      "auto": true
-    },
-    {
-      "date": "2026-11-23T00:00:00.000Z",
-      "title": "How to build and maintain an agentic evaluation",
-      "text": "",
-      "product": "Hugging Face",
-      "url": "https://huggingface.co/blog/agentic-evals",
-      "auto": true
-    },
-    {
-      "date": "2026-11-22T09:56:00.000Z",
-      "title": "Signal обмежить створення скриншотів на смартфонах, щоб захистити листування від ШІ",
-      "text": "Месенджер закликає Apple, Google та Microsoft надати розробникам більше інструментів для захисту конфіденційних даних від ШІ-агентів.",
-      "product": "AIN.UA",
-      "url": "https://ain.ua/2026/11/20/signal-obmezit-stvorennia-skrinsotiv-na-smartfonax-shhob-zaxistiti-listuvannia-vid-si/",
-      "auto": true,
-      "image": "https://cdn.ain.ua/ua/articles/2026-11-20/HgsyTRT51U4w5uvdYBXSBamX7ohPuQzoArBga708.webp"
     }
   ]
 }
