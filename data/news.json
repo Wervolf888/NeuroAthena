@@ -1,31 +1,134 @@
 {
   "items": [
     {
-      "date": "2026-11-27T07:47:00.000Z",
-      "title": "«Це не ШІ-слоп». Український розробник покрокової стратегії Agelong випустив тестову збірку й розповів про використання ШІ під час створення гри",
-      "text": "Автор покрокової стратегії в дусі Civilization під назвою Agelong представив першу іграбельну тестову збірку на майданчику itch.io та пояснив, яку роль у розробці відіграв штучний інтелект.",
+      "date": "2026-11-28T09:04:00.000Z",
+      "title": "Маркетолог за п’ять днів створив застосунок для вишивання хрестиком за допомогою Claude Code. За 10 днів він зібрав понад 900 користувачів",
+      "text": "Маркетолог Максим Кірієнко розробив Eugene Stitch — безкоштовний застосунок, у якому можна відкривати схеми для вишивки, відмічати готові хрестики та стежити за витратами ниток. Першою користувачкою стала його дівчина Євгенія, для якої він і створив продукт. Код пише Claude Code…",
       "product": "dev.ua",
-      "url": "https://dev.ua/news/rozrobnyk-agelong-pro-ai-1795765048",
+      "url": "https://dev.ua/news/vyshyvka-1795856347",
       "auto": true,
-      "image": "https://dev.ua/storage/images/29/01/38/62/derived/f08d1318855ba603f1e054ce63c6ede8.webp"
+      "image": "https://dev.ua/storage/images/17/38/84/38/derived/f31da6014cdb2d11ce59f5ed723228ba.webp"
     },
     {
-      "date": "2026-11-27T07:00:00.000Z",
-      "title": "В Anthropic розповіли, як ШІ змінює критерії кар’єрного зростання та найму програмістів",
-      "text": "Штучний інтелект змінює підходи до підвищення розробників усередині самої компанії Anthropic.",
+      "date": "2026-11-28T07:36:00.000Z",
+      "title": "Посланець путіна хоче залучати ШІ до підготовки мирної угоди з Україною. Нейромережу пропонує налаштовувати під позицію росії",
+      "text": "Голова російського фонду прямих інвестицій і спеціальний представник президента рф Кирило Дмитрієв розповів, як штучний інтелект може допомагати готувати дипломатичні угоди щодо завершення війни проти України. Серед можливих завдань для нейромережі — пошук формулювань, які краще…",
       "product": "dev.ua",
-      "url": "https://dev.ua/news/v-anthropic-rozpovily-iak-shi-zminiuie-kryterii-kariernoho-zrostannia-ta-naimu-prohramistiv-1795762053",
+      "url": "https://dev.ua/news/oleh-1795786617",
       "auto": true,
-      "image": "https://dev.ua/storage/images/51/40/09/80/derived/d6fdb5ba2f5f0d75127231f6fa0a63c0.webp"
+      "image": "https://dev.ua/storage/images/52/64/05/83/derived/a5a1485f6cc0fdc725b1d3375b2f5ac9.webp"
     },
     {
-      "date": "2026-11-27T06:15:00.000Z",
-      "title": "Німецький софтверний гігант SAP розглядає скорочення щонайменше 10 000 робочих місць через впровадження ШІ",
-      "text": "SAP — найдорожча європейська компанія у сфері програмного забезпечення — готує план зі скорочення щонайменше 10 000 посад. Мета — трансформувати свій бізнес під епоху штучного інтелекту.",
-      "product": "dev.ua",
-      "url": "https://dev.ua/news/skorochennia-u-sap-1795757796",
+      "date": "2026-11-28T07:03:44.000Z",
+      "title": "ИИ-игрушки под запретом: Штат Нью-Йорк запретил игрушки с ИИ-чатботами на пять лет",
+      "text": "В штате Нью-Йорк ввели пятилетний запрет на продажу детских игрушек с искусственным интеллектом и чатботами.",
+      "product": "hi-tech.ua",
+      "url": "https://hi-tech.ua/ii-igrushki-pod-zapretom-shtat-nyu-jork-zapretil-igrushki-s-ii-chatbotami-na-pyat-let/",
       "auto": true,
-      "image": "https://dev.ua/storage/images/12/49/58/00/derived/98f579ebfffd3110819fb5196754b4f5.webp"
+      "image": "https://hi-tech.ua/wp-content/uploads/2026/11/1a43adfc481c80ac20b997a34cd801b3-300x169.webp"
+    },
+    {
+      "date": "2026-11-27T21:47:32.000Z",
+      "title": "v0.40.19",
+      "text": "What's Changed inkling2: faster short histories, draft proposals and conv snapshots by @dhiltgen in #19881 mlxrunner: compact Engram history buffers by @pdevine in #19913 bump llama-server by @pdevine in #19917 Full Changelog : v0.40.18...v0.40.19-rc0",
+      "product": "Ollama",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.19",
+      "auto": true
+    },
+    {
+      "date": "2026-11-27T21:06:59.000Z",
+      "title": "v0.40.20-rc0",
+      "text": "bump llama-server ( #19953 )",
+      "product": "Ollama",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.20-rc0",
+      "auto": true
+    },
+    {
+      "date": "2026-11-27T15:34:48.000Z",
+      "title": "Ubisoft требует от разработчиков объяснять, почему они не используют генеративный ИИ",
+      "text": "Ubisoft требует, чтобы команды, предлагающие новые игры, объясняли, как генеративный ИИ поможет в разработке. Те, кто не хочет использовать эту технологию, должны подробно обосновать руководству свой отказ. Об этом пишет Vertical Slice со ссылкой на нескольких действующих сотруд…",
+      "product": "ITC.ua",
+      "url": "https://itc.ua/news/ubisoft-trebuet-ot-razrabotchykov-obyasnyat-pochemu-ony-ne-yspolzuyut-generatyvnyj-yy/",
+      "auto": true
+    },
+    {
+      "date": "2026-11-27T13:46:00.000Z",
+      "title": "Історик роками шукав автора малюнків, яким понад 200 років. GPT-6.2 Astra знайшла його за 22 хвилини",
+      "text": "Канадський історик Марк Гамфріс вирішив залучити ШІ-модель GPT-6.2 Astra від OpenAI до розгадки таємниці альбому з малюнками, якому вже понад 200 років. Гамфріс роками не міг встановити особу автора, але штучному інтелекту для цього знадобилося лише 22 хвилини. До того ж, ШІ зна…",
+      "product": "dev.ua",
+      "url": "https://dev.ua/news/shi-rozhadav-istorychnu-zahadku-1795785533",
+      "auto": true,
+      "image": "https://dev.ua/storage/images/59/14/37/81/derived/7e51c7c9411a3cc49aa6a3d6ba970255.webp"
+    },
+    {
+      "date": "2026-11-27T13:05:00.000Z",
+      "title": "Активісти третій день голодують під офісом Anthropic у Сан-Франциско через «рекурсивне самовдосконалення» ШІ та погрожують далі взятися за OpenAI",
+      "text": "Біля штаб-квартири ШІ-компанії Anthropic у Сан-Франциско триває голодування проти технології рекурсивного самовдосконалення штучного інтелекту (RSI). Ініціатор акції Елліот Каллендер тримає протест уже третій день поспіль і заявляє про готовність голодувати понад 40 днів, а наст…",
+      "product": "dev.ua",
+      "url": "https://dev.ua/news/aktyvisty-tretii-den-holoduiut-pid-ofisom-anthropic-1795783083",
+      "auto": true,
+      "image": "https://dev.ua/storage/images/38/60/04/41/derived/4ad6281ff5ace26b9fa401c7bd03c5bf.webp"
+    },
+    {
+      "date": "2026-11-27T12:57:00.000Z",
+      "title": "CEO LinkedIn розповів, чому ШІ може допомогти «зумерам» працевлаштуватися та дав пораду щодо пошуку роботи в сучасних умовах",
+      "text": "CEO LinkedIn Деніел Шаперо стверджує, що роботодавці схильні вважати молодих кандидатів більш обізнаними в ШІ, ніж їхніх досвідченіших колег. Це може зіграти на користь «зумерів», навіть якщо насправді вони не так добре уміють користуватися штучним інтелектом.",
+      "product": "dev.ua",
+      "url": "https://dev.ua/news/ceo-linkedin-zumery-1795783214",
+      "auto": true,
+      "image": "https://dev.ua/storage/images/26/29/28/55/derived/745829c24c860818687fe9c372bde12f.webp"
+    },
+    {
+      "date": "2026-11-27T12:49:00.000Z",
+      "title": "«Ми самі сформулювали в працівників відчуття гарантованої затребуваності. Таких гарантій більше немає». СЕО Intellias Віталій Седлер — про найм у епоху ШІ",
+      "text": "СЕО компанії Intellias Віталій Седлер закликає всіх працівників технологічної індустрії поставити собі запитання — чи будуть його компетенції потрібні ринку через три роки?",
+      "product": "dev.ua",
+      "url": "https://dev.ua/news/my-sami-sformuliuvaly-v-pratsivnykiv-vidchuttia-harantovanoi-zatrebuvanosti-takykh-harantii-bilshe-nemaie-seo-intellias-vitalii-sedler-pro-naim-u-epokhu-shi-1795783450",
+      "auto": true,
+      "image": "https://dev.ua/storage/images/45/33/48/86/derived/8e27992395e577bdf090f424c128c505.webp"
+    },
+    {
+      "date": "2026-11-27T12:33:00.000Z",
+      "title": "Instagram for TV Comes to India, Introducing New Ways to Watch Reels Together",
+      "text": "Instagram for TV will soon be available in India, bringing content from your favorite creators to the big screen in your home so you can enjoy watching them with friends. The post Instagram for TV Comes to India, Introducing New Ways to Watch Reels Together appeared first on Met…",
+      "product": "Meta AI",
+      "url": "https://about.fb.com/news/2026/11/instagram-for-tv-comes-to-india-introducing-new-ways-to-watch-reels-together/",
+      "auto": true,
+      "image": "https://about.fb.com/wp-content/uploads/2026/11/Horizontal-Video.png?fit=1920%2C1080"
+    },
+    {
+      "date": "2026-11-27T12:22:28.000Z",
+      "title": "Нові обмеження США можуть відкласти вихід ШІ-моделей Z.AI та Moonshot до 2027 року",
+      "text": "Розробку китайських моделей вже сповільнили заходи OpenAI та Anthropic проти несанкціонованої дистиляції. Нові обмеження Америки можуть відтермінувати випуск цих моделей ще на пізніше.",
+      "product": "AIN.UA",
+      "url": "https://ain.ua/2026/11/27/novi-obmezennia-ssa-mozut-vidklasti-vixid-si-modelei-zai-ta-moonshot-do-2027-roku/",
+      "auto": true,
+      "image": "https://cdn.ain.ua/ua/articles/2026-11-27/2CSw7CWVOwHcVAOG2RB01MU52ANbSBBNRsutyLRN.webp"
+    },
+    {
+      "date": "2026-11-27T12:00:00.000Z",
+      "title": "Agent-to-agent communication: How AI agents work together",
+      "text": "Learn how agent-to-agent communication works, how the A2A protocol compares with MCP, and how AI agents delegate tasks and share context across systems.",
+      "product": "ElevenLabs",
+      "url": "https://elevenlabs.io/blog/what-is-agent-to-agent-communication",
+      "auto": true
+    },
+    {
+      "date": "2026-11-27T12:00:00.000Z",
+      "title": "Webinar recap: Refresh your Black Friday ads with ElevenCreative",
+      "text": "Ad platforms now use your creative to find buyers. Here's how teams refresh, test, and localize ads every week through January.",
+      "product": "ElevenLabs",
+      "url": "https://elevenlabs.io/blog/webinar-recap-refresh-your-black-friday-ads-with-elevencreative",
+      "auto": true,
+      "image": "https://eleven-public-cdn.elevenlabs.io/payloadcms/3zamarrmz9u-webinar-recap-refresh-bfcm-ads-cover.webp"
+    },
+    {
+      "date": "2026-11-27T00:00:00.000Z",
+      "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+      "text": "",
+      "product": "Hugging Face",
+      "url": "https://huggingface.co/blog/video-trainium3",
+      "auto": true
     },
     {
       "date": "2026-11-26T19:13:00.000Z",
@@ -45,23 +148,6 @@
       "auto": true
     },
     {
-      "date": "2026-11-26T17:52:02.000Z",
-      "title": "v0.40.19",
-      "text": "What's Changed inkling2: faster short histories, draft proposals and conv snapshots by @dhiltgen in #19881 mlxrunner: compact Engram history buffers by @pdevine in #19913 bump llama-server by @pdevine in #19917 Full Changelog : v0.40.18...v0.40.19-rc0",
-      "product": "Ollama",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.19-rc0",
-      "auto": true
-    },
-    {
-      "date": "2026-11-26T17:07:45.000Z",
-      "title": "Instagram объединяет Direct и ИИ: Muse поможет с покупками, поездками и подборками",
-      "text": "Meta начала внедрять Muse в личные сообщения Instagram. Ассистент сможет анализировать публикации и сортировать сохраненные Reels",
-      "product": "hi-tech.ua",
-      "url": "https://hi-tech.ua/instagram-obedinyaet-direct-i-ii-muse-pomozhet-s-pokupkami-poezdkami-i-podborkami/",
-      "auto": true,
-      "image": "https://hi-tech.ua/wp-content/uploads/2026/11/d44a7f59a74d8dc8bae3e0aa8a26e3eb-300x169.webp"
-    },
-    {
       "date": "2026-11-26T15:11:39.000Z",
       "title": "Вайбкодинг без кода: Claude создает приложения для Windows и macOS на основе подсказок на естественном языке",
       "text": "Anthropic представила новую функцию Claude, позволяющую создавать, устанавливать и совместно использовать приложения с помощью подсказок на естественном языке.",
@@ -70,55 +156,11 @@
       "auto": true
     },
     {
-      "date": "2026-11-26T15:03:00.000Z",
-      "title": "На Одещині чоловік за допомогою ChatGPT підробив пенсійне посвідчення з «довічною інвалідністю» і подав його через «Дію»",
-      "text": "Ізмаїльський міськрайонний суд Одеської області виніс вирок місцевому жителю, який за допомогою чат-бота ChatGPT створив фальшиве пенсійне посвідчення про нібито довічну інвалідність другої групи та використав його під час подання заяви через портал «Дія». Суд призначив чоловіко…",
-      "product": "dev.ua",
-      "url": "https://dev.ua/news/na-odeshchyni-cholovik-za-dopomohoiu-chatgpt-pidrobyv-pensiine-posvidchennia-z-dovichnoiu-invalidnistiu-1795704422",
-      "auto": true,
-      "image": "https://dev.ua/storage/images/17/52/23/58/derived/bfbabc16882c3a1861ee0882acd78e52.webp"
-    },
-    {
       "date": "2026-11-26T14:51:12.000Z",
       "title": "«Абсурд»: Амодеи опроверг, что Anthropic хочет передать ИИ контроль над людьми",
       "text": "Генеральный директор Anthropic Дарио Амодеи отверг обвинения в том, что его компания хочет, чтобы люди передали контроль искусственному интеллекту. В большом посте в X в среду, 25 ноября, он назвал такое предположение абсурдным:",
       "product": "ITC.ua",
       "url": "https://itc.ua/news/amodei-absurd-kontrol-nad-yy/",
-      "auto": true
-    },
-    {
-      "date": "2026-11-26T14:40:00.000Z",
-      "title": "Платформи Brave1 Dataroom та Avengers Labs об’єднають для розвитку військового ШІ та перехоплення «Шахедів»",
-      "text": "Оборонні платформи Avengers Labs та Brave1 Dataroom об’єднають у єдину екосистему для вдосконалення розробки моделей штучного інтелекту (ШІ) для потреб Сил оборони України. Інтеграція дозволить поєднати бази реальних бойових даних і технологічні рішення, зокрема для підвищення е…",
-      "product": "dev.ua",
-      "url": "https://dev.ua/news/platformy-brave1-dataroom-ta-avengers-labs-obiednaiut-dlia-rozvytku-viiskovoho-shi-1795703413",
-      "auto": true,
-      "image": "https://dev.ua/storage/images/55/50/84/32/derived/ece8dea6d1a449a4d829e741484578f6.webp"
-    },
-    {
-      "date": "2026-11-26T14:19:20.000Z",
-      "title": "Один на двоих: OpenAI объединяет квоты ChatGPT и Codex уже с 1 декабря",
-      "text": "Компания OpenAI объявила о введении общих лимитов на использование чат-бота ChatGPT и инструмента Codex для владельцев платных подписок. Нововведение затронет пользователей тарифов Plus, Pro и Business.",
-      "product": "hi-tech.ua",
-      "url": "https://hi-tech.ua/odin-na-dvoih-openai-obedinyaet-kvoty-chatgpt-i-codex-uzhe-s-1-dekabrya/",
-      "auto": true,
-      "image": "https://hi-tech.ua/wp-content/uploads/2026/11/9eb49b3999c96cbb8af7255d9bdd0a4c-300x169.webp"
-    },
-    {
-      "date": "2026-11-26T13:46:00.000Z",
-      "title": "Користувач Linux за допомогою Claude зламав гру для PlayStation 1 і витягнув приховані відео про НЛО, які нібито походять з NASA",
-      "text": "Користувач Reddit використав інструменти операційної системи Linux та штучний інтелект Claude від компанії Anthropic для зворотної розробки маловідомої японської гри 1996 року для PlayStation 1. У результаті ентузіасту вдалося витягнути з архівів гри 90 прихованих відеозаписів,…",
-      "product": "dev.ua",
-      "url": "https://dev.ua/news/prykhovani-video-z-nlo-vytiahly-z-hry-za-dopomohoiu-shi-1795699588",
-      "auto": true,
-      "image": "https://dev.ua/storage/images/81/09/95/77/derived/41486c28db4ab12b336757ad23698b4c.webp"
-    },
-    {
-      "date": "2026-11-26T12:41:07.000Z",
-      "title": "Чаты 21 млн человек на аукцион: Character.AI хочет продать личные беседы с ИИ",
-      "text": "Обанкротившаяся компания Character.AI готовится продать с аукциона истории переписки с ИИ-чат-ботами более 21 млн аккаунтов, в том числе 2,1 млн детей. Остановить продажу пытается коалиция из 42 генеральных прокуроров штатов США.",
-      "product": "ITC.ua",
-      "url": "https://itc.ua/news/chaty-21-mln-chelovek-na-auktsyon-character-ai-hochet-prodat-lychnye-besedy-s-yy/",
       "auto": true
     },
     {
@@ -138,11 +180,11 @@
       "auto": true
     },
     {
-      "date": "2026-11-26T09:47:57.000Z",
-      "title": "Нарисовал в ChatGPT пенсионное и отправил в «Дію»: чем всё закончилось",
-      "text": "Житель Болградского района Одесской области с помощью ChatGPT изготовил поддельное пенсионное удостоверение с пожизненной инвалидностью II группы. Подделку он попытался использовать при подаче электронного заявления через портал «Дія», но дело закончилось вынесением приговора.",
-      "product": "ITC.ua",
-      "url": "https://itc.ua/news/narysoval-v-chatgpt-pensyonnoe-y-otpravyl-v-diyu-chem-vsyo-zakonchylos/",
+      "date": "2026-11-26T06:20:48.000Z",
+      "title": "v0.40.19-rc0",
+      "text": "bump llama-server ( #19917 )",
+      "product": "Ollama",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.19-rc0",
       "auto": true
     },
     {
@@ -199,14 +241,6 @@
       "text": "Now that code ships faster than ever, you have more time to spend on projects just for the fun of it. Here's what we can learn through that process as developers. The post Art of play in the age of AI appeared first on The GitHub Blog .",
       "product": "GitHub",
       "url": "https://github.blog/news-insights/company-news/art-of-play-in-the-age-of-ai/",
-      "auto": true
-    },
-    {
-      "date": "2026-11-25T15:03:53.000Z",
-      "title": "Уволили из-за ИИ — играй в видеоигры: что предложил руководитель Anthropic",
-      "text": "Генеральный директор и соучредитель Anthropic Дарио Амодеи когда-то предлагал иммерсивные видеоигры как способ смягчить политическую напряженность, которую может вызвать безработица из-за искусственного интеллекта. Об этом пишет The Wall Street Journal со ссылкой на переписку в…",
-      "product": "ITC.ua",
-      "url": "https://itc.ua/news/uvolyly-yz-za-yy-ygraj-v-vydeoygry-chto-predlozhyl-rukovodytel-anthropic/",
       "auto": true
     },
     {
@@ -277,14 +311,6 @@
       "auto": true
     },
     {
-      "date": "2026-11-25T00:00:00.000Z",
-      "title": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
-      "text": "",
-      "product": "Hugging Face",
-      "url": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
-      "auto": true
-    },
-    {
       "date": "2026-11-24T16:40:59.000Z",
       "title": "More predictable notifications on GitHub.com",
       "text": "Starting December 1, 2026, we’re migrating notifications on GitHub.com over the course of a week to make subscriptions more predictable, correct unexpected behavior, and support the growing scale of activity.… The post More predictable notifications on GitHub.com appeared first…",
@@ -338,15 +364,6 @@
     },
     {
       "date": "2026-11-24T12:00:00.000Z",
-      "title": "How Yahoo Scout, a new AI answer tool from Yahoo, got a voice",
-      "text": "Yahoo used the ElevenAgents platform to add conversational voice to its new Yahoo Scout AI answer tool, going from kickoff to production in 6 weeks.",
-      "product": "ElevenLabs",
-      "url": "https://elevenlabs.io/blog/yahoo",
-      "auto": true,
-      "image": "https://eleven-public-cdn.elevenlabs.io/payloadcms/83toj0bqfcs-ElevenLabs_YahooScoutFINAL_PartnerProgram_linkedin_1200x628.webp"
-    },
-    {
-      "date": "2026-11-24T12:00:00.000Z",
       "title": "What is SIP trunking? A business guide to modern calls",
       "text": "Learn what is SIP trunking, how it works, what it costs, how to choose a provider, and how to connect it to AI voice agents for customer service.",
       "product": "ElevenLabs",
@@ -359,14 +376,6 @@
       "text": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
       "product": "OpenAI",
       "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
-      "auto": true
-    },
-    {
-      "date": "2026-11-24T08:27:44.000Z",
-      "title": "v0.40.18",
-      "text": "What's Changed mlx: fuse Inkling residual mixing on Metal by @dhiltgen in #19808 mlxrunner: share tensor helpers and model setup across architectures by @jaingaurav in #19805 llama.cpp: version bump b12651 + remove jetpack5 support by @pdevine in #19865 inkling2: faster Metal de…",
-      "product": "Ollama",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.18",
       "auto": true
     },
     {
@@ -384,14 +393,6 @@
       "text": "Muse, Meta’s personal AI agent, is now available to adults in the UK. Think of it as a helping hand for the jobs that pile up, like chasing a refund, renewing car insurance or keeping on top of the school calendar. To get those jobs done you can connect Muse to the apps you alre…",
       "product": "Meta AI",
       "url": "https://about.fb.com/news/2026/11/muse-now-available-in-the-uk-muse-does-the-work-you-stay-in-control/",
-      "auto": true
-    },
-    {
-      "date": "2026-11-24T01:35:09.000Z",
-      "title": "v0.40.18-rc0: inkling2: faster Metal decode, prefill and draft rounds (#19843)",
-      "text": "inkling2: faster Metal decode, prefill and draft rounds Add Inkling-only Metal kernels, each with a stock-graph fallback, gated by GPU generation and size class: short BF16 products, deduplicated NVFP4/MXFP8 expert gathers with fused SwiGLU, fused loop controllers and residual m…",
-      "product": "Ollama",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.18-rc0",
       "auto": true
     },
     {
